@@ -1,0 +1,18 @@
+{
+ "live_mode": false,
+ "live_mode_confirm": "",
+ "_live_note": "live richiede live_mode=true E live_mode_confirm='I_ACCEPT_REAL_FUNDS_RISK' impostati a mano da Max",
+ "x_budget": {"max_results_per_call": 25, "calls_per_min": 30, "calls_per_day": 1000},
+ "credible": {"min_account_age_days": 90, "min_followers": 200},
+ "score": {"w_unique": 1, "w_credible": 2, "w_velocity": 3, "pen_dup": 25, "pen_new": 20, "min_score_entry": 40},
+ "veto": {"max_dup_ratio": 0.6, "max_new_account_ratio": 0.6, "velocity_spike_low_credible": 10},
+ "sizing": {"entry_usd": 1.0, "reentries_usd": [1.0, 0.5], "max_reentries": 2},
+ "paper_variants": [
+  {"id":"A_dip_big_first","trigger":"dip","dip_pct":-25,"order":[1.0,0.5]},
+  {"id":"B_dip_small_first","trigger":"dip","dip_pct":-25,"order":[0.5,1.0]},
+  {"id":"C_confirm_big_first","trigger":"confirm","confirm":"price>=entry*1.10 AND x_score rising AND >=2 tracked wallets hold","order":[1.0,0.5]},
+  {"id":"D_confirm_small_first","trigger":"confirm","order":[0.5,1.0]},
+  {"id":"E_no_reentry","trigger":"none","order":[]}
+ ],
+ "paper_min_trades_per_variant": 100
+}
