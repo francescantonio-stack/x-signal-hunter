@@ -1,50 +1,334 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=theme-color content="#000"><link rel=manifest href=manifest.json><title>X Signal Hunter</title>
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#00E676">
+<link rel="manifest" href="manifest.json">
+<title>X Signal Hunter</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#000;color:#fff;font-family:-apple-system,Inter,sans-serif;padding:96px 12px 90px}
-.mq{position:fixed;top:0;left:0;right:0;height:26px;background:#ffc400;color:#000;font:700 12px monospace;overflow:hidden;white-space:nowrap;z-index:9}
-.mq span{display:inline-block;padding-left:100%;animation:m 25s linear infinite;line-height:26px}@keyframes m{to{transform:translateX(-100%)}}
-header{position:fixed;top:26px;left:0;right:0;background:#000;display:flex;align-items:center;gap:8px;padding:10px 12px;z-index:8;border-bottom:1px solid #1c1c1c}
-.logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#ffc400,#ff6a00);display:grid;place-items:center;color:#000;font-weight:900}
-h1{font-size:17px;margin:0;flex:1}.pill{padding:3px 9px;border-radius:99px;font-size:11px;font-weight:800}
-.y{background:#ffc400;color:#000}.g{background:#1d1d1d;color:#aaa}.ok{background:#16351f;color:#4ade80}.rug{background:#3a1212;color:#f87171}.sh{background:#3a2a0a;color:#ff9f1a}
-.rf{background:#1d1d1d;border:0;color:#ffc400;border-radius:10px;width:32px;height:32px;font-size:16px}
-.upd{font-size:11px;color:#777;margin:0 0 10px}
-.card{background:#141414;border-radius:16px;padding:14px;margin-bottom:10px;border:1px solid #1f1f1f}
-.row{display:flex;align-items:center;gap:8px}.sym{font-weight:800;font-size:16px;flex:1}
-.sc{font-size:26px;font-weight:900;color:#ffc400}.met{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}
-.met div{background:#1c1c1c;border-radius:10px;padding:6px;text-align:center;font-size:10px;color:#888}.met b{display:block;color:#fff;font-size:14px}
-.st{background:none;border:0;font-size:22px;color:#555}.st.on{color:#ffc400}a{color:#ff9f1a;font-size:12px;text-decoration:none}
-nav{position:fixed;bottom:0;left:0;right:0;height:70px;background:#0b0b0b;border-top:1px solid #1f1f1f;display:flex;justify-content:space-around;align-items:center;padding-bottom:env(safe-area-inset-bottom)}
-nav button{background:none;border:0;color:#777;font-size:10px;display:flex;flex-direction:column;align-items:center;gap:2px}nav button.a{color:#ffc400}nav i{font-style:normal;font-size:19px}
-.plus{width:60px;height:60px;border-radius:50%;background:#ffc400;color:#000!important;font-size:30px!important;margin-top:-34px;box-shadow:0 0 22px #ffc40088;justify-content:center}
-.toast{position:fixed;bottom:84px;left:50%;transform:translateX(-50%);background:#ffc400;color:#000;padding:8px 16px;border-radius:99px;font-weight:700;font-size:13px;opacity:0;transition:.3s}
-label{display:block;font-size:12px;color:#aaa;margin:10px 0 2px}input[type=range]{width:100%;accent-color:#ffc400}h2{font-size:15px;color:#ffc400;margin:4px 0 10px}
-</style></head><body>
-<div class=mq><span id=mq></span></div>
-<header><div class=logo>X</div><h1>X Signal Hunter</h1><span class="pill y">DEGEN</span><span class="pill g">DEV</span><button class=rf onclick=render()>↻</button></header>
-<p class=upd id=upd></p><main id=v></main><div class=toast id=t></div>
-<nav><button data-t=scan class=a><i>📡</i>Scanner</button><button data-t=watch><i>☆</i>Watchlist</button><button data-t=hunt class=plus>+</button><button data-t=trade><i>⇄</i>Trade</button><button data-t=dash><i>▦</i>Dashboard</button></nav>
+:root{--g:#00E676;--g2:#00C853;--g3:#69F0AE;--bg:#000;--card:#141414;--line:#1f1f1f;--mut:#888}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#fff;font-family:-apple-system,Inter,system-ui,sans-serif;padding:96px 12px 88px}
+.mq{position:fixed;top:0;left:0;right:0;height:26px;background:var(--g);color:#000;font:700 12px/26px monospace;overflow:hidden;white-space:nowrap;z-index:20}
+.mq span{display:inline-block;padding-left:100%;animation:m 28s linear infinite}
+@keyframes m{to{transform:translateX(-100%)}}
+header{position:fixed;top:26px;left:0;right:0;background:#000;display:flex;align-items:center;gap:8px;padding:10px 12px;z-index:19;border-bottom:1px solid #1c1c1c}
+.logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--g),var(--g2));display:grid;place-items:center;color:#000;font-weight:900}
+h1{font-size:16px;margin:0;flex:1}
+.pill{padding:3px 9px;border-radius:99px;font-size:11px;font-weight:800}
+.y{background:var(--g);color:#000}.g{background:#1d1d1d;color:#aaa}
+.ok{background:#16351f;color:#4ade80}.bad{background:#3a1212;color:#f87171}
+.rf{background:#1d1d1d;border:0;color:var(--g);border-radius:10px;width:32px;height:32px;font-size:16px}
+.upd{font-size:11px;color:var(--mut);margin:0 0 10px}
+.card{background:var(--card);border-radius:16px;padding:14px;margin-bottom:10px;border:1px solid var(--line)}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sym{font-weight:800;font-size:15px;flex:1}
+.sc{font-size:22px;font-weight:900;color:var(--g)}
+.met{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}
+.met div{background:#1c1c1c;border-radius:10px;padding:6px;text-align:center;font-size:10px;color:#888}
+.met b{display:block;color:#fff;font-size:13px}
+h2{font-size:15px;color:var(--g);margin:4px 0 10px}
+a{color:var(--g3);text-decoration:none;font-size:12px}
+.mut{color:var(--mut);font-size:11px}
+.pos{font-family:ui-monospace,monospace;font-size:12px}
+.up{color:#4ade80}.dn{color:#f87171}
+nav{position:fixed;bottom:0;left:0;right:0;height:74px;background:#0b0b0b;border-top:1px solid var(--line);display:flex;justify-content:space-around;align-items:center;padding-bottom:env(safe-area-inset-bottom);z-index:19}
+nav button{background:none;border:0;color:#777;font-size:10px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px;min-width:56px}
+nav button.a{color:var(--g)}
+nav i{font-style:normal;font-size:18px}
+.sec{display:none}.sec.on{display:block}
+.toast{position:fixed;bottom:88px;left:50%;transform:translateX(-50%);background:var(--g);color:#000;padding:8px 16px;border-radius:99px;font-weight:700;font-size:13px;opacity:0;transition:.3s;z-index:30}
+details{margin-top:6px}summary{cursor:pointer;color:var(--g);font-size:11px}
+input,select{width:100%;background:#1c1c1c;border:1px solid #2a2a2a;color:#fff;border-radius:10px;padding:8px;margin:4px 0 8px}
+label{font-size:12px;color:#aaa}
+.break{word-break:break-all;font-size:11px}
+</style>
+</head>
+<body>
+<div class="mq"><span id="mq">X Signal Hunter · PAPER · solo carta · sync GitHub Pages</span></div>
+<header>
+  <div class="logo">X</div>
+  <h1>X Signal Hunter</h1>
+  <span class="pill y">PAPER</span>
+  <span class="pill g" id="livePill">DEV</span>
+  <button class="rf" onclick="reloadAll()" title="Ricarica">↻</button>
+</header>
+<p class="upd" id="upd">Carico dati…</p>
+<main>
+  <section id="sec-segnali" class="sec on"></section>
+  <section id="sec-posizioni" class="sec"></section>
+  <section id="sec-wallet" class="sec"></section>
+  <section id="sec-fonti" class="sec"></section>
+  <section id="sec-telegram" class="sec"></section>
+  <section id="sec-cerca" class="sec"></section>
+</main>
+<div class="toast" id="toast"></div>
+<nav>
+  <button data-s="segnali" class="a"><i>📡</i>Segnali</button>
+  <button data-s="posizioni"><i>⇄</i>Posizioni</button>
+  <button data-s="wallet"><i>👛</i>Wallet</button>
+  <button data-s="fonti"><i>ⓘ</i>Fonti</button>
+  <button data-s="telegram"><i>📣</i>Telegram</button>
+  <button data-s="cerca"><i>⌕</i>Cerca</button>
+</nav>
+<script src="search.js" defer></script>
 <script>
-const D={"tokens": [{"mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump", "posts": 24, "unique_authors": 18, "credible_authors": 17, "new_accounts": 0, "mentions_15m": 5, "mentions_prev_15m": 1, "dup_ratio": 0.12, "new_ratio": 0.0, "score": 60.9, "veto": [], "x_pass": true, "saturated": true, "at": "2026-10-16T18:53:00+00:00", "sym": "SR", "liq": 78896.55, "h1": 16.01, "mc": 830834, "ok": true}, {"mint": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump", "posts": 25, "unique_authors": 22, "credible_authors": 17, "new_accounts": 0, "mentions_15m": 7, "mentions_prev_15m": 6, "dup_ratio": 0.08, "new_ratio": 0.0, "score": 57.0, "veto": [], "x_pass": true, "saturated": true, "at": "2026-10-16T18:53:00+00:00", "sym": "Pepper", "liq": 102598.35, "h1": -5.34, "mc": 925641, "ok": true}, {"mint": "G3NKPRK3BVrNDPLCbtG53SibytphwDqiTrnaiUq9pump", "posts": 25, "unique_authors": 21, "credible_authors": 20, "new_accounts": 0, "mentions_15m": 12, "mentions_prev_15m": 8, "dup_ratio": 0.08, "new_ratio": 0.0, "score": 71.0, "veto": [], "x_pass": true, "saturated": true, "at": "2026-10-16T18:53:00+00:00", "sym": "ROADSTER", "liq": 223976.48, "h1": 69.98, "mc": 6124216, "ok": true}], "cfg": {"live_mode": false, "live_mode_confirm": "", "_live_note": "live richiede live_mode=true E live_mode_confirm='I_ACCEPT_REAL_FUNDS_RISK' impostati a mano da Max", "x_budget": {"max_results_per_call": 25, "calls_per_min": 30, "calls_per_day": 1000}, "credible": {"min_account_age_days": 90, "min_followers": 200}, "score": {"w_unique": 1, "w_credible": 2, "w_velocity": 3, "pen_dup": 25, "pen_new": 20, "min_score_entry": 40}, "veto": {"max_dup_ratio": 0.6, "max_new_account_ratio": 0.6, "velocity_spike_low_credible": 10}, "sizing": {"entry_usd": 1.0, "reentries_usd": [1.0, 0.5], "max_reentries": 2}, "paper_variants": [{"id": "A_dip_big_first", "trigger": "dip", "dip_pct": -25, "order": [1.0, 0.5]}, {"id": "B_dip_small_first", "trigger": "dip", "dip_pct": -25, "order": [0.5, 1.0]}, {"id": "C_confirm_big_first", "trigger": "confirm", "confirm": "price>=entry*1.10 AND x_score rising AND >=2 tracked wallets hold", "order": [1.0, 0.5]}, {"id": "D_confirm_small_first", "trigger": "confirm", "order": [0.5, 1.0]}, {"id": "E_no_reentry", "trigger": "none", "order": []}], "paper_min_trades_per_variant": 100}},C=D.cfg;let tab='scan',W=JSON.parse(localStorage.w||'[]'),F={s:0,c:0,v:0,w:0};
-const $=id=>document.getElementById(id);
-document.getElementById('mq').textContent=D.tokens.map(t=>`🔥 $${t.sym} · ${t.mentions_15m} menzioni X/15m · score ${t.score}`).join('   •   ');
-$('upd').textContent='Ultimo aggiornamento: '+new Date(D.tokens[0].at).toLocaleString('it-IT',{timeZone:'Europe/Rome'})+' (Roma)';
-function badge(t){return t.veto.length?'<span class="pill sh">SHILL</span>':t.ok===false?'<span class="pill rug">RUG</span>':'<span class="pill ok">OK</span>'}
-function card(t){return `<div class=card><div class=row><span class=sym>$${t.sym}</span>${badge(t)}<span class=sc>${t.score}</span><button class="st ${W.includes(t.mint)?'on':''}" onclick="star('${t.mint}')">★</button></div>
-<div class=met><div><b>${t.unique_authors}</b>autori</div><div><b>${t.credible_authors}</b>credibili</div><div><b>${t.mentions_15m}/${t.mentions_prev_15m}</b>15m/prec</div><div><b>${t.dup_ratio}</b>dup</div></div>
-<div class=row style="margin-top:8px"><span style="font-size:11px;color:#777;flex:1">liq $${Math.round(t.liq||0).toLocaleString()} · 1h ${t.h1}%</span><a href="https://dexscreener.com/solana/${t.mint}" target=_blank>DexScreener ↗</a></div></div>`}
-function star(m){W=W.includes(m)?W.filter(x=>x!=m):[...W,m];localStorage.w=JSON.stringify(W);toast(W.includes(m)?'Aggiunto alla watchlist ★':'Rimosso dalla watchlist');render()}
-function toast(s){$('t').textContent=s;$('t').style.opacity=1;setTimeout(()=>$('t').style.opacity=0,1500)}
-function render(){const v=$('v'),L=[...D.tokens].sort((a,b)=>b.score-a.score);
-if(tab=='scan')v.innerHTML='<h2>Scanner · token passati RugCheck</h2>'+L.map(card).join('');
-if(tab=='watch')v.innerHTML='<h2>Watchlist</h2>'+(L.filter(t=>W.includes(t.mint)).map(card).join('')||'<div class=card>Nessun token. Tocca ★ per aggiungere.</div>');
-if(tab=='hunt'){const r=L.filter(t=>t.score>=F.s&&t.credible_authors>=F.c&&t.mentions_15m>=F.v);v.innerHTML=`<h2>Caccia · filtri</h2><div class=card>
-<label>Score X min: ${F.s}</label><input type=range max=100 value=${F.s} oninput="F.s=+this.value;render()">
-<label>Autori credibili min: ${F.c}</label><input type=range max=25 value=${F.c} oninput="F.c=+this.value;render()">
-<label>Velocità menzioni 15m min: ${F.v}</label><input type=range max=25 value=${F.v} oninput="F.v=+this.value;render()">
-<label>Wallet tracciati min: ${F.w} (dato wallet non ancora collegato)</label><input type=range max=8 value=${F.w} oninput="F.w=+this.value;render()"></div>`+r.map(card).join('')}
-if(tab=='trade')v.innerHTML=`<h2>Trade</h2><div class=card><div class=row><span class=sym>Modalità</span><span class="pill ${C.live_mode?'rug':'ok'}">${C.live_mode?'LIVE':'PAPER'}</span></div><p style="font-size:12px;color:#888">live_mode OFF · attivabile solo a mano in config</p>
-<div class=met><div><b>${C.sizing.entry_usd}$</b>entry</div><div><b>${C.sizing.reentries_usd[0]}$</b>re-entry 1</div><div><b>${C.sizing.reentries_usd[1]}$</b>re-entry 2</div><div><b>${C.sizing.max_reentries}</b>max</div></div></div>`+C.paper_variants.map(p=>`<div class=card><div class=row><span class=sym>${p.id}</span><span class="pill g">${p.trigger}${p.dip_pct?' '+p.dip_pct+'%':''}</span></div><p style="font-size:12px;color:#888;margin:6px 0 0">Ordine: ${p.order.join(' → ')||'nessuna re-entry'} USD · 0/${C.paper_min_trades_per_variant} trade</p></div>`).join('');
-if(tab=='dash'){const n=L.length,p=L.filter(t=>t.x_pass).length;v.innerHTML=`<h2>Dashboard</h2><div class=card><div class=met><div><b>${n}</b>token</div><div><b>${p}</b>X pass</div><div><b>${(L.reduce((a,t)=>a+t.score,0)/n).toFixed(1)}</b>score medio</div><div><b>${n}</b>call X</div></div></div><div class=card style="font-size:12px;color:#888">Budget X: ${C.x_budget.max_results_per_call}/call · ${C.x_budget.calls_per_min}/min · ${C.x_budget.calls_per_day}/giorno</div>`}}
-document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('a',x==b));render()});render();
-</script></body></html>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money = x => x == null || Number.isNaN(+x) ? '–' : ((+x >= 0 ? '+' : '') + (+x).toFixed(4) + ' USD');
+const usd = x => x == null ? '–' : '$' + Math.round(+x).toLocaleString('it-IT');
+let BD=null, FO=null, TG=null, WR=null, SC=null, V1=null, XS=null, META=null, CFG=null;
+let tab = localStorage.xshTab || 'segnali';
+
+function toast(s){const t=$('toast');t.textContent=s;t.style.opacity=1;setTimeout(()=>t.style.opacity=0,1600)}
+function showTab(name){
+  tab = name; localStorage.xshTab = name;
+  document.querySelectorAll('.sec').forEach(s => s.classList.toggle('on', s.id === 'sec-' + name));
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('a', b.dataset.s === name));
+  render();
+}
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => showTab(b.dataset.s));
+
+async function jfetch(url){
+  const r = await fetch(url + '?' + Date.now(), {cache:'no-store'});
+  if(!r.ok) throw new Error(url + ' ' + r.status);
+  return r.json();
+}
+async function reloadAll(){
+  try{
+    const [bd, fo, tg, wr, sc, v1, xs, meta, cfg] = await Promise.all([
+      jfetch('bot_data.json'),
+      jfetch('fonti.json').catch(()=>null),
+      jfetch('tg.json').catch(()=>null),
+      jfetch('wallets_reasons.json').catch(()=>null),
+      jfetch('scanner.json').catch(()=>null),
+      jfetch('v1_data.json').catch(()=>null),
+      jfetch('x_scores.json').catch(()=>null),
+      jfetch('site_meta.json').catch(()=>null),
+      jfetch('config.public.json').catch(()=>null),
+    ]);
+    BD=bd; FO=fo; TG=tg; WR=wr; SC=sc; V1=v1; XS=xs; META=meta; CFG=cfg;
+    const upd = BD?.updated || META?.generated_at || '–';
+    $('upd').textContent = 'Aggiornato: ' + rome(upd) + ' · Europe/Rome · PAPER · live_mode=' + String(!!BD?.live_mode);
+    $('livePill').textContent = BD?.live_mode ? 'LIVE' : 'PAPER';
+    $('livePill').className = 'pill ' + (BD?.live_mode ? 'bad' : 'ok');
+    const mqBits = [];
+    (BD?.signals || []).slice(-8).forEach(s => mqBits.push((s.sym||'?') + ' ' + Math.round(s.total||0)));
+    $('mq').textContent = 'X Signal Hunter · ' + (mqBits.join(' · ') || 'in ascolto') + ' · sync ~5 min';
+    showTab(tab);
+    toast('Dati aggiornati');
+  }catch(e){
+    $('upd').textContent = 'Errore caricamento: ' + e.message;
+  }
+}
+
+function rome(iso){
+  try{
+    let t = String(iso).replace('Z','+00:00');
+    if (/^\d{2}\/\d{2}/.test(t)) return t;
+    const d = new Date(t);
+    return d.toLocaleString('it-IT', {timeZone:'Europe/Rome', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
+  }catch(e){ return iso; }
+}
+function solAcc(a){ return a ? `<a class="break" href="https://solscan.io/account/${esc(a)}" target="_blank">${esc(a)}</a>` : '–'; }
+function solTx(t){ return t ? `<a href="https://solscan.io/tx/${esc(t)}" target="_blank">${esc(String(t).slice(0,12))}…</a>` : '–'; }
+function dex(m){ return `<a href="https://dexscreener.com/solana/${esc(m)}" target="_blank">DexScreener ↗</a>`; }
+
+function render(){
+  if(tab==='segnali') renderSegnali();
+  if(tab==='posizioni') renderPosizioni();
+  if(tab==='wallet') renderWallet();
+  if(tab==='fonti') renderFonti();
+  if(tab==='telegram') renderTelegram();
+  if(tab==='cerca') renderCerca();
+}
+
+function renderSegnali(){
+  const el = $('sec-segnali');
+  const sigs = (BD?.signals || []).slice().reverse();
+  const scan = SC?.lists || {};
+  let h = `<h2>Nuovi token / segnali</h2>
+  <div class="card"><div class="met">
+    <div><b>${sigs.length}</b>segnali</div>
+    <div><b>${(scan.trending||[]).length}</b>trending</div>
+    <div><b>${(scan.nuovi||[]).length}</b>nuovi</div>
+    <div><b>${(scan.gainers||[]).length}</b>gainers</div>
+  </div><p class="mut">Punteggio 0–100 · RugCheck · X · wallet · liquidità · holder · Telegram. Nessuno stop loss (1 USD è lo stop).</p></div>`;
+  if(!sigs.length) h += `<div class="card">Nessun segnale ancora.</div>`;
+  sigs.forEach(s => {
+    const fo = (FO?.items || []).find(i => i.mint === s.mint);
+    const tg = (TG?.token || []).find(t => t.mint === s.mint);
+    h += `<div class="card">
+      <div class="row"><span class="sym">$${esc(s.sym || s.mint?.slice(0,6))}</span>
+        <span class="pill ${s.rug_ok?'ok':'bad'}">${s.rug_ok?'RUG OK':'RUG?'}</span>
+        <span class="sc">${esc(Math.round(s.total || 0))}</span></div>
+      <div class="met">
+        <div><b>${esc(s.rug ?? '–')}</b>rug</div>
+        <div><b>${esc(s.x ?? '–')}</b>X</div>
+        <div><b>${esc(s.wallets ?? '–')}</b>wallet</div>
+        <div><b>${esc(s.tg ?? '–')}</b>TG</div>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <span class="mut" style="flex:1">liq ${usd(s.liq_usd)} · ${rome(s.ts)} · ${(s.wallet_names||[]).join(', ')||s.source||''}</span>
+        ${dex(s.mint)}
+      </div>
+      ${tg ? `<div class="mut">📣 TG ${tg.score}/100 · ${tg.channels?.length||0} canali · primo ${esc(tg.first_seen||'')}</div>` : ''}
+      ${fo ? `<details><summary>Provenienza (chi / dove / quando)</summary>${provHtml(fo)}</details>` : ''}
+    </div>`;
+  });
+  el.innerHTML = h;
+}
+
+function provHtml(i){
+  const t = i.trigger || {};
+  let h = `<div class="mut">🕒 ${esc(i.at)} (Roma) · ${esc(t.tipo||'')} · ${esc(t.metodo||'')} · ${esc(t.dove||'')}</div>`;
+  if(t.chi && t.tipo==='wallet'){
+    (t.chi||[]).forEach((n,k) => { h += `<div class="mut">👛 ${esc(n)} ${t.indirizzi&&t.indirizzi[k]?solAcc(t.indirizzi[k]):''}</div>`; });
+    h += `<div class="mut">tx: ${solTx(t.tx)}</div>`;
+  }
+  if(t.pool) h += `<div class="mut">📊 ${esc(t.chi)} · ${esc(t.dex)} · pool ${esc(String(t.pool).slice(0,12))}…</div>`;
+  if(i.score) h += `<div class="mut">score ${esc(i.score.totale)} = rug ${esc(i.score.rug)} · X ${esc(i.score.x)} · wallet ${esc(i.score.wallets)} · liq ${esc(i.score.liquidita)} · holder ${esc(i.score.holders)}</div>`;
+  if(i.x_posts?.length){
+    h += `<div class="mut">${i.x_posts.length} post X</div>` + i.x_posts.slice(0,5).map(p =>
+      `<div class="mut">@${esc(p.author)} · ${esc(p.at)} · <a href="${esc(p.url)}" target="_blank">post</a></div>`).join('');
+  }
+  return h;
+}
+
+function renderPosizioni(){
+  const el = $('sec-posizioni');
+  const opens = Object.values(BD?.open_positions || {});
+  const strats = BD?.strategies || {};
+  const trades = (BD?.trades || []).slice().reverse();
+  let real = 0, unreal = 0;
+  Object.values(strats).forEach(s => real += (+s.pnl || 0));
+  opens.forEach(p => unreal += (+p.pnl_mtm ?? +p.pnl || 0));
+  let h = `<h2>Posizioni a carta</h2>
+  <div class="card"><div class="met">
+    <div><b>${opens.length}</b>aperte</div>
+    <div><b class="${real>=0?'up':'dn'}">${real.toFixed(2)}</b>realizzato</div>
+    <div><b class="${unreal>=0?'up':'dn'}">${unreal.toFixed(2)}</b>MTM</div>
+    <div><b class="${(real+unreal)>=0?'up':'dn'}">${(real+unreal).toFixed(2)}</b>totale</div>
+  </div>
+  <p class="mut">Capitale = 1 USD + reentry (1 e/o 0,5) contato una sola volta. Uscite: TP 3,33x/3x/5x oppure vendita wallet / crollo X. Nessuno trailing stop.</p>
+  <div class="met" style="margin-top:8px">
+    <div><b>${(+strats.copy?.pnl||0).toFixed(2)}</b>copy</div>
+    <div><b>${(+strats.reentry?.pnl||0).toFixed(2)}</b>reentry</div>
+    <div><b>${(+strats.snipe?.pnl||0).toFixed(2)}</b>snipe</div>
+    <div><b>${(+strats.arb?.pnl||0).toFixed(2)}</b>arb</div>
+  </div></div>`;
+  if(!opens.length) h += `<div class="card">Nessuna posizione aperta.</div>`;
+  opens.forEach(p => {
+    const pnl = +p.pnl_mtm ?? +p.pnl || 0;
+    h += `<div class="card"><div class="row">
+      <span class="sym">$${esc(p.sym)}</span>
+      <span class="pill g">${esc(p.strategy)}</span>
+      <span class="pos ${pnl>=0?'up':'dn'}">${money(pnl)}</span>
+    </div>
+    <div class="met">
+      <div><b>${esc(p.size_usd ?? '–')}</b>capitale USD</div>
+      <div><b>${esc(p.reentries ?? 0)}</b>reentry</div>
+      <div><b>${esc(p.cost ?? '–')}</b>costi</div>
+      <div><b>${(+p.last_px||0).toExponential?.(3) || p.last_px}</b>last</div>
+    </div>
+    <div class="mut" style="margin-top:6px">${dex(p.mint)}</div></div>`;
+  });
+  h += `<h2>Ultimi trade (libro)</h2>`;
+  trades.slice(0,25).forEach(t => {
+    h += `<div class="card"><div class="row">
+      <span class="sym">$${esc(t.sym)}</span>
+      <span class="pill g">${esc(t.strategy)} ${esc(t.side||'')}</span>
+      <span class="pos ${(+t.pnl||0)>=0?'up':'dn'}">${money(t.pnl)}</span>
+    </div>
+    <div class="mut">${rome(t.t)} · size ${esc(t.size_usd ?? '–')} · ${esc(t.wallet||t.reason||'')}</div></div>`;
+  });
+  const v1n = V1?.trades?.length || 0;
+  h += `<div class="card mut">Motore v1 (varianti N1/N3/C/S): ${v1n} trade paper · cycles ${esc(V1?.cycles ?? 0)} · persistiti su disco</div>`;
+  el.innerHTML = h;
+}
+
+function renderWallet(){
+  const el = $('sec-wallet');
+  const ws = (FO?.wallets) || (WR?.wallets) || [];
+  let h = `<h2>Wallet seguiti</h2>
+  <div class="card mut">Motivi da classifiche KOL pubbliche (KOL Explorer / Subglow / Kolscan) + acquisti verificati dashboard. Aggiornati: ${esc(FO?.wallets_updated || WR?.updated || '–')}</div>`;
+  if(!ws.length) h += `<div class="card">wallets_reasons.json non disponibile</div>`;
+  ws.forEach(w => {
+    const vb = w.walletwatch_verified_buys;
+    h += `<div class="card">
+      <div class="row"><span class="sym">${esc(w.name || w.x_handle || '?')}</span>
+        ${w.x_handle ? `<a href="https://x.com/${esc(String(w.x_handle).replace('@',''))}" target="_blank">${esc(w.x_handle)}</a>` : ''}
+      </div>
+      <div>${solAcc(w.address)}</div>
+      <div class="mut" style="margin-top:6px">${esc(w.motivo || 'motivo non documentato')}</div>
+      ${vb ? `<div class="mut">WW: ${esc(vb.oggi)} oggi / ${esc(vb.giorni_7)} 7g / ${esc(vb.sol_spesi_7g)} SOL</div>` : ''}
+      <div class="mut">${(w.sources||[]).slice(0,3).map(u=>`<a href="${esc(u)}" target="_blank">${esc(u.replace(/^https?:\/\//,'').split('/')[0])}</a>`).join(' · ')}</div>
+    </div>`;
+  });
+  el.innerHTML = h;
+}
+
+function renderFonti(){
+  const el = $('sec-fonti');
+  const items = (FO?.items || []).slice().reverse();
+  let h = `<h2>Fonti · trasparenza</h2>
+  <div class="card">
+    <b>API e dati usati</b>
+    <div class="mut">Helius RPC (polling wallet) · DexScreener · RugCheck · X API (score) · Telegram anteprime pubbliche t.me/s · Jupiter/Jito solo in stub reale SPENTO</div>
+    <div class="mut" style="margin-top:6px">Regole: filtri rug/LP/fee · score unico · N1/N3/C/S · delay 0/5/30 · size 1+1+0,5 · uscita A TP / B wallet·X · niente stop loss · solo PAPER</div>
+  </div>
+  <div class="card mut">Provenienza segnali · agg. ${esc(FO?.updated || '–')} · ${items.length} voci</div>`;
+  items.slice(0,80).forEach(i => {
+    h += `<div class="card"><div class="row"><span class="sym">$${esc(i.sym || i.mint?.slice(0,6))}</span>
+      ${i.evento ? `<span class="pill ok">${esc(i.evento)} ${esc(i.strategia||'')}</span>` : ''}</div>
+      ${provHtml(i)}</div>`;
+  });
+  el.innerHTML = h;
+}
+
+function renderTelegram(){
+  const el = $('sec-telegram');
+  const canali = TG?.canali || [];
+  const toks = (TG?.token || []).slice().sort((a,b)=>(b.score||0)-(a.score||0));
+  let h = `<h2>Telegram</h2>
+  <div class="card"><div class="met">
+    <div><b>${canali.length}</b>canali</div>
+    <div><b>${toks.length}</b>token</div>
+    <div><b>${esc(TG?.aggiornato || '–')}</b>agg.</div>
+    <div><b>pub</b>solo t.me/s</div>
+  </div>
+  <p class="mut">${esc(TG?.metodo || 'Anteprime pubbliche, senza login')}</p></div>
+  <div class="card"><b>Canali monitorati</b>`;
+  canali.forEach(c => {
+    h += `<div style="margin:6px 0;font-size:12px"><a href="https://t.me/s/${esc(c.h)}" target="_blank">@${esc(c.h)}</a> · q ${esc(c.q)}
+      <div class="mut">${esc(c.why)} — ${esc(c.src)}</div></div>`;
+  });
+  h += `</div><h2>Token citati su TG</h2>`;
+  toks.slice(0,40).forEach(t => {
+    h += `<div class="card"><div class="row"><span class="sym">${esc((t.mint||'').slice(0,8))}…</span><span class="sc">${esc(t.score)}</span></div>
+      <div class="mut">${t.channels?.length||0} canali · primo ${esc(t.first_seen||'')}</div>
+      ${(t.posts||[]).slice(0,3).map(p=>`<div class="mut">@${esc(p.canale)} · ${esc(p.ora_roma)} · <a href="${esc(p.link)}" target="_blank">msg</a></div>`).join('')}
+    </div>`;
+  });
+  el.innerHTML = h;
+}
+
+function renderCerca(){
+  const el = $('sec-cerca');
+  el.innerHTML = `<h2>Cerca wallet</h2>
+  <div class="card">
+    <label>Indirizzo Solana o dominio .sol</label>
+    <input id="wq" placeholder="es. …pump oppure nome.sol" onkeydown="if(event.key==='Enter')searchWallet()">
+    <button class="rf" style="width:100%;height:40px;margin-top:6px" onclick="searchWallet()">Cerca</button>
+    <div id="wsStatus" class="mut" style="margin-top:8px"></div>
+    <div id="wsOut"></div>
+  </div>
+  <div class="card mut">Modulo search.js · RPC pubblico · niente chiavi nel sito.</div>`;
+}
+
+reloadAll();
+setInterval(reloadAll, 60_000);
+</script>
+</body>
+</html>
