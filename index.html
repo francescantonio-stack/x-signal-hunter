@@ -203,7 +203,7 @@ function renderPosizioni(){
   const trades = (BD?.trades || []).slice().reverse();
   let real = 0, unreal = 0;
   Object.values(strats).forEach(s => real += (+s.pnl || 0));
-  opens.forEach(p => unreal += (+p.pnl_mtm ?? +p.pnl || 0));
+  opens.forEach(p => unreal += (+(p.pnl_mtm ?? p.pnl) || 0));
   let h = `<h2>Posizioni a carta</h2>
   <div class="card"><div class="met">
     <div><b>${opens.length}</b>aperte</div>
@@ -220,7 +220,7 @@ function renderPosizioni(){
   </div></div>`;
   if(!opens.length) h += `<div class="card">Nessuna posizione aperta.</div>`;
   opens.forEach(p => {
-    const pnl = +p.pnl_mtm ?? +p.pnl || 0;
+    const pnl = (+(p.pnl_mtm ?? p.pnl) || 0);
     h += `<div class="card"><div class="row">
       <span class="sym">$${esc(p.sym)}</span>
       <span class="pill g">${esc(p.strategy)}</span>
