@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19 18:22",
+ "ts": "2026-10-19 18:23",
  "tokens": {
   "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump": {
    "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
@@ -7,11 +7,11 @@
    "name": "catonthinice",
    "img": "https://cdn.dexscreener.com/cms/images/yqcDtdex2bDQBboz?width=800&height=800&quality=95&format=auto",
    "price": "0.000003486",
-   "h1": 13.96,
-   "h24": -99.28,
+   "h1": 14.29,
+   "h24": -99.33,
    "mc": 3459,
    "liq": 3943.68,
-   "vol": 3897937.67,
+   "vol": 3883242.37,
    "dex": "pumpswap",
    "score": 28,
    "risks": [
@@ -27,29 +27,31 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.03326",
-   "h1": 14.01,
-   "h24": 56206,
-   "mc": 33141441,
-   "liq": 549579.9,
-   "vol": 8743642.64,
+   "price": "0.03433",
+   "h1": 20.58,
+   "h24": 58009,
+   "mc": 34202190,
+   "liq": 558396.5,
+   "vol": 8774105.6,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump": {
    "mint": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
    "sym": "Doomsday",
    "name": "The French Doomsday",
    "img": "https://cdn.dexscreener.com/cms/images/8JUYAuPeDFj4LkSJ?width=800&height=800&quality=95&format=auto",
-   "price": "0.001384",
-   "h1": 18.91,
-   "h24": 3079,
-   "mc": 1367692,
-   "liq": 107196.54,
-   "vol": 2393770.26,
+   "price": "0.001393",
+   "h1": 18.66,
+   "h24": 3099,
+   "mc": 1376286,
+   "liq": 107543.4,
+   "vol": 2396677.61,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -61,12 +63,12 @@
    "sym": "SI276",
    "name": "Super Intelligence SI276",
    "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "price": "0.0006445",
-   "h1": -1.28,
-   "h24": 15.19,
-   "mc": 620954,
-   "liq": 81133.65,
-   "vol": 259258.45,
+   "price": "0.0006381",
+   "h1": -2.31,
+   "h24": 11.54,
+   "mc": 614723,
+   "liq": 80717.72,
+   "vol": 259217.38,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -111,6 +113,7 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -132,8 +135,26 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
+  },
+  "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump": {
+   "mint": "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump",
+   "sym": "Tachyon",
+   "name": "Tachyon",
+   "img": "https://cdn.dexscreener.com/cms/images/cAIZr9PA8xGBKohD?width=800&height=800&quality=95&format=auto",
+   "price": "0.000009153",
+   "h1": 141,
+   "h24": 210,
+   "mc": 9153.51,
+   "liq": null,
+   "vol": 17174.62,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
    ],
    "ok": false
   },
@@ -142,12 +163,12 @@
    "sym": "BACKROOMS",
    "name": "Backrooms",
    "img": "https://cdn.dexscreener.com/cms/images/AIN7LUFZ7jio3hiw?width=800&height=800&quality=95&format=auto",
-   "price": "0.00003798",
-   "h1": -11.62,
-   "h24": -11.62,
-   "mc": 37950,
-   "liq": 14994.46,
-   "vol": 16653.73,
+   "price": "0.00003062",
+   "h1": -28.74,
+   "h24": -28.74,
+   "mc": 30600,
+   "liq": 13323.61,
+   "vol": 22611.02,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -169,46 +190,7 @@
    "score": 1,
    "risks": [],
    "fails": [
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "2jhnKMxKrdw4czykRe1sTntAZcErkQWGmypn2WXtpump": {
-   "mint": "2jhnKMxKrdw4czykRe1sTntAZcErkQWGmypn2WXtpump",
-   "sym": "COUP",
-   "name": "PARIS COUP",
-   "img": "https://cdn.dexscreener.com/cms/images/4PHmLbYDcYvLYHiK?width=800&height=800&quality=95&format=auto",
-   "price": "0.0002851",
-   "h1": 481,
-   "h24": 481,
-   "mc": 278513,
-   "liq": 47789,
-   "vol": 1243777.13,
-   "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
-  },
-  "GyFcT9uydqaPibdjG6t3K2ZyacKRvErSfi8qFzfKpump": {
-   "mint": "GyFcT9uydqaPibdjG6t3K2ZyacKRvErSfi8qFzfKpump",
-   "sym": "Chewy",
-   "name": "Mr. Chewy",
-   "img": "https://cdn.dexscreener.com/cms/images/z5k6fLaS_QuuzmcB?width=800&height=800&quality=95&format=auto",
-   "price": null,
-   "h1": null,
-   "h24": null,
-   "mc": null,
-   "liq": null,
-   "vol": 0,
-   "dex": "pumpfun",
-   "score": 34,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
-    "LP bloccata/bruciata 76% < 95%",
-    "RugCheck danger: Low Liquidity",
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -225,15 +207,14 @@
    "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump"
   ],
   "nuovi": [
+   "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump",
    "Ndj1deSF5wGxVHP1GYghzFN5ir9Kx6TMzCgee3miXrh",
-   "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump",
-   "2jhnKMxKrdw4czykRe1sTntAZcErkQWGmypn2WXtpump",
-   "GyFcT9uydqaPibdjG6t3K2ZyacKRvErSfi8qFzfKpump"
+   "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump"
   ],
   "gainers": [
    "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
    "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
-   "2jhnKMxKrdw4czykRe1sTntAZcErkQWGmypn2WXtpump",
+   "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump",
    "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
    "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "Ndj1deSF5wGxVHP1GYghzFN5ir9Kx6TMzCgee3miXrh",
