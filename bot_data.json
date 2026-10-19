@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T16:21:44Z",
+  "updated": "2026-10-19T16:22:44Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1753,6 +1753,56 @@
       "tg_channels": [
         "CMC_CG_NewList"
       ]
+    },
+    {
+      "ts": "2026-10-19T16:22:00Z",
+      "mint": "DURNeFdg7ws8ZVGrQBstxGeRRECYV9Jn3PLwLkFpump",
+      "sym": "BAGUETTE",
+      "px": 3.581e-05,
+      "liq_usd": 14411.36,
+      "market_cap": 34013,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "DR8gYhEpMD9Phxa3LUYs21z3TviQ2fct7vmHjrrfE9Yi",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792423628000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 50.0,
+      "total": 46.016000000000005,
+      "tg": 0.0,
+      "tg_channels": []
+    },
+    {
+      "ts": "2026-10-19T16:22:01Z",
+      "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "sym": "CBUCKS",
+      "px": 0.001199,
+      "liq_usd": 111513,
+      "market_cap": 1131227,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "B4Cp45PGifVM5FAXfh6AeV8QZ3eUNQnqGBw7KuC7MHnB",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1791311393000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 100.0,
+      "holders": 20.0,
+      "total": 51.29600000000001,
+      "tg": 30.0,
+      "tg_channels": [
+        "CMC_CG_NewList"
+      ]
     }
   ],
   "new_pools": [],
@@ -1891,11 +1941,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.0045,
+      "last_px": 0.004461,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.5683393095922757,
-      "pnl_mtm": 2.5683393095922757,
+      "pnl": 2.5284350355758094,
+      "pnl_mtm": 2.5284350355758094,
       "strategy": "copy",
       "reentries": 1
     },

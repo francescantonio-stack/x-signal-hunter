@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19 18:21",
+ "ts": "2026-10-19 18:22",
  "tokens": {
   "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump": {
    "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
@@ -8,10 +8,10 @@
    "img": "https://cdn.dexscreener.com/cms/images/yqcDtdex2bDQBboz?width=800&height=800&quality=95&format=auto",
    "price": "0.000003486",
    "h1": 13.96,
-   "h24": -99.33,
+   "h24": -99.28,
    "mc": 3459,
    "liq": 3943.68,
-   "vol": 3908191.2,
+   "vol": 3897937.67,
    "dex": "pumpswap",
    "score": 28,
    "risks": [
@@ -27,12 +27,12 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.03327",
-   "h1": 23.14,
-   "h24": 56214,
-   "mc": 33146091,
-   "liq": 549555.47,
-   "vol": 8712060.65,
+   "price": "0.03326",
+   "h1": 14.01,
+   "h24": 56206,
+   "mc": 33141441,
+   "liq": 549579.9,
+   "vol": 8743642.64,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -44,12 +44,12 @@
    "sym": "Doomsday",
    "name": "The French Doomsday",
    "img": "https://cdn.dexscreener.com/cms/images/8JUYAuPeDFj4LkSJ?width=800&height=800&quality=95&format=auto",
-   "price": "0.001400",
-   "h1": 19.47,
-   "h24": 3116,
-   "mc": 1383750,
-   "liq": 107831.13,
-   "vol": 2392586.68,
+   "price": "0.001384",
+   "h1": 18.91,
+   "h24": 3079,
+   "mc": 1367692,
+   "liq": 107196.54,
+   "vol": 2393770.26,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -62,11 +62,11 @@
    "name": "Super Intelligence SI276",
    "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
    "price": "0.0006445",
-   "h1": -0.96,
-   "h24": 13.67,
-   "mc": 620956,
-   "liq": 81133.8,
-   "vol": 259374.83,
+   "h1": -1.28,
+   "h24": 15.19,
+   "mc": 620954,
+   "liq": 81133.65,
+   "vol": 259258.45,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -90,7 +90,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -122,7 +121,7 @@
    "name": "Voxperps",
    "img": "https://cdn.dexscreener.com/cms/images/j0KJpkOML1HZ6Io_?width=800&height=800&quality=95&format=auto",
    "price": "0.000003717",
-   "h1": -0.34,
+   "h1": null,
    "h24": 57.32,
    "mc": 3616,
    "liq": 3600.49,
@@ -133,6 +132,7 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -142,19 +142,17 @@
    "sym": "BACKROOMS",
    "name": "Backrooms",
    "img": "https://cdn.dexscreener.com/cms/images/AIN7LUFZ7jio3hiw?width=800&height=800&quality=95&format=auto",
-   "price": "0.00003693",
-   "h1": -14.06,
-   "h24": -14.06,
-   "mc": 36902,
-   "liq": 14736.44,
-   "vol": 12658.97,
+   "price": "0.00003798",
+   "h1": -11.62,
+   "h24": -11.62,
+   "mc": 37950,
+   "liq": 14994.46,
+   "vol": 16653.73,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
+   "fails": [],
+   "ok": true
   },
   "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump": {
    "mint": "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump",
@@ -180,19 +178,17 @@
    "sym": "COUP",
    "name": "PARIS COUP",
    "img": "https://cdn.dexscreener.com/cms/images/4PHmLbYDcYvLYHiK?width=800&height=800&quality=95&format=auto",
-   "price": "0.0002337",
-   "h1": 377,
-   "h24": 377,
-   "mc": 228359,
-   "liq": 43088.13,
-   "vol": 1231820.04,
+   "price": "0.0002851",
+   "h1": 481,
+   "h24": 481,
+   "mc": 278513,
+   "liq": 47789,
+   "vol": 1243777.13,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
+   "fails": [],
+   "ok": true
   },
   "GyFcT9uydqaPibdjG6t3K2ZyacKRvErSfi8qFzfKpump": {
    "mint": "GyFcT9uydqaPibdjG6t3K2ZyacKRvErSfi8qFzfKpump",
@@ -211,7 +207,7 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 77% < 95%",
+    "LP bloccata/bruciata 76% < 95%",
     "RugCheck danger: Low Liquidity",
     "liquidita 0 < 1000"
    ],
