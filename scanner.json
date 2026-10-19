@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19 18:23",
+ "ts": "2026-10-19 18:24",
  "tokens": {
   "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump": {
    "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
@@ -8,10 +8,10 @@
    "img": "https://cdn.dexscreener.com/cms/images/yqcDtdex2bDQBboz?width=800&height=800&quality=95&format=auto",
    "price": "0.000003486",
    "h1": 14.29,
-   "h24": -99.33,
+   "h24": -99.34,
    "mc": 3459,
    "liq": 3943.68,
-   "vol": 3883242.37,
+   "vol": 3874422.78,
    "dex": "pumpswap",
    "score": 28,
    "risks": [
@@ -27,31 +27,29 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.03433",
-   "h1": 20.58,
-   "h24": 58009,
-   "mc": 34202190,
-   "liq": 558396.5,
-   "vol": 8774105.6,
+   "price": "0.03440",
+   "h1": 21.45,
+   "h24": 58134,
+   "mc": 34276089,
+   "liq": 559045.44,
+   "vol": 8795938.61,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
+   "fails": [],
+   "ok": true
   },
   "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump": {
    "mint": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
    "sym": "Doomsday",
    "name": "The French Doomsday",
    "img": "https://cdn.dexscreener.com/cms/images/8JUYAuPeDFj4LkSJ?width=800&height=800&quality=95&format=auto",
-   "price": "0.001393",
-   "h1": 18.66,
-   "h24": 3099,
-   "mc": 1376286,
-   "liq": 107543.4,
-   "vol": 2396677.61,
+   "price": "0.001378",
+   "h1": 17.37,
+   "h24": 3064,
+   "mc": 1361238,
+   "liq": 106946.61,
+   "vol": 2397521.58,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -63,12 +61,12 @@
    "sym": "SI276",
    "name": "Super Intelligence SI276",
    "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "price": "0.0006381",
-   "h1": -2.31,
-   "h24": 11.54,
-   "mc": 614723,
-   "liq": 80717.72,
-   "vol": 259217.38,
+   "price": "0.0006414",
+   "h1": -1.5,
+   "h24": 12.77,
+   "mc": 617953,
+   "liq": 80932.87,
+   "vol": 259249.87,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -113,7 +111,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -139,17 +136,55 @@
    ],
    "ok": false
   },
+  "2NuZgtFu1mapWrG463skJSgoqHEJN59Cm4F4VR2qpump": {
+   "mint": "2NuZgtFu1mapWrG463skJSgoqHEJN59Cm4F4VR2qpump",
+   "sym": "YES",
+   "name": "Will this coin go up?",
+   "img": "https://cdn.dexscreener.com/cms/images/oMmhwgqz54gXWKEX?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001747",
+   "h1": 134,
+   "h24": 134,
+   "mc": 17475.35,
+   "liq": null,
+   "vol": 131613.55,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "4VmQUatnfUabKLegfNUQ4FGDZckrfehR3vAFDaYDpump": {
+   "mint": "4VmQUatnfUabKLegfNUQ4FGDZckrfehR3vAFDaYDpump",
+   "sym": "WIFU",
+   "name": "Wifupad",
+   "img": "https://cdn.dexscreener.com/cms/images/EvadaNcMe4kOjhiU?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001639",
+   "h1": 436,
+   "h24": 436,
+   "mc": 16390.96,
+   "liq": null,
+   "vol": 23950.89,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
   "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump": {
    "mint": "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump",
    "sym": "Tachyon",
    "name": "Tachyon",
    "img": "https://cdn.dexscreener.com/cms/images/cAIZr9PA8xGBKohD?width=800&height=800&quality=95&format=auto",
-   "price": "0.000009153",
-   "h1": 141,
-   "h24": 210,
-   "mc": 9153.51,
+   "price": "0.000008974",
+   "h1": 137,
+   "h24": 204,
+   "mc": 8974.16,
    "liq": null,
-   "vol": 17174.62,
+   "vol": 17966.53,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
@@ -163,37 +198,17 @@
    "sym": "BACKROOMS",
    "name": "Backrooms",
    "img": "https://cdn.dexscreener.com/cms/images/AIN7LUFZ7jio3hiw?width=800&height=800&quality=95&format=auto",
-   "price": "0.00003062",
-   "h1": -28.74,
-   "h24": -28.74,
-   "mc": 30600,
-   "liq": 13323.61,
-   "vol": 22611.02,
+   "price": "0.00003302",
+   "h1": -23.16,
+   "h24": -23.16,
+   "mc": 32993,
+   "liq": 13904.95,
+   "vol": 23575.96,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [],
    "ok": true
-  },
-  "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump": {
-   "mint": "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump",
-   "sym": "67mas",
-   "name": "67mas",
-   "img": "https://cdn.dexscreener.com/cms/images/eVBTuau9tocr5Mb7?width=800&height=800&quality=95&format=auto",
-   "price": null,
-   "h1": null,
-   "h24": null,
-   "mc": null,
-   "liq": null,
-   "vol": 0,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
   }
  },
  "lists": {
@@ -207,14 +222,17 @@
    "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump"
   ],
   "nuovi": [
+   "2NuZgtFu1mapWrG463skJSgoqHEJN59Cm4F4VR2qpump",
+   "4VmQUatnfUabKLegfNUQ4FGDZckrfehR3vAFDaYDpump",
    "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump",
-   "Ndj1deSF5wGxVHP1GYghzFN5ir9Kx6TMzCgee3miXrh",
-   "BqieUGPxJMMgrPun2AyPj6iTT3hAZJf6fRTi7ZZypump"
+   "Ndj1deSF5wGxVHP1GYghzFN5ir9Kx6TMzCgee3miXrh"
   ],
   "gainers": [
    "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
    "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
+   "4VmQUatnfUabKLegfNUQ4FGDZckrfehR3vAFDaYDpump",
    "EGsA9tCQJ9EoeaJRNWMya999mUeuH7yDw2ejaQTTpump",
+   "2NuZgtFu1mapWrG463skJSgoqHEJN59Cm4F4VR2qpump",
    "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
    "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "Ndj1deSF5wGxVHP1GYghzFN5ir9Kx6TMzCgee3miXrh",
