@@ -43,6 +43,15 @@ details{margin-top:6px}summary{cursor:pointer;color:var(--g);font-size:11px}
 input,select{width:100%;background:#1c1c1c;border:1px solid #2a2a2a;color:#fff;border-radius:10px;padding:8px;margin:4px 0 8px}
 label{font-size:12px;color:#aaa}
 .break{word-break:break-all;font-size:11px}
+.ib{background:#0f2a1a;color:var(--g);border:1px solid #1f5a34;border-radius:99px;width:20px;height:20px;font-size:11px;line-height:18px;padding:0;margin-left:4px;vertical-align:middle;cursor:pointer}
+.met .ib{width:16px;height:16px;font-size:9px;line-height:14px;margin-left:2px}
+#ipop{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:flex-end;justify-content:center;z-index:50}
+#ipop.on{display:flex}
+#ipop .box{background:#101a13;border:1px solid var(--g2);border-radius:18px 18px 0 0;max-width:520px;width:100%;padding:16px 16px calc(18px + env(safe-area-inset-bottom));font-size:14px;line-height:1.45}
+#ipop h3{margin:0 0 8px;color:var(--g);font-size:15px}
+#ipop p{margin:6px 0}
+#ipop button.x{float:right;background:var(--g);color:#000;border:0;border-radius:10px;padding:6px 12px;font-weight:800}
+.na{color:#fbbf24}
 </style>
 </head>
 <body>
@@ -135,6 +144,35 @@ function solAcc(a){ return a ? `<a class="break" href="https://solscan.io/accoun
 function solTx(t){ return t ? `<a href="https://solscan.io/tx/${esc(t)}" target="_blank">${esc(String(t).slice(0,12))}…</a>` : '–'; }
 function dex(m){ return `<a href="https://dexscreener.com/solana/${esc(m)}" target="_blank">DexScreener ↗</a>`; }
 
+
+const INFO={
+ score:["Punteggio totale (0–100)","Media pesata calcolata dal bot: 30% rug, 25% X, 20% wallet, 15% liquidità, 10% holder; poi 88% di questo + 12% Telegram (30 se non c'è TG).","Più alto = meglio.","Sotto 40 il bot scarta il token. 40–55 debole, 55–70 discreto, sopra 70 = interessante."],
+ rug:["Rug (sicurezza, 0–100)","È 100 meno il rischio di RugCheck (score_normalised). Es. RugCheck rischio 1 → 99. Se RugCheck non risponde il bot usa 50 e qui vedi 'RugCheck n/d'.","Più alto = più sicuro.","Sopra 80 ok; sotto 50 attenzione. Token con rischio 'danger' (honeypot, freeze, mint authority) sono già esclusi."],
+ x:["X / Twitter (0–100)","Punteggio dai post X che citano il contract. Se non ci sono dati X (niente chiave o limite 100 chiamate/giorno) vale 30 di default ed è segnato 'n/d'.","Più alto = più hype.","30 n/d = nessuna informazione, non negativo. Sopra 60 = se ne parla davvero."],
+ wallet:["Wallet seguiti (0–100)","35 punti per ogni wallet copiato che ha comprato il token (max 100: 3 wallet).","Più alto = meglio.","0 = nessun wallet nostro; 35 = uno; 70 = due; 100 = tre o più (segnale forte)."],
+ tg:["Telegram (0–100)","Dai canali pubblici t.me/s: 15 per canale + qualità canali + 10 se TG è arrivato prima di wallet/X − 12 per ogni messaggio copiato uguale.","Più alto = meglio.","Sopra 60 = più canali buoni ne parlano; '–' = mai visto su TG."],
+ liq:["Liquidità (USD)","Soldi nel pool DexScreener. Nel punteggio: <5.000$ scartato, <20k=40, <100k=70, oltre=100.","Più alta = meglio (si esce più facilmente).","Sotto 20.000$ rischioso; sopra 100.000$ solido."],
+ holder:["Holder (concentrazione)","Quota dei primi 10 holder: oltre 80% → 20, sotto 50% → 80, in mezzo 50. Se il dato non arriva vale 50.","Più alto = token meglio distribuito.","20 = pochi possiedono quasi tutto (pericolo)."],
+ trending:["Trending","Quanti token Solana 'boost top' su DexScreener lo scanner ha in lista ora (max 15).","Solo un conteggio.","Lista dove cercare idee, non un segnale di acquisto."],
+ nuovi:["Nuovi","Token con profilo appena creato su DexScreener (max 15).","Solo un conteggio.","Molto rischiosi: usali solo se anche score e rug sono buoni."],
+ gainers:["Gainers","Token già visti, ordinati per rialzo 24h (max 15).","Solo un conteggio.","Spesso già saliti: attenzione a entrare tardi."],
+ segnali:["Segnali","Token che il bot ha valutato con score ≥ 40. Ogni token compare una volta (ultimo aggiornamento); 'visto N×' = quante volte è stato rilevato.","Più segnali non è per forza meglio.","Guarda score, rug e da dove arriva (Provenienza)."],
+ dex_boost:["dex_boost","Fonte: il token è tra i 'boost' (promozioni pagate) di DexScreener, non comprato dai nostri wallet.","—","Segnale debole: qualcuno ha pagato per pubblicizzarlo. Preferisci token comprati dai wallet."],
+ prov:["Provenienza","Chi ha generato il segnale: wallet seguito (con tx su Helius) o lista DexScreener; orario di Roma; post X e componenti dello score.","—","Wallet = più affidabile; lista DexScreener = solo da tenere d'occhio."],
+ posizioni:["Posizioni (paper)","Operazioni simulate, niente soldi veri. P&L = token×prezzo attuale − token×prezzo entrata − costi. Niente stop loss: 1$ per trade è il massimo che si perde.","P&L più alto = meglio.","copy = copiati dai wallet, reentry = riacquisti, snipe/arb per ora a 0."],
+ walletTab:["Wallet","I wallet che il bot copia, controllati via Helius ogni ~15–20 s, con i loro ultimi acquisti/vendite.","—","Se un wallet fa buoni risultati, i suoi segnali valgono di più."],
+ fonti:["Fonti","Elenco delle API usate (Helius, DexScreener, RugCheck, X, Telegram) e storico di ogni segnale con chi/dove/quando.","—","Serve per verificare che un dato è vero e da dove viene."],
+ telegram:["Telegram","Canali pubblici letti e token citati con il loro punteggio TG.","Punteggio più alto = più canali ne parlano.","TG prima di wallet/X = arrivato presto."],
+};
+function ib(k){return `<button class="ib" onclick="event.stopPropagation();event.preventDefault();showInfo('${k}')" aria-label="info">ⓘ</button>`}
+function showInfo(k){const i=INFO[k];if(!i)return;let d=document.getElementById('ipop');
+ if(!d){d=document.createElement('div');d.id='ipop';d.onclick=e=>{if(e.target===d)d.classList.remove('on')};document.body.appendChild(d)}
+ d.innerHTML=`<div class="box"><button class="x" onclick="document.getElementById('ipop').classList.remove('on')">OK</button><h3>${i[0]}</h3><p>${i[1]}</p><p><b>Meglio:</b> ${i[2]}</p><p><b>Come usarlo:</b> ${i[3]}</p></div>`;d.classList.add('on')}
+function dedupeSignals(list){const m=new Map();(list||[]).forEach(s=>{const k=s.mint;const o=m.get(k);
+ const src=(s.wallet_names&&s.wallet_names.length)?s.wallet_names.join(','):(s.source||'?');
+ if(!o){m.set(k,{...s,_n:1,_src:new Set([src])})}else{o._n++;o._src.add(src);if((s.ts||'')>(o.ts||'')){const n=o._n,ss=o._src;m.set(k,{...s,_n:n,_src:ss})}}});
+ return [...m.values()].sort((a,b)=>(b.ts||'').localeCompare(a.ts||''))}
+
 function render(){
   if(tab==='segnali') renderSegnali();
   if(tab==='posizioni') renderPosizioni();
@@ -146,14 +184,14 @@ function render(){
 
 function renderSegnali(){
   const el = $('sec-segnali');
-  const sigs = (BD?.signals || []).slice().reverse();
+  const sigs = dedupeSignals(BD?.signals);
   const scan = SC?.lists || {};
-  let h = `<h2>Nuovi token / segnali</h2>
+  let h = `<h2>Nuovi token / segnali ${ib('segnali')}</h2>
   <div class="card"><div class="met">
-    <div><b>${sigs.length}</b>segnali</div>
-    <div><b>${(scan.trending||[]).length}</b>trending</div>
-    <div><b>${(scan.nuovi||[]).length}</b>nuovi</div>
-    <div><b>${(scan.gainers||[]).length}</b>gainers</div>
+    <div><b>${sigs.length}</b>segnali${ib('segnali')}</div>
+    <div><b>${(scan.trending||[]).length}</b>trending${ib('trending')}</div>
+    <div><b>${(scan.nuovi||[]).length}</b>nuovi${ib('nuovi')}</div>
+    <div><b>${(scan.gainers||[]).length}</b>gainers${ib('gainers')}</div>
   </div><p class="mut">Punteggio 0–100 · RugCheck · X · wallet · liquidità · holder · Telegram. Nessuno stop loss (1 USD è lo stop).</p></div>`;
   if(!sigs.length) h += `<div class="card">Nessun segnale ancora.</div>`;
   sigs.forEach(s => {
@@ -162,19 +200,19 @@ function renderSegnali(){
     h += `<div class="card">
       <div class="row"><span class="sym">$${esc(s.sym || s.mint?.slice(0,6))}</span>
         <span class="pill ${s.rug_ok?'ok':'bad'}">${s.rug_ok?'RUG OK':'RUG?'}</span>
-        <span class="sc">${esc(Math.round(s.total || 0))}</span></div>
+        <span class="sc">${esc(Math.round(s.total || 0))}${ib('score')}</span></div>
       <div class="met">
-        <div><b>${esc(s.rug ?? '–')}</b>rug</div>
-        <div><b>${esc(s.x ?? '–')}</b>X</div>
-        <div><b>${esc(s.wallets ?? '–')}</b>wallet</div>
-        <div><b>${esc(s.tg ?? '–')}</b>TG</div>
+        <div>${s.rug_na?'<b class="na">n/d</b>RugCheck n/d':`<b>${esc(Math.round(s.rug ?? 0))}</b>rug`}${ib('rug')}</div>
+        <div>${s.x_default?'<b class="na">n/d</b>X (30 default)':`<b>${esc(Math.round(s.x ?? 0))}</b>X`}${ib('x')}</div>
+        <div><b>${esc(Math.round(s.wallets ?? 0))}</b>wallet${ib('wallet')}</div>
+        <div><b>${s.tg?esc(Math.round(s.tg)):'–'}</b>TG${ib('tg')}</div>
       </div>
       <div class="row" style="margin-top:8px">
-        <span class="mut" style="flex:1">liq ${usd(s.liq_usd)} · ${rome(s.ts)} · ${(s.wallet_names||[]).join(', ')||s.source||''}</span>
+        <span class="mut" style="flex:1">liq ${usd(s.liq_usd)}${ib('liq')} · ${rome(s.ts)} · ${(s.wallet_names||[]).join(', ')||s.source||''}${(s.source==='dex_boost'&&!(s.wallet_names||[]).length)?ib('dex_boost'):''} · visto ${s._n}× (${[...s._src].join(' / ')})</span>
         ${dex(s.mint)}
       </div>
       ${tg ? `<div class="mut">📣 TG ${tg.score}/100 · ${tg.channels?.length||0} canali · primo ${esc(tg.first_seen||'')}</div>` : ''}
-      ${fo ? `<details><summary>Provenienza (chi / dove / quando)</summary>${provHtml(fo)}</details>` : ''}
+      ${fo ? `<details><summary>Provenienza (chi / dove / quando) ${ib('prov')}</summary>${provHtml(fo)}</details>` : ''}
     </div>`;
   });
   el.innerHTML = h;
@@ -188,7 +226,7 @@ function provHtml(i){
     h += `<div class="mut">tx: ${solTx(t.tx)}</div>`;
   }
   if(t.pool) h += `<div class="mut">📊 ${esc(t.chi)} · ${esc(t.dex)} · pool ${esc(String(t.pool).slice(0,12))}…</div>`;
-  if(i.score) h += `<div class="mut">score ${esc(i.score.totale)} = rug ${esc(i.score.rug)} · X ${esc(i.score.x)} · wallet ${esc(i.score.wallets)} · liq ${esc(i.score.liquidita)} · holder ${esc(i.score.holders)}</div>`;
+  if(i.score) h += `<div class="mut">score ${esc(Math.round(i.score.totale||0))}${ib('score')} = rug ${esc(i.score.rug)} · X ${esc(i.score.x)} · wallet ${esc(i.score.wallets)} · liq ${esc(i.score.liquidita)} · holder ${esc(i.score.holders)}${ib('holder')}</div>`;
   if(i.x_posts?.length){
     h += `<div class="mut">${i.x_posts.length} post X</div>` + i.x_posts.slice(0,5).map(p =>
       `<div class="mut">@${esc(p.author)} · ${esc(p.at)} · <a href="${esc(p.url)}" target="_blank">post</a></div>`).join('');
@@ -204,7 +242,7 @@ function renderPosizioni(){
   let real = 0, unreal = 0;
   Object.values(strats).forEach(s => real += (+s.pnl || 0));
   opens.forEach(p => unreal += (+(p.pnl_mtm ?? p.pnl) || 0));
-  let h = `<h2>Posizioni a carta</h2>
+  let h = `<h2>Posizioni a carta ${ib('posizioni')}</h2>
   <div class="card"><div class="met">
     <div><b>${opens.length}</b>aperte</div>
     <div><b class="${real>=0?'up':'dn'}">${real.toFixed(2)}</b>realizzato</div>
@@ -251,7 +289,7 @@ function renderPosizioni(){
 function renderWallet(){
   const el = $('sec-wallet');
   const ws = (FO?.wallets) || (WR?.wallets) || [];
-  let h = `<h2>Wallet seguiti</h2>
+  let h = `<h2>Wallet seguiti ${ib('walletTab')}</h2>
   <div class="card mut">Motivi da classifiche KOL pubbliche (KOL Explorer / Subglow / Kolscan) + acquisti verificati dashboard. Aggiornati: ${esc(FO?.wallets_updated || WR?.updated || '–')}</div>`;
   if(!ws.length) h += `<div class="card">wallets_reasons.json non disponibile</div>`;
   ws.forEach(w => {
@@ -272,7 +310,7 @@ function renderWallet(){
 function renderFonti(){
   const el = $('sec-fonti');
   const items = (FO?.items || []).slice().reverse();
-  let h = `<h2>Fonti · trasparenza</h2>
+  let h = `<h2>Fonti · trasparenza ${ib('fonti')}</h2>
   <div class="card">
     <b>API e dati usati</b>
     <div class="mut">Helius RPC (polling wallet) · DexScreener · RugCheck · X API (score) · Telegram anteprime pubbliche t.me/s · Jupiter/Jito solo in stub reale SPENTO</div>
@@ -291,7 +329,7 @@ function renderTelegram(){
   const el = $('sec-telegram');
   const canali = TG?.canali || [];
   const toks = (TG?.token || []).slice().sort((a,b)=>(b.score||0)-(a.score||0));
-  let h = `<h2>Telegram</h2>
+  let h = `<h2>Telegram ${ib('telegram')}</h2>
   <div class="card"><div class="met">
     <div><b>${canali.length}</b>canali</div>
     <div><b>${toks.length}</b>token</div>
