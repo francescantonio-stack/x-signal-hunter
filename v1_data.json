@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T09:07:25+0200",
- "source_updated_at": "2026-10-19T09:07:25+0200",
+ "generated_at": "2026-10-19T09:07:47+0200",
+ "source_updated_at": "2026-10-19T09:07:47+0200",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -1469,7 +1469,7 @@
    "lag_fill_from_block_s": 0.6,
    "wallet_px_usd": 3.033e-05,
    "our_px_usd": 3.033e-05,
-   "mult": 0.2649,
+   "mult": 0.2652,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1541,7 +1541,7 @@
    "lag_fill_from_block_s": 6.4,
    "wallet_px_usd": 3.033e-05,
    "our_px_usd": 3.033e-05,
-   "mult": 0.2649,
+   "mult": 0.2652,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1613,7 +1613,7 @@
    "lag_fill_from_block_s": 31.3,
    "wallet_px_usd": 3.033e-05,
    "our_px_usd": 3.033e-05,
-   "mult": 0.2649,
+   "mult": 0.2652,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -3470,7 +3470,7 @@
   {
    "id": "N1:1:EustazZ:3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjo:B:0",
    "shadow_liq": false,
-   "liquidity_usd_at_entry": 10726.82,
+   "liquidity_usd_at_entry": 13359.96,
    "size_usdc": 1.0,
    "mode": "N1",
    "wallet": "EustazZ",
@@ -3480,20 +3480,20 @@
    "mint": "3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjovpc17WJqpump",
    "exit": "B",
    "delay_s": 0,
-   "block_time": 1792358382,
+   "block_time": 1792358587,
    "lag_detect_s": 0.0,
    "lag_fill_from_block_s": 0.0,
-   "wallet_px_usd": 1.693e-05,
-   "our_px_usd": 1.693e-05,
-   "mult": 1.4796,
-   "pnl_usdc": 0.459622,
+   "wallet_px_usd": 2.505e-05,
+   "our_px_usd": 2.505e-05,
+   "mult": 1.0,
+   "pnl_usdc": -0.02,
    "closed": true,
    "sells": [
     {
-     "t": 1792358586.8169432,
+     "t": 1792358605.8083045,
      "reason": "wallet_sell",
      "frac": 1.0,
-     "usdc": 1.479622
+     "usdc": 1.0
     }
    ],
    "tx": null
@@ -3501,7 +3501,7 @@
   {
    "id": "S:1:EustazZ:3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjo:B:0",
    "shadow_liq": false,
-   "liquidity_usd_at_entry": 10726.82,
+   "liquidity_usd_at_entry": 13359.96,
    "size_usdc": 1.0,
    "mode": "S",
    "wallet": "EustazZ",
@@ -3511,20 +3511,20 @@
    "mint": "3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjovpc17WJqpump",
    "exit": "B",
    "delay_s": 0,
-   "block_time": 1792358382,
+   "block_time": 1792358587,
    "lag_detect_s": 0.0,
    "lag_fill_from_block_s": 0.0,
-   "wallet_px_usd": 1.693e-05,
-   "our_px_usd": 1.693e-05,
-   "mult": 1.4796,
-   "pnl_usdc": 0.459622,
+   "wallet_px_usd": 2.505e-05,
+   "our_px_usd": 2.505e-05,
+   "mult": 1.0,
+   "pnl_usdc": -0.02,
    "closed": true,
    "sells": [
     {
-     "t": 1792358586.8288093,
+     "t": 1792358605.8192413,
      "reason": "wallet_sell",
      "frac": 1.0,
-     "usdc": 1.479622
+     "usdc": 1.0
     }
    ],
    "tx": null
@@ -3587,7 +3587,7 @@
   {
    "id": "N1:1:EustazZ:3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjo:B:30",
    "shadow_liq": false,
-   "liquidity_usd_at_entry": 10683.16,
+   "liquidity_usd_at_entry": 14843.07,
    "size_usdc": 1.0,
    "mode": "N1",
    "wallet": "EustazZ",
@@ -3597,79 +3597,17 @@
    "mint": "3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjovpc17WJqpump",
    "exit": "B",
    "delay_s": 30,
-   "block_time": 1792358382,
+   "block_time": 1792358587,
    "lag_detect_s": 30.6,
    "lag_fill_from_block_s": 30.6,
-   "wallet_px_usd": 1.693e-05,
-   "our_px_usd": 1.677e-05,
-   "mult": 1.4937,
-   "pnl_usdc": 0.473739,
-   "closed": true,
-   "sells": [
-    {
-     "t": 1792358586.8479953,
-     "reason": "wallet_sell",
-     "frac": 1.0,
-     "usdc": 1.493739
-    }
-   ],
-   "tx": null
-  },
-  {
-   "id": "N1:1:EustazZ:3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjo:B:0",
-   "shadow_liq": false,
-   "liquidity_usd_at_entry": 13359.96,
-   "size_usdc": 1.0,
-   "mode": "N1",
-   "wallet": "EustazZ",
-   "wallets_involved": [
-    "EustazZ"
-   ],
-   "mint": "3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjovpc17WJqpump",
-   "exit": "B",
-   "delay_s": 0,
-   "block_time": 1792358587,
-   "lag_detect_s": 0.0,
-   "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 2.505e-05,
-   "our_px_usd": 2.505e-05,
+   "our_px_usd": 3.045e-05,
    "mult": 1.0,
    "pnl_usdc": -0.02,
    "closed": true,
    "sells": [
     {
-     "t": 1792358605.8083045,
-     "reason": "wallet_sell",
-     "frac": 1.0,
-     "usdc": 1.0
-    }
-   ],
-   "tx": null
-  },
-  {
-   "id": "S:1:EustazZ:3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjo:B:0",
-   "shadow_liq": false,
-   "liquidity_usd_at_entry": 13359.96,
-   "size_usdc": 1.0,
-   "mode": "S",
-   "wallet": "EustazZ",
-   "wallets_involved": [
-    "EustazZ"
-   ],
-   "mint": "3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjovpc17WJqpump",
-   "exit": "B",
-   "delay_s": 0,
-   "block_time": 1792358587,
-   "lag_detect_s": 0.0,
-   "lag_fill_from_block_s": 0.0,
-   "wallet_px_usd": 2.505e-05,
-   "our_px_usd": 2.505e-05,
-   "mult": 1.0,
-   "pnl_usdc": -0.02,
-   "closed": true,
-   "sells": [
-    {
-     "t": 1792358605.8192413,
+     "t": 1792358624.882407,
      "reason": "wallet_sell",
      "frac": 1.0,
      "usdc": 1.0
@@ -3761,37 +3699,6 @@
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
-   "tx": null
-  },
-  {
-   "id": "N1:1:EustazZ:3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjo:B:30",
-   "shadow_liq": false,
-   "liquidity_usd_at_entry": 14843.07,
-   "size_usdc": 1.0,
-   "mode": "N1",
-   "wallet": "EustazZ",
-   "wallets_involved": [
-    "EustazZ"
-   ],
-   "mint": "3xgB7x7QoKc8AX3sQiGAnWiqqihNTnjovpc17WJqpump",
-   "exit": "B",
-   "delay_s": 30,
-   "block_time": 1792358587,
-   "lag_detect_s": 30.6,
-   "lag_fill_from_block_s": 30.6,
-   "wallet_px_usd": 2.505e-05,
-   "our_px_usd": 3.045e-05,
-   "mult": 1.0,
-   "pnl_usdc": -0.02,
-   "closed": true,
-   "sells": [
-    {
-     "t": 1792358624.882407,
-     "reason": "wallet_sell",
-     "frac": 1.0,
-     "usdc": 1.0
-    }
-   ],
    "tx": null
   },
   {
