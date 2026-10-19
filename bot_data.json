@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T02:25:42Z",
+  "updated": "2026-10-19T02:40:14Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2878,61 +2878,6 @@
   },
   "signals": [
     {
-      "ts": "2026-10-19T01:21:03Z",
-      "mint": "DJSpZY2iYin95TMJG8rahRWYKy18TaGTcmVHnDea8S7K",
-      "sym": "HYDRA",
-      "px": 0.0002052,
-      "liq_usd": 38456.43,
-      "market_cap": 190126,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "796u47B4pQeSQgQZNvcaDJB6D7cyg8U1AM1rA1yzm6RR",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1790696798000,
-      "tx": null,
-      "sig": null,
-      "rug": 50.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 70.0,
-      "holders": 50.0,
-      "total": 33.44,
-      "tg": 0.0,
-      "tg_channels": [
-        "CMC_CG_NewList",
-        "SolanaSinais",
-        "solearlytrending",
-        "solgemsradar"
-      ]
-    },
-    {
-      "ts": "2026-10-19T01:21:58Z",
-      "mint": "3hUqTqKTUQFmNtKPKwZjDtT4Ps4bJn7nfJNaAFX2pump",
-      "sym": "WAND",
-      "px": 3.395e-05,
-      "liq_usd": 14074.66,
-      "market_cap": 33952,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "5HuuEjAfHy7Qa1pj5pTei8BygxFLLTda4ddjqnC7DfJf",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792372654000,
-      "tx": null,
-      "sig": null,
-      "rug": 50.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 40.0,
-      "holders": 20.0,
-      "total": 29.096,
-      "tg": 18.8,
-      "tg_channels": [
-        "SolanaSinais"
-      ]
-    },
-    {
       "ts": "2026-10-19T01:23:14Z",
       "mint": "DJSpZY2iYin95TMJG8rahRWYKy18TaGTcmVHnDea8S7K",
       "sym": "HYDRA",
@@ -4251,6 +4196,58 @@
       "tg_channels": [
         "solearlytrending"
       ]
+    },
+    {
+      "ts": "2026-10-19T02:26:47Z",
+      "mint": "AkDAiyNyazPXEoXfY1jkehT8TvMd1pUpiwWQ89yjpump",
+      "sym": "dotshare",
+      "px": 6.409e-06,
+      "liq_usd": 5592.11,
+      "market_cap": 6111,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "7tdxSj4gEmSKeBXqgMm2Pvz3QRwUUo5T6WcmLF7H2Df3",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792373238000,
+      "tx": null,
+      "sig": null,
+      "rug": 50.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 20.0,
+      "total": 31.184,
+      "tg": 36.2,
+      "tg_channels": [
+        "solearlytrending"
+      ]
+    },
+    {
+      "ts": "2026-10-19T02:28:55Z",
+      "mint": "AkDAiyNyazPXEoXfY1jkehT8TvMd1pUpiwWQ89yjpump",
+      "sym": "dotshare",
+      "px": 7.444e-06,
+      "liq_usd": 6181.15,
+      "market_cap": 7098,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "7tdxSj4gEmSKeBXqgMm2Pvz3QRwUUo5T6WcmLF7H2Df3",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792373238000,
+      "tx": null,
+      "sig": null,
+      "rug": 50.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 20.0,
+      "total": 31.184,
+      "tg": 36.2,
+      "tg_channels": [
+        "solearlytrending"
+      ]
     }
   ],
   "new_pools": [],
@@ -4389,11 +4386,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004331,
+      "last_px": 0.004297,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.395420788854255,
-      "pnl_mtm": 2.395420788854255,
+      "pnl": 2.360632447404002,
+      "pnl_mtm": 2.360632447404002,
       "strategy": "copy",
       "reentries": 1
     },
@@ -4461,11 +4458,11 @@
       "sym": "TRALALA",
       "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
       "entry_px": 4.0954407711024855e-06,
-      "last_px": 2.075e-06,
+      "last_px": 2.074e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.2858475711324875,
-      "pnl_mtm": -1.2858475711324875,
+      "pnl": -1.2864580060379658,
+      "pnl_mtm": -1.2864580060379658,
       "strategy": "copy",
       "reentries": 2
     }
