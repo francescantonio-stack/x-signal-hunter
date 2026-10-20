@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T09:41:45Z",
+  "updated": "2026-10-20T09:49:47Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -196,6 +196,18 @@
       "action": "buy",
       "sig": "3PWPZmuDyy9GCRHqL1Hy488LJUsPRuAsbn9g9DX7w5N4LuvRTFCMkx7U5Ub7fPjTDZKMfsU8Ar1xa4siSLp3awt1",
       "tx": "3PWPZmuDyy9GCRHqL1Hy488LJUsPRuAsbn9g9DX7w5N4LuvRTFCMkx7U5Ub7fPjTDZKMfsU8Ar1xa4siSLp3awt1"
+    },
+    {
+      "t": "2026-10-20T09:49:00Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5x27XvfgDUFd8hig85gU2JoZCzeymbKns7Eg6feahPjnhLNAwHyHVn4RZd1LC1xG5TmzWkHRt2qg4MqHTHeepyLB",
+      "tx": "5x27XvfgDUFd8hig85gU2JoZCzeymbKns7Eg6feahPjnhLNAwHyHVn4RZd1LC1xG5TmzWkHRt2qg4MqHTHeepyLB"
     }
   ],
   "trades": [
@@ -1642,34 +1654,6 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-20T09:40:05Z",
-      "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
-      "sym": "ZAZA",
-      "px": 0.0001401,
-      "liq_usd": 56108.23,
-      "market_cap": 140161,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "AkMXsY6bLNkt3dQKkmRfA4u5RnL8hxCb48jGCpWFTZXd",
-      "dex_id": "raydium",
-      "pair_created_ms": 1790232731000,
-      "tx": null,
-      "sig": null,
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 70.0,
-      "holders": 50.0,
-      "total": 49.976000000000006,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 14
-    },
-    {
       "ts": "2026-10-20T09:41:30Z",
       "mint": "ijsLxSsvoH2ianECZivsdK7hhaM9fPp4LCuKUnspump",
       "sym": "PROWLER",
@@ -1698,6 +1682,34 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-10-20T09:49:07Z",
+      "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
+      "sym": "ZAZA",
+      "px": 0.0001401,
+      "liq_usd": 56108.23,
+      "market_cap": 140161,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "AkMXsY6bLNkt3dQKkmRfA4u5RnL8hxCb48jGCpWFTZXd",
+      "dex_id": "raydium",
+      "pair_created_ms": 1790232731000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 49.976000000000006,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 17
     }
   ],
   "new_pools": [],
@@ -1735,13 +1747,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792496505.236038,
+    "paused_until": 1792496987.3109598,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 659,
-    "open_positions": 512,
-    "trades": 562,
+    "cycles": 660,
+    "open_positions": 515,
+    "trades": 565,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -1836,11 +1848,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004425,
+      "last_px": 0.004415,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4916003210990723,
-      "pnl_mtm": 2.4916003210990723,
+      "pnl": 2.4813684559666442,
+      "pnl_mtm": 2.4813684559666442,
       "strategy": "copy",
       "reentries": 1
     },
