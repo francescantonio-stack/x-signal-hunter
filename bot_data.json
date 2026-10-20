@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T06:11:08Z",
+  "updated": "2026-10-20T06:16:08Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -3872,7 +3872,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 17
+      "seen_count": 16
     },
     {
       "ts": "2026-10-20T06:09:20Z",
@@ -3913,12 +3913,12 @@
       "seen_count": 5
     },
     {
-      "ts": "2026-10-20T06:09:44Z",
+      "ts": "2026-10-20T06:14:02Z",
       "mint": "5YY5qcnh5F3JaAybXqr5wLvb2GXZcE34GgE7DPyzpump",
       "sym": "LEONIDA",
-      "px": 0.0001656,
-      "liq_usd": 33737.12,
-      "market_cap": 163285,
+      "px": 0.0001795,
+      "liq_usd": 35231.33,
+      "market_cap": 177044,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3940,7 +3940,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 24
+      "seen_count": 25
     }
   ],
   "new_pools": [],
@@ -3978,7 +3978,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792483868.1919498,
+    "paused_until": 1792484168.3882272,
     "kill_switch": false
   },
   "v1": {
@@ -4079,11 +4079,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004387,
+      "last_px": 0.004362,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.452719233595848,
-      "pnl_mtm": 2.452719233595848,
+      "pnl": 2.4271395707647803,
+      "pnl_mtm": 2.4271395707647803,
       "strategy": "copy",
       "reentries": 1
     },
