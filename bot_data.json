@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T20:05:08Z",
+  "updated": "2026-10-20T20:10:08Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -184,6 +184,18 @@
       "action": "buy",
       "sig": "5FvZacZoQYabyaZQqxV6qfyWV1uv24hJcsiWEkLnuYoSFfT7tRz3dzqJUQNjPaffXaFr6E1hbaKw2iLM7AxFPhVW",
       "tx": "5FvZacZoQYabyaZQqxV6qfyWV1uv24hJcsiWEkLnuYoSFfT7tRz3dzqJUQNjPaffXaFr6E1hbaKw2iLM7AxFPhVW"
+    },
+    {
+      "t": "2026-10-20T20:09:00Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5aK7MdNSYB2pSk3SMZJ6KKZZPHo4JDn6q5kcsWYKUDXycXcozMcg8r44Z2PXp8uhL5NsF7kQLWiBZY9rJkUnkXAV",
+      "tx": "5aK7MdNSYB2pSk3SMZJ6KKZZPHo4JDn6q5kcsWYKUDXycXcozMcg8r44Z2PXp8uhL5NsF7kQLWiBZY9rJkUnkXAV"
     }
   ],
   "trades": [
@@ -1624,36 +1636,6 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T19:52:24Z",
-      "mint": "J2qYrnmRdw8nyx8rFG5D94X2KPGvwzVi594paCkppump",
-      "sym": "PUNCHDOG",
-      "px": 5.677e-05,
-      "liq_usd": 18815.06,
-      "market_cap": 56776,
-      "wallet_names": [
-        "EustazZ"
-      ],
-      "source": "wallet:EustazZ",
-      "rug_ok": true,
-      "pair_addr": "5z3XHD6Aefi2vjLQ9nUsBZzLd2Gxhu3J8r3ZGKChjH46",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792525743000,
-      "tx": "42vRENtmCZPSEwTUNWfiwZtskx2hJWsanQFqgM9nehGs3aPqEkyY65eUGzzUjtWgnQeVyDFHfoehFtZkAfRMgtsw",
-      "sig": "42vRENtmCZPSEwTUNWfiwZtskx2hJWsanQFqgM9nehGs3aPqEkyY65eUGzzUjtWgnQeVyDFHfoehFtZkAfRMgtsw",
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 35.0,
-      "liq": 40.0,
-      "holders": 50.0,
-      "total": 52.176,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 1
-    },
-    {
       "ts": "2026-10-20T19:52:42Z",
       "mint": "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1",
       "sym": "CHARIZARD",
@@ -1691,12 +1673,46 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T20:04:43Z",
+      "ts": "2026-10-20T20:08:29Z",
+      "mint": "J2qYrnmRdw8nyx8rFG5D94X2KPGvwzVi594paCkppump",
+      "sym": "PUNCHDOG",
+      "px": 0.0002316,
+      "liq_usd": 67981.98,
+      "market_cap": 231671,
+      "wallet_names": [
+        "EustazZ"
+      ],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "5z3XHD6Aefi2vjLQ9nUsBZzLd2Gxhu3J8r3ZGKChjH46",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792525743000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 35.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 62.592,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 83.8,
+      "tg_channels": [
+        "Pumpfunpremium",
+        "shitcoingemsalert",
+        "solearlytrending"
+      ],
+      "seen_count": 3
+    },
+    {
+      "ts": "2026-10-20T20:09:07Z",
       "mint": "GJLB7Box46h1RQrxcREHGnDcRWDk2pdu8dw2hSwwpump",
       "sym": "MYSTIC",
-      "px": 4.684e-05,
-      "liq_usd": 17789.78,
-      "market_cap": 44236,
+      "px": 4.477e-05,
+      "liq_usd": 17359.19,
+      "market_cap": 42279,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1719,7 +1735,7 @@
         "pumpfunearlytrending",
         "solearlytrending"
       ],
-      "seen_count": 1
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -1757,11 +1773,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792533908.3825803,
+    "paused_until": 1792534208.5511007,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 872,
+    "cycles": 873,
     "open_positions": 685,
     "trades": 691,
     "rejected": 30,
@@ -1858,11 +1874,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004677,
+      "last_px": 0.004699,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.7494433224362393,
-      "pnl_mtm": 2.7494433224362393,
+      "pnl": 2.7719534257275797,
+      "pnl_mtm": 2.7719534257275797,
       "strategy": "copy",
       "reentries": 1
     },
