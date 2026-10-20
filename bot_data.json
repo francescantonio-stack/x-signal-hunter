@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T16:44:22Z",
+  "updated": "2026-10-20T16:49:42Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1724,39 +1724,6 @@
       "seen_count": 7
     },
     {
-      "ts": "2026-10-20T16:42:27Z",
-      "mint": "6VAyooNsKhyS4UeUR2LBH1A52NvouCgmVBru7n6ipump",
-      "sym": "CYLO",
-      "px": 2.712e-05,
-      "liq_usd": 12469.95,
-      "market_cap": 25417,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "8xXrXZaVqVa92YiMYo1JNzmS6GR6eysNvC7WZHdfAEig",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792510603000,
-      "tx": null,
-      "sig": null,
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 40.0,
-      "holders": 50.0,
-      "total": 52.988,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 88.1,
-      "tg_channels": [
-        "Pumpfunpremium",
-        "pumpfunearlytrending",
-        "shitcoingemsalert",
-        "solearlytrending"
-      ],
-      "seen_count": 2
-    },
-    {
       "ts": "2026-10-20T16:44:19Z",
       "mint": "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto",
       "sym": "Tilcayo",
@@ -1783,6 +1750,39 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 2
+    },
+    {
+      "ts": "2026-10-20T16:44:38Z",
+      "mint": "6VAyooNsKhyS4UeUR2LBH1A52NvouCgmVBru7n6ipump",
+      "sym": "CYLO",
+      "px": 2.609e-05,
+      "liq_usd": 12198.33,
+      "market_cap": 24457,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "8xXrXZaVqVa92YiMYo1JNzmS6GR6eysNvC7WZHdfAEig",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792510603000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 50.0,
+      "total": 54.188,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 98.1,
+      "tg_channels": [
+        "Pumpfunpremium",
+        "pumpfunearlytrending",
+        "shitcoingemsalert",
+        "solearlytrending"
+      ],
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -1820,7 +1820,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792521862.3508115,
+    "paused_until": 1792522182.2528002,
     "kill_switch": false
   },
   "v1": {
@@ -1921,11 +1921,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004495,
+      "last_px": 0.00452,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.563223377026063,
-      "pnl_mtm": 2.563223377026063,
+      "pnl": 2.588803039857131,
+      "pnl_mtm": 2.588803039857131,
       "strategy": "copy",
       "reentries": 1
     },
