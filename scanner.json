@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-20 19:44",
+ "ts": "2026-10-20 19:49",
  "tokens": {
   "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
    "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "sym": "SI276",
    "name": "Super Intelligence SI276",
    "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "price": "0.0008529",
-   "h1": 10.63,
-   "h24": 9.92,
-   "mc": 821716,
-   "liq": 95153.21,
-   "vol": 293358.57,
+   "price": "0.0008596",
+   "h1": 8.34,
+   "h24": 19.74,
+   "mc": 828162,
+   "liq": 95556.48,
+   "vol": 295999.34,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -23,17 +23,19 @@
    "sym": "MONEYBIZ",
    "name": "Money Business",
    "img": "https://cdn.dexscreener.com/cms/images/jgcu1Wa9yKs5f7e2?width=800&height=800&quality=95&format=auto",
-   "price": "0.001405",
-   "h1": -7.67,
-   "h24": 1976,
-   "mc": 1395288,
-   "liq": 106780.41,
-   "vol": 2176952.41,
+   "price": "0.001438",
+   "h1": 1.87,
+   "h24": 2026,
+   "mc": 1428414,
+   "liq": 108098.5,
+   "vol": 2187294.43,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump": {
    "mint": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
@@ -41,7 +43,7 @@
    "name": "Kim Jong Un",
    "img": "https://cdn.dexscreener.com/cms/images/pZbCdd0G5_paGMKF?width=800&height=800&quality=95&format=auto",
    "price": "0.000004589",
-   "h1": 3.09,
+   "h1": 5.1,
    "h24": -90.15,
    "mc": 4374,
    "liq": 4020.06,
@@ -61,12 +63,12 @@
    "sym": "DUST",
    "name": "DUST",
    "img": "https://cdn.dexscreener.com/cms/images/eU3WSRDydQHxAeg7?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001610",
-   "h1": 0.53,
-   "h24": 269,
-   "mc": 156786,
-   "liq": 34371.15,
-   "vol": 632451.7,
+   "price": "0.0001698",
+   "h1": 18.02,
+   "h24": 289,
+   "mc": 165362,
+   "liq": 35358.78,
+   "vol": 633637.89,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -78,12 +80,12 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.0004075",
-   "h1": 70.6,
-   "h24": -98.41,
-   "mc": 405952,
-   "liq": 65660.67,
-   "vol": 11259184.17,
+   "price": "0.0003723",
+   "h1": 79.24,
+   "h24": -98.57,
+   "mc": 370916,
+   "liq": 62702.68,
+   "vol": 11231885.68,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -109,6 +111,7 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -143,44 +146,65 @@
    "img": "https://cdn.dexscreener.com/cms/images/EcnOmQ0ExP5JprNl?width=800&height=800&quality=95&format=auto",
    "price": "0.000005439",
    "h1": -0.01,
-   "h24": -95.51,
+   "h24": -97.88,
    "mc": 5307,
    "liq": 4957.99,
-   "vol": 1262669.22,
+   "vol": 1071324.43,
    "dex": "pumpswap",
    "score": 25,
    "risks": [],
    "fails": [],
    "ok": true
   },
+  "HwvE5nyGZnDWFVQU28QRLur5s6iqJBc8a9KbMBWApump": {
+   "mint": "HwvE5nyGZnDWFVQU28QRLur5s6iqJBc8a9KbMBWApump",
+   "sym": "CHATGBT",
+   "name": "Millionaire in 30 days",
+   "img": "https://cdn.dexscreener.com/cms/images/gLlkVwzZVuANpjlA?width=800&height=800&quality=95&format=auto",
+   "price": null,
+   "h1": null,
+   "h24": null,
+   "mc": null,
+   "liq": null,
+   "vol": 0,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
   "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump": {
    "mint": "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
    "sym": "TIMQ",
    "name": "TimQ",
    "img": "https://cdn.dexscreener.com/cms/images/2Kazn7L4AJR5vA1b?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001262",
-   "h1": 179,
-   "h24": 179,
-   "mc": 126206,
-   "liq": 29546.32,
-   "vol": 265111.79,
+   "price": "0.0001444",
+   "h1": 220,
+   "h24": 220,
+   "mc": 144458,
+   "liq": 31736.34,
+   "vol": 270964.29,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "7Yw1146iXePQpXXYyqtdBHkHom5wc9XC3S9YCjXDpump": {
    "mint": "7Yw1146iXePQpXXYyqtdBHkHom5wc9XC3S9YCjXDpump",
    "sym": "Pok\u00e9city",
    "name": "Pok\u00e9city",
    "img": "https://cdn.dexscreener.com/cms/images/2ujold4P-ETabI-j?width=800&height=800&quality=95&format=auto",
-   "price": "0.0003485",
-   "h1": 495,
-   "h24": 495,
-   "mc": 348553,
-   "liq": 50288.48,
-   "vol": 425880.79,
+   "price": "0.0005314",
+   "h1": 808,
+   "h24": 808,
+   "mc": 531479,
+   "liq": 62742.43,
+   "vol": 510002.56,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -192,17 +216,21 @@
    "sym": "MEOWL",
    "name": "Pok\u00e9mon Cat",
    "img": "https://cdn.dexscreener.com/cms/images/iN2ECNevjQC0K835?width=800&height=800&quality=95&format=auto",
-   "price": "0.00008749",
-   "h1": 64.26,
-   "h24": 64.26,
-   "mc": 87469,
-   "liq": 24154.66,
-   "vol": 295113.99,
+   "price": "0.000001971",
+   "h1": -96.3,
+   "h24": -96.3,
+   "mc": 1971,
+   "liq": 2050.82,
+   "vol": 325310.95,
    "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
+   "score": 33,
+   "risks": [
+    "Low Liquidity"
+   ],
+   "fails": [
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
   },
   "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump": {
    "mint": "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
@@ -223,44 +251,6 @@
     "liquidita 21 < 1000"
    ],
    "ok": false
-  },
-  "3vpvkgxLTMtpff5BjNwfqKmVcpdyTbqihG8gEZAwpump": {
-   "mint": "3vpvkgxLTMtpff5BjNwfqKmVcpdyTbqihG8gEZAwpump",
-   "sym": "GO",
-   "name": "GoRip",
-   "img": "https://cdn.dexscreener.com/cms/images/FK-bGYB1xq1o-KYl?width=800&height=800&quality=95&format=auto",
-   "price": "0.00002546",
-   "h1": 321,
-   "h24": 321,
-   "mc": 25461.26,
-   "liq": null,
-   "vol": 62882.5,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "EsWuDusx8B139GCRNEE6g1ULsvFL12XhjYJw2zigpump": {
-   "mint": "EsWuDusx8B139GCRNEE6g1ULsvFL12XhjYJw2zigpump",
-   "sym": "TRALALA",
-   "name": "TRALALA",
-   "img": "https://cdn.dexscreener.com/cms/images/BW7DDSJ3xzzOWoBU?width=800&height=800&quality=95&format=auto",
-   "price": "0.00002653",
-   "h1": 759,
-   "h24": 759,
-   "mc": 26534.62,
-   "liq": null,
-   "vol": 103445.79,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
   }
  },
  "lists": {
@@ -275,26 +265,23 @@
    "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump"
   ],
   "nuovi": [
+   "HwvE5nyGZnDWFVQU28QRLur5s6iqJBc8a9KbMBWApump",
    "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
    "7Yw1146iXePQpXXYyqtdBHkHom5wc9XC3S9YCjXDpump",
    "BLr7LaB55PLj8DxchLZKRVCtXx7ugzXWiwzpJhVtpump",
-   "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
-   "3vpvkgxLTMtpff5BjNwfqKmVcpdyTbqihG8gEZAwpump",
-   "EsWuDusx8B139GCRNEE6g1ULsvFL12XhjYJw2zigpump"
+   "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump"
   ],
   "gainers": [
    "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-   "EsWuDusx8B139GCRNEE6g1ULsvFL12XhjYJw2zigpump",
    "7Yw1146iXePQpXXYyqtdBHkHom5wc9XC3S9YCjXDpump",
-   "3vpvkgxLTMtpff5BjNwfqKmVcpdyTbqihG8gEZAwpump",
    "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
    "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
-   "BLr7LaB55PLj8DxchLZKRVCtXx7ugzXWiwzpJhVtpump",
    "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
    "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
    "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",
    "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
+   "BLr7LaB55PLj8DxchLZKRVCtXx7ugzXWiwzpJhVtpump",
    "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
    "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump"
   ]
