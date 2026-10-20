@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T07:00:06Z",
+  "updated": "2026-10-20T07:07:16Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -3809,7 +3809,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 3
+      "seen_count": 2
     },
     {
       "ts": "2026-10-20T06:17:19Z",
@@ -3847,7 +3847,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 5
+      "seen_count": 4
     },
     {
       "ts": "2026-10-20T06:20:25Z",
@@ -3938,7 +3938,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 25
+      "seen_count": 24
     },
     {
       "ts": "2026-10-20T06:45:17Z",
@@ -3972,12 +3972,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-20T06:58:21Z",
+      "ts": "2026-10-20T07:04:46Z",
       "mint": "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump",
       "sym": "WORTHLESS",
-      "px": 0.0002709,
-      "liq_usd": 46758.62,
-      "market_cap": 260223,
+      "px": 0.0002873,
+      "liq_usd": 48214.73,
+      "market_cap": 275968,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -4003,7 +4003,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 9
+      "seen_count": 12
     }
   ],
   "new_pools": [],
@@ -4041,7 +4041,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792486806.6282318,
+    "paused_until": 1792487236.6561136,
     "kill_switch": false
   },
   "v1": {
@@ -4142,11 +4142,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004426,
+      "last_px": 0.004427,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4926235076123144,
-      "pnl_mtm": 2.4926235076123144,
+      "pnl": 2.4936466941255575,
+      "pnl_mtm": 2.4936466941255575,
       "strategy": "copy",
       "reentries": 1
     },
