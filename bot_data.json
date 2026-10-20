@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T21:10:07Z",
+  "updated": "2026-10-20T21:15:07Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -856,6 +856,30 @@
       "action": "sell",
       "sig": "4nHaqBQwJLojBhLh4b7DYPYqZG2PuCn43LvbQwWCUuv2umpMrf44qXmkQBjytmmYCt9v5HndX63fkoiY3hDPETx4",
       "tx": "4nHaqBQwJLojBhLh4b7DYPYqZG2PuCn43LvbQwWCUuv2umpMrf44qXmkQBjytmmYCt9v5HndX63fkoiY3hDPETx4"
+    },
+    {
+      "t": "2026-10-20T21:10:31Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "TXepR7F7VPNmGoQUa3cZPkYpn3tTdGE81h32xpb4cmLtNioeUnQfztiZdrncJB5mR4EopaQovfr9aXVyhz8b5cm",
+      "tx": "TXepR7F7VPNmGoQUa3cZPkYpn3tTdGE81h32xpb4cmLtNioeUnQfztiZdrncJB5mR4EopaQovfr9aXVyhz8b5cm"
+    },
+    {
+      "t": "2026-10-20T21:12:22Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "xBZh8YZDFXvhN1gXi5dGKZKDFzmN3xtSzjPRTsHaum2Y1C95swvAzyi4BchwmxEuig6VocQd9AAb2zaJ4XqkrBk",
+      "tx": "xBZh8YZDFXvhN1gXi5dGKZKDFzmN3xtSzjPRTsHaum2Y1C95swvAzyi4BchwmxEuig6VocQd9AAb2zaJ4XqkrBk"
     }
   ],
   "trades": [
@@ -2498,11 +2522,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792537807.1501474,
+    "paused_until": 1792538107.3117566,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 910,
+    "cycles": 912,
     "open_positions": 689,
     "trades": 705,
     "rejected": 30,
@@ -2599,11 +2623,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004814,
+      "last_px": 0.004826,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.8896198747504926,
-      "pnl_mtm": 2.8896198747504926,
+      "pnl": 2.901898112909406,
+      "pnl_mtm": 2.901898112909406,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2683,11 +2707,11 @@
       "sym": "GODCHUD",
       "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
       "entry_px": 1.500184e-05,
-      "last_px": 2.574e-06,
+      "last_px": 2.624e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.502236832281907,
-      "pnl_mtm": -1.502236832281907,
+      "pnl": -1.496404214416365,
+      "pnl_mtm": -1.496404214416365,
       "strategy": "copy",
       "reentries": 2
     },
