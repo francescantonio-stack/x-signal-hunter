@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20 16:32",
+ "ts": "2026-10-20 16:36",
  "tokens": {
   "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump": {
    "mint": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
@@ -18,6 +18,7 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -27,12 +28,12 @@
    "sym": "DUST",
    "name": "DUST",
    "img": "https://cdn.dexscreener.com/cms/images/eU3WSRDydQHxAeg7?width=800&height=800&quality=95&format=auto",
-   "price": "0.0003225",
-   "h1": 18.65,
-   "h24": 640,
-   "mc": 314086,
-   "liq": 49503.65,
-   "vol": 572259.05,
+   "price": "0.0002933",
+   "h1": 17.91,
+   "h24": 572,
+   "mc": 285597,
+   "liq": 47089.93,
+   "vol": 575760.66,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -44,12 +45,12 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.0004829",
-   "h1": 16.93,
-   "h24": -94.89,
-   "mc": 481062,
-   "liq": 70359.61,
-   "vol": 13869465.59,
+   "price": "0.0004795",
+   "h1": 25.81,
+   "h24": -95.55,
+   "mc": 477698,
+   "liq": 70033.14,
+   "vol": 13849117.1,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -62,7 +63,7 @@
    "name": "Monero Dog",
    "img": "https://cdn.dexscreener.com/cms/images/tACCQdW6B7gz1xmV?width=800&height=800&quality=95&format=auto",
    "price": "0.000002266",
-   "h1": 5.43,
+   "h1": 5.41,
    "h24": -95.34,
    "mc": 2241,
    "liq": 2525.07,
@@ -83,7 +84,7 @@
    "name": "Twyne",
    "img": "https://cdn.dexscreener.com/cms/images/vn-CwRN8RC57I1JB?width=800&height=800&quality=95&format=auto",
    "price": "0.000002553",
-   "h1": -0.37,
+   "h1": 0.34,
    "h24": -94.1,
    "mc": 2437,
    "liq": 2860.92,
@@ -114,8 +115,10 @@
    "dex": "pumpswap",
    "score": 24,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump": {
    "mint": "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
@@ -134,8 +137,26 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
+  },
+  "3udRiYky1mbBVFLoLhheQHkESEj5H7vjPqneivU7pump": {
+   "mint": "3udRiYky1mbBVFLoLhheQHkESEj5H7vjPqneivU7pump",
+   "sym": "WATCHES",
+   "name": "WATCHES",
+   "img": "https://cdn.dexscreener.com/cms/images/RU0jErzrLFUs5_d5?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001181",
+   "h1": 23.44,
+   "h24": 257,
+   "mc": 11819.22,
+   "liq": null,
+   "vol": 34800.75,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
    ],
    "ok": false
   },
@@ -144,19 +165,21 @@
    "sym": "PEACHY",
    "name": "Justice For Peachy",
    "img": "https://cdn.dexscreener.com/cms/images/UH_AD3bZlcqivSUk?width=800&height=800&quality=95&format=auto",
-   "price": "0.00002465",
-   "h1": -11.06,
-   "h24": -11.06,
-   "mc": 24652,
-   "liq": 9.81,
-   "vol": 0.59,
+   "price": "0.000007248",
+   "h1": -73.85,
+   "h24": -73.85,
+   "mc": 7248,
+   "liq": 5.32,
+   "vol": 2.75,
    "dex": "meteora",
-   "score": 12,
-   "risks": [],
+   "score": 31,
+   "risks": [
+    "Low Liquidity"
+   ],
    "fails": [
     "mint *pump senza pool pumpswap/pumpfun",
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 10 < 1000"
+    "RugCheck danger: Low Liquidity",
+    "liquidita 5 < 1000"
    ],
    "ok": false
   },
@@ -165,37 +188,19 @@
    "sym": "PAPR",
    "name": "PAPRTRADE",
    "img": "https://cdn.dexscreener.com/cms/images/7lJ8_kHwgpihD5pr?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001309",
-   "h1": 314,
-   "h24": 314,
-   "mc": 13098.06,
+   "price": "0.00001443",
+   "h1": 356,
+   "h24": 356,
+   "mc": 14437.52,
    "liq": null,
-   "vol": 42842.58,
+   "vol": 44240.73,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
-  },
-  "FvWz1LVYNzGfLpXEYTrdzArWpRVhMpS7Pm3RPKcvpump": {
-   "mint": "FvWz1LVYNzGfLpXEYTrdzArWpRVhMpS7Pm3RPKcvpump",
-   "sym": "NARUTO",
-   "name": "Naruto",
-   "img": "https://cdn.dexscreener.com/cms/images/OnaScMsahs2l7Obj?width=800&height=800&quality=95&format=auto",
-   "price": "0.00004107",
-   "h1": -8.96,
-   "h24": -8.96,
-   "mc": 41079,
-   "liq": 16119.19,
-   "vol": 335283.79,
-   "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
   }
  },
  "lists": {
@@ -209,20 +214,20 @@
    "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump"
   ],
   "nuovi": [
+   "3udRiYky1mbBVFLoLhheQHkESEj5H7vjPqneivU7pump",
    "7ovgS4Kv8MLw8ax22FAog7bfW6Qgu5iafUMs31SDpump",
-   "HRinaBFCW3YkU9oN3EvvuHWXPssbos7unSEi97Vipump",
-   "FvWz1LVYNzGfLpXEYTrdzArWpRVhMpS7Pm3RPKcvpump"
+   "HRinaBFCW3YkU9oN3EvvuHWXPssbos7unSEi97Vipump"
   ],
   "gainers": [
    "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
    "HRinaBFCW3YkU9oN3EvvuHWXPssbos7unSEi97Vipump",
-   "FvWz1LVYNzGfLpXEYTrdzArWpRVhMpS7Pm3RPKcvpump",
+   "3udRiYky1mbBVFLoLhheQHkESEj5H7vjPqneivU7pump",
    "7ovgS4Kv8MLw8ax22FAog7bfW6Qgu5iafUMs31SDpump",
    "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
    "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",
-   "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
    "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
    "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
+   "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
    "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump"
   ]
  }
