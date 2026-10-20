@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T00:54:56Z",
+  "updated": "2026-10-20T00:59:56Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2104,6 +2104,42 @@
       "action": "buy",
       "sig": "4NZi44PLDJ2tdoyvvuG7wjrmy4mBrD1MmJNju7BsE541ginrLaGZAVrbkXqrhupNtaUYULgv9a6ZYSWUNXVUuCPu",
       "tx": "4NZi44PLDJ2tdoyvvuG7wjrmy4mBrD1MmJNju7BsE541ginrLaGZAVrbkXqrhupNtaUYULgv9a6ZYSWUNXVUuCPu"
+    },
+    {
+      "t": "2026-10-20T00:59:42Z",
+      "wallet": "Mr. Frog",
+      "mint": "SV151D5pjygAKA8aJJcKzm4wFnRX5G92Fye94jQJk7g",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "3ckwYbgnyhXFLFahbzmd4XKG3itoR2HAJKdCfws7kcwTo2a1vPMWCVFKDj6mjRu4tbADNZLf3e2eeXYtY7YSSWzw",
+      "tx": "3ckwYbgnyhXFLFahbzmd4XKG3itoR2HAJKdCfws7kcwTo2a1vPMWCVFKDj6mjRu4tbADNZLf3e2eeXYtY7YSSWzw"
+    },
+    {
+      "t": "2026-10-20T00:59:42Z",
+      "wallet": "Mr. Frog",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5zS1vpF4p8NgcGEgyHicLCpfuJvikbjmSkmPuuhsHLVoZT1WRLG7rY6v95Ah5RXxN5SoSTfSvT38FpvJBnXrCopV",
+      "tx": "5zS1vpF4p8NgcGEgyHicLCpfuJvikbjmSkmPuuhsHLVoZT1WRLG7rY6v95Ah5RXxN5SoSTfSvT38FpvJBnXrCopV"
+    },
+    {
+      "t": "2026-10-20T00:59:42Z",
+      "wallet": "Mr. Frog",
+      "mint": "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5j1vzx1aJLpn1Jub7VhzTCxbAZTmmA5fumfCd1W7AwsvcXQEvaqukbMKAhTwM2BBLeyLyrvYJ2QF4NZmps78omVU",
+      "tx": "5j1vzx1aJLpn1Jub7VhzTCxbAZTmmA5fumfCd1W7AwsvcXQEvaqukbMKAhTwM2BBLeyLyrvYJ2QF4NZmps78omVU"
     }
   ],
   "trades": [
@@ -3554,11 +3590,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004435,
+      "last_px": 0.004432,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.5018321862314985,
-      "pnl_mtm": 2.5018321862314985,
+      "pnl": 2.498762626691771,
+      "pnl_mtm": 2.498762626691771,
       "strategy": "copy",
       "reentries": 1
     },
