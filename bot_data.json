@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T08:55:20Z",
+  "updated": "2026-10-20T09:01:21Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -40,6 +40,18 @@
       "action": "buy",
       "sig": "4qirLDo9Qkw8KbqeaMVoJTz64PzSMJ3368CgtdKPcQ1CKDH6HZW7kYqA91Er4QhYMcyPjo4TbiNjz56KyaxnDs8N",
       "tx": "4qirLDo9Qkw8KbqeaMVoJTz64PzSMJ3368CgtdKPcQ1CKDH6HZW7kYqA91Er4QhYMcyPjo4TbiNjz56KyaxnDs8N"
+    },
+    {
+      "t": "2026-10-20T08:57:42Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4qNLDT9VUKfvaZ2dWS9Evdxd4YAg7SAhqaTY2Z9EAWFxaxuk2k3Rz1sZ52EuqLumjibj66LRUPzqxsCytJG2A7jK",
+      "tx": "4qNLDT9VUKfvaZ2dWS9Evdxd4YAg7SAhqaTY2Z9EAWFxaxuk2k3Rz1sZ52EuqLumjibj66LRUPzqxsCytJG2A7jK"
     }
   ],
   "trades": [
@@ -1418,12 +1430,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-20T08:54:31Z",
+      "ts": "2026-10-20T09:00:59Z",
       "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "sym": "SI276",
-      "px": 0.0007269,
-      "liq_usd": 86250.43,
-      "market_cap": 700272,
+      "px": 0.0006616,
+      "liq_usd": 82194.75,
+      "market_cap": 637375,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1452,7 +1464,7 @@
         "solgemsradar",
         "spacemancallzsolana"
       ],
-      "seen_count": 5
+      "seen_count": 8
     }
   ],
   "new_pools": [],
@@ -1490,11 +1502,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792493720.352378,
+    "paused_until": 1792494081.8996534,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 647,
+    "cycles": 648,
     "open_positions": 494,
     "trades": 544,
     "rejected": 30,
@@ -1591,11 +1603,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004439,
+      "last_px": 0.004445,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.50592493228447,
-      "pnl_mtm": 2.50592493228447,
+      "pnl": 2.5120640513639265,
+      "pnl_mtm": 2.5120640513639265,
       "strategy": "copy",
       "reentries": 1
     },
@@ -1747,11 +1759,11 @@
       "sym": "Nocity",
       "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
       "entry_px": 8.298e-05,
-      "last_px": 2.044e-06,
+      "last_px": 2.057e-06,
       "size_usd": 1.0,
       "cost": 0.018,
-      "pnl": -0.9933675584478188,
-      "pnl_mtm": -0.9933675584478188,
+      "pnl": -0.9932108941913714,
+      "pnl_mtm": -0.9932108941913714,
       "strategy": "copy",
       "reentries": 0
     }
