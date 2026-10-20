@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:16:07Z",
+  "updated": "2026-10-20T10:21:07Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1692,7 +1692,7 @@
         "solgemsradar",
         "spacemancallzsolana"
       ],
-      "seen_count": 12
+      "seen_count": 11
     },
     {
       "ts": "2026-10-20T09:30:47Z",
@@ -1822,12 +1822,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T10:16:02Z",
+      "ts": "2026-10-20T10:20:10Z",
       "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
       "sym": "ZAZA",
-      "px": 0.0001389,
-      "liq_usd": 55738.55,
-      "market_cap": 138951,
+      "px": 0.000138,
+      "liq_usd": 55557.41,
+      "market_cap": 138089,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1847,7 +1847,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 29
+      "seen_count": 31
     }
   ],
   "new_pools": [],
@@ -1885,7 +1885,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792498567.7060344,
+    "paused_until": 1792498867.8415256,
     "kill_switch": false
   },
   "v1": {
@@ -1986,11 +1986,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004409,
+      "last_px": 0.004399,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4752293368871876,
-      "pnl_mtm": 2.4752293368871876,
+      "pnl": 2.4649974717547614,
+      "pnl_mtm": 2.4649974717547614,
       "strategy": "copy",
       "reentries": 1
     },
