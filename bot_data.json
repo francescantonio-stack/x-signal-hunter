@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T09:36:45Z",
+  "updated": "2026-10-20T09:41:45Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -172,6 +172,30 @@
       "action": "buy",
       "sig": "4L5dBHWYVYVGMp8U7kQc7yNP9eL3Gn6snuQ9t3yvZj9s4VCRXepPb16o4kEp8KgjJaAb46nQav62sV2rU4MicLME",
       "tx": "4L5dBHWYVYVGMp8U7kQc7yNP9eL3Gn6snuQ9t3yvZj9s4VCRXepPb16o4kEp8KgjJaAb46nQav62sV2rU4MicLME"
+    },
+    {
+      "t": "2026-10-20T09:40:51Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4J32rkkaKJNsowdVNb35Q2tJVvB3NTkivBNsZ69g4wL5Q13dTiK8rSvt8E9cBiRn3X2nv9rtZHhNht2SwXWLp1Dn",
+      "tx": "4J32rkkaKJNsowdVNb35Q2tJVvB3NTkivBNsZ69g4wL5Q13dTiK8rSvt8E9cBiRn3X2nv9rtZHhNht2SwXWLp1Dn"
+    },
+    {
+      "t": "2026-10-20T09:41:29Z",
+      "wallet": "EustazZ",
+      "mint": "ijsLxSsvoH2ianECZivsdK7hhaM9fPp4LCuKUnspump",
+      "sym": "PROWLER",
+      "px": 6.572e-05,
+      "liq": 20432.16,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "3PWPZmuDyy9GCRHqL1Hy488LJUsPRuAsbn9g9DX7w5N4LuvRTFCMkx7U5Ub7fPjTDZKMfsU8Ar1xa4siSLp3awt1",
+      "tx": "3PWPZmuDyy9GCRHqL1Hy488LJUsPRuAsbn9g9DX7w5N4LuvRTFCMkx7U5Ub7fPjTDZKMfsU8Ar1xa4siSLp3awt1"
     }
   ],
   "trades": [
@@ -1618,7 +1642,7 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-20T09:35:48Z",
+      "ts": "2026-10-20T09:40:05Z",
       "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
       "sym": "ZAZA",
       "px": 0.0001401,
@@ -1643,7 +1667,37 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 12
+      "seen_count": 14
+    },
+    {
+      "ts": "2026-10-20T09:41:30Z",
+      "mint": "ijsLxSsvoH2ianECZivsdK7hhaM9fPp4LCuKUnspump",
+      "sym": "PROWLER",
+      "px": 6.572e-05,
+      "liq_usd": 20432.16,
+      "market_cap": 65724,
+      "wallet_names": [
+        "EustazZ"
+      ],
+      "source": "wallet:EustazZ",
+      "rug_ok": true,
+      "pair_addr": "GWiNWeJBb618M1hZoa6D731fPsrFjo4aHKPmkrX9VWGF",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792489129000,
+      "tx": "3PWPZmuDyy9GCRHqL1Hy488LJUsPRuAsbn9g9DX7w5N4LuvRTFCMkx7U5Ub7fPjTDZKMfsU8Ar1xa4siSLp3awt1",
+      "sig": "3PWPZmuDyy9GCRHqL1Hy488LJUsPRuAsbn9g9DX7w5N4LuvRTFCMkx7U5Ub7fPjTDZKMfsU8Ar1xa4siSLp3awt1",
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 35.0,
+      "liq": 70.0,
+      "holders": 20.0,
+      "total": 53.496,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -1681,13 +1735,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792496205.1020653,
+    "paused_until": 1792496505.236038,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 657,
-    "open_positions": 506,
-    "trades": 556,
+    "cycles": 659,
+    "open_positions": 512,
+    "trades": 562,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -1782,11 +1836,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004442,
+      "last_px": 0.004425,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.508994491824198,
-      "pnl_mtm": 2.508994491824198,
+      "pnl": 2.4916003210990723,
+      "pnl_mtm": 2.4916003210990723,
       "strategy": "copy",
       "reentries": 1
     },
