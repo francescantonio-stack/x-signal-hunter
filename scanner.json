@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-20 04:35",
+ "ts": "2026-10-20 04:40",
  "tokens": {
   "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump": {
    "mint": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
    "sym": "Un",
    "name": "Kim Jong Un",
    "img": "https://cdn.dexscreener.com/cms/images/pZbCdd0G5_paGMKF?width=800&height=800&quality=95&format=auto",
-   "price": "0.000005017",
-   "h1": -40.76,
-   "h24": -89.24,
-   "mc": 4783,
-   "liq": 4267.04,
-   "vol": 115190.86,
+   "price": "0.000005099",
+   "h1": -8,
+   "h24": -89.06,
+   "mc": 4861,
+   "liq": 4318.34,
+   "vol": 115195.94,
    "dex": "pumpswap",
    "score": 27,
    "risks": [
@@ -44,14 +44,14 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.01757",
-   "h1": -34.56,
-   "h24": 179,
-   "mc": 17511777,
-   "liq": 410927.64,
-   "vol": 12097735.88,
+   "price": "0.01798",
+   "h1": -37.68,
+   "h24": 185,
+   "mc": 17914342,
+   "liq": 415386.96,
+   "vol": 12103565.77,
    "dex": "pumpswap",
-   "score": 32,
+   "score": 30,
    "risks": [],
    "fails": [],
    "ok": true
@@ -94,7 +94,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -105,7 +104,7 @@
    "name": "Echo Intelligence",
    "img": "https://cdn.dexscreener.com/cms/images/piYpLI-eNuOqeyN9?width=800&height=800&quality=95&format=auto",
    "price": "0.000002286",
-   "h1": -1.85,
+   "h1": -1.88,
    "h24": -94.78,
    "mc": 2196,
    "liq": 2471.49,
@@ -116,7 +115,83 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
+  },
+  "DVeEwpYyHYTxZKW85nscc8xTXhCXQBbZAMECGU1Hpump": {
+   "mint": "DVeEwpYyHYTxZKW85nscc8xTXhCXQBbZAMECGU1Hpump",
+   "sym": "Fornum",
+   "name": "Fornum",
+   "img": "https://cdn.dexscreener.com/cms/images/iz3Zu5oDvCFrJ4KL?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001276",
+   "h1": 309,
+   "h24": 309,
+   "mc": 12762,
+   "liq": null,
+   "vol": 27699.46,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "5YHejuDXHa5CEt8f7Ebnfc1ai6r5MBdLtpi8muM4SEEK": {
+   "mint": "5YHejuDXHa5CEt8f7Ebnfc1ai6r5MBdLtpi8muM4SEEK",
+   "sym": "SEEK",
+   "name": "SOLSEEK",
+   "img": "https://cdn.dexscreener.com/cms/images/xwLHHeG_YHppSpWU?width=800&height=800&quality=95&format=auto",
+   "price": "0.000007560",
+   "h1": 142,
+   "h24": 142,
+   "mc": 7560.9,
+   "liq": null,
+   "vol": 24263.92,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump": {
+   "mint": "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
+   "sym": "DUST",
+   "name": "DUST",
+   "img": "https://cdn.dexscreener.com/cms/images/eU3WSRDydQHxAeg7?width=800&height=800&quality=95&format=auto",
+   "price": "0.0001743",
+   "h1": 300,
+   "h24": 300,
+   "mc": 169904,
+   "liq": 34745.17,
+   "vol": 275320.2,
+   "dex": "pumpswap",
+   "score": 1,
+   "risks": [],
+   "fails": [],
+   "ok": true
+  },
+  "Dp16ribzJMBicsSBeTUBDmYb8x1eNZDXRQa8mMbt2YDm": {
+   "mint": "Dp16ribzJMBicsSBeTUBDmYb8x1eNZDXRQa8mMbt2YDm",
+   "sym": "Rot Thai",
+   "name": "Rot Thai",
+   "img": "https://cdn.dexscreener.com/cms/images/5CLANtxB3DY_Q32j?width=800&height=800&quality=95&format=auto",
+   "price": "0.000003444",
+   "h1": -13.27,
+   "h24": -13.27,
+   "mc": 3444.07,
+   "liq": null,
+   "vol": 59221.98,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%",
+    "liquidita 0 < 1000"
    ],
    "ok": false
   },
@@ -125,12 +200,12 @@
    "sym": "POKEMINER",
    "name": "Pokeminer",
    "img": "https://cdn.dexscreener.com/cms/images/i2vLxc6h_LOIhLjD?width=800&height=800&quality=95&format=auto",
-   "price": "0.00002261",
-   "h1": 631,
-   "h24": 631,
-   "mc": 22619.27,
+   "price": "0.000004319",
+   "h1": 39.58,
+   "h24": 39.58,
+   "mc": 4319.1,
    "liq": null,
-   "vol": 59888.97,
+   "vol": 78369.86,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
@@ -167,95 +242,17 @@
    "sym": "BCLI",
    "name": "BLOCK CLI",
    "img": "https://cdn.dexscreener.com/cms/images/7mBMsnpKcd4skJAY?width=800&height=800&quality=95&format=auto",
-   "price": "0.00003434",
-   "h1": 153,
-   "h24": 1037,
-   "mc": 34346.9,
+   "price": "0.00003013",
+   "h1": 125,
+   "h24": 897,
+   "mc": 30134.92,
    "liq": null,
-   "vol": 101300.16,
+   "vol": 110465.25,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
     "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "B9ije4bJj57ZrPvxbecYPVJTxb3S1Q5cahc5Z4YLpump": {
-   "mint": "B9ije4bJj57ZrPvxbecYPVJTxb3S1Q5cahc5Z4YLpump",
-   "sym": "Torah",
-   "name": "Torah bot",
-   "img": "https://cdn.dexscreener.com/cms/images/y6GA7_Um_u_Q3wL1?width=800&height=800&quality=95&format=auto",
-   "price": "0.000006297",
-   "h1": 69.24,
-   "h24": 69.24,
-   "mc": 6297.36,
-   "liq": null,
-   "vol": 69818.75,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "54XyfgB9iAodwUbietZNXrV3nUWg8noHBfa3258tpump": {
-   "mint": "54XyfgB9iAodwUbietZNXrV3nUWg8noHBfa3258tpump",
-   "sym": "OSI",
-   "name": "OneShot Intelligence",
-   "img": "https://cdn.dexscreener.com/cms/images/e7fDh-tl1bJwEwe6?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001792",
-   "h1": 310,
-   "h24": 310,
-   "mc": 179212,
-   "liq": 34841.07,
-   "vol": 175787.47,
-   "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
-  },
-  "APNCCFw8Bx1ohVDBVEtvxhAm15QtBZ6hq49uNfcfSviQ": {
-   "mint": "APNCCFw8Bx1ohVDBVEtvxhAm15QtBZ6hq49uNfcfSviQ",
-   "sym": "BUTT",
-   "name": "Buttcoin",
-   "img": "https://cdn.dexscreener.com/cms/images/EUhcSJKJuLsErZu0?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001454",
-   "h1": null,
-   "h24": null,
-   "mc": 14545,
-   "liq": 9.59,
-   "vol": 0.28,
-   "dex": "meteora",
-   "score": 34,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
-    "RugCheck danger: Low Liquidity",
-    "liquidita 10 < 1000"
-   ],
-   "ok": false
-  },
-  "DxrKhpjZT82HYa5k6iNfyEf5Z94wfAHo5b2pM9X2pump": {
-   "mint": "DxrKhpjZT82HYa5k6iNfyEf5Z94wfAHo5b2pM9X2pump",
-   "sym": "GACHA",
-   "name": "Gacha",
-   "img": "https://cdn.dexscreener.com/cms/images/_M9yCncNC-HDQxQl?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001818",
-   "h1": 39.97,
-   "h24": 39.97,
-   "mc": 18188,
-   "liq": 12.45,
-   "vol": 1.07,
-   "dex": "meteora",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "mint *pump senza pool pumpswap/pumpfun",
-    "liquidita 12 < 1000"
    ],
    "ok": false
   }
@@ -270,22 +267,23 @@
    "9mBi6hL2omjfeQ5JiNdLDf7zEAmXVuSBsSU3kNm9pump"
   ],
   "nuovi": [
+   "DVeEwpYyHYTxZKW85nscc8xTXhCXQBbZAMECGU1Hpump",
+   "5YHejuDXHa5CEt8f7Ebnfc1ai6r5MBdLtpi8muM4SEEK",
+   "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
+   "Dp16ribzJMBicsSBeTUBDmYb8x1eNZDXRQa8mMbt2YDm",
    "HW2rMaowLatAmHPpMqU6SnNzyHHogWiTszs8uGhjpump",
    "9h8kRmWVBxWXoUDhy9SaViH8wU1nNHp8RE9YSJPKpump",
-   "JDnbcXGzw2SKgaAYDujbfs7rZUKfBYiwufRZtGfjpump",
-   "B9ije4bJj57ZrPvxbecYPVJTxb3S1Q5cahc5Z4YLpump",
-   "54XyfgB9iAodwUbietZNXrV3nUWg8noHBfa3258tpump",
-   "APNCCFw8Bx1ohVDBVEtvxhAm15QtBZ6hq49uNfcfSviQ",
-   "DxrKhpjZT82HYa5k6iNfyEf5Z94wfAHo5b2pM9X2pump"
+   "JDnbcXGzw2SKgaAYDujbfs7rZUKfBYiwufRZtGfjpump"
   ],
   "gainers": [
    "JDnbcXGzw2SKgaAYDujbfs7rZUKfBYiwufRZtGfjpump",
-   "HW2rMaowLatAmHPpMqU6SnNzyHHogWiTszs8uGhjpump",
-   "54XyfgB9iAodwUbietZNXrV3nUWg8noHBfa3258tpump",
+   "DVeEwpYyHYTxZKW85nscc8xTXhCXQBbZAMECGU1Hpump",
+   "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
    "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
-   "B9ije4bJj57ZrPvxbecYPVJTxb3S1Q5cahc5Z4YLpump",
-   "DxrKhpjZT82HYa5k6iNfyEf5Z94wfAHo5b2pM9X2pump",
+   "5YHejuDXHa5CEt8f7Ebnfc1ai6r5MBdLtpi8muM4SEEK",
+   "HW2rMaowLatAmHPpMqU6SnNzyHHogWiTszs8uGhjpump",
    "3qSd27nb3zyRmqbhLzH4PdeYcADqeLtjgYy2Fp4Apump",
+   "Dp16ribzJMBicsSBeTUBDmYb8x1eNZDXRQa8mMbt2YDm",
    "9h8kRmWVBxWXoUDhy9SaViH8wU1nNHp8RE9YSJPKpump",
    "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
    "9mBi6hL2omjfeQ5JiNdLDf7zEAmXVuSBsSU3kNm9pump",
