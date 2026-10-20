@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T22:35:21+0200",
+ "updated": "2026-10-20T22:39:14+0200",
  "version": "v2",
  "live_mode": false,
  "rpc": "helius",
@@ -496,6 +496,42 @@
    "action": "buy",
    "sig": "47e86sjMU49rR9cYZNDnSvQuG67YfDgwj7ZFCM1QApwcmoAYSthAwtQnEDBvLKzKrQGG2FBdmBHeztis9Z2mCmtv",
    "tx": "47e86sjMU49rR9cYZNDnSvQuG67YfDgwj7ZFCM1QApwcmoAYSthAwtQnEDBvLKzKrQGG2FBdmBHeztis9Z2mCmtv"
+  },
+  {
+   "t": "2026-10-20T20:36:26Z",
+   "wallet": "EustazZ",
+   "mint": "2RxuQDeCEgFHDEXC8wtcRiNdDH2cPgtg1uwCPNzepump",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "sell",
+   "sig": "42grj6QtNLdbA3r6FxP3RgWoXh25QkdF9R1sN4xbB4mqgnvRxV7Rch3N151yKJbrQTt6hrGhSsvDvL3jCDxpUTwP",
+   "tx": "42grj6QtNLdbA3r6FxP3RgWoXh25QkdF9R1sN4xbB4mqgnvRxV7Rch3N151yKJbrQTt6hrGhSsvDvL3jCDxpUTwP"
+  },
+  {
+   "t": "2026-10-20T20:36:53Z",
+   "wallet": "EustazZ",
+   "mint": "9xKtV2UkajvXGdc2o1uWjFnYampo71sewYcapA4rpump",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "sell",
+   "sig": "3aeQhYxR1Wqt55voojeQvrtyF52T6WE3mDo1fsPNDJHmfEGvc5t1ZTgVJnR8SKzSg2p14nEct9wZfvvgQJGUssnj",
+   "tx": "3aeQhYxR1Wqt55voojeQvrtyF52T6WE3mDo1fsPNDJHmfEGvc5t1ZTgVJnR8SKzSg2p14nEct9wZfvvgQJGUssnj"
+  },
+  {
+   "t": "2026-10-20T20:36:53Z",
+   "wallet": "EustazZ",
+   "mint": "9xKtV2UkajvXGdc2o1uWjFnYampo71sewYcapA4rpump",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "buy",
+   "sig": "EJrdSFmv9jhV2Gju2gpF1mgJs1PMASsBkC1mPx3DHUmAjQEwN7CoLLBrywH8En3CDDWCHhbcTch4ELdWx5dVquW",
+   "tx": "EJrdSFmv9jhV2Gju2gpF1mgJs1PMASsBkC1mPx3DHUmAjQEwN7CoLLBrywH8En3CDDWCHhbcTch4ELdWx5dVquW"
   }
  ],
  "trades": [
@@ -2007,38 +2043,6 @@
    "seen_count": 2
   },
   {
-   "ts": "2026-10-20T20:33:45Z",
-   "mint": "ETVsGFnykwYerYw2UY4t28G4mkkgAhtG4h6uyiqMpump",
-   "sym": "ILLUSTRATOR",
-   "px": 8.564e-05,
-   "liq_usd": 25003.11,
-   "market_cap": 82919,
-   "wallet_names": [
-    "Mitch"
-   ],
-   "source": "dex_boost",
-   "rug_ok": true,
-   "pair_addr": "ETePpUWvfVqRstmyT2vmyPZzWF33UxWFbvsKnLcMRCTm",
-   "dex_id": "pumpswap",
-   "pair_created_ms": 1792522774000,
-   "tx": null,
-   "sig": null,
-   "rug": 99.0,
-   "x": 30.0,
-   "wallets": 35.0,
-   "liq": 70.0,
-   "holders": 50.0,
-   "total": 56.88,
-   "rug_na": false,
-   "x_default": true,
-   "holders_default": false,
-   "tg": 36.2,
-   "tg_channels": [
-    "solearlytrending"
-   ],
-   "seen_count": 10
-  },
-  {
    "ts": "2026-10-20T20:34:39Z",
    "mint": "J2qYrnmRdw8nyx8rFG5D94X2KPGvwzVi594paCkppump",
    "sym": "PUNCHDOG",
@@ -2071,6 +2075,38 @@
     "solearlytrending"
    ],
    "seen_count": 15
+  },
+  {
+   "ts": "2026-10-20T20:39:09Z",
+   "mint": "ETVsGFnykwYerYw2UY4t28G4mkkgAhtG4h6uyiqMpump",
+   "sym": "ILLUSTRATOR",
+   "px": 9.901e-05,
+   "liq_usd": 27464.8,
+   "market_cap": 95869,
+   "wallet_names": [
+    "Mitch"
+   ],
+   "source": "dex_boost",
+   "rug_ok": true,
+   "pair_addr": "ETePpUWvfVqRstmyT2vmyPZzWF33UxWFbvsKnLcMRCTm",
+   "dex_id": "pumpswap",
+   "pair_created_ms": 1792522774000,
+   "tx": null,
+   "sig": null,
+   "rug": 99.0,
+   "x": 30.0,
+   "wallets": 35.0,
+   "liq": 70.0,
+   "holders": 50.0,
+   "total": 56.88,
+   "rug_na": false,
+   "x_default": true,
+   "holders_default": false,
+   "tg": 36.2,
+   "tg_channels": [
+    "solearlytrending"
+   ],
+   "seen_count": 12
   }
  ],
  "new_pools": [],
@@ -2108,11 +2144,11 @@
  "protections": {
   "daily_pnl": 189.3353340948389,
   "consecutive_losses": 6,
-  "paused_until": 1792535709.2977843,
+  "paused_until": 1792535951.63018,
   "kill_switch": false
  },
  "v1": {
-  "cycles": 892,
+  "cycles": 893,
   "open_positions": 685,
   "trades": 691,
   "rejected": 30,
@@ -2250,11 +2286,11 @@
    "sym": "PUMP",
    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "entry_px": 0.001954677836459661,
-   "last_px": 0.004688,
+   "last_px": 0.004705,
    "size_usd": 2.0,
    "cost": 0.036,
-   "pnl": 2.7606983740819095,
-   "pnl_mtm": 2.7606983740819095,
+   "pnl": 2.7780925448070355,
+   "pnl_mtm": 2.7780925448070355,
    "strategy": "copy",
    "reentries": 1
   },
