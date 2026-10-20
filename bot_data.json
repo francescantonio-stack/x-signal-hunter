@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-20T05:44:27Z",
+  "updated": "2026-10-20T05:49:21Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-20T02:55:24Z",
-      "wallet": "Mr. Frog",
-      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-      "sym": "PUMP",
-      "px": 0.004433,
-      "liq": 23483635.31,
-      "rug_ok": true,
-      "action": "buy",
-      "sig": "2zMoyNEpxVvTy38QwCiSE4acRqi6bnhJfo4v921GJjywyJM7hL5xmLbbbT7EgwJW4LRVdSdxhXJxkC6PrbPFvkAG",
-      "tx": "2zMoyNEpxVvTy38QwCiSE4acRqi6bnhJfo4v921GJjywyJM7hL5xmLbbbT7EgwJW4LRVdSdxhXJxkC6PrbPFvkAG"
-    },
     {
       "t": "2026-10-20T02:55:25Z",
       "wallet": "Mr. Frog",
@@ -2404,6 +2392,18 @@
       "action": "buy",
       "sig": "Ym5sad6jAJHtdVy1WxKFMyeBYC4gQi8Ac9ajskdMmczhgDcUBbSgSBnGqtPdq1k4V88BQw859P2WPCeVs68tjK6",
       "tx": "Ym5sad6jAJHtdVy1WxKFMyeBYC4gQi8Ac9ajskdMmczhgDcUBbSgSBnGqtPdq1k4V88BQw859P2WPCeVs68tjK6"
+    },
+    {
+      "t": "2026-10-20T05:45:42Z",
+      "wallet": "Mr. Frog",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "PUMP",
+      "px": 0.004405,
+      "liq": 23409304.04,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "5wdhzZhRGVmzW2GvR8AFRB2JT7KnMyVPTnjPnq7wkMzzWzwo6LrEfSZkCLtZHXNc7jWk8VUXMG1pFA7LWAANTxC7",
+      "tx": "5wdhzZhRGVmzW2GvR8AFRB2JT7KnMyVPTnjPnq7wkMzzWzwo6LrEfSZkCLtZHXNc7jWk8VUXMG1pFA7LWAANTxC7"
     }
   ],
   "trades": [
@@ -3809,7 +3809,7 @@
       "tg_channels": [
         "CMC_CG_NewList"
       ],
-      "seen_count": 3
+      "seen_count": 1
     },
     {
       "ts": "2026-10-20T05:23:21Z",
@@ -3875,50 +3875,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-20T05:42:24Z",
-      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-      "sym": "PUMP",
-      "px": 0.00438,
-      "liq_usd": 23342632.7,
-      "market_cap": 2024870514,
-      "wallet_names": [
-        "Frost",
-        "EustazZ",
-        "Mitch"
-      ],
-      "source": "wallet:Mr. Frog",
-      "rug_ok": true,
-      "pair_addr": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1752512149000,
-      "tx": "Ym5sad6jAJHtdVy1WxKFMyeBYC4gQi8Ac9ajskdMmczhgDcUBbSgSBnGqtPdq1k4V88BQw859P2WPCeVs68tjK6",
-      "sig": "Ym5sad6jAJHtdVy1WxKFMyeBYC4gQi8Ac9ajskdMmczhgDcUBbSgSBnGqtPdq1k4V88BQw859P2WPCeVs68tjK6",
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 100.0,
-      "liq": 100.0,
-      "holders": 20.0,
-      "total": 77.296,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 100.0,
-      "tg_channels": [
-        "CMC_CG_NewList",
-        "mad_apes_gambles",
-        "realsolanahome",
-        "solearlytrending",
-        "solgemsradar"
-      ],
-      "seen_count": 3
-    },
-    {
-      "ts": "2026-10-20T05:43:24Z",
+      "ts": "2026-10-20T05:45:29Z",
       "mint": "5YY5qcnh5F3JaAybXqr5wLvb2GXZcE34GgE7DPyzpump",
       "sym": "LEONIDA",
-      "px": 0.0001578,
-      "liq_usd": 32771.74,
-      "market_cap": 155641,
+      "px": 0.0001579,
+      "liq_usd": 32819.63,
+      "market_cap": 155718,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3943,12 +3905,50 @@
       "seen_count": 21
     },
     {
-      "ts": "2026-10-20T05:43:42Z",
+      "ts": "2026-10-20T05:45:44Z",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "PUMP",
+      "px": 0.004405,
+      "liq_usd": 23409304.04,
+      "market_cap": 2036454720,
+      "wallet_names": [
+        "Frost",
+        "EustazZ",
+        "Mitch"
+      ],
+      "source": "wallet:Mr. Frog",
+      "rug_ok": true,
+      "pair_addr": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1752512149000,
+      "tx": "5wdhzZhRGVmzW2GvR8AFRB2JT7KnMyVPTnjPnq7wkMzzWzwo6LrEfSZkCLtZHXNc7jWk8VUXMG1pFA7LWAANTxC7",
+      "sig": "5wdhzZhRGVmzW2GvR8AFRB2JT7KnMyVPTnjPnq7wkMzzWzwo6LrEfSZkCLtZHXNc7jWk8VUXMG1pFA7LWAANTxC7",
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 100.0,
+      "liq": 100.0,
+      "holders": 20.0,
+      "total": 77.296,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 100.0,
+      "tg_channels": [
+        "CMC_CG_NewList",
+        "mad_apes_gambles",
+        "realsolanahome",
+        "solearlytrending",
+        "solgemsradar"
+      ],
+      "seen_count": 4
+    },
+    {
+      "ts": "2026-10-20T05:45:48Z",
       "mint": "547mPBDKVshVHz1JN54ENUZ9w2wwiZf3x2ctjvnipump",
       "sym": "TROAD",
-      "px": 5.148e-05,
-      "liq_usd": 18475.81,
-      "market_cap": 49586,
+      "px": 4.838e-05,
+      "liq_usd": 17884.18,
+      "market_cap": 46598,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3970,7 +3970,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 19
+      "seen_count": 20
     }
   ],
   "new_pools": [],
@@ -4008,11 +4008,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792482267.3364065,
+    "paused_until": 1792482561.3426776,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 588,
+    "cycles": 589,
     "open_positions": 461,
     "trades": 509,
     "rejected": 30,
@@ -4109,11 +4109,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004404,
+      "last_px": 0.004414,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.470113404320974,
-      "pnl_mtm": 2.470113404320974,
+      "pnl": 2.480345269453402,
+      "pnl_mtm": 2.480345269453402,
       "strategy": "copy",
       "reentries": 1
     },

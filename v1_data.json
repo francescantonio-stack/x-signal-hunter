@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T07:44:17+0200",
- "source_updated_at": "2026-10-20T07:44:17+0200",
+ "generated_at": "2026-10-20T07:46:16+0200",
+ "source_updated_at": "2026-10-20T07:46:16+0200",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -281,7 +281,7 @@
    "lag_fill_from_block_s": 0.7,
    "wallet_px_usd": 0.0002234,
    "our_px_usd": 0.0002234,
-   "mult": 0.4009,
+   "mult": 0.4371,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -353,7 +353,7 @@
    "lag_fill_from_block_s": 6.3,
    "wallet_px_usd": 0.0002234,
    "our_px_usd": 0.0002234,
-   "mult": 0.4009,
+   "mult": 0.4371,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -425,7 +425,7 @@
    "lag_fill_from_block_s": 34.9,
    "wallet_px_usd": 0.0002234,
    "our_px_usd": 0.0002358,
-   "mult": 0.3798,
+   "mult": 0.4141,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1121,7 +1121,7 @@
    "lag_fill_from_block_s": 0.6,
    "wallet_px_usd": 0.0001139,
    "our_px_usd": 0.0001139,
-   "mult": 0.0296,
+   "mult": 0.0302,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1193,7 +1193,7 @@
    "lag_fill_from_block_s": 6.3,
    "wallet_px_usd": 0.0001139,
    "our_px_usd": 0.0001139,
-   "mult": 0.0296,
+   "mult": 0.0302,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1265,7 +1265,7 @@
    "lag_fill_from_block_s": 31.3,
    "wallet_px_usd": 0.0001139,
    "our_px_usd": 0.0001316,
-   "mult": 0.0256,
+   "mult": 0.0262,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -3539,7 +3539,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 1.014e-05,
    "our_px_usd": 1.014e-05,
-   "mult": 0.2737,
+   "mult": 0.2715,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -3625,7 +3625,7 @@
    "lag_fill_from_block_s": 30.6,
    "wallet_px_usd": 1.014e-05,
    "our_px_usd": 1.759e-05,
-   "mult": 0.1578,
+   "mult": 0.1565,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -3742,7 +3742,7 @@
    "lag_fill_from_block_s": 5.5,
    "wallet_px_usd": 1.481e-05,
    "our_px_usd": 1.481e-05,
-   "mult": 0.1874,
+   "mult": 0.1859,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -4487,7 +4487,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 5.546e-05,
    "our_px_usd": 5.546e-05,
-   "mult": 3.8334,
+   "mult": 3.8604,
    "pnl_usdc": 4.000804,
    "closed": false,
    "sells": [
@@ -4602,7 +4602,7 @@
    "lag_fill_from_block_s": 5.5,
    "wallet_px_usd": 5.546e-05,
    "our_px_usd": 5.546e-05,
-   "mult": 3.8334,
+   "mult": 3.8604,
    "pnl_usdc": 4.000804,
    "closed": false,
    "sells": [
@@ -4693,7 +4693,7 @@
    "lag_fill_from_block_s": 30.5,
    "wallet_px_usd": 5.546e-05,
    "our_px_usd": 5.291e-05,
-   "mult": 4.0181,
+   "mult": 4.0465,
    "pnl_usdc": 4.235312,
    "closed": false,
    "sells": [
@@ -5408,7 +5408,7 @@
    "lag_fill_from_block_s": 5.5,
    "wallet_px_usd": 0.0001706,
    "our_px_usd": 0.0001706,
-   "mult": 1.0363,
+   "mult": 1.1184,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -5480,7 +5480,7 @@
    "lag_fill_from_block_s": 30.6,
    "wallet_px_usd": 0.0001706,
    "our_px_usd": 0.0001733,
-   "mult": 1.0202,
+   "mult": 1.101,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -13099,7 +13099,7 @@
    "lag_fill_from_block_s": 30.5,
    "wallet_px_usd": 5.549e-05,
    "our_px_usd": 4.079e-05,
-   "mult": 0.0494,
+   "mult": 0.0493,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -13132,87 +13132,6 @@
  ],
  "rejected_last": [
   {
-   "t": "2026-10-20T07:35:27+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.5,
-   "wallet": "Mitch",
-   "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Top 10 holders high ownership",
-    "RugCheck danger: Single holder ownership"
-   ]
-  },
-  {
-   "t": "2026-10-20T07:35:27+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.6,
-   "wallet": "Mitch",
-   "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Top 10 holders high ownership",
-    "RugCheck danger: Single holder ownership"
-   ]
-  },
-  {
-   "t": "2026-10-20T07:35:27+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.6,
-   "wallet": "Mitch",
-   "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Top 10 holders high ownership",
-    "RugCheck danger: Single holder ownership"
-   ]
-  },
-  {
-   "t": "2026-10-20T07:38:25+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Trunoest",
-   "mint": "2vP46f4dfuPY8DC4fo1P8Mng53oNfZtwpjKkf4JWpump",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-20T07:38:25+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Trunoest",
-   "mint": "2vP46f4dfuPY8DC4fo1P8Mng53oNfZtwpjKkf4JWpump",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-20T07:38:25+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Trunoest",
-   "mint": "2vP46f4dfuPY8DC4fo1P8Mng53oNfZtwpjKkf4JWpump",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
    "t": "2026-10-20T07:38:31+0200",
    "mode": "N1",
    "size_usdc": 1.0,
@@ -13512,6 +13431,78 @@
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 30.5,
+   "wallet": "Mr. Frog",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-10-20T07:45:43+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mr. Frog",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-10-20T07:45:43+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mr. Frog",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-10-20T07:45:43+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mr. Frog",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-10-20T07:45:48+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.5,
+   "wallet": "Mr. Frog",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-10-20T07:45:48+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.5,
+   "wallet": "Mr. Frog",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-10-20T07:45:48+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.5,
    "wallet": "Mr. Frog",
    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "reasons": [
@@ -13519,7 +13510,7 @@
    ]
   }
  ],
- "cycles": 588,
+ "cycles": 589,
  "notes": "PnL in USDC; no per-trade stop (Max: size is the stop); paper-v2",
  "S_blocked_still_in": 133,
  "S_blocked_by_delay": {
