@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T12:31:03Z",
+  "updated": "2026-10-20T12:36:03Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2424,7 +2424,7 @@
       "tg_channels": [
         "pumpfunearlytrending"
       ],
-      "seen_count": 8
+      "seen_count": 6
     },
     {
       "ts": "2026-10-20T12:10:37Z",
@@ -2562,15 +2562,15 @@
         "CMC_CG_NewList",
         "spidersjournal"
       ],
-      "seen_count": 7
+      "seen_count": 5
     },
     {
-      "ts": "2026-10-20T12:29:39Z",
+      "ts": "2026-10-20T12:33:57Z",
       "mint": "BLoVgMLRxxhq3X5x9s7KxaNhnQeMf5Lt7MrEpBkjpump",
       "sym": "handle",
-      "px": 1.684e-05,
-      "liq_usd": 9348.39,
-      "market_cap": 15873,
+      "px": 1.652e-05,
+      "liq_usd": 9249.28,
+      "market_cap": 15577,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2590,15 +2590,15 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 7
+      "seen_count": 9
     },
     {
-      "ts": "2026-10-20T12:29:40Z",
+      "ts": "2026-10-20T12:33:58Z",
       "mint": "CYGidBuS8WwUXfZCmb98LnLGL9Mx8SvhdqA6t3xTLoch",
       "sym": "LOCH",
-      "px": 2.904e-05,
-      "liq_usd": 15078.97,
-      "market_cap": 28081,
+      "px": 3.014e-05,
+      "liq_usd": 15351.78,
+      "market_cap": 29147,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2618,7 +2618,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 13
+      "seen_count": 15
     }
   ],
   "new_pools": [],
@@ -2656,7 +2656,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792506663.2955186,
+    "paused_until": 1792506963.4823756,
     "kill_switch": false
   },
   "v1": {
@@ -2757,11 +2757,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004462,
+      "last_px": 0.004436,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.5294582220890525,
-      "pnl_mtm": 2.5294582220890525,
+      "pnl": 2.5028553727447416,
+      "pnl_mtm": 2.5028553727447416,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2793,11 +2793,11 @@
       "sym": "GATOCLAUDI",
       "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
       "entry_px": 9.675692410926351e-06,
-      "last_px": 2.095e-06,
+      "last_px": 2.088e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -2.011195070330521,
-      "pnl_mtm": -2.011195070330521,
+      "pnl": -2.0130037264201084,
+      "pnl_mtm": -2.0130037264201084,
       "strategy": "copy",
       "reentries": 2
     },
