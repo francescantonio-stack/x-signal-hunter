@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:26:07Z",
+  "updated": "2026-10-20T10:33:10Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -292,6 +292,18 @@
       "action": "buy",
       "sig": "zAQQbEJ6rMN3hWdDFYGRYxaH6i4vGmQnJPz6mgF3R52bd1SWjZLCKJEqESfFpRRRtXmKhxzndTuokVdXxY68iff",
       "tx": "zAQQbEJ6rMN3hWdDFYGRYxaH6i4vGmQnJPz6mgF3R52bd1SWjZLCKJEqESfFpRRRtXmKhxzndTuokVdXxY68iff"
+    },
+    {
+      "t": "2026-10-20T10:29:56Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "21frqYe5ZnJ1RbQuBZjzmK19VrYiJbt44RmrxQYRdL4fxj47qnjh5fsq5kUYyy3zmoPd8HdMxYUVRBJwJmHwxhE2",
+      "tx": "21frqYe5ZnJ1RbQuBZjzmK19VrYiJbt44RmrxQYRdL4fxj47qnjh5fsq5kUYyy3zmoPd8HdMxYUVRBJwJmHwxhE2"
     }
   ],
   "trades": [
@@ -1704,7 +1716,7 @@
         "solgemsradar",
         "spacemancallzsolana"
       ],
-      "seen_count": 9
+      "seen_count": 7
     },
     {
       "ts": "2026-10-20T09:30:47Z",
@@ -1834,7 +1846,7 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T10:24:25Z",
+      "ts": "2026-10-20T10:28:50Z",
       "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
       "sym": "ZAZA",
       "px": 0.0001379,
@@ -1859,7 +1871,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 33
+      "seen_count": 35
     }
   ],
   "new_pools": [],
@@ -1897,11 +1909,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792499167.9855225,
+    "paused_until": 1792499590.1658945,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 667,
+    "cycles": 668,
     "open_positions": 533,
     "trades": 583,
     "rejected": 30,
@@ -1998,11 +2010,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004429,
+      "last_px": 0.004412,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4956930671520428,
-      "pnl_mtm": 2.4956930671520428,
+      "pnl": 2.478298896426917,
+      "pnl_mtm": 2.478298896426917,
       "strategy": "copy",
       "reentries": 1
     },
