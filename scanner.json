@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20 15:08",
+ "ts": "2026-10-20 15:13",
  "tokens": {
   "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump": {
    "mint": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
@@ -27,12 +27,12 @@
    "sym": "DUST",
    "name": "DUST",
    "img": "https://cdn.dexscreener.com/cms/images/eU3WSRDydQHxAeg7?width=800&height=800&quality=95&format=auto",
-   "price": "0.0002178",
-   "h1": 1.66,
-   "h24": 399,
-   "mc": 212118,
-   "liq": 39618.56,
-   "vol": 517095.78,
+   "price": "0.0002190",
+   "h1": 6.73,
+   "h24": 402,
+   "mc": 213319,
+   "liq": 39721.04,
+   "vol": 517239.33,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -44,17 +44,19 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.0003628",
-   "h1": -64.79,
-   "h24": -95.99,
-   "mc": 361459,
-   "liq": 59498.45,
-   "vol": 14084572.99,
+   "price": "0.0005103",
+   "h1": -52.82,
+   "h24": -94.17,
+   "mc": 508353,
+   "liq": 70953.91,
+   "vol": 14085368.66,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump": {
    "mint": "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
@@ -62,7 +64,7 @@
    "name": "Monero Dog",
    "img": "https://cdn.dexscreener.com/cms/images/tACCQdW6B7gz1xmV?width=800&height=800&quality=95&format=auto",
    "price": "0.000002154",
-   "h1": 0.56,
+   "h1": 0.77,
    "h24": -95.57,
    "mc": 2130,
    "liq": 2407.13,
@@ -73,7 +75,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -83,12 +84,12 @@
    "sym": "Twyne",
    "name": "Twyne",
    "img": "https://cdn.dexscreener.com/cms/images/vn-CwRN8RC57I1JB?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002574",
-   "h1": -2.54,
-   "h24": -94.05,
-   "mc": 2457,
-   "liq": 2881.35,
-   "vol": 1408966.19,
+   "price": "0.000002562",
+   "h1": -2.99,
+   "h24": -94.08,
+   "mc": 2446,
+   "liq": 2870.01,
+   "vol": 1408972.67,
    "dex": "pumpswap",
    "score": 55,
    "risks": [
@@ -96,6 +97,7 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Creator history of rugged tokens",
     "RugCheck danger: Low Liquidity"
    ],
@@ -106,14 +108,14 @@
    "sym": "SNACKS",
    "name": "Snacks",
    "img": "https://cdn.dexscreener.com/cms/images/EcnOmQ0ExP5JprNl?width=800&height=800&quality=95&format=auto",
-   "price": "0.000006146",
-   "h1": -18.35,
-   "h24": -94.93,
-   "mc": 5996,
-   "liq": 5352.33,
-   "vol": 1262283.29,
+   "price": "0.000005850",
+   "h1": -20.38,
+   "h24": -95.17,
+   "mc": 5708,
+   "liq": 5177.5,
+   "vol": 1262370.33,
    "dex": "pumpswap",
-   "score": 23,
+   "score": 24,
    "risks": [],
    "fails": [],
    "ok": true
@@ -123,12 +125,12 @@
    "sym": "broomy",
    "name": "broom cat",
    "img": "https://cdn.dexscreener.com/cms/images/gripK0sKO5kVQnml?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002805",
-   "h1": -3.76,
+   "price": "0.000002804",
+   "h1": -1.56,
    "h24": -95.63,
-   "mc": 2735,
-   "liq": 2924.45,
-   "vol": 663843.1,
+   "mc": 2734,
+   "liq": 2924.11,
+   "vol": 663843.42,
    "dex": "pumpswap",
    "score": 31,
    "risks": [
@@ -139,21 +141,39 @@
    ],
    "ok": false
   },
+  "Edg7Cmy63tccrQBY7Whx1sLVazxvC6CS7CABoeigpump": {
+   "mint": "Edg7Cmy63tccrQBY7Whx1sLVazxvC6CS7CABoeigpump",
+   "sym": "UBI",
+   "name": "Unemployed, But Investing",
+   "img": "https://cdn.dexscreener.com/cms/images/_2kmB4HNfidd48bl?width=800&height=800&quality=95&format=auto",
+   "price": "0.00004150",
+   "h1": -3.41,
+   "h24": -3.41,
+   "mc": 41502,
+   "liq": 15719.84,
+   "vol": 64634.27,
+   "dex": "pumpswap",
+   "score": 1,
+   "risks": [],
+   "fails": [],
+   "ok": true
+  },
   "6nM3X8J4H1ay3pCnJHYngGCz3iC4gXRRCu1paZdSpump": {
    "mint": "6nM3X8J4H1ay3pCnJHYngGCz3iC4gXRRCu1paZdSpump",
    "sym": "PumpCards",
    "name": "Pump Cards",
    "img": "https://cdn.dexscreener.com/cms/images/UX3Xcgjs0su2mS9X?width=800&height=800&quality=95&format=auto",
-   "price": "0.000008604",
-   "h1": 176,
-   "h24": 176,
-   "mc": 8604.96,
+   "price": "0.000003114",
+   "h1": -0.11,
+   "h24": -0.11,
+   "mc": 3114.24,
    "liq": null,
-   "vol": 10388.74,
+   "vol": 12566.47,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -163,16 +183,20 @@
    "sym": "eBCSH",
    "name": "eBitcoinCash",
    "img": "https://cdn.dexscreener.com/cms/images/PBSz_IKlVXI8xjCC?width=800&height=800&quality=95&format=auto",
-   "price": "0.00002028",
-   "h1": 139,
-   "h24": 139,
-   "mc": 20289.1,
+   "price": "0.00003318",
+   "h1": 290,
+   "h24": 290,
+   "mc": 33189.83,
    "liq": null,
-   "vol": 45691.77,
+   "vol": 55390.91,
    "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
+   "score": 36,
+   "risks": [
+    "Low Liquidity"
+   ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Low Liquidity",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -182,12 +206,12 @@
    "sym": "MUNK",
    "name": "Munk",
    "img": "https://cdn.dexscreener.com/cms/images/lJfC_37rdJfzhXWD?width=800&height=800&quality=95&format=auto",
-   "price": "0.00002233",
-   "h1": 660,
-   "h24": 660,
-   "mc": 22332.35,
+   "price": "0.00001831",
+   "h1": 523,
+   "h24": 523,
+   "mc": 18315.9,
    "liq": null,
-   "vol": 18852.47,
+   "vol": 25308.02,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
@@ -201,29 +225,31 @@
    "sym": "PUMPKIN",
    "name": "Pumpkin Bot",
    "img": "https://cdn.dexscreener.com/cms/images/1_s5UkogC7Qxtkz_?width=800&height=800&quality=95&format=auto",
-   "price": "0.00005190",
-   "h1": -10.69,
-   "h24": 7.44,
-   "mc": 49956,
-   "liq": 18497.23,
-   "vol": 302998.2,
+   "price": "0.00005025",
+   "h1": -12.99,
+   "h24": 4.01,
+   "mc": 48363,
+   "liq": 18154.93,
+   "vol": 304270.74,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "9oAeUdPB8xbZJoP2F12h4HRYvkHaUEojVFQbaTgbpump": {
    "mint": "9oAeUdPB8xbZJoP2F12h4HRYvkHaUEojVFQbaTgbpump",
    "sym": "Laura",
    "name": "Forever Laura",
    "img": "https://cdn.dexscreener.com/cms/images/oCORA-R8_tfnBGrB?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001851",
-   "h1": 131,
-   "h24": 426,
-   "mc": 18512.94,
+   "price": "0.00003134",
+   "h1": 704,
+   "h24": 790,
+   "mc": 31344.4,
    "liq": null,
-   "vol": 77163.8,
+   "vol": 94639.78,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
@@ -237,12 +263,12 @@
    "sym": "DICK",
    "name": "Dickcoin",
    "img": "https://cdn.dexscreener.com/cms/images/5q8Pmd2PfEdBzlyM?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001095",
-   "h1": -10.12,
-   "h24": -10.12,
-   "mc": 10955,
-   "liq": 9.68,
-   "vol": 0.52,
+   "price": "0.000008537",
+   "h1": -29.95,
+   "h24": -29.95,
+   "mc": 8538,
+   "liq": 8.54,
+   "vol": 1.04,
    "dex": "meteora",
    "score": 70,
    "risks": [
@@ -253,30 +279,7 @@
     "mint *pump senza pool pumpswap/pumpfun",
     "RugCheck danger: Creator history of rugged tokens",
     "RugCheck danger: Low Liquidity",
-    "liquidita 10 < 1000"
-   ],
-   "ok": false
-  },
-  "AfrJ94Z9F93GYpU5uytkr3pgLrwv5XYqMSUUgyyipump": {
-   "mint": "AfrJ94Z9F93GYpU5uytkr3pgLrwv5XYqMSUUgyyipump",
-   "sym": "Lovot",
-   "name": "Lovot",
-   "img": "https://cdn.dexscreener.com/cms/images/6C8xOexQGVUrCWuj?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001293",
-   "h1": -38.27,
-   "h24": -38.27,
-   "mc": 12931,
-   "liq": 72.91,
-   "vol": 23.16,
-   "dex": "meteora",
-   "score": 33,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
-    "mint *pump senza pool pumpswap/pumpfun",
-    "RugCheck danger: Low Liquidity",
-    "liquidita 73 < 1000"
+    "liquidita 9 < 1000"
    ],
    "ok": false
   }
@@ -292,29 +295,29 @@
    "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump"
   ],
   "nuovi": [
+   "Edg7Cmy63tccrQBY7Whx1sLVazxvC6CS7CABoeigpump",
    "6nM3X8J4H1ay3pCnJHYngGCz3iC4gXRRCu1paZdSpump",
    "EpZiP6sJBcZGnvfd3oX68Sx4cV1CKBcAGHo9u7Uypump",
    "577aGvMQ33ZMrhX961nk91otCkpUSH6GwEauQ38Ppump",
    "EkMkUTr4XYUTpyJQBvEYhZmz64xJogN829hEqTeBZvWb",
    "9oAeUdPB8xbZJoP2F12h4HRYvkHaUEojVFQbaTgbpump",
-   "AJqeh2WQst7wd4XipvV7fvrKCyHaN4qdmzZsacHHpump",
-   "AfrJ94Z9F93GYpU5uytkr3pgLrwv5XYqMSUUgyyipump"
+   "AJqeh2WQst7wd4XipvV7fvrKCyHaN4qdmzZsacHHpump"
   ],
   "gainers": [
-   "577aGvMQ33ZMrhX961nk91otCkpUSH6GwEauQ38Ppump",
    "9oAeUdPB8xbZJoP2F12h4HRYvkHaUEojVFQbaTgbpump",
+   "577aGvMQ33ZMrhX961nk91otCkpUSH6GwEauQ38Ppump",
    "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
-   "6nM3X8J4H1ay3pCnJHYngGCz3iC4gXRRCu1paZdSpump",
    "EpZiP6sJBcZGnvfd3oX68Sx4cV1CKBcAGHo9u7Uypump",
    "EkMkUTr4XYUTpyJQBvEYhZmz64xJogN829hEqTeBZvWb",
+   "6nM3X8J4H1ay3pCnJHYngGCz3iC4gXRRCu1paZdSpump",
+   "Edg7Cmy63tccrQBY7Whx1sLVazxvC6CS7CABoeigpump",
    "AJqeh2WQst7wd4XipvV7fvrKCyHaN4qdmzZsacHHpump",
-   "AfrJ94Z9F93GYpU5uytkr3pgLrwv5XYqMSUUgyyipump",
    "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
    "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",
+   "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
    "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
    "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
-   "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
-   "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump"
+   "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump"
   ]
  }
 }
