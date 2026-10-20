@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:39:57Z",
+  "updated": "2026-10-20T10:44:57Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -328,6 +328,18 @@
       "action": "buy",
       "sig": "52S1G7k9e1keTtZ6hNxnQnoPiqHHpJ3zgbaH78mYnzBE49nLJNDn9frEQ521JBGBGgxAEtndAL3fujyCa9MBv9v5",
       "tx": "52S1G7k9e1keTtZ6hNxnQnoPiqHHpJ3zgbaH78mYnzBE49nLJNDn9frEQ521JBGBGgxAEtndAL3fujyCa9MBv9v5"
+    },
+    {
+      "t": "2026-10-20T10:43:51Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "yAYpYTFDxUheocJyTmW7e8pa3bouHmdv3J1SZzYxPkx59dNDq5CEsd7Muq6PzwLsF761azi8cDHumWYio8r8Dpf",
+      "tx": "yAYpYTFDxUheocJyTmW7e8pa3bouHmdv3J1SZzYxPkx59dNDq5CEsd7Muq6PzwLsF761azi8cDHumWYio8r8Dpf"
     }
   ],
   "trades": [
@@ -1740,7 +1752,7 @@
         "solgemsradar",
         "spacemancallzsolana"
       ],
-      "seen_count": 4
+      "seen_count": 2
     },
     {
       "ts": "2026-10-20T09:30:47Z",
@@ -1870,12 +1882,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T10:39:34Z",
+      "ts": "2026-10-20T10:43:39Z",
       "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
       "sym": "ZAZA",
-      "px": 0.0001384,
-      "liq_usd": 55686.28,
-      "market_cap": 138421,
+      "px": 0.0001383,
+      "liq_usd": 55663.68,
+      "market_cap": 138350,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1895,7 +1907,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 38
+      "seen_count": 40
     }
   ],
   "new_pools": [],
@@ -1933,11 +1945,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792499997.736106,
+    "paused_until": 1792500297.8709207,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 670,
+    "cycles": 671,
     "open_positions": 533,
     "trades": 583,
     "rejected": 30,
@@ -2034,11 +2046,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004405,
+      "last_px": 0.004379,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.471136590834217,
-      "pnl_mtm": 2.471136590834217,
+      "pnl": 2.444533741489906,
+      "pnl_mtm": 2.444533741489906,
       "strategy": "copy",
       "reentries": 1
     },
