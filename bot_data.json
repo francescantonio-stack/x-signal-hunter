@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T12:48:02Z",
+  "updated": "2026-10-20T12:55:31Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2476,7 +2476,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 4
+      "seen_count": 1
     },
     {
       "ts": "2026-10-20T12:14:29Z",
@@ -2585,12 +2585,12 @@
       "seen_count": 4
     },
     {
-      "ts": "2026-10-20T12:47:05Z",
+      "ts": "2026-10-20T12:55:12Z",
       "mint": "BLoVgMLRxxhq3X5x9s7KxaNhnQeMf5Lt7MrEpBkjpump",
       "sym": "handle",
-      "px": 1.652e-05,
-      "liq_usd": 9249.28,
-      "market_cap": 15577,
+      "px": 1.742e-05,
+      "liq_usd": 9551.16,
+      "market_cap": 16422,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2612,15 +2612,15 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 15
+      "seen_count": 18
     },
     {
-      "ts": "2026-10-20T12:47:06Z",
+      "ts": "2026-10-20T12:55:13Z",
       "mint": "CYGidBuS8WwUXfZCmb98LnLGL9Mx8SvhdqA6t3xTLoch",
       "sym": "LOCH",
-      "px": 3.595e-05,
-      "liq_usd": 16779.53,
-      "market_cap": 34763,
+      "px": 2.989e-05,
+      "liq_usd": 15297.71,
+      "market_cap": 28902,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2678,7 +2678,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792507682.196694,
+    "paused_until": 1792508131.866305,
     "kill_switch": false
   },
   "v1": {
@@ -2731,11 +2731,11 @@
       "sym": "KALMER",
       "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
       "entry_px": 3.542811884421892e-06,
-      "last_px": 2.026e-06,
+      "last_px": 2.038e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.1228446400100085,
-      "pnl_mtm": -1.1228446400100085,
+      "pnl": -1.1143767899014796,
+      "pnl_mtm": -1.1143767899014796,
       "strategy": "copy",
       "reentries": 2
     },
@@ -2779,11 +2779,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004486,
+      "last_px": 0.004483,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.554014698406879,
-      "pnl_mtm": 2.554014698406879,
+      "pnl": 2.55094513886715,
+      "pnl_mtm": 2.55094513886715,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2935,11 +2935,11 @@
       "sym": "Nocity",
       "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
       "entry_px": 8.298e-05,
-      "last_px": 2.041e-06,
+      "last_px": 2.067e-06,
       "size_usd": 1.0,
       "cost": 0.018,
-      "pnl": -0.9934037117377682,
-      "pnl_mtm": -0.9934037117377682,
+      "pnl": -0.9930903832248735,
+      "pnl_mtm": -0.9930903832248735,
       "strategy": "copy",
       "reentries": 0
     }
