@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T15:34:50Z",
+  "updated": "2026-10-20T15:38:51Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1507,6 +1507,36 @@
         "solearlytrending"
       ],
       "seen_count": 15
+    },
+    {
+      "ts": "2026-10-20T15:35:05Z",
+      "mint": "fpam8wyNiDSHtwx1znYeipGgRNnBcBTcN1iechcpump",
+      "sym": "DARKCAT",
+      "px": 0.0004898,
+      "liq_usd": 60419.31,
+      "market_cap": 482697,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "8zWfFv4ecULvsStkjZY1SdsjDgjroZvYRM2vzANNF2ko",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792490568000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 49.52,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 26.2,
+      "tg_channels": [
+        "solearlytrending"
+      ],
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -1544,7 +1574,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792517690.641757,
+    "paused_until": 1792517931.3874528,
     "kill_switch": false
   },
   "v1": {
@@ -1645,11 +1675,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.00452,
+      "last_px": 0.004519,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.588803039857131,
-      "pnl_mtm": 2.588803039857131,
+      "pnl": 2.587779853343888,
+      "pnl_mtm": 2.587779853343888,
       "strategy": "copy",
       "reentries": 1
     },
