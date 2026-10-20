@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T17:03:45Z",
+  "updated": "2026-10-20T17:08:45Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1946,12 +1946,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T17:03:34Z",
+      "ts": "2026-10-20T17:07:54Z",
       "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "sym": "SI276",
-      "px": 0.0007091,
-      "liq_usd": 86498.61,
-      "market_cap": 683168,
+      "px": 0.0008723,
+      "liq_usd": 96075.81,
+      "market_cap": 840399,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1980,15 +1980,15 @@
         "solgemsradar",
         "spacemancallzsolana"
       ],
-      "seen_count": 13
+      "seen_count": 15
     },
     {
-      "ts": "2026-10-20T17:03:36Z",
+      "ts": "2026-10-20T17:07:55Z",
       "mint": "3qSd27nb3zyRmqbhLzH4PdeYcADqeLtjgYy2Fp4Apump",
       "sym": "ELONDOG",
-      "px": 6.66e-05,
-      "liq_usd": 21617.45,
-      "market_cap": 64336,
+      "px": 6.645e-05,
+      "liq_usd": 21591.5,
+      "market_cap": 64195,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2010,7 +2010,40 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 6
+      "seen_count": 8
+    },
+    {
+      "ts": "2026-10-20T17:08:14Z",
+      "mint": "G2a5BzQ9vhk2wBZFNH9dKRJgy6DwebW4yS2YS8fFpump",
+      "sym": "ONEPIECE",
+      "px": 9.04e-05,
+      "liq_usd": 26416.04,
+      "market_cap": 87272,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "BKK1uAqh2Abn21QwMWvaFYKBrAEEUHf8PXVUB9rs1GL3",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792462814000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 20.0,
+      "total": 49.88,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 51.2,
+      "tg_channels": [
+        "SolanaSinais",
+        "mad_apes_gambles",
+        "solearlytrending",
+        "solgemsradar"
+      ],
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -2048,7 +2081,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792523025.8406987,
+    "paused_until": 1792523325.9951167,
     "kill_switch": false
   },
   "v1": {
@@ -2149,11 +2182,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004538,
+      "last_px": 0.004623,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.607220397095501,
-      "pnl_mtm": 2.607220397095501,
+      "pnl": 2.6941912507211323,
+      "pnl_mtm": 2.6941912507211323,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2281,11 +2314,11 @@
       "sym": "usefomo",
       "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
       "entry_px": 0.00011479816601525586,
-      "last_px": 2.31e-06,
+      "last_px": 2.323e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -2.5021943182939657,
-      "pnl_mtm": -2.5021943182939657,
+      "pnl": -2.501911212725923,
+      "pnl_mtm": -2.501911212725923,
       "strategy": "copy",
       "reentries": 2
     },
