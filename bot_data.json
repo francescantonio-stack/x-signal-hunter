@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T11:13:09Z",
+  "updated": "2026-10-20T11:18:10Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2016,7 +2016,7 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-20T11:12:04Z",
+      "ts": "2026-10-20T11:16:17Z",
       "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
       "sym": "ZAZA",
       "px": 0.0001383,
@@ -2079,7 +2079,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792501989.983468,
+    "paused_until": 1792502290.1200187,
     "kill_switch": false
   },
   "v1": {
@@ -2180,11 +2180,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004441,
+      "last_px": 0.004415,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.507971305310955,
-      "pnl_mtm": 2.507971305310955,
+      "pnl": 2.4813684559666442,
+      "pnl_mtm": 2.4813684559666442,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2312,11 +2312,11 @@
       "sym": "usefomo",
       "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
       "entry_px": 0.00011479816601525586,
-      "last_px": 2.277e-06,
+      "last_px": 2.284e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -2.5029129708897657,
-      "pnl_mtm": -2.5029129708897657,
+      "pnl": -2.502760529430051,
+      "pnl_mtm": -2.502760529430051,
       "strategy": "copy",
       "reentries": 2
     },
