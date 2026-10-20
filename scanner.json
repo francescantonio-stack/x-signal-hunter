@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20 12:04",
+ "ts": "2026-10-20 12:09",
  "tokens": {
   "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump": {
    "mint": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
@@ -18,7 +18,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -28,12 +27,12 @@
    "sym": "DUST",
    "name": "DUST",
    "img": "https://cdn.dexscreener.com/cms/images/eU3WSRDydQHxAeg7?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001536",
-   "h1": -9.49,
-   "h24": 252,
-   "mc": 149637,
-   "liq": 32800.31,
-   "vol": 477940.18,
+   "price": "0.0001590",
+   "h1": -2.27,
+   "h24": 265,
+   "mc": 154946,
+   "liq": 33415.18,
+   "vol": 478264.94,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -45,14 +44,14 @@
    "sym": "startupSI",
    "name": "startupSI",
    "img": "https://cdn.dexscreener.com/cms/images/aFg1xyIUYlfEXMT1?width=800&height=800&quality=95&format=auto",
-   "price": "0.006847",
-   "h1": -39.13,
-   "h24": 12.26,
-   "mc": 6820725,
-   "liq": 259251.38,
-   "vol": 13691009.98,
+   "price": "0.007720",
+   "h1": -33.07,
+   "h24": 27.32,
+   "mc": 7690385,
+   "liq": 275546.39,
+   "vol": 13742217.21,
    "dex": "pumpswap",
-   "score": 32,
+   "score": 31,
    "risks": [],
    "fails": [],
    "ok": true
@@ -62,12 +61,12 @@
    "sym": "aDOGymous",
    "name": "Monero Dog",
    "img": "https://cdn.dexscreener.com/cms/images/tACCQdW6B7gz1xmV?width=800&height=800&quality=95&format=auto",
-   "price": "0.0002935",
-   "h1": -0.12,
-   "h24": 503,
-   "mc": 290318,
-   "liq": 47185.95,
-   "vol": 1471103.74,
+   "price": "0.0003272",
+   "h1": 17.94,
+   "h24": 573,
+   "mc": 323634,
+   "liq": 49941.1,
+   "vol": 1478460.1,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -79,12 +78,12 @@
    "sym": "Twyne",
    "name": "Twyne",
    "img": "https://cdn.dexscreener.com/cms/images/vn-CwRN8RC57I1JB?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002648",
-   "h1": -96.85,
-   "h24": -93.88,
-   "mc": 2528,
-   "liq": 2949.28,
-   "vol": 1408894.96,
+   "price": "0.000002683",
+   "h1": -96.88,
+   "h24": -93.8,
+   "mc": 2560,
+   "liq": 2977.37,
+   "vol": 1408918.13,
    "dex": "pumpswap",
    "score": 31,
    "risks": [
@@ -109,25 +108,29 @@
    "dex": "pumpswap",
    "score": 22,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump": {
    "mint": "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
    "sym": "broomy",
    "name": "broom cat",
    "img": "https://cdn.dexscreener.com/cms/images/gripK0sKO5kVQnml?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001006",
-   "h1": -0.16,
-   "h24": 56.79,
-   "mc": 98106,
-   "liq": 26522.62,
-   "vol": 597775.51,
+   "price": "0.0001448",
+   "h1": 47.78,
+   "h24": 126,
+   "mc": 141249,
+   "liq": 32205.05,
+   "vol": 605118.64,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "z1YjH3V5CVxK4HkUSJbTJbbCN9qY8SURNrB5T3kpump": {
    "mint": "z1YjH3V5CVxK4HkUSJbTJbbCN9qY8SURNrB5T3kpump",
@@ -141,7 +144,7 @@
    "liq": 2.84,
    "vol": 5.17,
    "dex": "meteora",
-   "score": 28,
+   "score": 29,
    "risks": [
     "Low Liquidity"
    ],
@@ -152,21 +155,41 @@
    ],
    "ok": false
   },
-  "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump": {
-   "mint": "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump",
-   "sym": "Biggles",
-   "name": "Forgetful Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/5ly6FjEEXw4UTsg1?width=800&height=800&quality=95&format=auto",
-   "price": "0.000008795",
-   "h1": 111,
-   "h24": 111,
-   "mc": 8795.68,
+  "8dH1bCPwyoykzBX8d2UaJqHD6ysLLySn2qrCSjG8pump": {
+   "mint": "8dH1bCPwyoykzBX8d2UaJqHD6ysLLySn2qrCSjG8pump",
+   "sym": "BELI",
+   "name": "Belicoin",
+   "img": "https://cdn.dexscreener.com/cms/images/5OqpbGVz8_QbE92x?width=800&height=800&quality=95&format=auto",
+   "price": "0.00002676",
+   "h1": 699,
+   "h24": 699,
+   "mc": 26767.49,
    "liq": null,
-   "vol": 50325.68,
+   "vol": 70588.68,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump": {
+   "mint": "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump",
+   "sym": "Biggles",
+   "name": "Forgetful Cat",
+   "img": "https://cdn.dexscreener.com/cms/images/W4kkNba6B7vZmuD-?width=800&height=800&quality=95&format=auto",
+   "price": "0.000004228",
+   "h1": 1.21,
+   "h24": 1.21,
+   "mc": 4228.25,
+   "liq": null,
+   "vol": 58986.04,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -176,17 +199,17 @@
    "sym": "PROWLER",
    "name": "Pixel Prowler",
    "img": "https://cdn.dexscreener.com/cms/images/DbS5dODVEh0f0vNd?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001180",
-   "h1": 175,
-   "h24": 175,
-   "mc": 118075,
-   "liq": 40606.29,
-   "vol": 847856.45,
+   "price": "0.0001474",
+   "h1": 243,
+   "h24": 243,
+   "mc": 147416,
+   "liq": 53825.3,
+   "vol": 1022098.98,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [
-    "LP bloccata/bruciata 72% < 95%"
+    "LP bloccata/bruciata 61% < 95%"
    ],
    "ok": false
   },
@@ -195,35 +218,34 @@
    "sym": "Pok\u00e9mon",
    "name": "Pok\u00e9mon",
    "img": "https://cdn.dexscreener.com/cms/images/4sSiimH4UwY56lRy?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001215",
-   "h1": 169,
-   "h24": 169,
-   "mc": 116396,
-   "liq": 29260.08,
-   "vol": 283216.42,
+   "price": "0.0001183",
+   "h1": 162,
+   "h24": 162,
+   "mc": 113258,
+   "liq": 28321.03,
+   "vol": 324493.07,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
+   "fails": [],
+   "ok": true
   },
   "sCef2Mqwj8hunAEKHAsSP2UriejhaFmKSMzwXS15UbH": {
    "mint": "sCef2Mqwj8hunAEKHAsSP2UriejhaFmKSMzwXS15UbH",
    "sym": "solo",
    "name": "in a world of pairs",
    "img": "https://cdn.dexscreener.com/cms/images/A50lfn5opvE4M6Kv?width=800&height=800&quality=95&format=auto",
-   "price": "0.000003572",
-   "h1": 1.23,
-   "h24": 1.23,
-   "mc": 3572.97,
+   "price": "0.000003583",
+   "h1": 1.53,
+   "h24": 1.53,
+   "mc": 3583.44,
    "liq": null,
-   "vol": 81882.75,
+   "vol": 81974.76,
    "dex": "pumpfun",
    "score": 29,
    "risks": [],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -233,36 +255,17 @@
    "sym": "AUDACITY",
    "name": "Dacity Coin",
    "img": "https://cdn.dexscreener.com/cms/images/8jDbEywzJ_WLWsMm?width=800&height=800&quality=95&format=auto",
-   "price": "0.00003317",
-   "h1": 39.74,
-   "h24": -24.67,
-   "mc": 31748,
-   "liq": 13777.47,
-   "vol": 52169.42,
+   "price": "0.00003389",
+   "h1": 43.5,
+   "h24": -23.05,
+   "mc": 32433,
+   "liq": 13945.41,
+   "vol": 52179.21,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [],
    "ok": true
-  },
-  "triaLwmrTNYakjJwpAzgPSKVtUCmyxAG6C59WUdXnSa": {
-   "mint": "triaLwmrTNYakjJwpAzgPSKVtUCmyxAG6C59WUdXnSa",
-   "sym": "trial ",
-   "name": "trial trading",
-   "img": "https://cdn.dexscreener.com/cms/images/Y0egIbTM-s9mcnyZ?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001635",
-   "h1": -61.24,
-   "h24": -61.24,
-   "mc": 16352,
-   "liq": 9547.15,
-   "vol": 439957.2,
-   "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
   }
  },
  "lists": {
@@ -277,24 +280,24 @@
    "z1YjH3V5CVxK4HkUSJbTJbbCN9qY8SURNrB5T3kpump"
   ],
   "nuovi": [
+   "8dH1bCPwyoykzBX8d2UaJqHD6ysLLySn2qrCSjG8pump",
    "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump",
    "ijsLxSsvoH2ianECZivsdK7hhaM9fPp4LCuKUnspump",
    "ESsWeueSNdzRFcRcDBo136uoXDpCbDC6Ky5bkgYtpump",
    "sCef2Mqwj8hunAEKHAsSP2UriejhaFmKSMzwXS15UbH",
-   "HJS1ncCpUDfzXNpM8MwnTHisdPrBqMCbnrQ2nsL8pump",
-   "triaLwmrTNYakjJwpAzgPSKVtUCmyxAG6C59WUdXnSa"
+   "HJS1ncCpUDfzXNpM8MwnTHisdPrBqMCbnrQ2nsL8pump"
   ],
   "gainers": [
+   "8dH1bCPwyoykzBX8d2UaJqHD6ysLLySn2qrCSjG8pump",
    "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
    "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
    "ijsLxSsvoH2ianECZivsdK7hhaM9fPp4LCuKUnspump",
    "ESsWeueSNdzRFcRcDBo136uoXDpCbDC6Ky5bkgYtpump",
-   "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump",
    "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
    "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
    "sCef2Mqwj8hunAEKHAsSP2UriejhaFmKSMzwXS15UbH",
+   "7Ny9wKw9yqvsAkMzfC2Vap4awFXqiUzjEJVH2LNfpump",
    "HJS1ncCpUDfzXNpM8MwnTHisdPrBqMCbnrQ2nsL8pump",
-   "triaLwmrTNYakjJwpAzgPSKVtUCmyxAG6C59WUdXnSa",
    "z1YjH3V5CVxK4HkUSJbTJbbCN9qY8SURNrB5T3kpump",
    "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
    "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:04:47Z",
+  "updated": "2026-10-20T10:09:47Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -256,6 +256,18 @@
       "action": "buy",
       "sig": "3Rp2NXPqiAF1vemg3B2mbMHwwte68XUM9bh5i3DFGEqMkgHVj5y18wfgzoox8M63EkaeP7QBPfwoPmSGT1ksZBjc",
       "tx": "3Rp2NXPqiAF1vemg3B2mbMHwwte68XUM9bh5i3DFGEqMkgHVj5y18wfgzoox8M63EkaeP7QBPfwoPmSGT1ksZBjc"
+    },
+    {
+      "t": "2026-10-20T10:07:40Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "jKyRAYdXNWSB52hjL2gEuAz5vUenzp6LNXsQ5TXP6Nw4PLrySvExe25Y4qi7H9zr65qaayiSYcF5DvvTn6HEwY3",
+      "tx": "jKyRAYdXNWSB52hjL2gEuAz5vUenzp6LNXsQ5TXP6Nw4PLrySvExe25Y4qi7H9zr65qaayiSYcF5DvvTn6HEwY3"
     }
   ],
   "trades": [
@@ -1798,7 +1810,7 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-20T10:03:48Z",
+      "ts": "2026-10-20T10:08:06Z",
       "mint": "148fJTrVybPyQqzTxNzfLQq5sxVkMfmV2cLpAyVnNCX3",
       "sym": "ZAZA",
       "px": 0.0001389,
@@ -1823,7 +1835,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 24
+      "seen_count": 26
     }
   ],
   "new_pools": [],
@@ -1861,11 +1873,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792497887.7278857,
+    "paused_until": 1792498187.8721168,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 664,
+    "cycles": 665,
     "open_positions": 533,
     "trades": 583,
     "rejected": 30,
@@ -1962,11 +1974,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004391,
+      "last_px": 0.004409,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4568119796488186,
-      "pnl_mtm": 2.4568119796488186,
+      "pnl": 2.4752293368871876,
+      "pnl_mtm": 2.4752293368871876,
       "strategy": "copy",
       "reentries": 1
     },
