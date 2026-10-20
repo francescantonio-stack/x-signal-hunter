@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T23:01:41Z",
+  "updated": "2026-10-20T23:06:41Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2260,6 +2260,18 @@
       "action": "buy",
       "sig": "2mTYuaepkSosptQVe7dwA6QeuUJQw3MaC5EAaruRytCRqtxM18fVbGrLG57uv5xGmB76CeEN46xPydap5soGrJbS",
       "tx": "2mTYuaepkSosptQVe7dwA6QeuUJQw3MaC5EAaruRytCRqtxM18fVbGrLG57uv5xGmB76CeEN46xPydap5soGrJbS"
+    },
+    {
+      "t": "2026-10-20T23:05:59Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5cR885gUTgbWDJUbLmQoYQEa4m9HPq6AUvbxYcdZZokkKrvX78JapPp5d8ophbCchmegPwdwdni2iQXBaxcn7rrp",
+      "tx": "5cR885gUTgbWDJUbLmQoYQEa4m9HPq6AUvbxYcdZZokkKrvX78JapPp5d8ophbCchmegPwdwdni2iQXBaxcn7rrp"
     }
   ],
   "trades": [
@@ -3638,38 +3650,6 @@
   },
   "signals": [
     {
-      "ts": "2026-10-20T21:56:04Z",
-      "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "sym": "GATO",
-      "px": 0.001702,
-      "liq_usd": 121970.17,
-      "market_cap": 1679878,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1787660841000,
-      "tx": null,
-      "sig": null,
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 100.0,
-      "holders": 50.0,
-      "total": 60.392,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 83.8,
-      "tg_channels": [
-        "CMC_CG_NewList",
-        "SolanaSinais",
-        "solgemsradar"
-      ],
-      "seen_count": 2
-    },
-    {
       "ts": "2026-10-20T22:07:13Z",
       "mint": "Ci8fSR6gqN4AFGem4o4SZU7rRtp1BG3MgaTE4HdJpump",
       "sym": "Sun",
@@ -3700,7 +3680,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 7
+      "seen_count": 5
     },
     {
       "ts": "2026-10-20T22:25:54Z",
@@ -3835,7 +3815,7 @@
       "seen_count": 2
     },
     {
-      "ts": "2026-10-20T23:00:45Z",
+      "ts": "2026-10-20T23:05:08Z",
       "mint": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
       "sym": "XSTOK",
       "px": 0.0001727,
@@ -3862,10 +3842,10 @@
       "tg_channels": [
         "CMC_CG_NewList"
       ],
-      "seen_count": 10
+      "seen_count": 12
     },
     {
-      "ts": "2026-10-20T23:00:46Z",
+      "ts": "2026-10-20T23:05:09Z",
       "mint": "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS",
       "sym": "SALVOR",
       "px": 0.0003319,
@@ -3890,7 +3870,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 23
+      "seen_count": 25
     }
   ],
   "new_pools": [],
@@ -3928,11 +3908,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792544501.304588,
+    "paused_until": 1792544801.495087,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 996,
+    "cycles": 997,
     "open_positions": 710,
     "trades": 737,
     "rejected": 30,
@@ -4029,11 +4009,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004728,
+      "last_px": 0.004729,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.801625834611619,
-      "pnl_mtm": 2.801625834611619,
+      "pnl": 2.802649021124861,
+      "pnl_mtm": 2.802649021124861,
       "strategy": "copy",
       "reentries": 1
     },
@@ -4077,11 +4057,11 @@
       "sym": "AGHOST",
       "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
       "entry_px": 3.5636827495393163e-06,
-      "last_px": 2.123e-06,
+      "last_px": 2.179e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.0631698959984277,
-      "pnl_mtm": -1.0631698959984277,
+      "pnl": -1.0238846930666858,
+      "pnl_mtm": -1.0238846930666858,
       "strategy": "copy",
       "reentries": 2
     },
