@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T08:19:31Z",
+  "updated": "2026-10-21T08:24:32Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1783,7 +1783,7 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-21T08:19:20Z",
+      "ts": "2026-10-21T08:23:35Z",
       "mint": "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd",
       "sym": "Gold",
       "px": 3.47e-05,
@@ -1813,7 +1813,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 32
+      "seen_count": 34
     }
   ],
   "new_pools": [],
@@ -1851,7 +1851,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792577971.9964058,
+    "paused_until": 1792578272.194088,
     "kill_switch": false
   },
   "v1": {
@@ -1952,11 +1952,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004816,
+      "last_px": 0.004843,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.891666247776979,
-      "pnl_mtm": 2.891666247776979,
+      "pnl": 2.919292283634532,
+      "pnl_mtm": 2.919292283634532,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2060,11 +2060,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 2.292e-06,
+      "last_px": 2.286e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -0.7799653382196345,
-      "pnl_mtm": -0.7799653382196345,
+      "pnl": -0.7846054813133005,
+      "pnl_mtm": -0.7846054813133005,
       "strategy": "copy",
       "reentries": 2
     },
