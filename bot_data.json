@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T07:35:30Z",
+  "updated": "2026-10-21T07:40:31Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -100,6 +100,18 @@
       "action": "buy",
       "sig": "GpiuueNdcmcxN4Ud4Am3PNLJUvEB6cJNYjuZrr6msi7jB7DRFSHHtBfJpsrUD7YR4i8nH6H4oDmacUNhYqxKzzT",
       "tx": "GpiuueNdcmcxN4Ud4Am3PNLJUvEB6cJNYjuZrr6msi7jB7DRFSHHtBfJpsrUD7YR4i8nH6H4oDmacUNhYqxKzzT"
+    },
+    {
+      "t": "2026-10-21T07:36:27Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2TJhkqg6gnLSQiFeNjc7g4W3u1dGD5azssPv6SCXbpozTCJ7iKmkk2SPJzZTotibtTNyj8fG43muiZL1sfgW4Cs4",
+      "tx": "2TJhkqg6gnLSQiFeNjc7g4W3u1dGD5azssPv6SCXbpozTCJ7iKmkk2SPJzZTotibtTNyj8fG43muiZL1sfgW4Cs4"
     }
   ],
   "trades": [
@@ -1571,12 +1583,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-21T07:35:01Z",
+      "ts": "2026-10-21T07:39:14Z",
       "mint": "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd",
       "sym": "Gold",
-      "px": 3.714e-05,
-      "liq_usd": 16314.19,
-      "market_cap": 35708,
+      "px": 3.831e-05,
+      "liq_usd": 16599.8,
+      "market_cap": 36831,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1601,7 +1613,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 14
+      "seen_count": 16
     }
   ],
   "new_pools": [],
@@ -1639,11 +1651,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792575330.9372716,
+    "paused_until": 1792575631.130747,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1239,
+    "cycles": 1240,
     "open_positions": 894,
     "trades": 894,
     "rejected": 30,
