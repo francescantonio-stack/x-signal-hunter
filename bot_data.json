@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T09:05:21Z",
+  "updated": "2026-10-21T09:10:22Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -316,6 +316,18 @@
       "action": "buy",
       "sig": "4Bv6bLN4UH36N6JfDenxikpeXLy4ShuzykoPf7jAUJcj2aLBZAoRAAznivzsXacTaWWVVpv8FN9GEVfVf83MeVh3",
       "tx": "4Bv6bLN4UH36N6JfDenxikpeXLy4ShuzykoPf7jAUJcj2aLBZAoRAAznivzsXacTaWWVVpv8FN9GEVfVf83MeVh3"
+    },
+    {
+      "t": "2026-10-21T09:08:01Z",
+      "wallet": "Mitch",
+      "mint": "56ZtvzDWCwPq2tFg2ZuifbJh7AZL9VpUTRp1854fpump",
+      "sym": "bean",
+      "px": 0.0001954,
+      "liq": 45737.75,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "5S1RFxVzV1hDgDBTSetFuCZHTqQ44E6RHJTZVeRnMpL4hineMmeobGCivZwUSLm55RpSpnfpLLy6XGcyraYC7EG8",
+      "tx": "5S1RFxVzV1hDgDBTSetFuCZHTqQ44E6RHJTZVeRnMpL4hineMmeobGCivZwUSLm55RpSpnfpLLy6XGcyraYC7EG8"
     }
   ],
   "trades": [
@@ -1727,7 +1739,7 @@
         "Pumpfunpremium",
         "shitcoingemsalert"
       ],
-      "seen_count": 5
+      "seen_count": 4
     },
     {
       "ts": "2026-10-21T08:30:24Z",
@@ -1835,41 +1847,6 @@
       "seen_count": 12
     },
     {
-      "ts": "2026-10-21T08:54:05Z",
-      "mint": "56ZtvzDWCwPq2tFg2ZuifbJh7AZL9VpUTRp1854fpump",
-      "sym": "bean",
-      "px": 0.0002072,
-      "liq_usd": 47169.85,
-      "market_cap": 207185,
-      "wallet_names": [
-        "Mitch"
-      ],
-      "source": "wallet:Mitch",
-      "rug_ok": true,
-      "pair_addr": "Grk2W6a5kyeYzCZtutUNpsvC8gk8CFiij2KaWi6kYoj1",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1759108306000,
-      "tx": "2MLX8M68WyHw3p9asxhkGn1MYQxjY2C1Dc6BLaWwFvsD9NQyQu2fyd96hZVey3tJvAKSDAF5iy6bwKgTCXex1E89",
-      "sig": "2MLX8M68WyHw3p9asxhkGn1MYQxjY2C1Dc6BLaWwFvsD9NQyQu2fyd96hZVey3tJvAKSDAF5iy6bwKgTCXex1E89",
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 35.0,
-      "liq": 70.0,
-      "holders": 50.0,
-      "total": 62.424,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 82.4,
-      "tg_channels": [
-        "AlphaStrikeSol",
-        "Pumpfunpremium",
-        "shitcoingemsalert",
-        "solearlytrending"
-      ],
-      "seen_count": 5
-    },
-    {
       "ts": "2026-10-21T08:57:39Z",
       "mint": "BsJkiUA6GDv6y8VhMeohBTJ6H9pwuCWTbzJLY8Btpump",
       "sym": "EMBER",
@@ -1898,6 +1875,41 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-10-21T09:08:02Z",
+      "mint": "56ZtvzDWCwPq2tFg2ZuifbJh7AZL9VpUTRp1854fpump",
+      "sym": "bean",
+      "px": 0.0001954,
+      "liq_usd": 45737.75,
+      "market_cap": 195462,
+      "wallet_names": [
+        "Mitch"
+      ],
+      "source": "wallet:Mitch",
+      "rug_ok": true,
+      "pair_addr": "Grk2W6a5kyeYzCZtutUNpsvC8gk8CFiij2KaWi6kYoj1",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1759108306000,
+      "tx": "5S1RFxVzV1hDgDBTSetFuCZHTqQ44E6RHJTZVeRnMpL4hineMmeobGCivZwUSLm55RpSpnfpLLy6XGcyraYC7EG8",
+      "sig": "5S1RFxVzV1hDgDBTSetFuCZHTqQ44E6RHJTZVeRnMpL4hineMmeobGCivZwUSLm55RpSpnfpLLy6XGcyraYC7EG8",
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 35.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 62.424,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 82.4,
+      "tg_channels": [
+        "AlphaStrikeSol",
+        "Pumpfunpremium",
+        "shitcoingemsalert",
+        "solearlytrending"
+      ],
+      "seen_count": 6
     }
   ],
   "new_pools": [],
@@ -1935,11 +1947,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792580721.9154303,
+    "paused_until": 1792581022.1102111,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1257,
+    "cycles": 1258,
     "open_positions": 954,
     "trades": 954,
     "rejected": 30,
@@ -2036,11 +2048,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004818,
+      "last_px": 0.004826,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.893712620803464,
-      "pnl_mtm": 2.893712620803464,
+      "pnl": 2.901898112909406,
+      "pnl_mtm": 2.901898112909406,
       "strategy": "copy",
       "reentries": 1
     },
