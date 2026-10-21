@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T10:37:25Z",
+  "updated": "2026-10-21T10:42:25Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -352,6 +352,18 @@
       "action": "sell",
       "sig": "PKFD3eJNFBaSZcYzfe9i8q8GzrKbzvrvGtdpVAEcbUrVEGTiMRhDTq116yREQryXnruhz8nTKvMgxFHgWnL98Wo",
       "tx": "PKFD3eJNFBaSZcYzfe9i8q8GzrKbzvrvGtdpVAEcbUrVEGTiMRhDTq116yREQryXnruhz8nTKvMgxFHgWnL98Wo"
+    },
+    {
+      "t": "2026-10-21T10:38:14Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2BYx96zCagpwdzi3Y7BnMckutDkp7GaqjLjjHnBwtNf61jYsh2DjAtqE5ZTscLihphZddo2UMe9GjT3HiG8VLYrs",
+      "tx": "2BYx96zCagpwdzi3Y7BnMckutDkp7GaqjLjjHnBwtNf61jYsh2DjAtqE5ZTscLihphZddo2UMe9GjT3HiG8VLYrs"
     }
   ],
   "trades": [
@@ -1952,11 +1964,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792586245.2613409,
+    "paused_until": 1792586545.4450426,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1285,
+    "cycles": 1286,
     "open_positions": 981,
     "trades": 981,
     "rejected": 30,
@@ -2053,11 +2065,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004789,
+      "last_px": 0.004765,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.864040211919425,
-      "pnl_mtm": 2.864040211919425,
+      "pnl": 2.839483735601599,
+      "pnl_mtm": 2.839483735601599,
       "strategy": "copy",
       "reentries": 1
     },
