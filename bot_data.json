@@ -1,46 +1,10 @@
 {
-  "updated": "2026-10-21T02:50:53Z",
+  "updated": "2026-10-21T02:55:53Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-20T23:44:07Z",
-      "wallet": "EustazZ",
-      "mint": "7DzCqeVESZG7atpZHCfCb7VxPfnkhPE3uMW8cNLpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "sell",
-      "sig": "4WxdioTeD1w7fTfcFRPjrJ4n9GREC2ZhYcApgRUhJp4WrTiu6xe7UXk6pzg9nyP7DRjLq656zfLPNn6UELC7DdtE",
-      "tx": "4WxdioTeD1w7fTfcFRPjrJ4n9GREC2ZhYcApgRUhJp4WrTiu6xe7UXk6pzg9nyP7DRjLq656zfLPNn6UELC7DdtE"
-    },
-    {
-      "t": "2026-10-20T23:44:45Z",
-      "wallet": "Mitch",
-      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "fcH2Dar4R6HLrkRpsSKqJiSy3DD2THahtir4raxPusybB1zgAdQmXidTQq488EYokAeKfXbnYheetKwFv8SvNad",
-      "tx": "fcH2Dar4R6HLrkRpsSKqJiSy3DD2THahtir4raxPusybB1zgAdQmXidTQq488EYokAeKfXbnYheetKwFv8SvNad"
-    },
-    {
-      "t": "2026-10-20T23:44:46Z",
-      "wallet": "EustazZ",
-      "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "4se13J7qWiZqcgvUxHw8qD366iHaaANJTsBcV6b8iyzjWchrCukC4mQbB7qg5fam1nymu9HFs2T3X1M5xdy9QFoE",
-      "tx": "4se13J7qWiZqcgvUxHw8qD366iHaaANJTsBcV6b8iyzjWchrCukC4mQbB7qg5fam1nymu9HFs2T3X1M5xdy9QFoE"
-    },
     {
       "t": "2026-10-20T23:45:04Z",
       "wallet": "Mitch",
@@ -2404,6 +2368,42 @@
       "action": "buy",
       "sig": "3gXijAZTbEPtkxy6mhUNYCJq3icSt7fAq1goFowLtkhMr55XPwDy8RabZFpDMvybRnA58rvtCYJ2bzAuk2WFVnGu",
       "tx": "3gXijAZTbEPtkxy6mhUNYCJq3icSt7fAq1goFowLtkhMr55XPwDy8RabZFpDMvybRnA58rvtCYJ2bzAuk2WFVnGu"
+    },
+    {
+      "t": "2026-10-21T02:53:19Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "D9UxfztpqzsQfHn2BeNtK42j69GrKqNHFLWYvfmF1eDJaAw2YUycDoq7qBA3GieZH9pyiRx9Zo1nzkCLWYqKZMH",
+      "tx": "D9UxfztpqzsQfHn2BeNtK42j69GrKqNHFLWYvfmF1eDJaAw2YUycDoq7qBA3GieZH9pyiRx9Zo1nzkCLWYqKZMH"
+    },
+    {
+      "t": "2026-10-21T02:53:43Z",
+      "wallet": "Cented",
+      "mint": "J2VG6jvGujDp9JkXUKN3bTygPFmdG27R7AEQ6AgJpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2FPGTH3wJXwUQbFSiSQKdqRB1R6FY6MFkq5XupWtL1UxkfNRE6GBpPYBrN6YD1C9Fp5uvWxrJyRF6hKTaCBcDmde",
+      "tx": "2FPGTH3wJXwUQbFSiSQKdqRB1R6FY6MFkq5XupWtL1UxkfNRE6GBpPYBrN6YD1C9Fp5uvWxrJyRF6hKTaCBcDmde"
+    },
+    {
+      "t": "2026-10-21T02:54:17Z",
+      "wallet": "Cented",
+      "mint": "J2VG6jvGujDp9JkXUKN3bTygPFmdG27R7AEQ6AgJpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5qmdgN1eC4xY1DSPmjzuVYxMLeWqXcgH6yFZXswMMA3KnuQacgriE373khMGfo2Aqjt1SSEf4HJAw6YyhMmxNReA",
+      "tx": "5qmdgN1eC4xY1DSPmjzuVYxMLeWqXcgH6yFZXswMMA3KnuQacgriE373khMGfo2Aqjt1SSEf4HJAw6YyhMmxNReA"
     }
   ],
   "trades": [
@@ -3782,36 +3782,6 @@
   },
   "signals": [
     {
-      "ts": "2026-10-21T02:09:13Z",
-      "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
-      "sym": "TripleT",
-      "px": 0.006179,
-      "liq_usd": 570760.76,
-      "market_cap": 6178548,
-      "wallet_names": [
-        "Mitch"
-      ],
-      "source": "wallet:Mitch",
-      "rug_ok": true,
-      "pair_addr": "3KFCgJ5R3zshW8hTDbzjSrrKSRYmKvsMfhc4Vo4iddxD",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1771922626000,
-      "tx": "3GrzBv2Vd9SbmWWbMPdBiDrpZVYAK3uRqaHEwzUJj4Wd1nF7pGG2tqHTaDQvdWVZedzPanpQDCppjPixWGfc37jk",
-      "sig": "3GrzBv2Vd9SbmWWbMPdBiDrpZVYAK3uRqaHEwzUJj4Wd1nF7pGG2tqHTaDQvdWVZedzPanpQDCppjPixWGfc37jk",
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 35.0,
-      "liq": 100.0,
-      "holders": 50.0,
-      "total": 60.096000000000004,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 1
-    },
-    {
       "ts": "2026-10-21T02:17:42Z",
       "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "sym": "PUMP",
@@ -3909,12 +3879,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-21T02:48:49Z",
+      "ts": "2026-10-21T02:55:14Z",
       "mint": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
       "sym": "KIMCHIBOSS",
-      "px": 0.0008436,
-      "liq_usd": 81880.03,
-      "market_cap": 836840,
+      "px": 0.0008163,
+      "liq_usd": 80550.33,
+      "market_cap": 809796,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3936,15 +3906,15 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 19
+      "seen_count": 20
     },
     {
-      "ts": "2026-10-21T02:48:50Z",
+      "ts": "2026-10-21T02:55:15Z",
       "mint": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
       "sym": "KIMCHI",
-      "px": 0.01195,
-      "liq_usd": 320728.83,
-      "market_cap": 11913985,
+      "px": 0.01113,
+      "liq_usd": 309665.56,
+      "market_cap": 11103469,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -4007,11 +3977,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792558253.2252293,
+    "paused_until": 1792558553.4356325,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1137,
+    "cycles": 1139,
     "open_positions": 768,
     "trades": 817,
     "rejected": 30,
@@ -4108,11 +4078,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004788,
+      "last_px": 0.004749,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.8630170254061817,
-      "pnl_mtm": 2.8630170254061817,
+      "pnl": 2.8231127513897154,
+      "pnl_mtm": 2.8231127513897154,
       "strategy": "copy",
       "reentries": 1
     },
