@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T09:54:14Z",
+  "updated": "2026-10-21T10:01:29Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -76,6 +76,54 @@
       "action": "sell",
       "sig": "2NSpjfZsqYU2FXZw4BjY5eFPYvCcYvaNmNbKouLL783M9vriMpgnP9dmnUryC6dkXg4mDuDsBBLUrM7sKTaigemJ",
       "tx": "2NSpjfZsqYU2FXZw4BjY5eFPYvCcYvaNmNbKouLL783M9vriMpgnP9dmnUryC6dkXg4mDuDsBBLUrM7sKTaigemJ"
+    },
+    {
+      "t": "2026-10-21T09:54:14Z",
+      "wallet": "Mitch",
+      "mint": "47jtdAbscdtjr5wkWw54kYaAZMBCxe4EWsWE8zegpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2ievzva7yJJjowE68JFgZPkfSbAh1ArH6fhcBF95A3UBJmT9yXf3jrteLoriZpx5msEZs34KYDGbbZGa8uvE8rjW",
+      "tx": "2ievzva7yJJjowE68JFgZPkfSbAh1ArH6fhcBF95A3UBJmT9yXf3jrteLoriZpx5msEZs34KYDGbbZGa8uvE8rjW"
+    },
+    {
+      "t": "2026-10-21T09:54:16Z",
+      "wallet": "EustazZ",
+      "mint": "47jtdAbscdtjr5wkWw54kYaAZMBCxe4EWsWE8zegpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3t489x2vBRo5gCkKkWo5mvQrRcUMt6iW3H1EdpfMubr83DGsQZ9zLQUuYaM3e2qao8JymxMfWw4d5R2TehBipePq",
+      "tx": "3t489x2vBRo5gCkKkWo5mvQrRcUMt6iW3H1EdpfMubr83DGsQZ9zLQUuYaM3e2qao8JymxMfWw4d5R2TehBipePq"
+    },
+    {
+      "t": "2026-10-21T09:57:01Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4Fj7dxkQCpHMa7EqUJooLtgmti4j4J7B3whiCK7h6cf2wZmkqeiXQ7VyB5Ybr84s1jc6a6y3qucFAZVhZEELxsg1",
+      "tx": "4Fj7dxkQCpHMa7EqUJooLtgmti4j4J7B3whiCK7h6cf2wZmkqeiXQ7VyB5Ybr84s1jc6a6y3qucFAZVhZEELxsg1"
+    },
+    {
+      "t": "2026-10-21T09:57:03Z",
+      "wallet": "EustazZ",
+      "mint": "9yxQvtqzsdHay96y7kxE8ikrGdi2FnytaCmMr9c9pump",
+      "sym": "SHELLSHOCK",
+      "px": 7.779e-05,
+      "liq": 22561.57,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "5c7JKUZDJji2tSqN3eVQ29VcunZkMiWkUronFGg86Tha17G7x5xYWeSakK76DhYVrqvJx5frjK5jE8TK478L85DH",
+      "tx": "5c7JKUZDJji2tSqN3eVQ29VcunZkMiWkUronFGg86Tha17G7x5xYWeSakK76DhYVrqvJx5frjK5jE8TK478L85DH"
     }
   ],
   "trades": [
@@ -1517,6 +1565,36 @@
         "solearlytrending"
       ],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-10-21T09:57:03Z",
+      "mint": "9yxQvtqzsdHay96y7kxE8ikrGdi2FnytaCmMr9c9pump",
+      "sym": "SHELLSHOCK",
+      "px": 7.779e-05,
+      "liq_usd": 22561.57,
+      "market_cap": 77800,
+      "wallet_names": [
+        "EustazZ"
+      ],
+      "source": "wallet:EustazZ",
+      "rug_ok": true,
+      "pair_addr": "Cpyd6XGmAf827MNnRQXka6cJwz1BA3B7ZoDqCJyPou7C",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792576469000,
+      "tx": "5c7JKUZDJji2tSqN3eVQ29VcunZkMiWkUronFGg86Tha17G7x5xYWeSakK76DhYVrqvJx5frjK5jE8TK478L85DH",
+      "sig": "5c7JKUZDJji2tSqN3eVQ29VcunZkMiWkUronFGg86Tha17G7x5xYWeSakK76DhYVrqvJx5frjK5jE8TK478L85DH",
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 35.0,
+      "liq": 70.0,
+      "holders": 20.0,
+      "total": 53.496,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -1554,13 +1632,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792583654.0212626,
+    "paused_until": 1792584089.691265,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1266,
-    "open_positions": 963,
-    "trades": 963,
+    "cycles": 1270,
+    "open_positions": 978,
+    "trades": 978,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -1655,11 +1733,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004807,
+      "last_px": 0.004776,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.882457569157794,
-      "pnl_mtm": 2.882457569157794,
+      "pnl": 2.8507387872472694,
+      "pnl_mtm": 2.8507387872472694,
       "strategy": "copy",
       "reentries": 1
     },
