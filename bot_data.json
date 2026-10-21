@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T22:27:34+0200",
+ "updated": "2026-10-21T22:32:43+0200",
  "version": "v2",
  "live_mode": false,
  "rpc": "helius",
@@ -1381,12 +1381,12 @@
  },
  "signals": [
   {
-   "ts": "2026-10-21T20:26:09Z",
+   "ts": "2026-10-21T20:32:09Z",
    "mint": "HCNU8p6zbaTpTSVMx7D3j4c9dJySmsgMw6oKmDxSpump",
    "sym": "CANDY",
-   "px": 2.518e-05,
-   "liq_usd": 11939.39,
-   "market_cap": 23434,
+   "px": 2.714e-05,
+   "liq_usd": 12471.78,
+   "market_cap": 25254,
    "wallet_names": [],
    "source": "dex_boost",
    "rug_ok": true,
@@ -1446,13 +1446,13 @@
  "protections": {
   "daily_pnl": 189.3353340948389,
   "consecutive_losses": 6,
-  "paused_until": 1792621640.1261125,
+  "paused_until": 1792621940.917358,
   "kill_switch": false
  },
  "v1": {
   "cycles": 1522,
   "open_positions": 1087,
-  "trades": 1110,
+  "trades": 1087,
   "rejected": 30,
   "pnl_totale": {
    "1usdc": {
@@ -1588,11 +1588,11 @@
    "sym": "PUMP",
    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "entry_px": 0.001954677836459661,
-   "last_px": 0.005101,
+   "last_px": 0.005145,
    "size_usd": 2.0,
    "cost": 0.036,
-   "pnl": 3.1832744040511556,
-   "pnl_mtm": 3.1832744040511556,
+   "pnl": 3.2282946106338364,
+   "pnl_mtm": 3.2282946106338364,
    "strategy": "copy",
    "reentries": 1
   },
@@ -1696,11 +1696,11 @@
    "sym": "UFI",
    "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
    "entry_px": 3.2326589282291864e-06,
-   "last_px": 2.315e-06,
+   "last_px": 1.942e-06,
    "size_usd": 2.5,
    "cost": 0.0525,
-   "pnl": -0.7621781230272486,
-   "pnl_mtm": -0.7621781230272486,
+   "pnl": -1.0506403520168106,
+   "pnl_mtm": -1.0506403520168106,
    "strategy": "copy",
    "reentries": 2
   },
