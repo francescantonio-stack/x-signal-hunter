@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T06:15:22Z",
+  "updated": "2026-10-21T06:15:52Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -208,6 +208,18 @@
       "action": "buy",
       "sig": "3DpacXL1hAL4KK3hYLXABL3LUKwY7NzJekWXXRdXtqP6pioUiyJA9NtnGh9DPQgfWV2KmdgLHTuPZzcqQcqw2kKW",
       "tx": "3DpacXL1hAL4KK3hYLXABL3LUKwY7NzJekWXXRdXtqP6pioUiyJA9NtnGh9DPQgfWV2KmdgLHTuPZzcqQcqw2kKW"
+    },
+    {
+      "t": "2026-10-21T06:15:41Z",
+      "wallet": "Trunoest",
+      "mint": "8dpv7Zs5bjFaP8U6m73pDfXDbhDdrmGVZr6dUsocpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "3t3ZfibctV8w8nLz3zHHrsgdB3fFJ6kY3erMrDgfjSxx29wF3LC8Ya2dt1zBanwJRHEQwRyxNvBZ1XURZs66mjZB",
+      "tx": "3t3ZfibctV8w8nLz3zHHrsgdB3fFJ6kY3erMrDgfjSxx29wF3LC8Ya2dt1zBanwJRHEQwRyxNvBZ1XURZs66mjZB"
     }
   ],
   "trades": [
@@ -1755,7 +1767,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792570522.0198255,
+    "paused_until": 1792570552.0419338,
     "kill_switch": false
   },
   "v1": {
