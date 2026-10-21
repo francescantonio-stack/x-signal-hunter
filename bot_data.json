@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T07:15:14Z",
+  "updated": "2026-10-21T07:20:14Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -40,6 +40,42 @@
       "action": "buy",
       "sig": "kgGWCA9vZQCHTR3pSzCVpHQFHph4LD5fZ27HDjwfmzKkvAYpafYe7C6RCAGySGkyHm8m8seRsKotwgJYPGQxeny",
       "tx": "kgGWCA9vZQCHTR3pSzCVpHQFHph4LD5fZ27HDjwfmzKkvAYpafYe7C6RCAGySGkyHm8m8seRsKotwgJYPGQxeny"
+    },
+    {
+      "t": "2026-10-21T07:16:12Z",
+      "wallet": "Trunoest",
+      "mint": "5faPPM84dQWpMSjr1xfHux4DNuGakp9M4wonuhS2pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "356F3kf87K2s5sb9fwyKMWJojihi1r7Je7jNP19SiPRHvUFNmzGL8kUKXsbvE3f6xuohxBnVPxgLReMX5NJzTtiS",
+      "tx": "356F3kf87K2s5sb9fwyKMWJojihi1r7Je7jNP19SiPRHvUFNmzGL8kUKXsbvE3f6xuohxBnVPxgLReMX5NJzTtiS"
+    },
+    {
+      "t": "2026-10-21T07:17:37Z",
+      "wallet": "EustazZ",
+      "mint": "vi2zUPHQQvwsDCykmmQ8eYNf4ngA9z29dycaku3pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4aQ6Jmr6F1vEKoCeXHmxofiT4PHuUqqWksyn4bCBAsKKrrzbVCRaTpFoV8mZvv34piwq88PVBmnoqTCX1Bf6AYSH",
+      "tx": "4aQ6Jmr6F1vEKoCeXHmxofiT4PHuUqqWksyn4bCBAsKKrrzbVCRaTpFoV8mZvv34piwq88PVBmnoqTCX1Bf6AYSH"
+    },
+    {
+      "t": "2026-10-21T07:19:56Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3yFAHD5UhyhPJjkeefmPqJhd3dkS2r75f3nnnqKgJAgJbMEypLujNYBymqcAow2uKBj2KtNizEJMipxGmZX1WGj",
+      "tx": "3yFAHD5UhyhPJjkeefmPqJhd3dkS2r75f3nnnqKgJAgJbMEypLujNYBymqcAow2uKBj2KtNizEJMipxGmZX1WGj"
     }
   ],
   "trades": [
@@ -1481,12 +1517,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-21T07:14:09Z",
+      "ts": "2026-10-21T07:18:18Z",
       "mint": "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd",
       "sym": "Gold",
-      "px": 3.612e-05,
-      "liq_usd": 16062.26,
-      "market_cap": 34730,
+      "px": 3.52e-05,
+      "liq_usd": 15829.39,
+      "market_cap": 33842,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1511,7 +1547,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 4
+      "seen_count": 6
     }
   ],
   "new_pools": [],
@@ -1549,13 +1585,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792574114.8113503,
+    "paused_until": 1792574414.9881976,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1235,
-    "open_positions": 882,
-    "trades": 882,
+    "cycles": 1237,
+    "open_positions": 885,
+    "trades": 885,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
