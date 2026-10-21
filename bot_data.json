@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T17:01:06Z",
+  "updated": "2026-10-21T17:07:33Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1396,6 +1396,30 @@
       "action": "buy",
       "sig": "2B3B1QGYy2SLvWsVGdn9QRC7NE1ZrGqNHLCMZZLuXLntmbte84dBGAdi3kFger7mZhp2TbPft6UDAZjgX2JZDNUw",
       "tx": "2B3B1QGYy2SLvWsVGdn9QRC7NE1ZrGqNHLCMZZLuXLntmbte84dBGAdi3kFger7mZhp2TbPft6UDAZjgX2JZDNUw"
+    },
+    {
+      "t": "2026-10-21T17:06:28Z",
+      "wallet": "Mitch",
+      "mint": "2K3BpMUQC1eZ7hChcM45rkdx2ip2FSKhxn2Pqvh4pump",
+      "sym": "COZNIGHT",
+      "px": 5.2e-05,
+      "liq": 18103.8,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "3GHz1KawrntrDeQfUmQMAJJiQtAvwYHL6657EbqCWTf7GV4gw4r27TqSGqBDtBkhAwmuGNtv7jKXjC18cDGULsoJ",
+      "tx": "3GHz1KawrntrDeQfUmQMAJJiQtAvwYHL6657EbqCWTf7GV4gw4r27TqSGqBDtBkhAwmuGNtv7jKXjC18cDGULsoJ"
+    },
+    {
+      "t": "2026-10-21T17:06:30Z",
+      "wallet": "EustazZ",
+      "mint": "2K3BpMUQC1eZ7hChcM45rkdx2ip2FSKhxn2Pqvh4pump",
+      "sym": "COZNIGHT",
+      "px": 5.2e-05,
+      "liq": 18103.8,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "3Yud8eensZkNZH8X545PVPkziwidngxAvEnrKpGTD5STjc87a6JHjxnmGxzfE1VHcsNCXSneknagadUSeuToSuYe",
+      "tx": "3Yud8eensZkNZH8X545PVPkziwidngxAvEnrKpGTD5STjc87a6JHjxnmGxzfE1VHcsNCXSneknagadUSeuToSuYe"
     }
   ],
   "trades": [
@@ -2774,36 +2798,6 @@
   },
   "signals": [
     {
-      "ts": "2026-10-21T15:44:17Z",
-      "mint": "3e7hQA9QPv2rgQcGTHPigFBPXC5WoPXDLBxfTezEpump",
-      "sym": "JUAN",
-      "px": 3.297e-05,
-      "liq_usd": 17932.32,
-      "market_cap": 32948,
-      "wallet_names": [
-        "Decu"
-      ],
-      "source": "wallet:Decu",
-      "rug_ok": true,
-      "pair_addr": "DFkPeaPFQP9LTpWEcrm47uNGKB7UCNN5oP1qN1EN511y",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1784431388000,
-      "tx": "nhLXeWjR5J258dmhDSYGLGJkF2QNfcc2yLv2FdDr25M61MwpdwRVMadj18jPEbrtoMXFPxm6icqkYjhtLi5saij",
-      "sig": "nhLXeWjR5J258dmhDSYGLGJkF2QNfcc2yLv2FdDr25M61MwpdwRVMadj18jPEbrtoMXFPxm6icqkYjhtLi5saij",
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 35.0,
-      "liq": 40.0,
-      "holders": 50.0,
-      "total": 52.176,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 1
-    },
-    {
       "ts": "2026-10-21T15:44:59Z",
       "mint": "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn",
       "sym": "EGGU",
@@ -2834,7 +2828,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 3
+      "seen_count": 1
     },
     {
       "ts": "2026-10-21T16:21:05Z",
@@ -2940,7 +2934,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 22
+      "seen_count": 19
     },
     {
       "ts": "2026-10-21T16:54:27Z",
@@ -3005,7 +2999,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 3
+      "seen_count": 2
     },
     {
       "ts": "2026-10-21T16:57:56Z",
@@ -3038,12 +3032,43 @@
       "seen_count": 13
     },
     {
-      "ts": "2026-10-21T17:01:03Z",
+      "ts": "2026-10-21T17:06:31Z",
+      "mint": "2K3BpMUQC1eZ7hChcM45rkdx2ip2FSKhxn2Pqvh4pump",
+      "sym": "COZNIGHT",
+      "px": 5.2e-05,
+      "liq_usd": 18103.8,
+      "market_cap": 52003,
+      "wallet_names": [
+        "EustazZ",
+        "Mitch"
+      ],
+      "source": "copy",
+      "rug_ok": true,
+      "pair_addr": "FYzqVMT1cUzoXova2fa3BtDFHD39C8nFJjanQqnzVHFF",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792602250000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 70.0,
+      "liq": 40.0,
+      "holders": 20.0,
+      "total": 55.696000000000005,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 3
+    },
+    {
+      "ts": "2026-10-21T17:06:54Z",
       "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "sym": "CBUCKS",
-      "px": 0.001116,
-      "liq_usd": 108269.92,
-      "market_cap": 1053307,
+      "px": 0.001129,
+      "liq_usd": 108874.52,
+      "market_cap": 1064780,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3057,23 +3082,23 @@
       "wallets": 0.0,
       "liq": 100.0,
       "holders": 20.0,
-      "total": 51.29600000000001,
+      "total": 52.496,
       "rug_na": false,
       "x_default": true,
       "holders_default": false,
-      "tg": 30.0,
+      "tg": 40.0,
       "tg_channels": [
         "CMC_CG_NewList"
       ],
-      "seen_count": 2
+      "seen_count": 4
     },
     {
-      "ts": "2026-10-21T17:01:04Z",
+      "ts": "2026-10-21T17:06:55Z",
       "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
       "sym": "DacityCoin",
-      "px": 0.0002254,
-      "liq_usd": 50104.58,
-      "market_cap": 218722,
+      "px": 0.0002451,
+      "liq_usd": 52352.2,
+      "market_cap": 237889,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3098,7 +3123,7 @@
         "pumpfunearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 2
+      "seen_count": 4
     }
   ],
   "new_pools": [],
@@ -3136,13 +3161,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792609266.3836071,
+    "paused_until": 1792609653.5053675,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1443,
-    "open_positions": 1066,
-    "trades": 1078,
+    "cycles": 1445,
+    "open_positions": 1081,
+    "trades": 1093,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -3237,11 +3262,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004883,
+      "last_px": 0.004873,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.9602197441642413,
-      "pnl_mtm": 2.9602197441642413,
+      "pnl": 2.949987879031814,
+      "pnl_mtm": 2.949987879031814,
       "strategy": "copy",
       "reentries": 1
     },
@@ -3345,11 +3370,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 2.302e-06,
+      "last_px": 2.317e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -0.7722317663968579,
-      "pnl_mtm": -0.7722317663968579,
+      "pnl": -0.7606314086626933,
+      "pnl_mtm": -0.7606314086626933,
       "strategy": "copy",
       "reentries": 2
     },
