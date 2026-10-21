@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T22:07:15Z",
+  "updated": "2026-10-21T22:13:32Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -820,6 +820,42 @@
       "action": "sell",
       "sig": "kqhVzbEQRBzqvkQDRmZpBM4CVSM9NFketHTtwRHiLhWJSGgZBxVfjN82nm7rbT3411siwDbkGWcHMz4j4PcmCko",
       "tx": "kqhVzbEQRBzqvkQDRmZpBM4CVSM9NFketHTtwRHiLhWJSGgZBxVfjN82nm7rbT3411siwDbkGWcHMz4j4PcmCko"
+    },
+    {
+      "t": "2026-10-21T22:13:13Z",
+      "wallet": "Frost",
+      "mint": "CKY9qi1KfYAgGQWTXzF3r8XJuHLybKhYPkUgGMUQU1mb",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "R2Qjd4bVbUE1UP5iwDoBLJ8itbCAAg33MZoh8eeM3R12cPyeh59AySVN1pNcioru21fHZwoXeH2sfoDUC3mwobs",
+      "tx": "R2Qjd4bVbUE1UP5iwDoBLJ8itbCAAg33MZoh8eeM3R12cPyeh59AySVN1pNcioru21fHZwoXeH2sfoDUC3mwobs"
+    },
+    {
+      "t": "2026-10-21T22:13:31Z",
+      "wallet": "Frost",
+      "mint": "CKY9qi1KfYAgGQWTXzF3r8XJuHLybKhYPkUgGMUQU1mb",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "23FLhpQngzNF6Y1m4o2CiNNJZgnW7HZ8KGAovdgjMNxP2tCRYAByU4E6pS9PouKKJG6k5nYSciBkYoWtGoveWeuN",
+      "tx": "23FLhpQngzNF6Y1m4o2CiNNJZgnW7HZ8KGAovdgjMNxP2tCRYAByU4E6pS9PouKKJG6k5nYSciBkYoWtGoveWeuN"
+    },
+    {
+      "t": "2026-10-21T22:13:32Z",
+      "wallet": "Frost",
+      "mint": "CKY9qi1KfYAgGQWTXzF3r8XJuHLybKhYPkUgGMUQU1mb",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "3HotM855iPrFFZTCVAZfZ5TgG2K7j9isRccMFjdcHXyYLHitm9SC8qfUeum2eTx7x1mwQD3wwN5fr9QA6LeQaasL",
+      "tx": "3HotM855iPrFFZTCVAZfZ5TgG2K7j9isRccMFjdcHXyYLHitm9SC8qfUeum2eTx7x1mwQD3wwN5fr9QA6LeQaasL"
     }
   ],
   "trades": [
@@ -2424,11 +2460,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792627635.7493525,
+    "paused_until": 1792628012.3797512,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1569,
+    "cycles": 1570,
     "open_positions": 1087,
     "trades": 1087,
     "rejected": 30,
