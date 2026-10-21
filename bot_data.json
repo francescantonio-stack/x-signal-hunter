@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T10:01:29Z",
+  "updated": "2026-10-21T10:09:26Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1595,6 +1595,36 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-10-21T10:07:22Z",
+      "mint": "DbDwQC6f9hvzvXjrQxqfiFDZhArbzfdujotbXqcwpump",
+      "sym": "Rally",
+      "px": 3.635e-05,
+      "liq_usd": 14658.96,
+      "market_cap": 35306,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "2DusC1Dniq35xPn6WKNoVq6phcsnjXYQcSAY2vVrZKEn",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1787429287000,
+      "tx": null,
+      "sig": null,
+      "rug": 79.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 20.0,
+      "total": 38.552,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 33.8,
+      "tg_channels": [
+        "pumpfunearlytrending"
+      ],
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -1632,7 +1662,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792584089.691265,
+    "paused_until": 1792584566.1702855,
     "kill_switch": false
   },
   "v1": {
