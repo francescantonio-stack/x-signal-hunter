@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T16:04:31Z",
+  "updated": "2026-10-21T16:10:34Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -964,6 +964,30 @@
       "action": "buy",
       "sig": "4oUp5ZM43RHmp42ymXKavMRt3r59spBMCLLipqDWejTNjkYgHTu4Y3oqLaZypq49x55DtjjMiPpNkJURVdxobnUC",
       "tx": "4oUp5ZM43RHmp42ymXKavMRt3r59spBMCLLipqDWejTNjkYgHTu4Y3oqLaZypq49x55DtjjMiPpNkJURVdxobnUC"
+    },
+    {
+      "t": "2026-10-21T16:04:36Z",
+      "wallet": "Frost",
+      "mint": "HN3esNNTUjJogfagoxzfoSDZHRHuonwzQv7U27R7pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5rEfVz3s6Rgo4qcRkiTz1jvzQaoaMuKQpqfYb2L41CrgAwfKZWiwx1r4nPTNTmJguB4pJjH6S8snoHGe89nijboJ",
+      "tx": "5rEfVz3s6Rgo4qcRkiTz1jvzQaoaMuKQpqfYb2L41CrgAwfKZWiwx1r4nPTNTmJguB4pJjH6S8snoHGe89nijboJ"
+    },
+    {
+      "t": "2026-10-21T16:04:36Z",
+      "wallet": "Frost",
+      "mint": "HVpnwGARmRFR7RtsQZoTJtcMdvJtjsiaxBgdGxJRpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "dJbiySuUuewYGyTpdrJMWeRWM2GyY97Vq1kbur5J91vmCqFF6iKoa5XubKE4e259ZepjoMXfqbHQq5kk44zN2kp",
+      "tx": "dJbiySuUuewYGyTpdrJMWeRWM2GyY97Vq1kbur5J91vmCqFF6iKoa5XubKE4e259ZepjoMXfqbHQq5kk44zN2kp"
     }
   ],
   "trades": [
@@ -2405,7 +2429,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 9
+      "seen_count": 8
     },
     {
       "ts": "2026-10-21T15:25:09Z",
@@ -2575,12 +2599,12 @@
       "seen_count": 15
     },
     {
-      "ts": "2026-10-21T16:02:32Z",
+      "ts": "2026-10-21T16:04:42Z",
       "mint": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
       "sym": "GLITCH",
-      "px": 0.001875,
-      "liq_usd": 122281.19,
-      "market_cap": 1750670,
+      "px": 0.001853,
+      "liq_usd": 121559.29,
+      "market_cap": 1730214,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2607,7 +2631,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 17
+      "seen_count": 18
     }
   ],
   "new_pools": [],
@@ -2645,11 +2669,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792605871.6700366,
+    "paused_until": 1792606234.4585674,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1420,
+    "cycles": 1421,
     "open_positions": 1063,
     "trades": 1069,
     "rejected": 30,
@@ -2689,7 +2713,7 @@
         }
       }
     },
-    "S_blocked_still_in": 221,
+    "S_blocked_still_in": 222,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
