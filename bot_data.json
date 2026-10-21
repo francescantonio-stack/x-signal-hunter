@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-21T19:35:08Z",
+  "updated": "2026-10-21T19:40:08Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-21T14:56:56Z",
-      "wallet": "Decu",
-      "mint": "DDwpv5edNx7pJ63WMqTVgQo4qMnn1ENffDFTQKb6pump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "5Yt1obmHM53d3Ak4gXfLuN2dU6htSFKRjC7B92AC6F8o71WrrHFe4znSZrUBWvdeBnhdwpoEqSMyvgbcQMEAY62E",
-      "tx": "5Yt1obmHM53d3Ak4gXfLuN2dU6htSFKRjC7B92AC6F8o71WrrHFe4znSZrUBWvdeBnhdwpoEqSMyvgbcQMEAY62E"
-    },
     {
       "t": "2026-10-21T14:57:33Z",
       "wallet": "EustazZ",
@@ -2404,6 +2392,18 @@
       "action": "sell",
       "sig": "66H3jsyuiL4bEQkc6boXScFGAaNQfSK91A7VF3YzUoSW9kdbYLrzmiyJfs2Q5Cvn6qbcvaoaoSSrVDDdrQJxsJRS",
       "tx": "66H3jsyuiL4bEQkc6boXScFGAaNQfSK91A7VF3YzUoSW9kdbYLrzmiyJfs2Q5Cvn6qbcvaoaoSSrVDDdrQJxsJRS"
+    },
+    {
+      "t": "2026-10-21T19:37:02Z",
+      "wallet": "Mr. Frog",
+      "mint": "48fBdNvo7Et1vqncqtss7XTT2Q2TNM6DCwd5NmWDpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "324zfd86y2crUFuJkAybaQYqzDuuiRdMGHDvbYays2jdcXVGV7ieug5XVYDjUPTVTnPXbb7vssAuQWtFS7qRwzYL",
+      "tx": "324zfd86y2crUFuJkAybaQYqzDuuiRdMGHDvbYays2jdcXVGV7ieug5XVYDjUPTVTnPXbb7vssAuQWtFS7qRwzYL"
     }
   ],
   "trades": [
@@ -3814,7 +3814,7 @@
         "Pumpfunpremium",
         "shitcoingemsalert"
       ],
-      "seen_count": 4
+      "seen_count": 2
     },
     {
       "ts": "2026-10-21T19:11:15Z",
@@ -3849,7 +3849,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 3
+      "seen_count": 2
     },
     {
       "ts": "2026-10-21T19:11:36Z",
@@ -3942,6 +3942,43 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 2
+    },
+    {
+      "ts": "2026-10-21T19:39:37Z",
+      "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "sym": "SI276",
+      "px": 0.0005558,
+      "liq_usd": 77679.07,
+      "market_cap": 535456,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1791314731000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 20.0,
+      "total": 55.736000000000004,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 100.0,
+      "tg_channels": [
+        "Pumpfunpremium",
+        "SolanaSinais",
+        "lowtaxsolana",
+        "pumpfunearlytrending",
+        "shitcoingemsalert",
+        "solearlytrending",
+        "solgemsradar",
+        "spacemancallzsolana"
+      ],
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -3979,7 +4016,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792618508.0226147,
+    "paused_until": 1792618808.252232,
     "kill_switch": false
   },
   "v1": {
@@ -4080,11 +4117,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004993,
+      "last_px": 0.005004,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 3.0727702606209415,
-      "pnl_mtm": 3.0727702606209415,
+      "pnl": 3.084025312266611,
+      "pnl_mtm": 3.084025312266611,
       "strategy": "copy",
       "reentries": 1
     },
@@ -4188,11 +4225,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 2.31e-06,
+      "last_px": 2.315e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -0.766044908938637,
-      "pnl_mtm": -0.766044908938637,
+      "pnl": -0.7621781230272486,
+      "pnl_mtm": -0.7621781230272486,
       "strategy": "copy",
       "reentries": 2
     },
