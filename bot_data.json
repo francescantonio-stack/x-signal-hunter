@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T09:33:16Z",
+  "updated": "2026-10-21T09:38:16Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -16,6 +16,18 @@
       "action": "buy",
       "sig": "ujq5UZ5APR9Y9mQnGHuTB7LCF1A1EEjmb1HF4ixSf2sXMSVxujubkdBUeHC8pgzyTw3mZGY5Xc5zUp8xJRsdLkQ",
       "tx": "ujq5UZ5APR9Y9mQnGHuTB7LCF1A1EEjmb1HF4ixSf2sXMSVxujubkdBUeHC8pgzyTw3mZGY5Xc5zUp8xJRsdLkQ"
+    },
+    {
+      "t": "2026-10-21T09:36:34Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4757xvoxQh44P85KhS4YXyixcHtZ8ySJwpYJsaDZAZy4DtBSu9txFyo4V9uX9P41QhFxTm4EjQ9s16dkwtcfAnwL",
+      "tx": "4757xvoxQh44P85KhS4YXyixcHtZ8ySJwpYJsaDZAZy4DtBSu9txFyo4V9uX9P41QhFxTm4EjQ9s16dkwtcfAnwL"
     }
   ],
   "trades": [
@@ -1428,11 +1440,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792582396.7686627,
+    "paused_until": 1792582696.9582047,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1262,
+    "cycles": 1263,
     "open_positions": 954,
     "trades": 954,
     "rejected": 30,
@@ -1529,11 +1541,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004807,
+      "last_px": 0.004828,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.882457569157794,
-      "pnl_mtm": 2.882457569157794,
+      "pnl": 2.903944485935891,
+      "pnl_mtm": 2.903944485935891,
       "strategy": "copy",
       "reentries": 1
     },
