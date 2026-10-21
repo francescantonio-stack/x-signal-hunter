@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T13:38:49Z",
+  "updated": "2026-10-21T13:43:49Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -40,6 +40,30 @@
       "action": "buy",
       "sig": "4PQSxTBrwXn6LPcNLRDQnuAApvCN2bbAtkeMHQ9fsGYzw94ZyQZZcqSrjAG8rCVUuoHPou37PgfBe7V8NXYLf2nm",
       "tx": "4PQSxTBrwXn6LPcNLRDQnuAApvCN2bbAtkeMHQ9fsGYzw94ZyQZZcqSrjAG8rCVUuoHPou37PgfBe7V8NXYLf2nm"
+    },
+    {
+      "t": "2026-10-21T13:39:06Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3qEKBDbtNi2nN8CFggvfyDdHvbszJNjU4JLsFdKXpmyAdNfPYiQYLsEujhoEjdMXBEkERasVQAb2qhKRzgKkDVEW",
+      "tx": "3qEKBDbtNi2nN8CFggvfyDdHvbszJNjU4JLsFdKXpmyAdNfPYiQYLsEujhoEjdMXBEkERasVQAb2qhKRzgKkDVEW"
+    },
+    {
+      "t": "2026-10-21T13:42:07Z",
+      "wallet": "Mitch",
+      "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "cFfxFeAYUMjSgKC4dGMJTQwH537WE3N5p1kYM8eEbJ9v65KWhWm82vXzWeS2weenrRvnMKBokvM96QXMqUFRZP6",
+      "tx": "cFfxFeAYUMjSgKC4dGMJTQwH537WE3N5p1kYM8eEbJ9v65KWhWm82vXzWeS2weenrRvnMKBokvM96QXMqUFRZP6"
     }
   ],
   "trades": [
@@ -1418,7 +1442,7 @@
   },
   "signals": [
     {
-      "ts": "2026-10-21T13:32:33Z",
+      "ts": "2026-10-21T13:43:10Z",
       "mint": "KoLoaG4ktXXA2g5FjrwNAHeNy5wPfQ2RzVUxscgZrpc",
       "sym": "KOLO",
       "px": 0.001117,
@@ -1443,7 +1467,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 2
+      "seen_count": 5
     }
   ],
   "new_pools": [],
@@ -1481,11 +1505,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792597129.2861292,
+    "paused_until": 1792597429.493365,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1352,
+    "cycles": 1354,
     "open_positions": 999,
     "trades": 999,
     "rejected": 30,
@@ -1582,11 +1606,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.00476,
+      "last_px": 0.004738,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.8343678030353865,
-      "pnl_mtm": 2.8343678030353865,
+      "pnl": 2.811857699744046,
+      "pnl_mtm": 2.811857699744046,
       "strategy": "copy",
       "reentries": 1
     },
