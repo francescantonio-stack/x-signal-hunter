@@ -1,10 +1,47 @@
 {
-  "updated": "2026-10-21T05:19:44Z",
+  "updated": "2026-10-21T05:24:44Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
-  "events": [],
+  "events": [
+    {
+      "t": "2026-10-21T05:20:03Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "NscyigrKFQBW6sQi2UeHRNL4XXyGTcy9DMPMKpqAf7FZe53SkGSp8LuEvtRzvXu3KDEMkC54BoTdTcMPzz3Hnd7",
+      "tx": "NscyigrKFQBW6sQi2UeHRNL4XXyGTcy9DMPMKpqAf7FZe53SkGSp8LuEvtRzvXu3KDEMkC54BoTdTcMPzz3Hnd7"
+    },
+    {
+      "t": "2026-10-21T05:22:12Z",
+      "wallet": "Mitch",
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "4Rf8ekpL7ZQpdojXwes69GgJN44QnKBNFGQSSX7EMZvo9sFxZJzBxcPaAEnZeYeExgbqnFWhJXzBGAkPnN1mhGvm",
+      "tx": "4Rf8ekpL7ZQpdojXwes69GgJN44QnKBNFGQSSX7EMZvo9sFxZJzBxcPaAEnZeYeExgbqnFWhJXzBGAkPnN1mhGvm"
+    },
+    {
+      "t": "2026-10-21T05:24:04Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5CydrfQepXWGbdVp8H2ZiMv34cibDD9Sy9J3UY5dVCrrkFWamSXNXjhL2KrFfhNhcYnkrBjVLeK3n5xgCGemHqp5",
+      "tx": "5CydrfQepXWGbdVp8H2ZiMv34cibDD9Sy9J3UY5dVCrrkFWamSXNXjhL2KrFfhNhcYnkrBjVLeK3n5xgCGemHqp5"
+    }
+  ],
   "trades": [
     {
       "t": "2026-10-16T19:37:21Z",
@@ -1415,11 +1452,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792567184.6648915,
+    "paused_until": 1792567484.8436034,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1195,
+    "cycles": 1197,
     "open_positions": 813,
     "trades": 851,
     "rejected": 30,
@@ -1516,11 +1553,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004761,
+      "last_px": 0.004723,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.835390989548628,
-      "pnl_mtm": 2.835390989548628,
+      "pnl": 2.7965099020454045,
+      "pnl_mtm": 2.7965099020454045,
       "strategy": "copy",
       "reentries": 1
     },
