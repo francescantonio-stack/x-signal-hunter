@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T12:04:42Z",
+  "updated": "2026-10-21T12:09:42Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -820,6 +820,54 @@
       "action": "buy",
       "sig": "426VVms1X2aEcG8aJFPmE8e5K6qdaxQdB8zymbZZbkZCT75kkwQ3FeHdQfKDJktezPJ5U8RJVFT8yg93jAnWR9E8",
       "tx": "426VVms1X2aEcG8aJFPmE8e5K6qdaxQdB8zymbZZbkZCT75kkwQ3FeHdQfKDJktezPJ5U8RJVFT8yg93jAnWR9E8"
+    },
+    {
+      "t": "2026-10-21T12:08:06Z",
+      "wallet": "Mitch",
+      "mint": "3LhNuQYo4qPakgdFQKZaMqA3fdvmAngLUehahQUxpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "k65XREp83Xg3LQvGxtarYj5kUYhhoMFgmHWM7oK4khtQ6DgC4muy9RR6eE8tb2q4QXH1UoPA5s4iaFW8WtT3JmN",
+      "tx": "k65XREp83Xg3LQvGxtarYj5kUYhhoMFgmHWM7oK4khtQ6DgC4muy9RR6eE8tb2q4QXH1UoPA5s4iaFW8WtT3JmN"
+    },
+    {
+      "t": "2026-10-21T12:08:43Z",
+      "wallet": "Frost",
+      "mint": "2DgsHML7ZyKkKtNJcVG4aiN2tU8kkGTLVoCqggyFpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2FKQxrXD82M3NydynmJFDmU8VGEWjXuMhCvxboTcf9y1QD1RxXKN93tMjKcsMbe8rXJX75xTRizn3NYBaY36ACQM",
+      "tx": "2FKQxrXD82M3NydynmJFDmU8VGEWjXuMhCvxboTcf9y1QD1RxXKN93tMjKcsMbe8rXJX75xTRizn3NYBaY36ACQM"
+    },
+    {
+      "t": "2026-10-21T12:09:02Z",
+      "wallet": "Frost",
+      "mint": "2DgsHML7ZyKkKtNJcVG4aiN2tU8kkGTLVoCqggyFpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5nyaiSFCQkTYVASAbteWkSqjnXV3ZS5yTmSmc7xqN5K2F6bf5jKF9RiofyFUWrMfzkiyXkmm3wZLMYvsxy8tLbAt",
+      "tx": "5nyaiSFCQkTYVASAbteWkSqjnXV3ZS5yTmSmc7xqN5K2F6bf5jKF9RiofyFUWrMfzkiyXkmm3wZLMYvsxy8tLbAt"
+    },
+    {
+      "t": "2026-10-21T12:09:04Z",
+      "wallet": "EustazZ",
+      "mint": "47BGNgVELktxtnnfnn8GRVrjCzUei5fd6XAY8XVVpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "Uew68U2dMifDA43CcnsUnQqj6abQivbNJMj1SbsBNmWG2x8BFptTU4qFfRtjkKYuVbRvuEwH4N3CBDxdpPAyFAo",
+      "tx": "Uew68U2dMifDA43CcnsUnQqj6abQivbNJMj1SbsBNmWG2x8BFptTU4qFfRtjkKYuVbRvuEwH4N3CBDxdpPAyFAo"
     }
   ],
   "trades": [
@@ -2447,6 +2495,39 @@
         "solearlytrending"
       ],
       "seen_count": 3
+    },
+    {
+      "ts": "2026-10-21T12:07:35Z",
+      "mint": "ArpPsesHXKbGeJsHdquM6acT3uNs7BChyetJjiNYpump",
+      "sym": "godspeed",
+      "px": 1.784e-05,
+      "liq_usd": 11748.41,
+      "market_cap": 17345,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "CkEeZKJpcro2dEp8RXJpSYfjF3TPoijmH8xVGuEAxoue",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792357232000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 20.0,
+      "total": 39.776,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [
+        "SolanaSinais",
+        "shitcoingemsalert",
+        "solearlytrending",
+        "solgemsradar"
+      ],
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -2484,11 +2565,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792591482.170837,
+    "paused_until": 1792591782.3541133,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1314,
+    "cycles": 1317,
     "open_positions": 999,
     "trades": 999,
     "rejected": 30,
@@ -2528,7 +2609,7 @@
         }
       }
     },
-    "S_blocked_still_in": 214,
+    "S_blocked_still_in": 215,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -2585,11 +2666,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004782,
+      "last_px": 0.004755,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.856877906326725,
-      "pnl_mtm": 2.856877906326725,
+      "pnl": 2.829251870469172,
+      "pnl_mtm": 2.829251870469172,
       "strategy": "copy",
       "reentries": 1
     },
