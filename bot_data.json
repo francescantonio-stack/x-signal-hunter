@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-21T02:33:08Z",
+  "updated": "2026-10-21T02:35:02Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-20T23:26:36Z",
-      "wallet": "Mitch",
-      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "1GgLWfdXBAnvMEX3cpWJzVFvQWsQD3p1MdkEyNiW6zkvJgqS4bMWkAnbh8ed1hHxNqqQf4L6G8yszJANqFAdbHu",
-      "tx": "1GgLWfdXBAnvMEX3cpWJzVFvQWsQD3p1MdkEyNiW6zkvJgqS4bMWkAnbh8ed1hHxNqqQf4L6G8yszJANqFAdbHu"
-    },
     {
       "t": "2026-10-20T23:27:16Z",
       "wallet": "EustazZ",
@@ -2404,6 +2392,18 @@
       "action": "buy",
       "sig": "3qnMUPAMPD5FxdGxrztJtnKBjBH9XLhbix8CbbPMZUQHbmjjMpkTDESQ46sY4WK2FD2stj4wXZ4gwbCEFYpMQscV",
       "tx": "3qnMUPAMPD5FxdGxrztJtnKBjBH9XLhbix8CbbPMZUQHbmjjMpkTDESQ46sY4WK2FD2stj4wXZ4gwbCEFYpMQscV"
+    },
+    {
+      "t": "2026-10-21T02:34:56Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3vLBb6cwor5i1TLL2NHDZ7DWv88hvmxqVKf1Ttw3rsG23DgfV6xiN9B69a8vSdB5Y9SEYFK1hroYxNXada1w561E",
+      "tx": "3vLBb6cwor5i1TLL2NHDZ7DWv88hvmxqVKf1Ttw3rsG23DgfV6xiN9B69a8vSdB5Y9SEYFK1hroYxNXada1w561E"
     }
   ],
   "trades": [
@@ -3974,11 +3974,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792557188.201247,
+    "paused_until": 1792557302.215286,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1127,
+    "cycles": 1128,
     "open_positions": 741,
     "trades": 790,
     "rejected": 30,
