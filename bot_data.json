@@ -1,82 +1,10 @@
 {
-  "updated": "2026-10-21T04:55:59Z",
+  "updated": "2026-10-21T05:00:59Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-21T00:03:43Z",
-      "wallet": "EustazZ",
-      "mint": "3jMnejxwjzdvMTaHhsHqfvFvi5JM3nM9U1dAFJ24pump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "3dA6hu99GScFkMLNx2ApaBxjRmxbvsuuA4sw7FLBpaCKpH9HK8kiHUZLUfFtQpdz1zUpkEN6dwcgALxf82tz3HQR",
-      "tx": "3dA6hu99GScFkMLNx2ApaBxjRmxbvsuuA4sw7FLBpaCKpH9HK8kiHUZLUfFtQpdz1zUpkEN6dwcgALxf82tz3HQR"
-    },
-    {
-      "t": "2026-10-21T00:04:02Z",
-      "wallet": "EustazZ",
-      "mint": "3jMnejxwjzdvMTaHhsHqfvFvi5JM3nM9U1dAFJ24pump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "sell",
-      "sig": "2oqyyXKwevrjc3wTEKWYZjyJ3mazp2dmnpUSGk2w2TNNnyJPNLzcuyczqHxqM1g1veU6kuF2zmVEdbVTUgxxSmbm",
-      "tx": "2oqyyXKwevrjc3wTEKWYZjyJ3mazp2dmnpUSGk2w2TNNnyJPNLzcuyczqHxqM1g1veU6kuF2zmVEdbVTUgxxSmbm"
-    },
-    {
-      "t": "2026-10-21T00:09:44Z",
-      "wallet": "Frost",
-      "mint": "3ajqMxq28CMZUjXdnymuxUGr46Gyp2KK8qrTUmaqpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "24xNQ56WJ2VAvWZAUZgJyQkehto3LALbDQgpYi2wNVP8WwucX91wuLGhzDxmT1mov67qRmYpqC83Sz4kyxRsAyXF",
-      "tx": "24xNQ56WJ2VAvWZAUZgJyQkehto3LALbDQgpYi2wNVP8WwucX91wuLGhzDxmT1mov67qRmYpqC83Sz4kyxRsAyXF"
-    },
-    {
-      "t": "2026-10-21T00:09:44Z",
-      "wallet": "Frost",
-      "mint": "3ajqMxq28CMZUjXdnymuxUGr46Gyp2KK8qrTUmaqpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "2A2EAbyZb16uwyfWxkswMgq6cxcmkr6MZp3jV9ts22FbnmuALmyZB9NjRsv9bQxS89cyR1WwPEhhz7KZginHaXDQ",
-      "tx": "2A2EAbyZb16uwyfWxkswMgq6cxcmkr6MZp3jV9ts22FbnmuALmyZB9NjRsv9bQxS89cyR1WwPEhhz7KZginHaXDQ"
-    },
-    {
-      "t": "2026-10-21T00:09:44Z",
-      "wallet": "Frost",
-      "mint": "3ajqMxq28CMZUjXdnymuxUGr46Gyp2KK8qrTUmaqpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "3r11E9uF5Uw611NqNeQnhKm79n95dqLTbhTTsZLxwRgq6Kq75SzLYgLYzJC3q4zx6CmuGAugpq3bknVwtNJ1WFKQ",
-      "tx": "3r11E9uF5Uw611NqNeQnhKm79n95dqLTbhTTsZLxwRgq6Kq75SzLYgLYzJC3q4zx6CmuGAugpq3bknVwtNJ1WFKQ"
-    },
-    {
-      "t": "2026-10-21T00:10:52Z",
-      "wallet": "Mitch",
-      "mint": "9EQbGTfud1wELEndcU92G4xabRrPNSqxijrA5o3ipump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "3UDxACqbqi6dwZj6ZqYjkKzRRGBgDk8HpMHfoDd7JCAFTfR7CAA835ZfRkQNuFe4UUw68QQr5Y99z9E5zMhD7X8G",
-      "tx": "3UDxACqbqi6dwZj6ZqYjkKzRRGBgDk8HpMHfoDd7JCAFTfR7CAA835ZfRkQNuFe4UUw68QQr5Y99z9E5zMhD7X8G"
-    },
     {
       "t": "2026-10-21T00:10:52Z",
       "wallet": "Mitch",
@@ -2404,6 +2332,78 @@
       "action": "buy",
       "sig": "4YbRkWkg9qsE4fa5eax4mzFNgHHoEz56Hfgz1jrFS3YxT7kQ31CRQK4nu28gcBwAM7YB5pri2MrJLHeu3KeZ9Bk3",
       "tx": "4YbRkWkg9qsE4fa5eax4mzFNgHHoEz56Hfgz1jrFS3YxT7kQ31CRQK4nu28gcBwAM7YB5pri2MrJLHeu3KeZ9Bk3"
+    },
+    {
+      "t": "2026-10-21T04:58:47Z",
+      "wallet": "Trunoest",
+      "mint": "y2z8q1zbWxS8a5aGrDeqyGCoWTdPGk7MsMuUA6Rpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "33yzrT7ghKgzHyNVK5v3ShBpTGUpNzqay9Y2rZ4cZishGDPvcw9wouYHeZShd98CPhAUBdJSCR7yjkBQX2oNuAB9",
+      "tx": "33yzrT7ghKgzHyNVK5v3ShBpTGUpNzqay9Y2rZ4cZishGDPvcw9wouYHeZShd98CPhAUBdJSCR7yjkBQX2oNuAB9"
+    },
+    {
+      "t": "2026-10-21T04:58:48Z",
+      "wallet": "Cented",
+      "mint": "y2z8q1zbWxS8a5aGrDeqyGCoWTdPGk7MsMuUA6Rpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4HYa3dUJAfTvYAGEzmjvyHnX6L4nrgd1HcoBnM7U4L2yj1ihepjPraZfijyrKkL3E7zcgDw57SpsZkFPGjXjrg3L",
+      "tx": "4HYa3dUJAfTvYAGEzmjvyHnX6L4nrgd1HcoBnM7U4L2yj1ihepjPraZfijyrKkL3E7zcgDw57SpsZkFPGjXjrg3L"
+    },
+    {
+      "t": "2026-10-21T04:58:49Z",
+      "wallet": "Cented",
+      "mint": "y2z8q1zbWxS8a5aGrDeqyGCoWTdPGk7MsMuUA6Rpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "34kW9cu1op52N41EfKnY3fhdgjpvedWszuD617TVu7MPXa2Tj9jfgQoRrx3dLjJQwqcuPjkB84pdCNxQV2VD2AU5",
+      "tx": "34kW9cu1op52N41EfKnY3fhdgjpvedWszuD617TVu7MPXa2Tj9jfgQoRrx3dLjJQwqcuPjkB84pdCNxQV2VD2AU5"
+    },
+    {
+      "t": "2026-10-21T04:59:25Z",
+      "wallet": "Cented",
+      "mint": "EukvAujEQpZCntwaHCmJBsjgSAPCdB9Kdx4i9BAGpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2izsiNMKHAJ3YX2ayp4TEdzBd1zDsfU6mCZ77VEjxRZNYEE3Y8PhHaAiLkejxgKPXraTaCPzmcEmcrRqAEjjStZH",
+      "tx": "2izsiNMKHAJ3YX2ayp4TEdzBd1zDsfU6mCZ77VEjxRZNYEE3Y8PhHaAiLkejxgKPXraTaCPzmcEmcrRqAEjjStZH"
+    },
+    {
+      "t": "2026-10-21T04:59:26Z",
+      "wallet": "Cented",
+      "mint": "EukvAujEQpZCntwaHCmJBsjgSAPCdB9Kdx4i9BAGpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "Djtu8TkAjtbxptTQFbLprXsRCqdngg5ErBacWJYDHEuNqBZREwEjoB9Co4ed4JTmDDDr7vX2cLCjQaWHa3XKahY",
+      "tx": "Djtu8TkAjtbxptTQFbLprXsRCqdngg5ErBacWJYDHEuNqBZREwEjoB9Co4ed4JTmDDDr7vX2cLCjQaWHa3XKahY"
+    },
+    {
+      "t": "2026-10-21T05:00:35Z",
+      "wallet": "Mitch",
+      "mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3bPqpPGg2rFWm5NTVxyNLunmrSntBD3cqdnQK3othTaU3gaFPdvGLrE313YjHUAtQ9gCDeq47A8tZHaBUnxdacCS",
+      "tx": "3bPqpPGg2rFWm5NTVxyNLunmrSntBD3cqdnQK3othTaU3gaFPdvGLrE313YjHUAtQ9gCDeq47A8tZHaBUnxdacCS"
     }
   ],
   "trades": [
@@ -4048,11 +4048,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792565759.094427,
+    "paused_until": 1792566059.2782695,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1186,
+    "cycles": 1192,
     "open_positions": 810,
     "trades": 861,
     "rejected": 30,
