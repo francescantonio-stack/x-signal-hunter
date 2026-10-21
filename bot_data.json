@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-21T18:49:27Z",
+  "updated": "2026-10-21T18:53:57Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-21T14:25:24Z",
-      "wallet": "EustazZ",
-      "mint": "CmiHUaMUcn5G3svk3qH3MUmS2UhtB1xQjGs6bKHmDace",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "4h3wEV59G1BeSUZQxKtomDzMcqKLmjAZP9PHZ6VQwwHEWCrvg33oNB9YbNvLnfExvKQYPMNKH5sGwFPhomEeJWNL",
-      "tx": "4h3wEV59G1BeSUZQxKtomDzMcqKLmjAZP9PHZ6VQwwHEWCrvg33oNB9YbNvLnfExvKQYPMNKH5sGwFPhomEeJWNL"
-    },
     {
       "t": "2026-10-21T14:27:35Z",
       "wallet": "Mitch",
@@ -2404,6 +2392,18 @@
       "action": "sell",
       "sig": "PGyaTD8APi9Unxi8wWTMLNkEyNpLC6DEQiexe68sYiGrGWhgHvv2kpPkE4Gvq2cdm8YB9TDThBTEBmjX6Y81rh9",
       "tx": "PGyaTD8APi9Unxi8wWTMLNkEyNpLC6DEQiexe68sYiGrGWhgHvv2kpPkE4Gvq2cdm8YB9TDThBTEBmjX6Y81rh9"
+    },
+    {
+      "t": "2026-10-21T18:50:33Z",
+      "wallet": "Frost",
+      "mint": "FBf3KwHhoJLrhLcyhYEL6Bmkx6UuaRcSzVJbFsFpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3hL7EPqZv2GN1ByKdAgzXsmZ3XtE9rMdWfax5zChZrQYAwTvj5dTCfWKTpXcU4fpMcaQtsEnF4BLUtPCT8NgM5qe",
+      "tx": "3hL7EPqZv2GN1ByKdAgzXsmZ3XtE9rMdWfax5zChZrQYAwTvj5dTCfWKTpXcU4fpMcaQtsEnF4BLUtPCT8NgM5qe"
     }
   ],
   "trades": [
@@ -4077,11 +4077,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792615767.3944159,
+    "paused_until": 1792616037.3320148,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1502,
+    "cycles": 1503,
     "open_positions": 1087,
     "trades": 1111,
     "rejected": 30,
@@ -4178,11 +4178,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.005058,
+      "last_px": 0.005052,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 3.1392773839817187,
-      "pnl_mtm": 3.1392773839817187,
+      "pnl": 3.133138264902262,
+      "pnl_mtm": 3.133138264902262,
       "strategy": "copy",
       "reentries": 1
     },
