@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-21T05:07:03Z",
+  "updated": "2026-10-21T05:11:03Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-21T00:12:10Z",
-      "wallet": "EustazZ",
-      "mint": "3ajqMxq28CMZUjXdnymuxUGr46Gyp2KK8qrTUmaqpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "3J2P5JbMxjy78rWNQqBUd54gL5LA4Ub8D2XMXjS25anB2M1G3sqgtvrXYee4JqoAQf3jkY1WkM4St4jYbe5K2z9d",
-      "tx": "3J2P5JbMxjy78rWNQqBUd54gL5LA4Ub8D2XMXjS25anB2M1G3sqgtvrXYee4JqoAQf3jkY1WkM4St4jYbe5K2z9d"
-    },
     {
       "t": "2026-10-21T00:12:11Z",
       "wallet": "EustazZ",
@@ -2404,6 +2392,18 @@
       "action": "buy",
       "sig": "mr2b2p2k6evkw4gdpSTZRpMRmP1KNx8UULosQfEw1KygRRQ49VxV6wMS1ynmY9K15RSWMoks6WgMRMLkMPneQun",
       "tx": "mr2b2p2k6evkw4gdpSTZRpMRmP1KNx8UULosQfEw1KygRRQ49VxV6wMS1ynmY9K15RSWMoks6WgMRMLkMPneQun"
+    },
+    {
+      "t": "2026-10-21T05:10:02Z",
+      "wallet": "Mitch",
+      "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2Amsig9Gokm3iCYnDZijmeAoSuP9GppYNNg7W7o24XtsEnpb1cQxKK377XajuGEAojHVRLqdFBQhMaoRN7tNJkEp",
+      "tx": "2Amsig9Gokm3iCYnDZijmeAoSuP9GppYNNg7W7o24XtsEnpb1cQxKK377XajuGEAojHVRLqdFBQhMaoRN7tNJkEp"
     }
   ],
   "trades": [
@@ -4048,11 +4048,11 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792566423.5096703,
+    "paused_until": 1792566663.6584878,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1194,
+    "cycles": 1195,
     "open_positions": 813,
     "trades": 864,
     "rejected": 30,
@@ -4149,11 +4149,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004759,
+      "last_px": 0.00476,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.8333446165221434,
-      "pnl_mtm": 2.8333446165221434,
+      "pnl": 2.8343678030353865,
+      "pnl_mtm": 2.8343678030353865,
       "strategy": "copy",
       "reentries": 1
     },
@@ -4209,11 +4209,11 @@
       "sym": "FLAMBO",
       "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
       "entry_px": 4.075402005732649e-06,
-      "last_px": 2.094e-06,
+      "last_px": 2.082e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.2679641449760766,
-      "pnl_mtm": -1.2679641449760766,
+      "pnl": -1.2753253819676178,
+      "pnl_mtm": -1.2753253819676178,
       "strategy": "copy",
       "reentries": 2
     },
