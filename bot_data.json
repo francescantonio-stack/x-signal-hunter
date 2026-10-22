@@ -1,23 +1,10 @@
 {
-  "updated": "2026-10-22T19:16:18Z",
+  "updated": "2026-10-22T19:23:54Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
-  "events": [
-    {
-      "t": "2026-10-22T19:06:51Z",
-      "wallet": "Frost",
-      "mint": "7Tf5t6NKuWU1JHPuGymqDMNJdVZtcPEcUDdF1TZdQM2C",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "buy",
-      "sig": "4d1cYf6J2GX7tSrsKef37nJUxYtjgoHWcKjaEveouBrFk5sZHnz9u3MDuodREoFbxW53Ze4VB4nnWv1WYiGQepgx",
-      "tx": "4d1cYf6J2GX7tSrsKef37nJUxYtjgoHWcKjaEveouBrFk5sZHnz9u3MDuodREoFbxW53Ze4VB4nnWv1WYiGQepgx"
-    }
-  ],
+  "events": [],
   "trades": [
     {
       "t": "2026-10-16T19:37:21Z",
@@ -1394,12 +1381,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-22T19:09:35Z",
+      "ts": "2026-10-22T19:23:33Z",
       "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
       "sym": "CYBERCAT",
-      "px": 0.0001021,
-      "liq_usd": 26530.14,
-      "market_cap": 100115,
+      "px": 8.329e-05,
+      "liq_usd": 23882.33,
+      "market_cap": 81657,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1419,15 +1406,15 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 3
+      "seen_count": 1
     },
     {
-      "ts": "2026-10-22T19:09:36Z",
+      "ts": "2026-10-22T19:23:34Z",
       "mint": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
       "sym": "Pepper",
-      "px": 0.0006432,
-      "liq_usd": 89208.09,
-      "market_cap": 620172,
+      "px": 0.0005838,
+      "liq_usd": 85261.83,
+      "market_cap": 562849,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1449,7 +1436,7 @@
       "tg_channels": [
         "Solana_Pumpfun_calls"
       ],
-      "seen_count": 3
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -1487,13 +1474,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792703778.293188,
+    "paused_until": 1792704234.0243056,
     "kill_switch": false
   },
   "v1": {
     "cycles": 1598,
     "open_positions": 1155,
-    "trades": 1161,
+    "trades": 1155,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
