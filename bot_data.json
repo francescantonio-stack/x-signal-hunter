@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T20:03:44Z",
+  "updated": "2026-10-22T20:12:24Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1381,12 +1381,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-22T20:03:23Z",
+      "ts": "2026-10-22T20:08:00Z",
       "mint": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
       "sym": "BTC",
-      "px": 0.0002889,
-      "liq_usd": 45024.87,
-      "market_cap": 288970,
+      "px": 0.0001775,
+      "liq_usd": 35138.52,
+      "market_cap": 177554,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1406,15 +1406,15 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 1
+      "seen_count": 3
     },
     {
-      "ts": "2026-10-22T20:03:24Z",
+      "ts": "2026-10-22T20:08:04Z",
       "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
       "sym": "CYBERCAT",
-      "px": 0.0001171,
-      "liq_usd": 28630.4,
-      "market_cap": 114821,
+      "px": 0.0001288,
+      "liq_usd": 30131.73,
+      "market_cap": 126276,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1434,7 +1434,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 1
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -1472,7 +1472,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792706624.2545123,
+    "paused_until": 1792707144.4598818,
     "kill_switch": false
   },
   "v1": {
@@ -1573,11 +1573,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004618,
+      "last_px": 0.004651,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.689075318154918,
-      "pnl_mtm": 2.689075318154918,
+      "pnl": 2.7228404730919284,
+      "pnl_mtm": 2.7228404730919284,
       "strategy": "copy",
       "reentries": 1
     },
