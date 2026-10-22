@@ -1,41 +1,43 @@
 {
- "ts": "2026-10-22 23:14",
+ "ts": "2026-10-22 23:20",
  "tokens": {
   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
    "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
    "sym": "MONEYBIZ",
    "name": "Money Business",
    "img": "https://cdn.dexscreener.com/cms/images/jgcu1Wa9yKs5f7e2?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001206",
-   "h1": -18.67,
-   "h24": -86.32,
-   "mc": 119756,
-   "liq": 35402.15,
-   "vol": 2893452.49,
+   "price": "0.000003740",
+   "h1": -97.18,
+   "h24": -99.55,
+   "mc": 3714,
+   "liq": 4764.57,
+   "vol": 2913506.27,
    "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
+   "score": 26,
+   "risks": [
+    "Low Liquidity"
+   ],
+   "fails": [
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
   },
   "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump": {
    "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
    "sym": "CYBERCAT",
    "name": "CYBERCAT",
    "img": "https://cdn.dexscreener.com/cms/images/F8kguAFPws29hUq5?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001202",
-   "h1": -10.7,
-   "h24": 69.7,
-   "mc": 117879,
-   "liq": 29043.4,
-   "vol": 568426.89,
+   "price": "0.0001192",
+   "h1": -12.22,
+   "h24": 68.29,
+   "mc": 116899,
+   "liq": 28988.23,
+   "vol": 569675.74,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
+   "fails": [],
+   "ok": true
   },
   "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": {
    "mint": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
@@ -65,12 +67,12 @@
    "sym": "BTC",
    "name": "Big Titty Coin",
    "img": "https://cdn.dexscreener.com/cms/images/cjp_LUru0ymlTrtV?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002270",
-   "h1": -98.54,
-   "h24": -95.98,
-   "mc": 2249,
-   "liq": 2390.92,
-   "vol": 695692.64,
+   "price": "0.000002291",
+   "h1": 10.16,
+   "h24": -95.94,
+   "mc": 2270,
+   "liq": 2411.19,
+   "vol": 695698.09,
    "dex": "pumpswap",
    "score": 32,
    "risks": [
@@ -98,9 +100,27 @@
     "Low Liquidity"
    ],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
+  },
+  "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": {
+   "mint": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
+   "sym": "BTC",
+   "name": "Big Titty Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/ueivdbPKAQTQMJjJ?width=800&height=800&quality=95&format=auto",
+   "price": "0.0004932",
+   "h1": 776,
+   "h24": 776,
+   "mc": 489904,
+   "liq": 59941.58,
+   "vol": 802315.38,
+   "dex": "pumpswap",
+   "score": 1,
+   "risks": [],
+   "fails": [],
+   "ok": true
   },
   "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump": {
    "mint": "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
@@ -108,7 +128,7 @@
    "name": "Pointless Coin",
    "img": "https://cdn.dexscreener.com/cms/images/PhTk6F4_PCiWp2S2?width=800&height=800&quality=95&format=auto",
    "price": "0.000004783",
-   "h1": -2.92,
+   "h1": -0.17,
    "h24": -89.35,
    "mc": 4666,
    "liq": 4345.91,
@@ -125,17 +145,72 @@
    ],
    "ok": false
   },
+  "E6FHJP495bmHbhogNcfH6d8iuTGm5a9NML6Zi9Egpump": {
+   "mint": "E6FHJP495bmHbhogNcfH6d8iuTGm5a9NML6Zi9Egpump",
+   "sym": "offboard",
+   "name": "offboard",
+   "img": "https://cdn.dexscreener.com/cms/images/Ar51jerhMA8Uxt_3?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001165",
+   "h1": -74.18,
+   "h24": -74.18,
+   "mc": 11658,
+   "liq": 7730.13,
+   "vol": 55823.7,
+   "dex": "pumpswap",
+   "score": 17,
+   "risks": [],
+   "fails": [],
+   "ok": true
+  },
+  "J28iAP1k7QbhSjswpBx7B1MkE7BYiZnTaP7Z3BX2pump": {
+   "mint": "J28iAP1k7QbhSjswpBx7B1MkE7BYiZnTaP7Z3BX2pump",
+   "sym": "Plois",
+   "name": "Plois.world",
+   "img": "https://cdn.dexscreener.com/cms/images/NbqqFzT-KJdXOl2V?width=800&height=800&quality=95&format=auto",
+   "price": null,
+   "h1": null,
+   "h24": null,
+   "mc": null,
+   "liq": null,
+   "vol": 0,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "Htg467R28meKnERuin4W374LS5jDxr3cCD2Bf5PLpump": {
+   "mint": "Htg467R28meKnERuin4W374LS5jDxr3cCD2Bf5PLpump",
+   "sym": "POINTLESS",
+   "name": "Pointless Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/0iWP3GDYqHbXQMpo?width=800&height=800&quality=95&format=auto",
+   "price": "0.00002055",
+   "h1": 224,
+   "h24": 224,
+   "mc": 20558.81,
+   "liq": null,
+   "vol": 65093.68,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
   "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK": {
    "mint": "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK",
    "sym": "Kimchi",
    "name": "Larp Final Boss",
    "img": "https://cdn.dexscreener.com/cms/images/ttT_U_0uLl1U1wQS?width=800&height=800&quality=95&format=auto",
-   "price": "0.00007708",
-   "h1": 80.48,
-   "h24": 80.48,
-   "mc": 77087,
-   "liq": 25398.91,
-   "vol": 601174.48,
+   "price": "0.0003682",
+   "h1": 762,
+   "h24": 762,
+   "mc": 368211,
+   "liq": 57705.05,
+   "vol": 1123695.38,
    "dex": "raydium",
    "score": 1,
    "risks": [],
@@ -147,114 +222,37 @@
    "sym": "QRCAT",
    "name": "QrCat",
    "img": "https://cdn.dexscreener.com/cms/images/l1PMmNzqrgsN3D6F?width=800&height=800&quality=95&format=auto",
-   "price": "0.000009957",
-   "h1": -78.95,
-   "h24": -78.95,
-   "mc": 9945,
-   "liq": 6983.55,
-   "vol": 93139.64,
+   "price": "0.000004765",
+   "h1": -89.92,
+   "h24": -89.92,
+   "mc": 4759,
+   "liq": 4313.5,
+   "vol": 122229.66,
    "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
-  },
-  "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": {
-   "mint": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
-   "sym": "BTC",
-   "name": "Big Titty Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/ueivdbPKAQTQMJjJ?width=800&height=800&quality=95&format=auto",
-   "price": "0.0005576",
-   "h1": 891,
-   "h24": 891,
-   "mc": 557531,
-   "liq": 63433.85,
-   "vol": 676730.79,
-   "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
+   "score": 28,
+   "risks": [
+    "Low Liquidity"
+   ],
+   "fails": [
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
   },
   "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump": {
    "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
    "sym": "alun",
    "name": "alun",
    "img": "https://cdn.dexscreener.com/cms/images/kr2LwTSxSO2KAXgF?width=800&height=800&quality=95&format=auto",
-   "price": "0.000003195",
-   "h1": -8.33,
-   "h24": -8.33,
-   "mc": 3195.85,
+   "price": "0.000003126",
+   "h1": -10.33,
+   "h24": -10.33,
+   "mc": 3126.01,
    "liq": null,
-   "vol": 127283.39,
+   "vol": 127716.73,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump": {
-   "mint": "B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump",
-   "sym": "kimchi",
-   "name": "project kimchi",
-   "img": "https://cdn.dexscreener.com/cms/images/pV6zbuPnGr5OFeXQ?width=800&height=800&quality=95&format=auto",
-   "price": "0.0002905",
-   "h1": -18.05,
-   "h24": 579,
-   "mc": 285498,
-   "liq": 50660.81,
-   "vol": 8492940.14,
-   "dex": "pumpswap",
-   "score": 43,
-   "risks": [
-    "Single holder ownership"
-   ],
-   "fails": [
-    "LP bloccata/bruciata 89% < 95%",
-    "RugCheck danger: Single holder ownership"
-   ],
-   "ok": false
-  },
-  "ZSgNJrt8FSNLeF84yZbqTrKSZ8LuEUyGyXcXKeb9fjV": {
-   "mint": "ZSgNJrt8FSNLeF84yZbqTrKSZ8LuEUyGyXcXKeb9fjV",
-   "sym": "rtwn",
-   "name": "Riotween",
-   "img": "https://cdn.dexscreener.com/cms/images/vytHNfU-InT0UHBa?width=800&height=800&quality=95&format=auto",
-   "price": "0.02587",
-   "h1": 12.79,
-   "h24": 18.59,
-   "mc": 2588,
-   "liq": 4747.31,
-   "vol": 1266.67,
-   "dex": "meteora",
-   "score": 53,
-   "risks": [
-    "Large Amount of LP Unlocked"
-   ],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Large Amount of LP Unlocked"
-   ],
-   "ok": false
-  },
-  "4zBAY7wYxcTEHH3AnmJQgwWtMbMpEFk9qDiTeoPcpump": {
-   "mint": "4zBAY7wYxcTEHH3AnmJQgwWtMbMpEFk9qDiTeoPcpump",
-   "sym": "catcha",
-   "name": "catcha",
-   "img": "https://cdn.dexscreener.com/cms/images/qtzvuauHSxkEAEJ7?width=800&height=800&quality=95&format=auto",
-   "price": "0.000003994",
-   "h1": 7.47,
-   "h24": 7.47,
-   "mc": 3994.59,
-   "liq": null,
-   "vol": 110843.86,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -267,31 +265,31 @@
    "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
    "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
    "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
+   "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
    "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump"
   ],
   "nuovi": [
+   "E6FHJP495bmHbhogNcfH6d8iuTGm5a9NML6Zi9Egpump",
+   "J28iAP1k7QbhSjswpBx7B1MkE7BYiZnTaP7Z3BX2pump",
+   "Htg467R28meKnERuin4W374LS5jDxr3cCD2Bf5PLpump",
    "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK",
    "6PmYGGdAgFxE4HtN3yicmhtE8qtXd49etXiUoJ9rewqe",
    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
-   "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
-   "B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump",
-   "ZSgNJrt8FSNLeF84yZbqTrKSZ8LuEUyGyXcXKeb9fjV",
-   "4zBAY7wYxcTEHH3AnmJQgwWtMbMpEFk9qDiTeoPcpump"
+   "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump"
   ],
   "gainers": [
    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
-   "B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump",
    "GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK",
+   "Htg467R28meKnERuin4W374LS5jDxr3cCD2Bf5PLpump",
    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
-   "ZSgNJrt8FSNLeF84yZbqTrKSZ8LuEUyGyXcXKeb9fjV",
-   "4zBAY7wYxcTEHH3AnmJQgwWtMbMpEFk9qDiTeoPcpump",
    "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
-   "6PmYGGdAgFxE4HtN3yicmhtE8qtXd49etXiUoJ9rewqe",
-   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
+   "E6FHJP495bmHbhogNcfH6d8iuTGm5a9NML6Zi9Egpump",
    "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
+   "6PmYGGdAgFxE4HtN3yicmhtE8qtXd49etXiUoJ9rewqe",
    "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
    "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
-   "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump"
+   "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
+   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump"
   ]
  }
 }
