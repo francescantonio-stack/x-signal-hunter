@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22 23:54",
+ "ts": "2026-10-22 23:58",
  "tokens": {
   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
    "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
@@ -7,11 +7,11 @@
    "name": "Money Business",
    "img": "https://cdn.dexscreener.com/cms/images/jgcu1Wa9yKs5f7e2?width=800&height=800&quality=95&format=auto",
    "price": "0.000003456",
-   "h1": -97.1,
+   "h1": -97.27,
    "h24": -99.58,
    "mc": 3432,
    "liq": 4494.47,
-   "vol": 2908139.68,
+   "vol": 2907252.72,
    "dex": "pumpswap",
    "score": 27,
    "risks": [
@@ -27,12 +27,12 @@
    "sym": "CYBERCAT",
    "name": "CYBERCAT",
    "img": "https://cdn.dexscreener.com/cms/images/F8kguAFPws29hUq5?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001159",
-   "h1": -1.64,
-   "h24": 63.59,
-   "mc": 113638,
-   "liq": 28531.51,
-   "vol": 578913.16,
+   "price": "0.0001134",
+   "h1": -3.31,
+   "h24": 60.08,
+   "mc": 111198,
+   "liq": 28219.49,
+   "vol": 579449.08,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -44,12 +44,12 @@
    "sym": "BTC",
    "name": "Big Titty Coin",
    "img": "https://cdn.dexscreener.com/cms/images/ueivdbPKAQTQMJjJ?width=800&height=800&quality=95&format=auto",
-   "price": "0.0008058",
-   "h1": 91.42,
-   "h24": 1331,
-   "mc": 800441,
-   "liq": 78059.01,
-   "vol": 1256815.25,
+   "price": "0.0006692",
+   "h1": 13.19,
+   "h24": 1089,
+   "mc": 664731,
+   "liq": 71119.25,
+   "vol": 1312026.22,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -85,7 +85,7 @@
    "name": "Big Titty Coin",
    "img": "https://cdn.dexscreener.com/cms/images/cjp_LUru0ymlTrtV?width=800&height=800&quality=95&format=auto",
    "price": "0.000002261",
-   "h1": -16.75,
+   "h1": -4.25,
    "h24": -96,
    "mc": 2240,
    "liq": 2382.22,
@@ -117,29 +117,7 @@
     "Low Liquidity"
    ],
    "fails": [
-    "RugCheck danger: Low Liquidity"
-   ],
-   "ok": false
-  },
-  "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump": {
-   "mint": "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
-   "sym": "POINTLESS",
-   "name": "Pointless Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/PhTk6F4_PCiWp2S2?width=800&height=800&quality=95&format=auto",
-   "price": "0.000004916",
-   "h1": 2.6,
-   "h24": -89.05,
-   "mc": 4795,
-   "liq": 4426.46,
-   "vol": 545663.4,
-   "dex": "pumpswap",
-   "score": 69,
-   "risks": [
-    "Creator history of rugged tokens",
-    "Low Liquidity"
-   ],
-   "fails": [
-    "RugCheck danger: Creator history of rugged tokens",
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -148,13 +126,13 @@
    "mint": "4Sc2YgzEcSmbbzdAnkuKB4ghFBGbqq2mPjKFNNQCpump",
    "sym": "graf",
    "name": "get rich and forget",
-   "img": null,
-   "price": "0.00001080",
-   "h1": 174,
-   "h24": 174,
-   "mc": 10802.13,
+   "img": "https://cdn.dexscreener.com/cms/images/TlARMGCQd9xiSXfe?width=800&height=800&quality=95&format=auto",
+   "price": "0.000007438",
+   "h1": 89,
+   "h24": 89,
+   "mc": 7438.49,
    "liq": null,
-   "vol": 21869.14,
+   "vol": 34571.65,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
@@ -168,31 +146,33 @@
    "sym": "INCOGNITO",
    "name": "Go Incognito",
    "img": "https://cdn.dexscreener.com/cms/images/u4-YzTttgg01Z9lH?width=800&height=800&quality=95&format=auto",
-   "price": "0.00003715",
-   "h1": -14.61,
-   "h24": -14.61,
-   "mc": 37153,
-   "liq": 14749.61,
-   "vol": 101359.19,
+   "price": "0.00003832",
+   "h1": -11.91,
+   "h24": -11.91,
+   "mc": 38328,
+   "liq": 15073.35,
+   "vol": 109319.99,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "7cHkj5CWL3ucu4tvTJC12wLBj1JK9mjNmy2zP8qTS5Cj": {
    "mint": "7cHkj5CWL3ucu4tvTJC12wLBj1JK9mjNmy2zP8qTS5Cj",
    "sym": "STONKMAN",
    "name": "StonkMan",
    "img": "https://cdn.dexscreener.com/cms/images/pWUQZDUVli9Y7hnh?width=800&height=800&quality=95&format=auto",
-   "price": "0.000003546",
-   "h1": -91.69,
-   "h24": -91.69,
-   "mc": 3547,
-   "liq": 5174.66,
-   "vol": 101872.79,
+   "price": "0.000003312",
+   "h1": -92.24,
+   "h24": -92.24,
+   "mc": 3312,
+   "liq": 5032.46,
+   "vol": 101991.43,
    "dex": "raydium",
-   "score": 14,
+   "score": 17,
    "risks": [],
    "fails": [],
    "ok": true
@@ -212,6 +192,7 @@
    "score": 1,
    "risks": [],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -221,12 +202,12 @@
    "sym": "LARPCHI",
    "name": "LARPCHI",
    "img": "https://cdn.dexscreener.com/cms/images/L28-k5LeR160LC_1?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001112",
-   "h1": 264,
-   "h24": 264,
-   "mc": 11125.2,
+   "price": "0.00001063",
+   "h1": 248,
+   "h24": 248,
+   "mc": 10633.75,
    "liq": null,
-   "vol": 16924.63,
+   "vol": 19505.23,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
@@ -240,44 +221,17 @@
    "sym": "Colors.js",
    "name": "Colors.js",
    "img": "https://cdn.dexscreener.com/cms/images/S3xUPDJQsd4n7whA?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001785",
-   "h1": -57.02,
-   "h24": -57.02,
-   "mc": 17824,
-   "liq": 9588.63,
-   "vol": 39938.19,
+   "price": "0.000008009",
+   "h1": -80.72,
+   "h24": -80.72,
+   "mc": 7994,
+   "liq": 5989.51,
+   "vol": 71216.64,
    "dex": "pumpswap",
-   "score": 1,
+   "score": 20,
    "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
-  },
-  "BAq5AdY5YDFGDMLf9VkUAEFVzCAEcVMPkWjaAnosSTNK": {
-   "mint": "BAq5AdY5YDFGDMLf9VkUAEFVzCAEcVMPkWjaAnosSTNK",
-   "sym": "criminal",
-   "name": "criminal",
-   "img": "https://cdn.dexscreener.com/cms/images/0CPPclFov4H8z8us?width=800&height=800&quality=95&format=auto",
-   "price": "0.000004767",
-   "h1": -31.19,
-   "h24": -31.19,
-   "mc": 4767,
-   "liq": 6.88,
-   "vol": 0.78,
-   "dex": "meteora",
-   "score": 58,
-   "risks": [
-    "Creator history of rugged tokens",
-    "Low Liquidity"
-   ],
-   "fails": [
-    "LP bloccata/bruciata 39% < 95%",
-    "RugCheck danger: Creator history of rugged tokens",
-    "RugCheck danger: Low Liquidity",
-    "liquidita 7 < 1000"
-   ],
-   "ok": false
+   "fails": [],
+   "ok": true
   }
  },
  "lists": {
@@ -287,8 +241,7 @@
    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
    "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
    "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
-   "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
-   "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump"
+   "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump"
   ],
   "nuovi": [
    "4Sc2YgzEcSmbbzdAnkuKB4ghFBGbqq2mPjKFNNQCpump",
@@ -296,8 +249,7 @@
    "7cHkj5CWL3ucu4tvTJC12wLBj1JK9mjNmy2zP8qTS5Cj",
    "3eo6c2ede8cdrJ9U4N52Yokyz296dJm1bgmnh9Uopump",
    "9P2n8k97XyynLArf4rfF1kaotxn2UunwG9VZ21o9pump",
-   "MMKxLHYBw4xuKHgf6AKUWHsvC6xCFFUmrmYz8Ympump",
-   "BAq5AdY5YDFGDMLf9VkUAEFVzCAEcVMPkWjaAnosSTNK"
+   "MMKxLHYBw4xuKHgf6AKUWHsvC6xCFFUmrmYz8Ympump"
   ],
   "gainers": [
    "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
@@ -305,9 +257,7 @@
    "4Sc2YgzEcSmbbzdAnkuKB4ghFBGbqq2mPjKFNNQCpump",
    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
    "6g6PeQJsP28mxttPv55HMRY99Qz7MHw7uuhuJmptpump",
-   "BAq5AdY5YDFGDMLf9VkUAEFVzCAEcVMPkWjaAnosSTNK",
    "MMKxLHYBw4xuKHgf6AKUWHsvC6xCFFUmrmYz8Ympump",
-   "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
    "7cHkj5CWL3ucu4tvTJC12wLBj1JK9mjNmy2zP8qTS5Cj",
    "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
    "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
