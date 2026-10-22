@@ -1,23 +1,10 @@
 {
-  "updated": "2026-10-22T20:32:03Z",
+  "updated": "2026-10-22T20:38:49Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
-  "events": [
-    {
-      "t": "2026-10-22T20:23:04Z",
-      "wallet": "Mr. Frog",
-      "mint": "AASYpBPvy3zVuURyFuHveWQ5nNGmeDi7dhNFBqcXpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "sell",
-      "sig": "57shjWkDqH68BxyqFMEknDdx1pwCQjbrbPDsM2p8PZe7aru3VrW4EwgyWDN5nW4rX1gzWopBwYGx1J7trdMdhES9",
-      "tx": "57shjWkDqH68BxyqFMEknDdx1pwCQjbrbPDsM2p8PZe7aru3VrW4EwgyWDN5nW4rX1gzWopBwYGx1J7trdMdhES9"
-    }
-  ],
+  "events": [],
   "trades": [
     {
       "t": "2026-10-16T19:37:21Z",
@@ -1394,26 +1381,26 @@
   },
   "signals": [
     {
-      "ts": "2026-10-22T20:19:18Z",
-      "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
-      "sym": "CYBERCAT",
-      "px": 0.0001272,
-      "liq_usd": 29910.8,
-      "market_cap": 124702,
+      "ts": "2026-10-22T20:38:28Z",
+      "mint": "7JJvLXiP5kiVsBsoGRJeqAhLEmHycA4hmC3oa5Fbpump",
+      "sym": "EMP",
+      "px": 5.748e-05,
+      "liq_usd": 18656.2,
+      "market_cap": 55681,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
-      "pair_addr": "F22JVg2DwbmLyEJhH4CtVdgULASYX3QTp3MrEiytqSP2",
+      "pair_addr": "AJ5ERPJZLVbL2Fgsg85vXtJmmJoCffs8WxBvaHk6AcsS",
       "dex_id": "pumpswap",
-      "pair_created_ms": 1792692956000,
+      "pair_created_ms": 1792449319000,
       "tx": null,
       "sig": null,
       "rug": 99.0,
       "x": 30.0,
       "wallets": 0.0,
-      "liq": 70.0,
+      "liq": 40.0,
       "holders": 50.0,
-      "total": 49.976000000000006,
+      "total": 46.016000000000005,
       "rug_na": false,
       "x_default": true,
       "holders_default": false,
@@ -1422,12 +1409,12 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-22T20:22:51Z",
+      "ts": "2026-10-22T20:38:29Z",
       "mint": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
       "sym": "HELL",
-      "px": 0.001676,
-      "liq_usd": 107498.54,
-      "market_cap": 1598949,
+      "px": 0.001817,
+      "liq_usd": 111907.17,
+      "market_cap": 1733886,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1449,7 +1436,7 @@
       "tg_channels": [
         "CMC_CG_NewList"
       ],
-      "seen_count": 2
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -1487,7 +1474,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792708323.8621216,
+    "paused_until": 1792708729.2333624,
     "kill_switch": false
   },
   "v1": {
