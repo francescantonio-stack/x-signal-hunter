@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-22 22:19",
+ "ts": "2026-10-22 22:23",
  "tokens": {
   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
    "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
    "sym": "MONEYBIZ",
    "name": "Money Business",
    "img": "https://cdn.dexscreener.com/cms/images/jgcu1Wa9yKs5f7e2?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001455",
-   "h1": 3.84,
-   "h24": -83.87,
-   "mc": 144483,
-   "liq": 38998.6,
-   "vol": 2864165.69,
+   "price": "0.0001206",
+   "h1": 2.92,
+   "h24": -87.07,
+   "mc": 119761,
+   "liq": 35327.18,
+   "vol": 2866161.88,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -23,12 +23,12 @@
    "sym": "KIMCHIBULL",
    "name": "Aura Final Bull",
    "img": "https://cdn.dexscreener.com/cms/images/LCs6WVz0Cm65CvVP?width=800&height=800&quality=95&format=auto",
-   "price": "0.0004532",
-   "h1": 41.85,
-   "h24": -58.11,
-   "mc": 451958,
-   "liq": 65144.82,
-   "vol": 9214782.54,
+   "price": "0.0004318",
+   "h1": 90.24,
+   "h24": -62.13,
+   "mc": 430614,
+   "liq": 63525.22,
+   "vol": 9169254.06,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -40,12 +40,12 @@
    "sym": "CYBERCAT",
    "name": "CYBERCAT",
    "img": "https://cdn.dexscreener.com/cms/images/F8kguAFPws29hUq5?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001272",
-   "h1": 19.79,
-   "h24": 79.52,
-   "mc": 124702,
-   "liq": 29910.8,
-   "vol": 545717.74,
+   "price": "0.0001252",
+   "h1": 28.17,
+   "h24": 76.71,
+   "mc": 122748,
+   "liq": 29674.01,
+   "vol": 552534.73,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -58,7 +58,7 @@
    "name": "NOOX",
    "img": "https://cdn.dexscreener.com/cms/images/2HnV32Nlk3wrNJ7m?width=800&height=800&quality=95&format=auto",
    "price": "0.000002660",
-   "h1": 3.05,
+   "h1": -2.86,
    "h24": -93.9,
    "mc": 2565,
    "liq": 3161.74,
@@ -72,6 +72,27 @@
    "fails": [
     "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Creator history of rugged tokens",
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
+  },
+  "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump": {
+   "mint": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
+   "sym": "BTC",
+   "name": "Big Titty Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/cjp_LUru0ymlTrtV?width=800&height=800&quality=95&format=auto",
+   "price": "0.000002103",
+   "h1": -96.28,
+   "h24": -96.28,
+   "mc": 2084,
+   "liq": 2232.77,
+   "vol": 694532.34,
+   "dex": "pumpswap",
+   "score": 33,
+   "risks": [
+    "Low Liquidity"
+   ],
+   "fails": [
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -93,27 +114,7 @@
     "Low Liquidity"
    ],
    "fails": [
-    "RugCheck danger: Low Liquidity"
-   ],
-   "ok": false
-  },
-  "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump": {
-   "mint": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
-   "sym": "BTC",
-   "name": "Big Titty Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/cjp_LUru0ymlTrtV?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002195",
-   "h1": -96.11,
-   "h24": -96.11,
-   "mc": 2195,
-   "liq": 2330.15,
-   "vol": 694460.1,
-   "dex": "pumpswap",
-   "score": 33,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -141,116 +142,79 @@
    ],
    "ok": false
   },
+  "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump": {
+   "mint": "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump",
+   "sym": "262",
+   "name": "TYPE262",
+   "img": null,
+   "price": "0.00001798",
+   "h1": 510,
+   "h24": 510,
+   "mc": 17980.87,
+   "liq": null,
+   "vol": 56626.16,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "22vNe5rfHBx3pxEj9BnFCBBzWDxKpFQQbWtz2Nk2pump": {
+   "mint": "22vNe5rfHBx3pxEj9BnFCBBzWDxKpFQQbWtz2Nk2pump",
+   "sym": "AIO",
+   "name": "Aliens in Office",
+   "img": "https://cdn.dexscreener.com/cms/images/4W-Z-wuYuLCuKdTd?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001785",
+   "h1": 503,
+   "h24": 503,
+   "mc": 17854.6,
+   "liq": null,
+   "vol": 20932.06,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
+  "26V6DpPGhXJYrSY8Tp7TvFJhUhFgLmJxZz3GY3rkpump": {
+   "mint": "26V6DpPGhXJYrSY8Tp7TvFJhUhFgLmJxZz3GY3rkpump",
+   "sym": "ACTX",
+   "name": "ACTX: The AI Threat",
+   "img": "https://cdn.dexscreener.com/cms/images/CAAitowNDblSTF6n?width=800&height=800&quality=95&format=auto",
+   "price": "0.00002100",
+   "h1": 539,
+   "h24": 539,
+   "mc": 21007.7,
+   "liq": null,
+   "vol": 148291.64,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
   "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump": {
    "mint": "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump",
    "sym": "JASON",
    "name": "Jason Duval",
    "img": "https://cdn.dexscreener.com/cms/images/FuDlSfoCO7E8xo-P?width=800&height=800&quality=95&format=auto",
-   "price": "0.00006041",
-   "h1": 3.34,
-   "h24": 30.52,
-   "mc": 58019,
-   "liq": 19223.61,
-   "vol": 47046.58,
+   "price": "0.00006376",
+   "h1": 9.03,
+   "h24": 36.82,
+   "mc": 61232,
+   "liq": 19799.86,
+   "vol": 47321.45,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [],
    "ok": true
-  },
-  "fUkSnEAsbNW9pkZRFoNnCYPFRzbDuE62kK6VLdvTmZi": {
-   "mint": "fUkSnEAsbNW9pkZRFoNnCYPFRzbDuE62kK6VLdvTmZi",
-   "sym": "BOXCAT",
-   "name": "BoxCat",
-   "img": "https://cdn.dexscreener.com/cms/images/dgoZ7tkbviZwyf0w?width=800&height=800&quality=95&format=auto",
-   "price": "0.00004239",
-   "h1": -1.42,
-   "h24": -1.42,
-   "mc": 42399,
-   "liq": 20064.04,
-   "vol": 183985.67,
-   "dex": "raydium",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
-  },
-  "Du9kbMui6rtyvLgqXRBSoriVuRM8aLhskwRbU8gXpump": {
-   "mint": "Du9kbMui6rtyvLgqXRBSoriVuRM8aLhskwRbU8gXpump",
-   "sym": "TGMB",
-   "name": "The Grand Meme Bazaar",
-   "img": "https://cdn.dexscreener.com/cms/images/ooiDquCOvoXWxNRW?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001084",
-   "h1": 21.95,
-   "h24": 176,
-   "mc": 10841.42,
-   "liq": null,
-   "vol": 15032.92,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "3nyNjt55pxCePAkevhXYQZrRWbTPZd912GGutModTyHB": {
-   "mint": "3nyNjt55pxCePAkevhXYQZrRWbTPZd912GGutModTyHB",
-   "sym": "McRib",
-   "name": "The McRib Index",
-   "img": "https://cdn.dexscreener.com/cms/images/OWARllEGnOWqbHC8?width=800&height=800&quality=95&format=auto",
-   "price": "0.00004769",
-   "h1": -78.78,
-   "h24": -78.78,
-   "mc": 46955,
-   "liq": 1371.32,
-   "vol": 150966.82,
-   "dex": "meteora",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 93% < 95%"
-   ],
-   "ok": false
-  },
-  "5wgCSXNnH5W9XAGPMbBFvhy96n9YydrwQXa1tAyJpump": {
-   "mint": "5wgCSXNnH5W9XAGPMbBFvhy96n9YydrwQXa1tAyJpump",
-   "sym": "SKYNET",
-   "name": "Skynet",
-   "img": "https://cdn.dexscreener.com/cms/images/QNICBlD5-f75FI4Q?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001628",
-   "h1": -62.96,
-   "h24": -62.96,
-   "mc": 16262,
-   "liq": 9748.8,
-   "vol": 247071.22,
-   "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%"
-   ],
-   "ok": false
-  },
-  "86qZLiDcKSDeWGB12abFRjYpE17z8KkGwR73WjqSpump": {
-   "mint": "86qZLiDcKSDeWGB12abFRjYpE17z8KkGwR73WjqSpump",
-   "sym": "Reverse",
-   "name": "Reversepad ",
-   "img": "https://cdn.dexscreener.com/cms/images/tkP60POTgHmNgnIH?width=800&height=800&quality=95&format=auto",
-   "price": "0.00001634",
-   "h1": 154,
-   "h24": 154,
-   "mc": 16348.53,
-   "liq": null,
-   "vol": 41517.9,
-   "dex": "pumpfun",
-   "score": 1,
-   "risks": [],
-   "fails": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ],
-   "ok": false
   }
  },
  "lists": {
@@ -259,27 +223,23 @@
    "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
    "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
-   "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
    "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
+   "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
    "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump"
   ],
   "nuovi": [
-   "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump",
-   "fUkSnEAsbNW9pkZRFoNnCYPFRzbDuE62kK6VLdvTmZi",
-   "Du9kbMui6rtyvLgqXRBSoriVuRM8aLhskwRbU8gXpump",
-   "3nyNjt55pxCePAkevhXYQZrRWbTPZd912GGutModTyHB",
-   "5wgCSXNnH5W9XAGPMbBFvhy96n9YydrwQXa1tAyJpump",
-   "86qZLiDcKSDeWGB12abFRjYpE17z8KkGwR73WjqSpump"
+   "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump",
+   "22vNe5rfHBx3pxEj9BnFCBBzWDxKpFQQbWtz2Nk2pump",
+   "26V6DpPGhXJYrSY8Tp7TvFJhUhFgLmJxZz3GY3rkpump",
+   "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump"
   ],
   "gainers": [
-   "Du9kbMui6rtyvLgqXRBSoriVuRM8aLhskwRbU8gXpump",
-   "86qZLiDcKSDeWGB12abFRjYpE17z8KkGwR73WjqSpump",
+   "26V6DpPGhXJYrSY8Tp7TvFJhUhFgLmJxZz3GY3rkpump",
+   "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump",
+   "22vNe5rfHBx3pxEj9BnFCBBzWDxKpFQQbWtz2Nk2pump",
    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
    "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump",
-   "fUkSnEAsbNW9pkZRFoNnCYPFRzbDuE62kK6VLdvTmZi",
    "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
-   "5wgCSXNnH5W9XAGPMbBFvhy96n9YydrwQXa1tAyJpump",
-   "3nyNjt55pxCePAkevhXYQZrRWbTPZd912GGutModTyHB",
    "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
    "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
    "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
