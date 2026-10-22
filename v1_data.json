@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T22:43:07+0200",
- "source_updated_at": "2026-10-22T22:43:07+0200",
+ "generated_at": "2026-10-22T22:55:18+0200",
+ "source_updated_at": "2026-10-22T22:55:18+0200",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -1590,7 +1590,7 @@
    "lag_fill_from_block_s": 30.6,
    "wallet_px_usd": 2.871e-05,
    "our_px_usd": 5.3e-05,
-   "mult": 0.0631,
+   "mult": 0.0629,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1614,7 +1614,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 5.144e-05,
    "our_px_usd": 5.144e-05,
-   "mult": 0.065,
+   "mult": 0.0649,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -1734,7 +1734,7 @@
    "lag_fill_from_block_s": 5.5,
    "wallet_px_usd": 5.144e-05,
    "our_px_usd": 5.144e-05,
-   "mult": 0.065,
+   "mult": 0.0649,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12709,312 +12709,6 @@
  ],
  "rejected_last": [
   {
-   "t": "2026-10-22T21:36:37+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.5,
-   "wallet": "Frost",
-   "mint": "3kHgQkWWbSn92qpStDycWtdTVZL4bV4VD6C5hpGZsWJ1",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Large Amount of LP Unlocked",
-    "RugCheck danger: Low Liquidity",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:36:37+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.5,
-   "wallet": "Frost",
-   "mint": "3kHgQkWWbSn92qpStDycWtdTVZL4bV4VD6C5hpGZsWJ1",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Large Amount of LP Unlocked",
-    "RugCheck danger: Low Liquidity",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:36:37+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.5,
-   "wallet": "Frost",
-   "mint": "3kHgQkWWbSn92qpStDycWtdTVZL4bV4VD6C5hpGZsWJ1",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "RugCheck danger: Large Amount of LP Unlocked",
-    "RugCheck danger: Low Liquidity",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:25+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:25+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:25+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:30+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.6,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:30+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.6,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:30+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:55+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.6,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:55+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.7,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:37:55+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.7,
-   "wallet": "Frost",
-   "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:02+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:02+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:02+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:08+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.6,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:08+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.6,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:08+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.6,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:33+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.6,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:33+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.6,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T21:47:33+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.6,
-   "wallet": "Mitch",
-   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-   "reasons": [
-    "LP bloccata/bruciata 24% < 95%",
-    "RugCheck danger: Mint Authority still enabled"
-   ]
-  },
-  {
-   "t": "2026-10-22T22:40:01+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "EustazZ",
-   "mint": "Cs6LPg1FVNmzqBCfSJmdP7f8ifPG9sCcZo5WT6uYpump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-22T22:40:01+0200",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "EustazZ",
-   "mint": "Cs6LPg1FVNmzqBCfSJmdP7f8ifPG9sCcZo5WT6uYpump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-22T22:40:01+0200",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "EustazZ",
-   "mint": "Cs6LPg1FVNmzqBCfSJmdP7f8ifPG9sCcZo5WT6uYpump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
    "t": "2026-10-22T22:40:06+0200",
    "mode": "N1",
    "size_usdc": 1.0,
@@ -13085,9 +12779,309 @@
    "reasons": [
     "nessun pool su DexScreener"
    ]
+  },
+  {
+   "t": "2026-10-22T22:55:08+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:08+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:08+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:08+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:08+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:08+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:11+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:11+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:11+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:11+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:11+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:11+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:14+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.7,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:14+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:14+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.7,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:14+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.9,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:14+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.9,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:14+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.9,
+   "wallet": "Mitch",
+   "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+   "reasons": [
+    "LP bloccata/bruciata 24% < 95%",
+    "RugCheck danger: Mint Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:17+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:17+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:17+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:17+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.7,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:17+0200",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.7,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-22T22:55:17+0200",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "EustazZ",
+   "mint": "EHs8DcjX1qraz89ehTdQisagNg6qFwY2cMHNdtNWpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
   }
  ],
- "cycles": 1606,
+ "cycles": 1610,
  "notes": "PnL in USDC; no per-trade stop (Max: size is the stop); paper-v2",
  "S_blocked_still_in": 241,
  "S_blocked_by_delay": {
