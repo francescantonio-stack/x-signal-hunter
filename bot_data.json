@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T20:12:24Z",
+  "updated": "2026-10-22T20:19:36Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1381,40 +1381,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-22T20:08:00Z",
-      "mint": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
-      "sym": "BTC",
-      "px": 0.0001775,
-      "liq_usd": 35138.52,
-      "market_cap": 177554,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "CA5baS1GFCw1C29wo3p5dN27AmVZS1n4dYJh88c9mGEy",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792698311000,
-      "tx": null,
-      "sig": null,
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 70.0,
-      "holders": 50.0,
-      "total": 49.976000000000006,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 3
-    },
-    {
-      "ts": "2026-10-22T20:08:04Z",
+      "ts": "2026-10-22T20:19:18Z",
       "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
       "sym": "CYBERCAT",
-      "px": 0.0001288,
-      "liq_usd": 30131.73,
-      "market_cap": 126276,
+      "px": 0.0001272,
+      "liq_usd": 29910.8,
+      "market_cap": 124702,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1434,7 +1406,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 3
+      "seen_count": 1
     }
   ],
   "new_pools": [],
@@ -1472,7 +1444,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792707144.4598818,
+    "paused_until": 1792707576.6904333,
     "kill_switch": false
   },
   "v1": {
