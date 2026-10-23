@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T07:08:30Z",
+  "updated": "2026-10-23T07:20:15Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1381,12 +1381,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-23T07:07:39Z",
+      "ts": "2026-10-23T07:12:03Z",
       "mint": "GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5",
       "sym": "POKECOIN",
-      "px": 1.943e-05,
-      "liq_usd": 20424.92,
-      "market_cap": 19438,
+      "px": 1.952e-05,
+      "liq_usd": 20471.48,
+      "market_cap": 19526,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1400,13 +1400,19 @@
       "wallets": 0.0,
       "liq": 70.0,
       "holders": 20.0,
-      "total": 47.336000000000006,
+      "total": 55.736000000000004,
       "rug_na": false,
       "x_default": true,
       "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 1
+      "tg": 100.0,
+      "tg_channels": [
+        "Pumpfunpremium",
+        "mad_apes_gambles",
+        "pumpfunearlytrending",
+        "shitcoingemsalert",
+        "solgemsradar"
+      ],
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -1444,7 +1450,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792746510.141651,
+    "paused_until": 1792747215.1679976,
     "kill_switch": false
   },
   "v1": {
