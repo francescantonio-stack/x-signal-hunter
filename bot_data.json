@@ -1,10 +1,47 @@
 {
-  "updated": "2026-10-23T19:01:59Z",
+  "updated": "2026-10-23T19:13:09Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
-  "events": [],
+  "events": [
+    {
+      "t": "2026-10-23T19:03:14Z",
+      "wallet": "Cented",
+      "mint": "2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "4zKoyvypYPGu563m3BbDjDiyi1Ga8wXEeiSyFJ1dhPXCxu1hcKoTrANus8Pq2tvKniL72fGBwYjENPrXV5ZokzsU",
+      "tx": "4zKoyvypYPGu563m3BbDjDiyi1Ga8wXEeiSyFJ1dhPXCxu1hcKoTrANus8Pq2tvKniL72fGBwYjENPrXV5ZokzsU"
+    },
+    {
+      "t": "2026-10-23T19:06:27Z",
+      "wallet": "Decu",
+      "mint": "2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "ybFcrD7ATv9pYhA5yUrTjgJjTgTqZD2XaUH53VbsWUghzVq6Wh4rJovL3Za1G4SH9PjpudtsFEnBkDVx9XVEa77",
+      "tx": "ybFcrD7ATv9pYhA5yUrTjgJjTgTqZD2XaUH53VbsWUghzVq6Wh4rJovL3Za1G4SH9PjpudtsFEnBkDVx9XVEa77"
+    },
+    {
+      "t": "2026-10-23T19:06:27Z",
+      "wallet": "Decu",
+      "mint": "2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "23ESg5TfFZjDW8f8hkM3dXczCS7y958rt1BazZ5QvFrcubhLsyivjJbLE6ebagPSDVurC5qCD1E2wgDPL44TQiqH",
+      "tx": "23ESg5TfFZjDW8f8hkM3dXczCS7y958rt1BazZ5QvFrcubhLsyivjJbLE6ebagPSDVurC5qCD1E2wgDPL44TQiqH"
+    }
+  ],
   "trades": [
     {
       "t": "2026-10-16T19:37:21Z",
@@ -1381,12 +1418,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-23T19:01:38Z",
+      "ts": "2026-10-23T19:06:10Z",
       "mint": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
       "sym": "Groklet",
-      "px": 0.0003011,
-      "liq_usd": 56164.51,
-      "market_cap": 295453,
+      "px": 0.0003025,
+      "liq_usd": 56294.48,
+      "market_cap": 296813,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1410,7 +1447,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 1
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -1448,7 +1485,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792789319.5944893,
+    "paused_until": 1792789989.754054,
     "kill_switch": false
   },
   "v1": {
@@ -1549,11 +1586,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.00458,
+      "last_px": 0.004497,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.6501942306516946,
-      "pnl_mtm": 2.6501942306516946,
+      "pnl": 2.5652697500525483,
+      "pnl_mtm": 2.5652697500525483,
       "strategy": "copy",
       "reentries": 1
     },
@@ -1609,11 +1646,11 @@
       "sym": "FLAMBO",
       "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
       "entry_px": 4.075402005732649e-06,
-      "last_px": 1.776e-06,
+      "last_px": 2.064e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.4630369252519162,
-      "pnl_mtm": -1.4630369252519162,
+      "pnl": -1.2863672374549295,
+      "pnl_mtm": -1.2863672374549295,
       "strategy": "copy",
       "reentries": 2
     },
@@ -1621,11 +1658,11 @@
       "sym": "TRALALA",
       "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
       "entry_px": 4.0954407711024855e-06,
-      "last_px": 1.672e-06,
+      "last_px": 2.039e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.53185283804025,
-      "pnl_mtm": -1.53185283804025,
+      "pnl": -1.307823227729707,
+      "pnl_mtm": -1.307823227729707,
       "strategy": "copy",
       "reentries": 2
     },
@@ -1657,11 +1694,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 2.229e-06,
+      "last_px": 1.874e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -0.828686840703126,
-      "pnl_mtm": -0.828686840703126,
+      "pnl": -1.1032286404116907,
+      "pnl_mtm": -1.1032286404116907,
       "strategy": "copy",
       "reentries": 2
     },
