@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T19:06:04Z",
+  "updated": "2026-10-24T19:13:44Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2281,12 +2281,12 @@
       "seen_count": 4
     },
     {
-      "ts": "2026-10-24T19:05:37Z",
+      "ts": "2026-10-24T19:10:10Z",
       "mint": "B3wEvYdgjYiCQhTcsUZ8RyjxJG9QYs813n4chNZopump",
       "sym": "PIK",
-      "px": 2.122e-05,
-      "liq_usd": 10524.04,
-      "market_cap": 20399,
+      "px": 2.126e-05,
+      "liq_usd": 10537.47,
+      "market_cap": 20444,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2300,15 +2300,15 @@
       "wallets": 0.0,
       "liq": 40.0,
       "holders": 20.0,
-      "total": 34.208,
+      "total": 35.407999999999994,
       "rug_na": false,
       "x_default": true,
       "holders_default": false,
-      "tg": 26.2,
+      "tg": 36.2,
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 1
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -2346,7 +2346,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792875964.90786,
+    "paused_until": 1792876424.5660055,
     "kill_switch": false
   },
   "v1": {
@@ -2447,11 +2447,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004265,
+      "last_px": 0.004274,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.3278904789802346,
-      "pnl_mtm": 2.3278904789802346,
+      "pnl": 2.3370991575994196,
+      "pnl_mtm": 2.3370991575994196,
       "strategy": "copy",
       "reentries": 1
     },
