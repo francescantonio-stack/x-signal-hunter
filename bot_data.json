@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T07:07:47Z",
+  "updated": "2026-10-24T07:08:17Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1105,6 +1105,17 @@
       "x": 30,
       "strategy": "reentry",
       "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-24T07:07:57Z",
+      "sym": "SMECK",
+      "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.933e-06,
+      "last_px": 1.933e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
     }
   ],
   "variants": {
@@ -1574,7 +1585,22 @@
         }
       }
     ],
-    "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": [],
+    "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.933e-06,
+          "size": 1.0,
+          "ts": "2026-10-24T07:07:57Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.91367e-06,
+          "size": 0.9,
+          "ts": "2026-10-24T07:07:57Z"
+        }
+      }
+    ],
     "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": [
       {
         "A": {
@@ -1883,9 +1909,9 @@
     },
     "reentry": {
       "budget": 43.24121749674827,
-      "alloc": 27.104500000000016,
+      "alloc": 28.122500000000016,
       "pnl": 0.0,
-      "n": 35,
+      "n": 36,
       "wins": 0
     }
   },
@@ -1893,13 +1919,13 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792832867.9421346,
+    "paused_until": 1792832897.9678028,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1647,
-    "open_positions": 1206,
-    "trades": 1206,
+    "cycles": 1650,
+    "open_positions": 1212,
+    "trades": 1212,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -1994,11 +2020,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004303,
+      "last_px": 0.004284,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.3667715664834597,
-      "pnl_mtm": 2.3667715664834597,
+      "pnl": 2.3473310227318467,
+      "pnl_mtm": 2.3473310227318467,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2018,11 +2044,11 @@
       "sym": "AA",
       "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
       "entry_px": 3.4583548611465094e-06,
-      "last_px": 2.067e-06,
+      "last_px": 2.044e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.0582924338374933,
-      "pnl_mtm": -1.0582924338374933,
+      "pnl": -1.0749188363637332,
+      "pnl_mtm": -1.0749188363637332,
       "strategy": "copy",
       "reentries": 2
     },
@@ -2090,11 +2116,11 @@
       "sym": "BURNT",
       "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
       "entry_px": 4.145497901288388e-05,
-      "last_px": 2.141e-06,
+      "last_px": 2.037e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -2.423384025816622,
-      "pnl_mtm": -2.423384025816622,
+      "pnl": -2.4296558900459875,
+      "pnl_mtm": -2.4296558900459875,
       "strategy": "copy",
       "reentries": 2
     },
@@ -2102,11 +2128,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 1.874e-06,
+      "last_px": 2.181e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.1032286404116907,
-      "pnl_mtm": -1.1032286404116907,
+      "pnl": -0.8658079854524532,
+      "pnl_mtm": -0.8658079854524532,
       "strategy": "copy",
       "reentries": 2
     },
@@ -2137,24 +2163,24 @@
     "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": {
       "sym": "SMECK",
       "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
-      "entry_px": 0.0001216,
-      "last_px": 1.985e-06,
-      "size_usd": 1.0,
-      "cost": 0.018,
-      "pnl": -1.001675986842105,
-      "pnl_mtm": -1.001675986842105,
+      "entry_px": 3.8055062210097704e-06,
+      "last_px": 1.933e-06,
+      "size_usd": 2.0,
+      "cost": 0.036,
+      "pnl": -1.0201036184210526,
+      "pnl_mtm": -1.0201036184210526,
       "strategy": "copy",
-      "reentries": 0
+      "reentries": 1
     },
     "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": {
       "sym": "Nocity",
       "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
       "entry_px": 3.345174294522172e-06,
-      "last_px": 2.04e-06,
+      "last_px": 2.017e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.027915762834418,
-      "pnl_mtm": -1.027915762834418,
+      "pnl": -1.0451047027632456,
+      "pnl_mtm": -1.0451047027632456,
       "strategy": "copy",
       "reentries": 2
     },
@@ -2162,11 +2188,11 @@
       "sym": "BKIM",
       "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
       "entry_px": 2.8013619761898873e-05,
-      "last_px": 2.109e-06,
+      "last_px": 2.047e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -2.3642879786756055,
-      "pnl_mtm": -2.3642879786756055,
+      "pnl": -2.3698210015879395,
+      "pnl_mtm": -2.3698210015879395,
       "strategy": "copy",
       "reentries": 2
     }
