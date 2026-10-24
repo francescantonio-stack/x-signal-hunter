@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T07:08:17Z",
+  "updated": "2026-10-24T13:08:43Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1116,6 +1116,17 @@
       "x": 30,
       "strategy": "reentry",
       "pnl": -0.018
+    },
+    {
+      "t": "2026-10-24T07:08:36Z",
+      "sym": "SMECK",
+      "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.933e-06,
+      "last_px": 1.933e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
     }
   ],
   "variants": {
@@ -1599,6 +1610,20 @@
           "size": 0.9,
           "ts": "2026-10-24T07:07:57Z"
         }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.933e-06,
+          "size": 0.5,
+          "ts": "2026-10-24T07:08:36Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.91367e-06,
+          "size": 0.45,
+          "ts": "2026-10-24T07:08:36Z"
+        }
       }
     ],
     "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": [
@@ -1789,12 +1814,42 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-24T07:07:28Z",
+      "ts": "2026-10-24T07:07:45Z",
+      "mint": "6KDh3wLSZMg37nnU7prtKZr7Rut7WQGSf33Vp1G7pump",
+      "sym": "ANSEM",
+      "px": 1.378e-05,
+      "liq_usd": 17782.45,
+      "market_cap": 13776,
+      "wallet_names": [
+        "Mitch"
+      ],
+      "source": "wallet:Mitch",
+      "rug_ok": true,
+      "pair_addr": "EDEXqSN8ndyUduSndnGmyBr9czEvkBvXJb2vpfmvo6x3",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1781387794000,
+      "tx": "35Kti9aWqad9DTH1qe25NZ8Jesu6dwfRX8GkFs4WQhXEKXGwfGJNtaWWRyNP53AKRVQEQUfCuhRpA86TwbLoMGer",
+      "sig": "35Kti9aWqad9DTH1qe25NZ8Jesu6dwfRX8GkFs4WQhXEKXGwfGJNtaWWRyNP53AKRVQEQUfCuhRpA86TwbLoMGer",
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 35.0,
+      "liq": 40.0,
+      "holders": 20.0,
+      "total": 49.536,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 1
+    },
+    {
+      "ts": "2026-10-24T07:11:47Z",
       "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
       "sym": "PHP",
-      "px": 0.0002327,
-      "liq_usd": 51580.09,
-      "market_cap": 227300,
+      "px": 0.0002389,
+      "liq_usd": 52297.69,
+      "market_cap": 233331,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1821,15 +1876,15 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 1
+      "seen_count": 3
     },
     {
-      "ts": "2026-10-24T07:07:29Z",
+      "ts": "2026-10-24T07:11:49Z",
       "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "sym": "CBUCKS",
-      "px": 0.001448,
-      "liq_usd": 124520.06,
-      "market_cap": 1365952,
+      "px": 0.001439,
+      "liq_usd": 124094.74,
+      "market_cap": 1357096,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1843,39 +1898,69 @@
       "wallets": 0.0,
       "liq": 100.0,
       "holders": 20.0,
-      "total": 51.29600000000001,
+      "total": 52.496,
       "rug_na": false,
       "x_default": true,
       "holders_default": false,
-      "tg": 30.0,
+      "tg": 40.0,
       "tg_channels": [
         "CMC_CG_NewList"
+      ],
+      "seen_count": 3
+    },
+    {
+      "ts": "2026-10-24T13:08:36Z",
+      "mint": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+      "sym": "VIRTUAL",
+      "px": 0.0003463,
+      "liq_usd": 52779.34,
+      "market_cap": 301574,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792684092000,
+      "tx": null,
+      "sig": null,
+      "rug": 71.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 48.44,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 78.8,
+      "tg_channels": [
+        "CMC_CG_NewList",
+        "shitcoingemsalert",
+        "solearlytrending"
       ],
       "seen_count": 1
     },
     {
-      "ts": "2026-10-24T07:07:45Z",
-      "mint": "6KDh3wLSZMg37nnU7prtKZr7Rut7WQGSf33Vp1G7pump",
-      "sym": "ANSEM",
-      "px": 1.378e-05,
-      "liq_usd": 17782.45,
-      "market_cap": 13776,
-      "wallet_names": [
-        "Mitch"
-      ],
-      "source": "wallet:Mitch",
+      "ts": "2026-10-24T13:08:38Z",
+      "mint": "BPUDuDxG2xyeKyDQ3bqDyPvTmCjXado5ETcGKV1wKhhC",
+      "sym": "KILLA",
+      "px": 2.89,
+      "liq_usd": 26533.03,
+      "market_cap": 60813,
+      "wallet_names": [],
+      "source": "dex_boost",
       "rug_ok": true,
-      "pair_addr": "EDEXqSN8ndyUduSndnGmyBr9czEvkBvXJb2vpfmvo6x3",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1781387794000,
-      "tx": "35Kti9aWqad9DTH1qe25NZ8Jesu6dwfRX8GkFs4WQhXEKXGwfGJNtaWWRyNP53AKRVQEQUfCuhRpA86TwbLoMGer",
-      "sig": "35Kti9aWqad9DTH1qe25NZ8Jesu6dwfRX8GkFs4WQhXEKXGwfGJNtaWWRyNP53AKRVQEQUfCuhRpA86TwbLoMGer",
+      "pair_addr": "DvMNEDoTWPmyiPJDticVirtY7BdCrq4Au5n96QJfxVg8",
+      "dex_id": "raydium",
+      "pair_created_ms": 1715795282000,
+      "tx": null,
+      "sig": null,
       "rug": 99.0,
       "x": 30.0,
-      "wallets": 35.0,
-      "liq": 40.0,
-      "holders": 20.0,
-      "total": 49.536,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 49.976000000000006,
       "rug_na": false,
       "x_default": true,
       "holders_default": false,
@@ -1909,9 +1994,9 @@
     },
     "reentry": {
       "budget": 43.24121749674827,
-      "alloc": 28.122500000000016,
+      "alloc": 28.639000000000017,
       "pnl": 0.0,
-      "n": 36,
+      "n": 37,
       "wins": 0
     }
   },
@@ -1919,7 +2004,7 @@
   "protections": {
     "daily_pnl": 189.3353340948389,
     "consecutive_losses": 6,
-    "paused_until": 1792832897.9678028,
+    "paused_until": 1792854523.5588775,
     "kill_switch": false
   },
   "v1": {
@@ -2020,11 +2105,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004284,
+      "last_px": 0.00428,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.3473310227318467,
-      "pnl_mtm": 2.3473310227318467,
+      "pnl": 2.343238276678876,
+      "pnl_mtm": 2.343238276678876,
       "strategy": "copy",
       "reentries": 1
     },
@@ -2128,11 +2213,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 2.181e-06,
+      "last_px": 1.824e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -0.8658079854524532,
-      "pnl_mtm": -0.8658079854524532,
+      "pnl": -1.141896499525573,
+      "pnl_mtm": -1.141896499525573,
       "strategy": "copy",
       "reentries": 2
     },
@@ -2163,14 +2248,14 @@
     "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": {
       "sym": "SMECK",
       "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
-      "entry_px": 3.8055062210097704e-06,
+      "entry_px": 3.187882799064736e-06,
       "last_px": 1.933e-06,
-      "size_usd": 2.0,
-      "cost": 0.036,
-      "pnl": -1.0201036184210526,
-      "pnl_mtm": -1.0201036184210526,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0366036184210528,
+      "pnl_mtm": -1.0366036184210528,
       "strategy": "copy",
-      "reentries": 1
+      "reentries": 2
     },
     "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": {
       "sym": "Nocity",
@@ -2188,11 +2273,11 @@
       "sym": "BKIM",
       "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
       "entry_px": 2.8013619761898873e-05,
-      "last_px": 2.047e-06,
+      "last_px": 2.038e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -2.3698210015879395,
-      "pnl_mtm": -2.3698210015879395,
+      "pnl": -2.370624182333278,
+      "pnl_mtm": -2.370624182333278,
       "strategy": "copy",
       "reentries": 2
     }
