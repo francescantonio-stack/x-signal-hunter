@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T22:58:09+0100",
- "source_updated_at": "2026-10-25T22:58:09+0100",
+ "generated_at": "2026-10-25T23:02:01+0100",
+ "source_updated_at": "2026-10-25T23:02:01+0100",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -12892,79 +12892,6 @@
  ],
  "rejected_last": [
   {
-   "t": "2026-10-25T20:50:24+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "EustazZ",
-   "mint": "ETHNncNma2oUkU43iWWS5icW5ZSbT41PjHkxxhkCpump",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:50:29+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 31.0,
-   "wallet": "EustazZ",
-   "mint": "ETHNncNma2oUkU43iWWS5icW5ZSbT41PjHkxxhkCpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:50:29+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 31.0,
-   "wallet": "EustazZ",
-   "mint": "ETHNncNma2oUkU43iWWS5icW5ZSbT41PjHkxxhkCpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:50:30+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "EustazZ",
-   "mint": "ETHNncNma2oUkU43iWWS5icW5ZSbT41PjHkxxhkCpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:50:30+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "EustazZ",
-   "mint": "ETHNncNma2oUkU43iWWS5icW5ZSbT41PjHkxxhkCpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:50:30+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "EustazZ",
-   "mint": "ETHNncNma2oUkU43iWWS5icW5ZSbT41PjHkxxhkCpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
    "t": "2026-10-25T20:50:55+0100",
    "mode": "S",
    "size_usdc": 1.0,
@@ -13251,6 +13178,84 @@
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 0.1,
+   "wallet": "Mitch",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "reasons": [
+    "LP bloccata/bruciata 77% < 95%",
+    "RugCheck danger: Creator history of rugged tokens"
+   ]
+  },
+  {
+   "t": "2026-10-25T22:58:15+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.7,
+   "wallet": "Mitch",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "reasons": [
+    "LP bloccata/bruciata 77% < 95%",
+    "RugCheck danger: Creator history of rugged tokens"
+   ]
+  },
+  {
+   "t": "2026-10-25T22:58:15+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "Mitch",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "reasons": [
+    "LP bloccata/bruciata 77% < 95%",
+    "RugCheck danger: Creator history of rugged tokens"
+   ]
+  },
+  {
+   "t": "2026-10-25T22:58:15+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.9,
+   "wallet": "Mitch",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "reasons": [
+    "LP bloccata/bruciata 77% < 95%",
+    "RugCheck danger: Creator history of rugged tokens"
+   ]
+  },
+  {
+   "t": "2026-10-25T22:58:40+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.8,
+   "wallet": "Mitch",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "reasons": [
+    "LP bloccata/bruciata 77% < 95%",
+    "RugCheck danger: Creator history of rugged tokens"
+   ]
+  },
+  {
+   "t": "2026-10-25T22:58:40+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.8,
+   "wallet": "Mitch",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "reasons": [
+    "LP bloccata/bruciata 77% < 95%",
+    "RugCheck danger: Creator history of rugged tokens"
+   ]
+  },
+  {
+   "t": "2026-10-25T22:58:40+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 31.1,
    "wallet": "Mitch",
    "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
    "reasons": [
