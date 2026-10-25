@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T21:37:58Z",
+  "updated": "2026-10-25T21:42:58Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2116,6 +2116,18 @@
       "action": "buy",
       "sig": "kxS7whUh6Htg6mAPsLkMbgNvqexRaVEi2AMoTZtQj8ywSsfDz1tLpyrXduTTV3pVsFqD9T63YK9eJFmefDZu4Je",
       "tx": "kxS7whUh6Htg6mAPsLkMbgNvqexRaVEi2AMoTZtQj8ywSsfDz1tLpyrXduTTV3pVsFqD9T63YK9eJFmefDZu4Je"
+    },
+    {
+      "t": "2026-10-25T21:41:53Z",
+      "wallet": "Mitch",
+      "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "YUYQjPzL9eXeudGcQCnUJyK823WFK4r9FauvP2gimokHAMuzC1egDTQBgs3Ni6s8z4i94K5TnQEvCH5d1qNMYQ8",
+      "tx": "YUYQjPzL9eXeudGcQCnUJyK823WFK4r9FauvP2gimokHAMuzC1egDTQBgs3Ni6s8z4i94K5TnQEvCH5d1qNMYQ8"
     }
   ],
   "trades": [
@@ -3566,7 +3578,7 @@
         "solgemsradar",
         "trenchwhalers100xcalls"
       ],
-      "seen_count": 4
+      "seen_count": 2
     },
     {
       "ts": "2026-10-25T19:52:05Z",
@@ -3755,12 +3767,12 @@
       "seen_count": 2
     },
     {
-      "ts": "2026-10-25T21:37:47Z",
+      "ts": "2026-10-25T21:42:47Z",
       "mint": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
       "sym": "Chop",
-      "px": 0.0003415,
-      "liq_usd": 49887.28,
-      "market_cap": 339886,
+      "px": 0.000357,
+      "liq_usd": 51072.42,
+      "market_cap": 355279,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3780,7 +3792,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 15
+      "seen_count": 17
     }
   ],
   "new_pools": [],
@@ -3802,9 +3814,9 @@
     "arb": {
       "budget": 35.554186039482666,
       "alloc": 0.0,
-      "pnl": 0.0,
-      "n": 0,
-      "wins": 0
+      "pnl": 0.0116513,
+      "n": 1,
+      "wins": 1
     },
     "reentry": {
       "budget": 35.554186039482666,
@@ -3957,11 +3969,20 @@
     ],
     "rules": "2+ KOL/10min; no >=3 KOL entro 3' dal lancio; nessun KOL ha venduto >30%; liq>=15k graduated, age>=10m, rug!=danger, insider=0, top10 senza pool<25%, holder<=5%, h1<=+50% (wait 60m), m5 sells<=buys"
   },
-  "arb": [],
+  "arb": [
+    {
+      "ts": "2026-10-25T21:41:17Z",
+      "mint": "GUumEY1X2BAmF2xw6or2qhHFWapv3We6SiYkZgo9pump",
+      "profit_bps": 233.026,
+      "fee_bps": 60,
+      "net_bps": 173.026,
+      "paper_profit_usd": 0.0116513
+    }
+  ],
   "protections": {
-    "daily_pnl": 0.0,
+    "daily_pnl": 0.0116513,
     "consecutive_losses": 6,
-    "paused_until": 1792971478.5143545,
+    "paused_until": 1792971778.7915196,
     "kill_switch": false
   },
   "v1": {
@@ -4062,11 +4083,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004251,
+      "last_px": 0.004224,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.313565867794837,
-      "pnl_mtm": 2.313565867794837,
+      "pnl": 2.285939831937284,
+      "pnl_mtm": 2.285939831937284,
       "strategy": "copy",
       "reentries": 1
     },
