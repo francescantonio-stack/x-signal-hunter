@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T20:13:03Z",
+  "updated": "2026-10-25T20:21:08Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1960,6 +1960,18 @@
       "action": "transfer_in",
       "sig": "3otCypn2vhTpqFiqhx1EtvAUGfZQyoHrMz1JXULReyUnUqvTPiVw7UYegTyj34kBiFuWkQ3VNsw2euPq9n6m6GmF",
       "tx": "3otCypn2vhTpqFiqhx1EtvAUGfZQyoHrMz1JXULReyUnUqvTPiVw7UYegTyj34kBiFuWkQ3VNsw2euPq9n6m6GmF"
+    },
+    {
+      "t": "2026-10-25T20:13:19Z",
+      "wallet": "Mitch",
+      "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2bafw7JFKomWK4cjSjVsqzrgPZcLxgEwXcSeJPqVpypzpCqcdBPuHfjV89iHiYFPecxr3GnpvL3fHaD73HoYo3XK",
+      "tx": "2bafw7JFKomWK4cjSjVsqzrgPZcLxgEwXcSeJPqVpypzpCqcdBPuHfjV89iHiYFPecxr3GnpvL3fHaD73HoYo3XK"
     }
   ],
   "trades": [
@@ -3403,7 +3415,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 10
+      "seen_count": 8
     },
     {
       "ts": "2026-10-25T18:15:34Z",
@@ -3431,7 +3443,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 10
+      "seen_count": 8
     },
     {
       "ts": "2026-10-25T18:18:02Z",
@@ -3657,12 +3669,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-25T20:09:27Z",
+      "ts": "2026-10-25T20:15:52Z",
       "mint": "Hdee3uRCvxm5mWWinrYNCR9S2uVXf54YCGvHSkvpump",
       "sym": "POKERFACE",
-      "px": 3.796e-05,
-      "liq_usd": 14715.72,
-      "market_cap": 36607,
+      "px": 3.827e-05,
+      "liq_usd": 14790.41,
+      "market_cap": 36907,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3682,15 +3694,15 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 1
+      "seen_count": 3
     },
     {
-      "ts": "2026-10-25T20:09:29Z",
+      "ts": "2026-10-25T20:15:53Z",
       "mint": "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump",
       "sym": "SWENEE",
-      "px": 0.001032,
-      "liq_usd": 86570.41,
-      "market_cap": 1032524,
+      "px": 0.001043,
+      "liq_usd": 87226.57,
+      "market_cap": 1032870,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3710,7 +3722,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 3
+      "seen_count": 5
     }
   ],
   "new_pools": [],
@@ -3891,7 +3903,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792966383.7614346,
+    "paused_until": 1792966868.3578255,
     "kill_switch": false
   },
   "v1": {
