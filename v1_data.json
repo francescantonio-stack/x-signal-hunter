@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T20:32:09+0100",
- "source_updated_at": "2026-10-25T20:32:09+0100",
+ "generated_at": "2026-10-25T20:36:52+0100",
+ "source_updated_at": "2026-10-25T20:36:52+0100",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -1800,7 +1800,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 5.321e-05,
    "our_px_usd": 5.321e-05,
-   "mult": 0.268,
+   "mult": 0.2874,
    "pnl_usdc": 1.138523,
    "closed": false,
    "sells": [
@@ -1831,7 +1831,7 @@
    "lag_fill_from_block_s": 5.5,
    "wallet_px_usd": 5.321e-05,
    "our_px_usd": 5.321e-05,
-   "mult": 0.268,
+   "mult": 0.2874,
    "pnl_usdc": 1.138523,
    "closed": false,
    "sells": [
@@ -1862,7 +1862,7 @@
    "lag_fill_from_block_s": 30.5,
    "wallet_px_usd": 5.321e-05,
    "our_px_usd": 8.634e-05,
-   "mult": 0.1652,
+   "mult": 0.1771,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -4254,7 +4254,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 1.315e-05,
    "our_px_usd": 1.315e-05,
-   "mult": 0.3479,
+   "mult": 0.3443,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -4374,7 +4374,7 @@
    "lag_fill_from_block_s": 5.6,
    "wallet_px_usd": 1.315e-05,
    "our_px_usd": 1.315e-05,
-   "mult": 0.3479,
+   "mult": 0.3443,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -4446,7 +4446,7 @@
    "lag_fill_from_block_s": 30.6,
    "wallet_px_usd": 1.315e-05,
    "our_px_usd": 1.214e-05,
-   "mult": 0.3769,
+   "mult": 0.3729,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -6550,7 +6550,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 0.0001828,
    "our_px_usd": 0.0001828,
-   "mult": 0.7872,
+   "mult": 0.8255,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -6646,7 +6646,7 @@
    "lag_fill_from_block_s": 5.6,
    "wallet_px_usd": 0.0001828,
    "our_px_usd": 0.0001769,
-   "mult": 0.8135,
+   "mult": 0.853,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -10733,7 +10733,7 @@
    "lag_fill_from_block_s": 30.5,
    "wallet_px_usd": 0.0001667,
    "our_px_usd": 0.0001638,
-   "mult": 0.9017,
+   "mult": 0.9212,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12248,7 +12248,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 0.0001062,
    "our_px_usd": 0.0001062,
-   "mult": 0.1572,
+   "mult": 0.1571,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12272,7 +12272,7 @@
    "lag_fill_from_block_s": 5.6,
    "wallet_px_usd": 0.0001062,
    "our_px_usd": 0.0001311,
-   "mult": 0.1273,
+   "mult": 0.1272,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12320,7 +12320,7 @@
    "lag_fill_from_block_s": 30.5,
    "wallet_px_usd": 0.0001062,
    "our_px_usd": 0.0001311,
-   "mult": 0.1273,
+   "mult": 0.1272,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12507,7 +12507,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 6.322e-05,
    "our_px_usd": 6.322e-05,
-   "mult": 0.0642,
+   "mult": 0.0649,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12603,7 +12603,7 @@
    "lag_fill_from_block_s": 5.6,
    "wallet_px_usd": 6.322e-05,
    "our_px_usd": 6.322e-05,
-   "mult": 0.0642,
+   "mult": 0.0649,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12675,7 +12675,7 @@
    "lag_fill_from_block_s": 30.6,
    "wallet_px_usd": 6.322e-05,
    "our_px_usd": 6.734e-05,
-   "mult": 0.0603,
+   "mult": 0.0609,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12877,114 +12877,6 @@
   }
  ],
  "rejected_last": [
-  {
-   "t": "2026-10-25T20:27:58+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "Frost",
-   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:27:58+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.8,
-   "wallet": "Frost",
-   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:27:58+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.8,
-   "wallet": "Frost",
-   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:28:17+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Frost",
-   "mint": "84GQ2WdZ4Ewb6xYD7XbLkkztTTNdX9CNaieAVAmnpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:28:17+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Frost",
-   "mint": "84GQ2WdZ4Ewb6xYD7XbLkkztTTNdX9CNaieAVAmnpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:28:17+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Frost",
-   "mint": "84GQ2WdZ4Ewb6xYD7XbLkkztTTNdX9CNaieAVAmnpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:28:23+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "Frost",
-   "mint": "84GQ2WdZ4Ewb6xYD7XbLkkztTTNdX9CNaieAVAmnpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:28:23+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.8,
-   "wallet": "Frost",
-   "mint": "84GQ2WdZ4Ewb6xYD7XbLkkztTTNdX9CNaieAVAmnpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-25T20:28:23+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.8,
-   "wallet": "Frost",
-   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
   {
    "t": "2026-10-25T20:28:23+0100",
    "mode": "N1",
@@ -13236,9 +13128,117 @@
    "reasons": [
     "nessun pool su DexScreener"
    ]
+  },
+  {
+   "t": "2026-10-25T20:35:22+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:23+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:23+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:28+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:28+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:28+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.9,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:53+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.7,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:53+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.8,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
+  },
+  {
+   "t": "2026-10-25T20:35:53+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.8,
+   "wallet": "Frost",
+   "mint": "HyxSF2KXVJvrKcQxXvTW8Rms3yT3vR5JHeeNYMTJyxDW",
+   "reasons": [
+    "nessun pool su DexScreener"
+   ]
   }
  ],
- "cycles": 1804,
+ "cycles": 1805,
  "notes": "PnL in USDC; no per-trade stop (Max: size is the stop); paper-v2",
  "S_blocked_still_in": 264,
  "S_blocked_by_delay": {
