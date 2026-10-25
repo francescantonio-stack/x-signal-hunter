@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T16:00:58Z",
+  "updated": "2026-10-25T16:06:18Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1816,12 +1816,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-25T16:00:37Z",
+      "ts": "2026-10-25T16:05:08Z",
       "mint": "25YymNVsua1yZbapaiVuhCgS2w8KrFwt2p7hF3Aqpump",
       "sym": "PIZZA",
-      "px": 3.819e-05,
-      "liq_usd": 16042.73,
-      "market_cap": 36038,
+      "px": 3.323e-05,
+      "liq_usd": 14840.92,
+      "market_cap": 31356,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1845,15 +1845,15 @@
         "pumpfunearlytrending",
         "solearlytrending"
       ],
-      "seen_count": 6
+      "seen_count": 8
     },
     {
-      "ts": "2026-10-25T16:00:39Z",
+      "ts": "2026-10-25T16:05:10Z",
       "mint": "5QUazVwndVyQLiTrFg75ZX9NmYHuwW8mZvxwQym9pump",
       "sym": "GoonCat",
-      "px": 0.0001292,
-      "liq_usd": 29653.37,
-      "market_cap": 127076,
+      "px": 0.000128,
+      "liq_usd": 29491.64,
+      "market_cap": 125829,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1873,7 +1873,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 15
+      "seen_count": 17
     }
   ],
   "new_pools": [],
@@ -1932,18 +1932,18 @@
           }
         ],
         "status": "watching",
-        "checks": 27,
+        "checks": 33,
         "last": {
           "pass": false,
           "fail": "bonding_curve_not_graduated",
-          "t": "2026-10-25T15:59:59Z",
+          "t": "2026-10-25T16:05:59Z",
           "sym": "GOONIFY",
           "dex": "pumpfun",
           "liq": 0.0,
-          "h1": -1.0,
-          "age_min": 34.0,
-          "px": 2.992e-06,
-          "mcap": 2992,
+          "h1": -3.32,
+          "age_min": 40.0,
+          "px": 2.921e-06,
+          "mcap": 2921.66,
           "pair_addr": "2kHzw9C8uspgfg9MnZh5osiigcGUmjc2DUykKjfCXobJ"
         }
       },
@@ -1963,16 +1963,16 @@
           }
         ],
         "status": "watching",
-        "checks": 17,
+        "checks": 23,
         "last": {
           "pass": false,
           "fail": "bonding_curve_not_graduated",
-          "t": "2026-10-25T15:59:59Z",
+          "t": "2026-10-25T16:05:59Z",
           "sym": "GME",
           "dex": "pumpfun",
           "liq": 0.0,
           "h1": 0.0,
-          "age_min": 204.4,
+          "age_min": 210.4,
           "px": 0.0,
           "mcap": null,
           "pair_addr": "FZfcQFsVZNQCtLhNommDSjCm7EZ5R6wpnkNzcQvtrLpN"
@@ -1986,7 +1986,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792951258.652909,
+    "paused_until": 1792951578.7004876,
     "kill_switch": false
   },
   "v1": {

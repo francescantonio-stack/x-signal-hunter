@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25 17:00",
+ "ts": "2026-10-25 17:05",
  "tokens": {
   "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": {
    "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
    "sym": "CATTLEAXE",
    "name": "Cattleaxe",
    "img": "https://cdn.dexscreener.com/cms/images/k8ix7LCLLGh9vRhA?width=800&height=800&quality=95&format=auto",
-   "price": "0.001693",
-   "h1": 6.68,
-   "h24": 2306,
-   "mc": 1685530,
-   "liq": 122218.67,
-   "vol": 5360127.44,
+   "price": "0.001774",
+   "h1": 8.32,
+   "h24": 2421,
+   "mc": 1766110,
+   "liq": 125130.24,
+   "vol": 5368949.41,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -23,12 +23,12 @@
    "sym": "SWORDOPE",
    "name": "dope wif sword",
    "img": "https://cdn.dexscreener.com/cms/images/Jp-qmedkU47xiFrA?width=800&height=800&quality=95&format=auto",
-   "price": "0.0008578",
-   "h1": -32.87,
-   "h24": 1440,
-   "mc": 853842,
-   "liq": 86837.83,
-   "vol": 6328658.4,
+   "price": "0.0008715",
+   "h1": -34.97,
+   "h24": 1465,
+   "mc": 867479,
+   "liq": 87547.24,
+   "vol": 6339390.14,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -60,7 +60,7 @@
    "name": "Maya The Samoyed",
    "img": "https://cdn.dexscreener.com/cms/images/cGlgwrt9AGcrZ6Xh?width=800&height=800&quality=95&format=auto",
    "price": "0.000002400",
-   "h1": -0.06,
+   "h1": 0.36,
    "h24": -95.32,
    "mc": 2390,
    "liq": 2842.33,
@@ -71,7 +71,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -81,11 +80,11 @@
    "sym": "WRHND",
    "name": "WarHound",
    "img": "https://cdn.dexscreener.com/cms/images/V9I6VS5HbKh_7ttP?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002366",
-   "h1": null,
-   "h24": -95.25,
-   "mc": 2358,
-   "liq": 2818.98,
+   "price": "0.000002386",
+   "h1": 0.83,
+   "h24": -95.21,
+   "mc": 2378,
+   "liq": 2842.41,
    "vol": 4246721.52,
    "dex": "pumpswap",
    "score": 31,
@@ -124,12 +123,12 @@
    "sym": "LTC",
    "name": "Little Titty Coin",
    "img": "https://cdn.dexscreener.com/cms/images/d15NmwfuwA_RyDlg?width=800&height=800&quality=95&format=auto",
-   "price": "0.007793",
-   "h1": 8.96,
-   "h24": 423,
-   "mc": 7561303,
-   "liq": 1796780.02,
-   "vol": 698647.56,
+   "price": "0.007685",
+   "h1": -2.96,
+   "h24": 456,
+   "mc": 7457203,
+   "liq": 1766429.31,
+   "vol": 702496.41,
    "dex": "pumpswap",
    "score": 54,
    "risks": [
@@ -137,7 +136,7 @@
     "Single holder ownership"
    ],
    "fails": [
-    "LP bloccata/bruciata 50% < 95%",
+    "LP bloccata/bruciata 51% < 95%",
     "RugCheck danger: Top 10 holders high ownership",
     "RugCheck danger: Single holder ownership"
    ],
@@ -148,33 +147,77 @@
    "sym": "REMUS",
    "name": "Remus",
    "img": "https://cdn.dexscreener.com/cms/images/RSLqRr5vubt1aRKX?width=800&height=800&quality=95&format=auto",
-   "price": "0.0008260",
-   "h1": -0.15,
-   "h24": 33.26,
-   "mc": 814425,
-   "liq": 84998.14,
-   "vol": 1679527.36,
+   "price": "0.0007711",
+   "h1": -9.84,
+   "h24": 15.38,
+   "mc": 760341,
+   "liq": 82085.85,
+   "vol": 1671925.92,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [],
    "ok": true
   },
+  "G4QBB3JBvChm4Su3WebEx3PdcrLBcaqMUxApau4mpump": {
+   "mint": "G4QBB3JBvChm4Su3WebEx3PdcrLBcaqMUxApau4mpump",
+   "sym": "AMC",
+   "name": "A Massive Chest",
+   "img": "https://cdn.dexscreener.com/cms/images/uCokyVYE08Tg2jyb?width=800&height=800&quality=95&format=auto",
+   "price": "0.0001662",
+   "h1": 323,
+   "h24": 323,
+   "mc": 157380,
+   "liq": 47892.13,
+   "vol": 96310.12,
+   "dex": "pumpswap",
+   "score": 54,
+   "risks": [
+    "Large Amount of LP Unlocked",
+    "Low Liquidity"
+   ],
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Large Amount of LP Unlocked",
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
+  },
+  "F2ZgkMDvCKhpxwLciMaVCVjXuB8UdwJMm2AwZmSHpump": {
+   "mint": "F2ZgkMDvCKhpxwLciMaVCVjXuB8UdwJMm2AwZmSHpump",
+   "sym": "cracked",
+   "name": "cracked",
+   "img": "https://cdn.dexscreener.com/cms/images/iokC5XvOjuVa0Cnq?width=800&height=800&quality=95&format=auto",
+   "price": "0.00002178",
+   "h1": 240,
+   "h24": 240,
+   "mc": 21784.88,
+   "liq": null,
+   "vol": 57807.01,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
   "3EHzZWBwoMBCkQfyqkJzcWCrnLxpuFXAM93KMRs3pump": {
    "mint": "3EHzZWBwoMBCkQfyqkJzcWCrnLxpuFXAM93KMRs3pump",
    "sym": "BTC",
    "name": "Beat The Cancer",
    "img": "https://cdn.dexscreener.com/cms/images/cDQhz5vIkIHKR5Vo?width=800&height=800&quality=95&format=auto",
-   "price": "0.000003741",
-   "h1": 2.86,
-   "h24": 2.86,
-   "mc": 3741.11,
+   "price": "0.000003611",
+   "h1": -0.71,
+   "h24": -0.71,
+   "mc": 3611.11,
    "liq": null,
-   "vol": 76922.21,
+   "vol": 77012.04,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -184,12 +227,12 @@
    "sym": "KOBANA",
    "name": "Kobana",
    "img": "https://cdn.dexscreener.com/cms/images/RIRPVX9RNcFYkBzR?width=800&height=800&quality=95&format=auto",
-   "price": "0.000006269",
-   "h1": 99.69,
-   "h24": 99.69,
-   "mc": 6269.81,
+   "price": "0.000006666",
+   "h1": 112,
+   "h24": 112,
+   "mc": 6666.3,
    "liq": null,
-   "vol": 35611.11,
+   "vol": 35875.28,
    "dex": "meteoradbc",
    "score": 34,
    "risks": [
@@ -199,27 +242,6 @@
     "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity",
     "liquidita 0 < 1000"
-   ],
-   "ok": false
-  },
-  "FG2x9vQuYR9cFmyKu666LgLsSkKMX2VMLEZfnJTxpump": {
-   "mint": "FG2x9vQuYR9cFmyKu666LgLsSkKMX2VMLEZfnJTxpump",
-   "sym": "Luna",
-   "name": "Luna",
-   "img": "https://cdn.dexscreener.com/cms/images/6-uBSFT8csOXjH4b?width=800&height=800&quality=95&format=auto",
-   "price": "0.000004106",
-   "h1": -90.4,
-   "h24": -90.4,
-   "mc": 4107,
-   "liq": 3634.44,
-   "vol": 40648.61,
-   "dex": "pumpswap",
-   "score": 38,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
-    "RugCheck danger: Low Liquidity"
    ],
    "ok": false
   }
@@ -236,19 +258,21 @@
    "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump"
   ],
   "nuovi": [
+   "G4QBB3JBvChm4Su3WebEx3PdcrLBcaqMUxApau4mpump",
+   "F2ZgkMDvCKhpxwLciMaVCVjXuB8UdwJMm2AwZmSHpump",
    "3EHzZWBwoMBCkQfyqkJzcWCrnLxpuFXAM93KMRs3pump",
-   "HS8YQKpU3UeQ9oW77Kro3YZvS5uzCygQHUpAKp8TX81B",
-   "FG2x9vQuYR9cFmyKu666LgLsSkKMX2VMLEZfnJTxpump"
+   "HS8YQKpU3UeQ9oW77Kro3YZvS5uzCygQHUpAKp8TX81B"
   ],
   "gainers": [
    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
    "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
    "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "G4QBB3JBvChm4Su3WebEx3PdcrLBcaqMUxApau4mpump",
+   "F2ZgkMDvCKhpxwLciMaVCVjXuB8UdwJMm2AwZmSHpump",
    "HS8YQKpU3UeQ9oW77Kro3YZvS5uzCygQHUpAKp8TX81B",
    "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
    "3EHzZWBwoMBCkQfyqkJzcWCrnLxpuFXAM93KMRs3pump",
    "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
-   "FG2x9vQuYR9cFmyKu666LgLsSkKMX2VMLEZfnJTxpump",
    "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
    "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
    "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump"
