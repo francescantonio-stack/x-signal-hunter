@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T16:11:18Z",
+  "updated": "2026-10-25T16:16:55Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -412,6 +412,18 @@
       "action": "buy",
       "sig": "3PBWyztxhbAAHQPtfEVtGuaRCGnxBQgAmdMq8uT8JgBx8YNGNDdfYgV4VeVAi4UrmJFP9q8rPNANb54tpnubeQxs",
       "tx": "3PBWyztxhbAAHQPtfEVtGuaRCGnxBQgAmdMq8uT8JgBx8YNGNDdfYgV4VeVAi4UrmJFP9q8rPNANb54tpnubeQxs"
+    },
+    {
+      "t": "2026-10-25T16:11:37Z",
+      "wallet": "Decu",
+      "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4BGrWVMqnf26EHuBqg5xdVD2jfCZz4Bfznw8rSgFKG6v7PiU2pvXtRFDvdsFATvpGFTCdNhTvLGSoQj8fDHjczE2",
+      "tx": "4BGrWVMqnf26EHuBqg5xdVD2jfCZz4Bfznw8rSgFKG6v7PiU2pvXtRFDvdsFATvpGFTCdNhTvLGSoQj8fDHjczE2"
     }
   ],
   "trades": [
@@ -1944,7 +1956,7 @@
           }
         ],
         "status": "watching",
-        "checks": 38,
+        "checks": 39,
         "last": {
           "pass": false,
           "fail": "bonding_curve_not_graduated",
@@ -1975,7 +1987,7 @@
           }
         ],
         "status": "watching",
-        "checks": 28,
+        "checks": 29,
         "last": {
           "pass": false,
           "fail": "bonding_curve_not_graduated",
@@ -1998,11 +2010,11 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792951878.9123251,
+    "paused_until": 1792952215.3474069,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1743,
+    "cycles": 1744,
     "open_positions": 1340,
     "trades": 1340,
     "rejected": 30,
