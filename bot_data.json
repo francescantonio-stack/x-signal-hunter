@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T16:54:43Z",
+  "updated": "2026-10-25T17:05:05Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -28,6 +28,18 @@
       "action": "sell",
       "sig": "4jpdvHcj7GuMPPZGrVoa4k5hfXqGzPpom86u1Dra8xbn99gfZXdez3azqL9vQZdgfefJFCNiBHGB2cnpdkwVJwxS",
       "tx": "4jpdvHcj7GuMPPZGrVoa4k5hfXqGzPpom86u1Dra8xbn99gfZXdez3azqL9vQZdgfefJFCNiBHGB2cnpdkwVJwxS"
+    },
+    {
+      "t": "2026-10-25T16:54:55Z",
+      "wallet": "EustazZ",
+      "mint": "5wDPVZTKR5Bn3qUpZ6dJCrQo3r5QJLhYb7s53KnxUgJw",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5Ya3inshfrfYEqBMmjaR7tDaj8NK6JUr6rqhz9443dHjGKJnNmf9q6xexKd6mmRUL7CXivnY91bjd9AkpgZKCPg1",
+      "tx": "5Ya3inshfrfYEqBMmjaR7tDaj8NK6JUr6rqhz9443dHjGKJnNmf9q6xexKd6mmRUL7CXivnY91bjd9AkpgZKCPg1"
     }
   ],
   "trades": [
@@ -1444,12 +1456,12 @@
   },
   "signals": [
     {
-      "ts": "2026-10-25T16:53:18Z",
+      "ts": "2026-10-25T16:58:18Z",
       "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "sym": "CBUCKS",
-      "px": 0.001391,
-      "liq_usd": 122366.93,
-      "market_cap": 1311706,
+      "px": 0.001402,
+      "liq_usd": 122881.61,
+      "market_cap": 1322466,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1471,7 +1483,7 @@
       "tg_channels": [
         "CMC_CG_NewList"
       ],
-      "seen_count": 1
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -1584,7 +1596,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792954483.7848947,
+    "paused_until": 1792955105.3201807,
     "kill_switch": false
   },
   "v1": {
@@ -1685,11 +1697,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004305,
+      "last_px": 0.00433,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.368817939509944,
-      "pnl_mtm": 2.368817939509944,
+      "pnl": 2.394397602341012,
+      "pnl_mtm": 2.394397602341012,
       "strategy": "copy",
       "reentries": 1
     },
@@ -1793,11 +1805,11 @@
       "sym": "UFI",
       "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
       "entry_px": 3.2326589282291864e-06,
-      "last_px": 1.814e-06,
+      "last_px": 2.17e-06,
       "size_usd": 2.5,
       "cost": 0.0525,
-      "pnl": -1.1496300713483496,
-      "pnl_mtm": -1.1496300713483496,
+      "pnl": -0.8743149144575073,
+      "pnl_mtm": -0.8743149144575073,
       "strategy": "copy",
       "reentries": 2
     },
