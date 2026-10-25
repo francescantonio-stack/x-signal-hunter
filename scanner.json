@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25 22:17",
+ "ts": "2026-10-25 22:22",
  "tokens": {
   "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": {
    "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
    "sym": "CATTLEAXE",
    "name": "Cattleaxe",
    "img": "https://cdn.dexscreener.com/cms/images/k8ix7LCLLGh9vRhA?width=800&height=800&quality=95&format=auto",
-   "price": "0.001275",
-   "h1": 3.09,
-   "h24": 92.9,
-   "mc": 1269252,
-   "liq": 106788.88,
-   "vol": 4446974.98,
+   "price": "0.001242",
+   "h1": 0.63,
+   "h24": 98.73,
+   "mc": 1236299,
+   "liq": 105443.25,
+   "vol": 4436142.53,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -42,17 +42,19 @@
    "sym": "NETWORK",
    "name": "Network Coin",
    "img": "https://cdn.dexscreener.com/cms/images/OrOZtOiOVORsdlR-?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001884",
-   "h1": 1.42,
-   "h24": 247,
-   "mc": 179124,
-   "liq": 35647.78,
-   "vol": 341369.07,
+   "price": "0.0001847",
+   "h1": -3.78,
+   "h24": 240,
+   "mc": 175612,
+   "liq": 35286.98,
+   "vol": 342067.86,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
-   "fails": [],
-   "ok": true
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%"
+   ],
+   "ok": false
   },
   "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": {
    "mint": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
@@ -60,34 +62,13 @@
    "name": "Maya The Samoyed",
    "img": "https://cdn.dexscreener.com/cms/images/cGlgwrt9AGcrZ6Xh?width=800&height=800&quality=95&format=auto",
    "price": "0.000002285",
-   "h1": -0.34,
+   "h1": null,
    "h24": -95.55,
    "mc": 2275,
    "liq": 2730.81,
    "vol": 4199843.01,
    "dex": "pumpswap",
    "score": 32,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
-    "RugCheck danger: Low Liquidity"
-   ],
-   "ok": false
-  },
-  "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": {
-   "mint": "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
-   "sym": "WRHND",
-   "name": "WarHound",
-   "img": "https://cdn.dexscreener.com/cms/images/V9I6VS5HbKh_7ttP?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002395",
-   "h1": -1.93,
-   "h24": -99.77,
-   "mc": 2387,
-   "liq": 2851.99,
-   "vol": 2718672.67,
-   "dex": "pumpswap",
-   "score": 31,
    "risks": [
     "Low Liquidity"
    ],
@@ -102,12 +83,12 @@
    "sym": "REMUS",
    "name": "Remus",
    "img": "https://cdn.dexscreener.com/cms/images/RSLqRr5vubt1aRKX?width=800&height=800&quality=95&format=auto",
-   "price": "0.0007918",
-   "h1": -3.4,
-   "h24": 34.12,
-   "mc": 780719,
-   "liq": 83685.81,
-   "vol": 1424795.06,
+   "price": "0.0008312",
+   "h1": -0.54,
+   "h24": 32.25,
+   "mc": 819601,
+   "liq": 85821.65,
+   "vol": 1423534.27,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
@@ -131,7 +112,6 @@
     "Low Liquidity"
    ],
    "fails": [
-    "LP bloccata/bruciata 0% < 95%",
     "RugCheck danger: Low Liquidity"
    ],
    "ok": false
@@ -141,29 +121,106 @@
    "sym": "GTA",
    "name": "Giga Titty Ass",
    "img": "https://cdn.dexscreener.com/cms/images/FScQinjKA-nIRRG6?width=800&height=800&quality=95&format=auto",
-   "price": "0.0004702",
-   "h1": -20.55,
-   "h24": 901,
-   "mc": 464499,
-   "liq": 58353.45,
-   "vol": 926589.56,
+   "price": "0.0004557",
+   "h1": -23.46,
+   "h24": 870,
+   "mc": 450190,
+   "liq": 57443.81,
+   "vol": 933452.68,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [],
    "ok": true
   },
+  "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": {
+   "mint": "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump",
+   "sym": "SWENEE",
+   "name": "SYDNEE SWENEE",
+   "img": "https://cdn.dexscreener.com/cms/images/rXKZUQOjPJxEBfKK?width=800&height=800&quality=95&format=auto",
+   "price": "0.000002260",
+   "h1": -99.8,
+   "h24": -95.78,
+   "mc": 2238,
+   "liq": 2385.51,
+   "vol": 1031559.68,
+   "dex": "pumpswap",
+   "score": 32,
+   "risks": [
+    "Low Liquidity"
+   ],
+   "fails": [
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
+  },
+  "H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump": {
+   "mint": "H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump",
+   "sym": "TCC",
+   "name": "TheCoinClapper",
+   "img": "https://cdn.dexscreener.com/cms/images/9hbhC75kStGELd1t?width=800&height=800&quality=95&format=auto",
+   "price": "0.00003568",
+   "h1": -13.03,
+   "h24": -13.03,
+   "mc": 35681,
+   "liq": 14263.23,
+   "vol": 17491.64,
+   "dex": "pumpswap",
+   "score": 1,
+   "risks": [],
+   "fails": [],
+   "ok": true
+  },
+  "CCANM7p5ZAcm9j5GMfPjUNbPvHR7wp8DoH9RMF2hpump": {
+   "mint": "CCANM7p5ZAcm9j5GMfPjUNbPvHR7wp8DoH9RMF2hpump",
+   "sym": "NEURON",
+   "name": "neuron explorer",
+   "img": "https://cdn.dexscreener.com/cms/images/95ZgWC1Uovg_iqlr?width=800&height=800&quality=95&format=auto",
+   "price": "0.00001498",
+   "h1": 19.21,
+   "h24": 19.21,
+   "mc": 14988,
+   "liq": 11.28,
+   "vol": 0.61,
+   "dex": "meteora",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "mint *pump senza pool pumpswap/pumpfun",
+    "liquidita 11 < 1000"
+   ],
+   "ok": false
+  },
+  "7JBQnZBBoiemEafusiF8Wgm3mb5LZfS6j65UHJDdpump": {
+   "mint": "7JBQnZBBoiemEafusiF8Wgm3mb5LZfS6j65UHJDdpump",
+   "sym": "INDEX",
+   "name": "Meme Index ",
+   "img": "https://cdn.dexscreener.com/cms/images/4dSCgH_5VzYp1CoV?width=800&height=800&quality=95&format=auto",
+   "price": "0.00002909",
+   "h1": 860,
+   "h24": 860,
+   "mc": 29096.53,
+   "liq": null,
+   "vol": 51822.6,
+   "dex": "pumpfun",
+   "score": 1,
+   "risks": [],
+   "fails": [
+    "liquidita 0 < 1000"
+   ],
+   "ok": false
+  },
   "7Vr9VZ7EGtCnYwRxpoUmz6x6uuc241ftJbnubigqpump": {
    "mint": "7Vr9VZ7EGtCnYwRxpoUmz6x6uuc241ftJbnubigqpump",
    "sym": "Bezzy",
    "name": "Bezzy",
    "img": "https://cdn.dexscreener.com/cms/images/IaumH6A31mfPkJz3?width=800&height=800&quality=95&format=auto",
-   "price": "0.000005956",
-   "h1": -23.56,
-   "h24": -23.56,
-   "mc": 5956,
-   "liq": 8.56,
-   "vol": 0.83,
+   "price": "0.000005345",
+   "h1": -31.4,
+   "h24": -31.4,
+   "mc": 5346,
+   "liq": 8.11,
+   "vol": 1.06,
    "dex": "meteora",
    "score": 33,
    "risks": [
@@ -172,7 +229,7 @@
    "fails": [
     "mint *pump senza pool pumpswap/pumpfun",
     "RugCheck danger: Low Liquidity",
-    "liquidita 9 < 1000"
+    "liquidita 8 < 1000"
    ],
    "ok": false
   },
@@ -200,14 +257,14 @@
    "sym": "VEKTO",
    "name": "Vekto Copilot",
    "img": "https://cdn.dexscreener.com/cms/images/s-g3fPMLYmTCYXSp?width=800&height=800&quality=95&format=auto",
-   "price": "0.000003559",
-   "h1": -91.58,
-   "h24": -91.58,
-   "mc": 3554,
-   "liq": 3344.89,
-   "vol": 63179.39,
+   "price": "0.000002868",
+   "h1": -93.21,
+   "h24": -93.21,
+   "mc": 2864,
+   "liq": 2830.89,
+   "vol": 64427,
    "dex": "pumpswap",
-   "score": 30,
+   "score": 31,
    "risks": [
     "Low Liquidity"
    ],
@@ -221,38 +278,17 @@
    "sym": "PRESIDENT",
    "name": "US PRESIDENT 2028",
    "img": "https://cdn.dexscreener.com/cms/images/-7Wyw5u9C75i7a44?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001461",
-   "h1": 242,
-   "h24": 242,
-   "mc": 146121,
-   "liq": 31954.03,
-   "vol": 289547.91,
+   "price": "0.0002207",
+   "h1": 417,
+   "h24": 417,
+   "mc": 220728,
+   "liq": 39116.07,
+   "vol": 385311.51,
    "dex": "pumpswap",
    "score": 1,
    "risks": [],
    "fails": [],
    "ok": true
-  },
-  "5kCnFSTh2KXCxGeMmoV5Lsz7MrnJRfUNmMkBJqHUpump": {
-   "mint": "5kCnFSTh2KXCxGeMmoV5Lsz7MrnJRfUNmMkBJqHUpump",
-   "sym": "SPCX",
-   "name": "Sexy Peachy Cheeks Xposed",
-   "img": "https://cdn.dexscreener.com/cms/images/g7_XL0Xn4wgc0bbF?width=800&height=800&quality=95&format=auto",
-   "price": "0.000002163",
-   "h1": -95.75,
-   "h24": -95.75,
-   "mc": 2164,
-   "liq": 2242.29,
-   "vol": 487261.42,
-   "dex": "pumpswap",
-   "score": 40,
-   "risks": [
-    "Low Liquidity"
-   ],
-   "fails": [
-    "RugCheck danger: Low Liquidity"
-   ],
-   "ok": false
   }
  },
  "lists": {
@@ -261,31 +297,35 @@
    "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
    "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
    "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
-   "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
    "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
    "GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump",
-   "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump"
+   "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
+   "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump"
   ],
   "nuovi": [
+   "H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump",
+   "CCANM7p5ZAcm9j5GMfPjUNbPvHR7wp8DoH9RMF2hpump",
+   "7JBQnZBBoiemEafusiF8Wgm3mb5LZfS6j65UHJDdpump",
    "7Vr9VZ7EGtCnYwRxpoUmz6x6uuc241ftJbnubigqpump",
    "BTChgYshcTuHMVESWHETrjHA8MUuvAxyVCGreQrz4LTC",
    "45Bz7A8Y5qiuTF6Z5Zeg2GCVh7qrHHTFgSWx3MZJpump",
-   "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
-   "5kCnFSTh2KXCxGeMmoV5Lsz7MrnJRfUNmMkBJqHUpump"
+   "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump"
   ],
   "gainers": [
    "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
-   "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
+   "7JBQnZBBoiemEafusiF8Wgm3mb5LZfS6j65UHJDdpump",
    "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
+   "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
    "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+   "CCANM7p5ZAcm9j5GMfPjUNbPvHR7wp8DoH9RMF2hpump",
+   "H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump",
    "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
    "7Vr9VZ7EGtCnYwRxpoUmz6x6uuc241ftJbnubigqpump",
    "45Bz7A8Y5qiuTF6Z5Zeg2GCVh7qrHHTFgSWx3MZJpump",
    "GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump",
    "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
-   "5kCnFSTh2KXCxGeMmoV5Lsz7MrnJRfUNmMkBJqHUpump",
-   "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump"
+   "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump"
   ]
  }
 }

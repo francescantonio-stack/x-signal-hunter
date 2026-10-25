@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T21:17:27Z",
+  "updated": "2026-10-25T21:22:27Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -3460,36 +3460,6 @@
   },
   "signals": [
     {
-      "ts": "2026-10-25T18:14:17Z",
-      "mint": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
-      "sym": "GTA",
-      "px": 0.0006518,
-      "liq_usd": 68376.83,
-      "market_cap": 643856,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "2CV1er9JYn1dC6Z2dMuKSTYmNPnUJZ9Pb91v4zzAejf2",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792943005000,
-      "tx": null,
-      "sig": null,
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 70.0,
-      "holders": 50.0,
-      "total": 50.720000000000006,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 36.2,
-      "tg_channels": [
-        "solearlytrending"
-      ],
-      "seen_count": 1
-    },
-    {
       "ts": "2026-10-25T18:15:34Z",
       "mint": "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
       "sym": "PUMP",
@@ -3545,7 +3515,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 2
+      "seen_count": 1
     },
     {
       "ts": "2026-10-25T19:16:21Z",
@@ -3769,34 +3739,6 @@
       "seen_count": 6
     },
     {
-      "ts": "2026-10-25T21:15:15Z",
-      "mint": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
-      "sym": "Chop",
-      "px": 0.0003167,
-      "liq_usd": 47769.98,
-      "market_cap": 315192,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "BHDsn1gnHe2xRtydcc5qwggz12Upa1k7rhMxtSh13skG",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792959432000,
-      "tx": null,
-      "sig": null,
-      "rug": 69.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 70.0,
-      "holders": 50.0,
-      "total": 42.056000000000004,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 6
-    },
-    {
       "ts": "2026-10-25T21:15:16Z",
       "mint": "Hdee3uRCvxm5mWWinrYNCR9S2uVXf54YCGvHSkvpump",
       "sym": "POKERFACE",
@@ -3823,6 +3765,34 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 10
+    },
+    {
+      "ts": "2026-10-25T21:20:16Z",
+      "mint": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
+      "sym": "Chop",
+      "px": 0.0002978,
+      "liq_usd": 46336.52,
+      "market_cap": 296410,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "BHDsn1gnHe2xRtydcc5qwggz12Upa1k7rhMxtSh13skG",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792959432000,
+      "tx": null,
+      "sig": null,
+      "rug": 69.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 42.056000000000004,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 8
     }
   ],
   "new_pools": [],
@@ -4003,7 +3973,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792970247.472954,
+    "paused_until": 1792970547.6969535,
     "kill_switch": false
   },
   "v1": {
