@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T19:17:06Z",
+  "updated": "2026-10-25T19:22:06Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -3215,7 +3215,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792963026.1431608,
+    "paused_until": 1792963326.3949325,
     "kill_switch": false
   },
   "v1": {
@@ -3259,7 +3259,7 @@
         }
       }
     },
-    "S_blocked_still_in": 258,
+    "S_blocked_still_in": 261,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -3316,11 +3316,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004308,
+      "last_px": 0.004332,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.371887499049673,
-      "pnl_mtm": 2.371887499049673,
+      "pnl": 2.396443975367498,
+      "pnl_mtm": 2.396443975367498,
       "strategy": "copy",
       "reentries": 1
     },
