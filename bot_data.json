@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T17:49:28Z",
+  "updated": "2026-10-25T17:54:29Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -436,6 +436,42 @@
       "action": "sell",
       "sig": "1YfE7V23C9W6KYE9DY7qgSCeE2K7wdpchYhmRUrgfUGgRbV9LcETtwBW696gP88S2ymPkn64rbe5bdYsYoiwnAn",
       "tx": "1YfE7V23C9W6KYE9DY7qgSCeE2K7wdpchYhmRUrgfUGgRbV9LcETtwBW696gP88S2ymPkn64rbe5bdYsYoiwnAn"
+    },
+    {
+      "t": "2026-10-25T17:50:03Z",
+      "wallet": "Frost",
+      "mint": "DvFQw8PmHyYqDuHHjLr1iUggZgAtrR4mgWPEXWWWuD5H",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "274eqyS5Faxr5get3ZEfx47zibFJb1rkg7iQB1dGyr24w6rsgfbBWeRkA6rFv6Vt2YqMWjJ9s3JT5gsifTzFD81q",
+      "tx": "274eqyS5Faxr5get3ZEfx47zibFJb1rkg7iQB1dGyr24w6rsgfbBWeRkA6rFv6Vt2YqMWjJ9s3JT5gsifTzFD81q"
+    },
+    {
+      "t": "2026-10-25T17:50:28Z",
+      "wallet": "Frost",
+      "mint": "DvFQw8PmHyYqDuHHjLr1iUggZgAtrR4mgWPEXWWWuD5H",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5UnHC3gShXjUP8GqeX2z7Y9tFUkiqroum7MLEk5SBwCUUxEVtnxMqFP2r5ecFb2Zk32MZw8YV6rGMbritCT1ybJh",
+      "tx": "5UnHC3gShXjUP8GqeX2z7Y9tFUkiqroum7MLEk5SBwCUUxEVtnxMqFP2r5ecFb2Zk32MZw8YV6rGMbritCT1ybJh"
+    },
+    {
+      "t": "2026-10-25T17:50:29Z",
+      "wallet": "Frost",
+      "mint": "DvFQw8PmHyYqDuHHjLr1iUggZgAtrR4mgWPEXWWWuD5H",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "26TtihWtEjdL29hkKyLncaSZDnucFMF2BiqUpXqUEu3EQfS1Vohv6DGNXgw8nvKTTCua7peQcaDSc7Hv1KwKaWZr",
+      "tx": "26TtihWtEjdL29hkKyLncaSZDnucFMF2BiqUpXqUEu3EQfS1Vohv6DGNXgw8nvKTTCua7peQcaDSc7Hv1KwKaWZr"
     }
   ],
   "trades": [
@@ -1938,12 +1974,12 @@
       "seen_count": 7
     },
     {
-      "ts": "2026-10-25T17:48:01Z",
+      "ts": "2026-10-25T17:53:02Z",
       "mint": "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
       "sym": "PUMP",
-      "px": 0.000304,
-      "liq_usd": 46281.85,
-      "market_cap": 302049,
+      "px": 0.0002996,
+      "liq_usd": 45930.69,
+      "market_cap": 297600,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1963,15 +1999,15 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 4
+      "seen_count": 6
     },
     {
-      "ts": "2026-10-25T17:49:17Z",
+      "ts": "2026-10-25T17:54:17Z",
       "mint": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
       "sym": "GTA",
-      "px": 0.0009965,
-      "liq_usd": 84895.05,
-      "market_cap": 984317,
+      "px": 0.0009074,
+      "liq_usd": 81017.9,
+      "market_cap": 896348,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1993,7 +2029,7 @@
       "tg_channels": [
         "solearlytrending"
       ],
-      "seen_count": 11
+      "seen_count": 13
     }
   ],
   "new_pools": [],
@@ -2140,11 +2176,11 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792957768.9055688,
+    "paused_until": 1792958069.0889268,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1774,
+    "cycles": 1776,
     "open_positions": 1340,
     "trades": 1340,
     "rejected": 30,
@@ -2184,7 +2220,7 @@
         }
       }
     },
-    "S_blocked_still_in": 249,
+    "S_blocked_still_in": 250,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
