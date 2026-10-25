@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T16:06:18Z",
+  "updated": "2026-10-25T16:11:18Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -400,6 +400,18 @@
       "action": "sell",
       "sig": "fUZxmX5TfijAvPocb1VQuZmjGVGXZBzWsJEWdFwHA4y5eTcWjNaaM1WS8UNddKBYtFgW9ztVSuTeVJjz1J8qyEd",
       "tx": "fUZxmX5TfijAvPocb1VQuZmjGVGXZBzWsJEWdFwHA4y5eTcWjNaaM1WS8UNddKBYtFgW9ztVSuTeVJjz1J8qyEd"
+    },
+    {
+      "t": "2026-10-25T16:10:37Z",
+      "wallet": "EustazZ",
+      "mint": "GWt847kq59iph5Kg8e63qvXRavPezEcYbDJp5nUDpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3PBWyztxhbAAHQPtfEVtGuaRCGnxBQgAmdMq8uT8JgBx8YNGNDdfYgV4VeVAi4UrmJFP9q8rPNANb54tpnubeQxs",
+      "tx": "3PBWyztxhbAAHQPtfEVtGuaRCGnxBQgAmdMq8uT8JgBx8YNGNDdfYgV4VeVAi4UrmJFP9q8rPNANb54tpnubeQxs"
     }
   ],
   "trades": [
@@ -1816,7 +1828,7 @@
   },
   "signals": [
     {
-      "ts": "2026-10-25T16:05:08Z",
+      "ts": "2026-10-25T16:09:43Z",
       "mint": "25YymNVsua1yZbapaiVuhCgS2w8KrFwt2p7hF3Aqpump",
       "sym": "PIZZA",
       "px": 3.323e-05,
@@ -1845,15 +1857,15 @@
         "pumpfunearlytrending",
         "solearlytrending"
       ],
-      "seen_count": 8
+      "seen_count": 10
     },
     {
-      "ts": "2026-10-25T16:05:10Z",
+      "ts": "2026-10-25T16:09:45Z",
       "mint": "5QUazVwndVyQLiTrFg75ZX9NmYHuwW8mZvxwQym9pump",
       "sym": "GoonCat",
-      "px": 0.000128,
-      "liq_usd": 29491.64,
-      "market_cap": 125829,
+      "px": 0.0001252,
+      "liq_usd": 29161.74,
+      "market_cap": 123160,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -1873,7 +1885,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 17
+      "seen_count": 19
     }
   ],
   "new_pools": [],
@@ -1932,18 +1944,18 @@
           }
         ],
         "status": "watching",
-        "checks": 33,
+        "checks": 38,
         "last": {
           "pass": false,
           "fail": "bonding_curve_not_graduated",
-          "t": "2026-10-25T16:05:59Z",
+          "t": "2026-10-25T16:11:00Z",
           "sym": "GOONIFY",
           "dex": "pumpfun",
           "liq": 0.0,
-          "h1": -3.32,
-          "age_min": 40.0,
-          "px": 2.921e-06,
-          "mcap": 2921.66,
+          "h1": -3.75,
+          "age_min": 45.0,
+          "px": 2.908e-06,
+          "mcap": 2908.92,
           "pair_addr": "2kHzw9C8uspgfg9MnZh5osiigcGUmjc2DUykKjfCXobJ"
         }
       },
@@ -1963,16 +1975,16 @@
           }
         ],
         "status": "watching",
-        "checks": 23,
+        "checks": 28,
         "last": {
           "pass": false,
           "fail": "bonding_curve_not_graduated",
-          "t": "2026-10-25T16:05:59Z",
+          "t": "2026-10-25T16:11:00Z",
           "sym": "GME",
           "dex": "pumpfun",
           "liq": 0.0,
           "h1": 0.0,
-          "age_min": 210.4,
+          "age_min": 215.4,
           "px": 0.0,
           "mcap": null,
           "pair_addr": "FZfcQFsVZNQCtLhNommDSjCm7EZ5R6wpnkNzcQvtrLpN"
@@ -1986,11 +1998,11 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1792951578.7004876,
+    "paused_until": 1792951878.9123251,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1742,
+    "cycles": 1743,
     "open_positions": 1340,
     "trades": 1340,
     "rejected": 30,
@@ -2087,11 +2099,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004274,
+      "last_px": 0.004276,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.3370991575994196,
-      "pnl_mtm": 2.3370991575994196,
+      "pnl": 2.3391455306259057,
+      "pnl_mtm": 2.3391455306259057,
       "strategy": "copy",
       "reentries": 1
     },
