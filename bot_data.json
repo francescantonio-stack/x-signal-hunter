@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T14:13:24Z",
+  "updated": "2026-10-26T14:34:08Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -3877,7 +3877,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 2
+      "seen_count": 1
     },
     {
       "ts": "2026-10-25T20:21:13Z",
@@ -3905,7 +3905,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 6
+      "seen_count": 5
     },
     {
       "ts": "2026-10-25T21:15:16Z",
@@ -4113,6 +4113,34 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-10-26T14:16:23Z",
+      "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
+      "sym": "Shitcoin",
+      "px": 0.0002197,
+      "liq_usd": 42464.26,
+      "market_cap": 210165,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "9kAhPmrRiBLcujM9jhWNMwcZ6QVwJUYyLCxeUspwXd9w",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1793013504000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 49.976000000000006,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -4310,13 +4338,13 @@
   "protections": {
     "daily_pnl": 5.160106938907502,
     "consecutive_losses": 6,
-    "paused_until": 1793031204.279056,
+    "paused_until": 1793032448.9872413,
     "kill_switch": false
   },
   "v1": {
     "cycles": 1830,
-    "open_positions": 1366,
-    "trades": 1376,
+    "open_positions": 1369,
+    "trades": 1379,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -4411,11 +4439,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004252,
+      "last_px": 0.004289,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.314589054308079,
-      "pnl_mtm": 2.314589054308079,
+      "pnl": 2.352446955298061,
+      "pnl_mtm": 2.352446955298061,
       "strategy": "copy",
       "reentries": 1
     },
@@ -4591,11 +4619,11 @@
       "sym": "MONKO",
       "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
       "entry_px": 8.231475774340489e-06,
-      "last_px": 3.464e-05,
+      "last_px": 1.984e-06,
       "size_usd": 0.875,
       "cost": 0.018375000000000002,
-      "pnl": 2.788832277397771,
-      "pnl_mtm": 2.788832277397771,
+      "pnl": -0.6824772159827606,
+      "pnl_mtm": -0.6824772159827606,
       "strategy": "copy",
       "reentries": 2
     },
