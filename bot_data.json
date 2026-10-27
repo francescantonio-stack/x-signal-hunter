@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T14:18:31Z",
+  "updated": "2026-10-27T14:34:23Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1924,6 +1924,30 @@
       "action": "sell",
       "sig": "2ea9bnKZM5Fgg1zvRmNrCz9mgRh23W4YfRnmtT7Sub2GDR99iHp73SKtwfwDkjasggJE4GW2GLex2rTJKA7xEQnW",
       "tx": "2ea9bnKZM5Fgg1zvRmNrCz9mgRh23W4YfRnmtT7Sub2GDR99iHp73SKtwfwDkjasggJE4GW2GLex2rTJKA7xEQnW"
+    },
+    {
+      "t": "2026-10-27T14:21:26Z",
+      "wallet": "EustazZ",
+      "mint": "2dDCKa2wV9Uv2qWgVZUdbK9VnvjcvbYfcXw13e8Fpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4LbnGk4zrjCHYh72TEnqaLRChReE7FyTNGhgV6L1uT7kgw6zYxVpHQ6mr4FMgE4fPGDiumauU9QLj58GTcuvhtPQ",
+      "tx": "4LbnGk4zrjCHYh72TEnqaLRChReE7FyTNGhgV6L1uT7kgw6zYxVpHQ6mr4FMgE4fPGDiumauU9QLj58GTcuvhtPQ"
+    },
+    {
+      "t": "2026-10-27T14:21:26Z",
+      "wallet": "EustazZ",
+      "mint": "2dDCKa2wV9Uv2qWgVZUdbK9VnvjcvbYfcXw13e8Fpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "4wC5Nrq41i5FTeL9rJjb5fntRyabxBtw3vnB5h1dCGqCtsfpBpGN1z5gJ4saxNnEyfoeDGmT7HRoUQj23sixmVja",
+      "tx": "4wC5Nrq41i5FTeL9rJjb5fntRyabxBtw3vnB5h1dCGqCtsfpBpGN1z5gJ4saxNnEyfoeDGmT7HRoUQj23sixmVja"
     }
   ],
   "trades": [
@@ -3514,6 +3538,38 @@
         "solgemsradar"
       ],
       "seen_count": 7
+    },
+    {
+      "ts": "2026-10-27T14:21:28Z",
+      "mint": "25YymNVsua1yZbapaiVuhCgS2w8KrFwt2p7hF3Aqpump",
+      "sym": "PIZZA",
+      "px": 2.327e-05,
+      "liq_usd": 12099.52,
+      "market_cap": 21955,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "C7h17hCBSfizTbsRmsFzk8sauEkwiSMYxADhst23Lnip",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792480334000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 50.0,
+      "total": 51.872,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 78.8,
+      "tg_channels": [
+        "SolanaSinais",
+        "pumpfunearlytrending",
+        "solearlytrending"
+      ],
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -3728,13 +3784,13 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1793117911.5047066,
+    "paused_until": 1793118863.516223,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 1873,
-    "open_positions": 1390,
-    "trades": 1403,
+    "cycles": 1875,
+    "open_positions": 1396,
+    "trades": 1409,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -3772,7 +3828,7 @@
         }
       }
     },
-    "S_blocked_still_in": 284,
+    "S_blocked_still_in": 285,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -3829,11 +3885,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004171,
+      "last_px": 0.004164,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.231710946735419,
-      "pnl_mtm": 2.231710946735419,
+      "pnl": 2.22454864114272,
+      "pnl_mtm": 2.22454864114272,
       "strategy": "copy",
       "reentries": 1
     },
