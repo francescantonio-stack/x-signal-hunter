@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-28T04:33:48Z",
+  "updated": "2026-10-28T04:38:48Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-27T20:08:54Z",
-      "wallet": "Frost",
-      "mint": "DYtHDCcEKgkyxQmxL2zVy1yiDhxygkpcjvyPjfbMpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "transfer_in",
-      "sig": "4PMk1C9rHX6i4riLk3gPJYBNnfSSWfkTgyytRNG9d3nDEgdMMpLtKysRSsZJtJXupTAVJxAvEJ7i6cQaBWjtQPoz",
-      "tx": "4PMk1C9rHX6i4riLk3gPJYBNnfSSWfkTgyytRNG9d3nDEgdMMpLtKysRSsZJtJXupTAVJxAvEJ7i6cQaBWjtQPoz"
-    },
     {
       "t": "2026-10-27T20:08:55Z",
       "wallet": "Frost",
@@ -2404,6 +2392,18 @@
       "action": "sell",
       "sig": "2i1bdw1ggKmeoLsaKRRi5VY5xHGBmVZz9uvYepasQYxy52nsD1f2ivJCXB2mcR8B6worpRmRW7Rss8QRxY5epDgL",
       "tx": "2i1bdw1ggKmeoLsaKRRi5VY5xHGBmVZz9uvYepasQYxy52nsD1f2ivJCXB2mcR8B6worpRmRW7Rss8QRxY5epDgL"
+    },
+    {
+      "t": "2026-10-28T04:37:49Z",
+      "wallet": "Mitch",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "4ooYGNBt8Uy7uKk7cKAYgcm4wtn9ya2cp2L6gzQJPZZXCsMSiWjVoRsaWowNK1GPKDWEGaWLYMmdBCsGHCUZ6p15",
+      "tx": "4ooYGNBt8Uy7uKk7cKAYgcm4wtn9ya2cp2L6gzQJPZZXCsMSiWjVoRsaWowNK1GPKDWEGaWLYMmdBCsGHCUZ6p15"
     }
   ],
   "trades": [
@@ -4320,6 +4320,67 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-10-28T04:36:37Z",
+      "mint": "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump",
+      "sym": "Rapport",
+      "px": 0.0002401,
+      "liq_usd": 40472.27,
+      "market_cap": 231683,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "55Md1fKr9zze1LmfK2byyEcPd55d5A2FR9Duoi7Pfmw2",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1793159604000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 49.976000000000006,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 2
+    },
+    {
+      "ts": "2026-10-28T04:36:39Z",
+      "mint": "PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV",
+      "sym": "PAIR",
+      "px": 3.792e-05,
+      "liq_usd": 16365.94,
+      "market_cap": 36665,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "9i7SZrZCDM1wAqNVAtyDUfg5hd7G31jhsWBg7D2J2p2N",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792763201000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 50.0,
+      "total": 54.416000000000004,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 100.0,
+      "tg_channels": [
+        "CMC_CG_NewList",
+        "mad_apes_gambles",
+        "maestrosdegen",
+        "solgemsradar"
+      ],
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -4534,7 +4595,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1793169228.4013243,
+    "paused_until": 1793169528.6484764,
     "kill_switch": false
   },
   "v1": {
@@ -4578,7 +4639,7 @@
         }
       }
     },
-    "S_blocked_still_in": 337,
+    "S_blocked_still_in": 338,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -4635,11 +4696,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004345,
+      "last_px": 0.004371,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4097454000396534,
-      "pnl_mtm": 2.4097454000396534,
+      "pnl": 2.4363482493839643,
+      "pnl_mtm": 2.4363482493839643,
       "strategy": "copy",
       "reentries": 1
     },
