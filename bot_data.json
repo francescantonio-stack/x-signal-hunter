@@ -1,46 +1,10 @@
 {
-  "updated": "2026-10-28T03:37:26Z",
+  "updated": "2026-10-28T03:42:26Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
   "x_calls_today": 0,
   "events": [
-    {
-      "t": "2026-10-27T20:08:45Z",
-      "wallet": "Numer0",
-      "mint": "4k68P3auwpRswSeTA2xGTujps3M8fNNZHQd5GTYkpump",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "transfer_in",
-      "sig": "95HZFugcscKzWrxmVw41JaqgDaKta4o8Lnur8cnoSCwbesJKRJUF2S7tvXGkETkThxzgYaXvgJDjuw1qe9pQ5fH",
-      "tx": "95HZFugcscKzWrxmVw41JaqgDaKta4o8Lnur8cnoSCwbesJKRJUF2S7tvXGkETkThxzgYaXvgJDjuw1qe9pQ5fH"
-    },
-    {
-      "t": "2026-10-27T20:08:46Z",
-      "wallet": "Numer0",
-      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "transfer_in",
-      "sig": "4EzRhdrAzAmaJmEapVq9brReTojNboTQRwu64eUtUGGHXUyFY2stBtu8RBTubWas7LZCPAx1wRyHj1QBuvThU2p6",
-      "tx": "4EzRhdrAzAmaJmEapVq9brReTojNboTQRwu64eUtUGGHXUyFY2stBtu8RBTubWas7LZCPAx1wRyHj1QBuvThU2p6"
-    },
-    {
-      "t": "2026-10-27T20:08:46Z",
-      "wallet": "Numer0",
-      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-      "sym": "?",
-      "px": null,
-      "liq": 0,
-      "rug_ok": null,
-      "action": "transfer_in",
-      "sig": "5y3b7gU5YES2ZGS3HzcewwHLwAtZedjLp5b2Wt1spzwRo9EEpuUuCBaVhJ7MG2DWtFBtzDMgD4TZWTk11SJyq8Ew",
-      "tx": "5y3b7gU5YES2ZGS3HzcewwHLwAtZedjLp5b2Wt1spzwRo9EEpuUuCBaVhJ7MG2DWtFBtzDMgD4TZWTk11SJyq8Ew"
-    },
     {
       "t": "2026-10-27T20:08:47Z",
       "wallet": "Numer0",
@@ -2404,6 +2368,42 @@
       "action": "transfer_in",
       "sig": "2h5m2avp16cG2Er8xk4RSsvYTadPc4YhMJvRaQJoSNMqYyPhz9fYeyvG9GSf9iiHksXkENUmqhZhvKaivDjUdmHd",
       "tx": "2h5m2avp16cG2Er8xk4RSsvYTadPc4YhMJvRaQJoSNMqYyPhz9fYeyvG9GSf9iiHksXkENUmqhZhvKaivDjUdmHd"
+    },
+    {
+      "t": "2026-10-28T03:37:59Z",
+      "wallet": "Mitch",
+      "mint": "CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "aVHaHFmeZmWv2PXJS11nakjkt4BMhVMbcWrouJ16VV2o7Sc5EkrpygP4zDxXcdjVCXPU8rtA1wjRKYCv5cdTRkw",
+      "tx": "aVHaHFmeZmWv2PXJS11nakjkt4BMhVMbcWrouJ16VV2o7Sc5EkrpygP4zDxXcdjVCXPU8rtA1wjRKYCv5cdTRkw"
+    },
+    {
+      "t": "2026-10-28T03:41:19Z",
+      "wallet": "Mitch",
+      "mint": "CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5FyQca2FZYaR6bCbnjfsnXQjqxsctJXhwoietFJ9AyA86S7vfCqYeD8q9wYf4xnenpqfzUfjZ3JETvasxPtg1tGg",
+      "tx": "5FyQca2FZYaR6bCbnjfsnXQjqxsctJXhwoietFJ9AyA86S7vfCqYeD8q9wYf4xnenpqfzUfjZ3JETvasxPtg1tGg"
+    },
+    {
+      "t": "2026-10-28T03:41:19Z",
+      "wallet": "Mitch",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3bKKmtWWoxxWuqsF3chTiDNPEfmorMF6dhyPLHdDaHasiVsjsStLEMSZskfn3mcxNpvE9vWfgbdxGnCEdnqEmP5M",
+      "tx": "3bKKmtWWoxxWuqsF3chTiDNPEfmorMF6dhyPLHdDaHasiVsjsStLEMSZskfn3mcxNpvE9vWfgbdxGnCEdnqEmP5M"
     }
   ],
   "trades": [
@@ -4261,12 +4261,12 @@
       "seen_count": 2
     },
     {
-      "ts": "2026-10-28T03:36:46Z",
+      "ts": "2026-10-28T03:41:46Z",
       "mint": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
       "sym": "NETWORK",
-      "px": 0.0001007,
-      "liq_usd": 26064.7,
-      "market_cap": 95722,
+      "px": 0.0001016,
+      "liq_usd": 26198.11,
+      "market_cap": 96600,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -4289,7 +4289,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 7
+      "seen_count": 9
     }
   ],
   "new_pools": [],
@@ -4504,7 +4504,7 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1793165846.1967192,
+    "paused_until": 1793166146.438082,
     "kill_switch": false
   },
   "v1": {
@@ -4605,11 +4605,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004401,
+      "last_px": 0.004377,
       "size_usd": 2.0,
       "cost": 0.036,
-      "pnl": 2.4670438447812466,
-      "pnl_mtm": 2.4670438447812466,
+      "pnl": 2.442487368463421,
+      "pnl_mtm": 2.442487368463421,
       "strategy": "copy",
       "reentries": 1
     },
