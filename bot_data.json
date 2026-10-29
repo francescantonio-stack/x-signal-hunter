@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T08:32:07Z",
+  "updated": "2026-10-29T08:37:07Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1252,6 +1252,30 @@
       "action": "transfer_in",
       "sig": "5epW4bL1tkvRMYMzCYSDbTNFVMzrhLwcY8wwfaiGF2SfLZsK8gL9yEoVsZTjeC66BFQVZ5csSBP9hC6zaLta5f4p",
       "tx": "5epW4bL1tkvRMYMzCYSDbTNFVMzrhLwcY8wwfaiGF2SfLZsK8gL9yEoVsZTjeC66BFQVZ5csSBP9hC6zaLta5f4p"
+    },
+    {
+      "t": "2026-10-29T08:33:48Z",
+      "wallet": "Numer0",
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2L6Y9HKtiXU2Vuj3aSdHzEYhgRFKrJdepLgYv8rPRDvr7xSHcF7oGWxmPKmg9LutwtPbd21viM2NTFUHCqBGmehz",
+      "tx": "2L6Y9HKtiXU2Vuj3aSdHzEYhgRFKrJdepLgYv8rPRDvr7xSHcF7oGWxmPKmg9LutwtPbd21viM2NTFUHCqBGmehz"
+    },
+    {
+      "t": "2026-10-29T08:33:49Z",
+      "wallet": "Mitch",
+      "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2fJwz7ny4RQQxfw3iYPyZ4YmA68zqMR5FJLtpsNTA1kMW8HHNikaqdBoYQRr4npDj8QVquBg6ghmE3Jkgrh1Ynzy",
+      "tx": "2fJwz7ny4RQQxfw3iYPyZ4YmA68zqMR5FJLtpsNTA1kMW8HHNikaqdBoYQRr4npDj8QVquBg6ghmE3Jkgrh1Ynzy"
     }
   ],
   "trades": [
@@ -2723,64 +2747,6 @@
   },
   "signals": [
     {
-      "ts": "2026-10-28T22:28:05Z",
-      "mint": "EqRZn9nH4UPb36AVLuigzRfufa1z8b744vWpt5tjpump",
-      "sym": "STELE",
-      "px": 1.78e-05,
-      "liq_usd": 9534.08,
-      "market_cap": 16882,
-      "wallet_names": [],
-      "source": "dex_boost",
-      "rug_ok": true,
-      "pair_addr": "3MGzSKXymHKTYnNUtMGRLu3SkjBCaE9h573RQy2i6RY6",
-      "dex_id": "pumpswap",
-      "pair_created_ms": 1792973588000,
-      "tx": null,
-      "sig": null,
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 40.0,
-      "holders": 20.0,
-      "total": 44.120000000000005,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 36.2,
-      "tg_channels": [
-        "solearlytrending"
-      ],
-      "seen_count": 1
-    },
-    {
-      "ts": "2026-10-29T06:03:36Z",
-      "mint": "6SNLvR16o1CRV4wMxMLS4taTgYz2FefgvV4J62i8meme",
-      "sym": "munity",
-      "px": 1.237e-05,
-      "liq_usd": 15731.56,
-      "market_cap": 12379,
-      "wallet_names": [],
-      "source": "wallet:Frost",
-      "rug_ok": true,
-      "pair_addr": "C1LLizLCcz6C5LzZcYgvRLX8tywWoBKL5E8Nr7FShhWW",
-      "dex_id": "raydium",
-      "pair_created_ms": 1793228438000,
-      "tx": "2mbE6htxSDwpqeCS14nvmBL3mgtGdQQBugPUAyq79aWQDij4673NkE9WRFkh1BLmbf4vdm8m5Mojkiz55kCivsGi",
-      "sig": "2mbE6htxSDwpqeCS14nvmBL3mgtGdQQBugPUAyq79aWQDij4673NkE9WRFkh1BLmbf4vdm8m5Mojkiz55kCivsGi",
-      "rug": 99.0,
-      "x": 30.0,
-      "wallets": 0.0,
-      "liq": 40.0,
-      "holders": 20.0,
-      "total": 43.376000000000005,
-      "rug_na": false,
-      "x_default": true,
-      "holders_default": false,
-      "tg": 0.0,
-      "tg_channels": [],
-      "seen_count": 1
-    },
-    {
       "ts": "2026-10-29T06:03:41Z",
       "mint": "9JrZq5wzwsqzeA1jmXZ8bg7PVGzT8asuKe1TkrsWRJW6",
       "sym": "SPERM",
@@ -2902,12 +2868,12 @@
       "seen_count": 17
     },
     {
-      "ts": "2026-10-29T08:31:22Z",
+      "ts": "2026-10-29T08:36:24Z",
       "mint": "Bz5N9wrcxDw2YTf8tQkG8PJzdbUW89ZNWLWbdqA2pump",
       "sym": "\uc288\ubc14\uc624",
-      "px": 0.0001117,
-      "liq_usd": 27437.96,
-      "market_cap": 109371,
+      "px": 0.0001111,
+      "liq_usd": 27351.04,
+      "market_cap": 108724,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2930,7 +2896,7 @@
         "mad_apes_gambles",
         "solearlytrending"
       ],
-      "seen_count": 21
+      "seen_count": 23
     }
   ],
   "new_pools": [],
@@ -3179,7 +3145,7 @@
   "protections": {
     "daily_pnl": 18875.34726478559,
     "consecutive_losses": 6,
-    "paused_until": 1793269927.3615618,
+    "paused_until": 1793270227.6184328,
     "kill_switch": false
   },
   "v1": {
@@ -3280,11 +3246,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004249,
+      "last_px": 0.004225,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.40451591158446165,
-      "pnl_mtm": 0.40451591158446165,
+      "pnl": 0.4002185282288421,
+      "pnl_mtm": 0.4002185282288421,
       "strategy": "copy",
       "reentries": 1
     },
