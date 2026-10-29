@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T06:03:59Z",
+  "updated": "2026-10-29T06:16:35Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -760,6 +760,42 @@
       "action": "sell",
       "sig": "4whSWRXV4gfManuBoPPio7AEEeNKsqfkS3352dRoYoQZ59n2w9phAnXMoTh8khq6nu3nXqAD5qe6cSvP3XJCxjCz",
       "tx": "4whSWRXV4gfManuBoPPio7AEEeNKsqfkS3352dRoYoQZ59n2w9phAnXMoTh8khq6nu3nXqAD5qe6cSvP3XJCxjCz"
+    },
+    {
+      "t": "2026-10-29T06:15:53Z",
+      "wallet": "Frost",
+      "mint": "3PCg7T95A9XcbjXfodnVYA8EF95GWnKUi9AW3Hvepump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2thG9XhCCZfH6NDMRB8dCwGyUFHFd49ibDNcupbiezKxYRQyK6dU4dBDnWvrT192G6r8BqumqxGW5JCQkG9MccUA",
+      "tx": "2thG9XhCCZfH6NDMRB8dCwGyUFHFd49ibDNcupbiezKxYRQyK6dU4dBDnWvrT192G6r8BqumqxGW5JCQkG9MccUA"
+    },
+    {
+      "t": "2026-10-29T06:15:54Z",
+      "wallet": "Mitch",
+      "mint": "3PCg7T95A9XcbjXfodnVYA8EF95GWnKUi9AW3Hvepump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3rNFdLd58bwHAxzJnMEh1wHrutMT1pGdR9inEfKMosvZcjCLDaT1mkJ43KRg2cgvoSb7TKvAveT53UruvWpuSbm3",
+      "tx": "3rNFdLd58bwHAxzJnMEh1wHrutMT1pGdR9inEfKMosvZcjCLDaT1mkJ43KRg2cgvoSb7TKvAveT53UruvWpuSbm3"
+    },
+    {
+      "t": "2026-10-29T06:16:11Z",
+      "wallet": "Numer0",
+      "mint": "3PCg7T95A9XcbjXfodnVYA8EF95GWnKUi9AW3Hvepump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3VPYPfAE74ehUXwMTPMihnAkvnkczzK4RY8YezV9S12RKADEB3wiNsauGid8miuKMmXFK2xCJReDkt61BPCpT8fN",
+      "tx": "3VPYPfAE74ehUXwMTPMihnAkvnkczzK4RY8YezV9S12RKADEB3wiNsauGid8miuKMmXFK2xCJReDkt61BPCpT8fN"
     }
   ],
   "trades": [
@@ -2384,12 +2420,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-29T06:03:57Z",
+      "ts": "2026-10-29T06:06:34Z",
       "mint": "GMXf4jmhR4hEeAjqq543oi4w2VVLd21fmKrn2gpQ2xsu",
       "sym": "KING",
-      "px": 4.38e-05,
-      "liq_usd": 17658.95,
-      "market_cap": 42989,
+      "px": 4.354e-05,
+      "liq_usd": 17602.2,
+      "market_cap": 42734,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2411,15 +2447,15 @@
       "tg_channels": [
         "solgemsradar"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
-      "ts": "2026-10-29T06:03:59Z",
+      "ts": "2026-10-29T06:06:35Z",
       "mint": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
       "sym": "NETWORK",
-      "px": 0.000124,
-      "liq_usd": 29106.86,
-      "market_cap": 117909,
+      "px": 0.0001244,
+      "liq_usd": 29134.46,
+      "market_cap": 118230,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2442,7 +2478,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 1
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -2691,13 +2727,13 @@
   "protections": {
     "daily_pnl": 18875.34726478559,
     "consecutive_losses": 6,
-    "paused_until": 1793261039.9979515,
+    "paused_until": 1793261795.908569,
     "kill_switch": false
   },
   "v1": {
     "cycles": 1995,
-    "open_positions": 1455,
-    "trades": 1455,
+    "open_positions": 1458,
+    "trades": 1458,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -2735,7 +2771,7 @@
         }
       }
     },
-    "S_blocked_still_in": 350,
+    "S_blocked_still_in": 354,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -2792,11 +2828,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004292,
+      "last_px": 0.004252,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.4122153900966131,
-      "pnl_mtm": 0.4122153900966131,
+      "pnl": 0.405053084503914,
+      "pnl_mtm": 0.405053084503914,
       "strategy": "copy",
       "reentries": 1
     },
