@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:07:34Z",
+  "updated": "2026-10-29T20:16:07Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1444,6 +1444,54 @@
       "action": "sell",
       "sig": "GDjqFAz5RTWhj4p98sdYzweXmo92uXRqAz4SsmrpduqQVaNexiHFf3iWeswcvzHqiusN1pK9bTJTCvooH7MZYWR",
       "tx": "GDjqFAz5RTWhj4p98sdYzweXmo92uXRqAz4SsmrpduqQVaNexiHFf3iWeswcvzHqiusN1pK9bTJTCvooH7MZYWR"
+    },
+    {
+      "t": "2026-10-29T20:07:35Z",
+      "wallet": "EustazZ",
+      "mint": "5nHMCwGzebZN7La2FPwuefChWcvNUmMBc19SuUbBpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "37njKR2MJQA46Zb9aL6CRGkacGbzPZgP4mXuR5ZZNfWEcwQ4pqiQ2L8J2SMBXe7r343mBwZWXQcobSqLm9kUB19P",
+      "tx": "37njKR2MJQA46Zb9aL6CRGkacGbzPZgP4mXuR5ZZNfWEcwQ4pqiQ2L8J2SMBXe7r343mBwZWXQcobSqLm9kUB19P"
+    },
+    {
+      "t": "2026-10-29T20:07:41Z",
+      "wallet": "Numer0",
+      "mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3w2qcp5zYQFdMGfCnxLr9ho9rKTcTxj5jMV53wH5ehZHxSm2q44H1P5rF7dS9BJ84di4ZkvzSh7iaFNGw3fDgy5a",
+      "tx": "3w2qcp5zYQFdMGfCnxLr9ho9rKTcTxj5jMV53wH5ehZHxSm2q44H1P5rF7dS9BJ84di4ZkvzSh7iaFNGw3fDgy5a"
+    },
+    {
+      "t": "2026-10-29T20:08:07Z",
+      "wallet": "Mitch",
+      "mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3stQirWGBTrKqQkY2xjw8UcUJ2k7C98rQaewYCsST1NPpirmfB9edgPhBz1RiQo59fLWMzZp4yRF56EtoPXt6A3N",
+      "tx": "3stQirWGBTrKqQkY2xjw8UcUJ2k7C98rQaewYCsST1NPpirmfB9edgPhBz1RiQo59fLWMzZp4yRF56EtoPXt6A3N"
+    },
+    {
+      "t": "2026-10-29T20:11:04Z",
+      "wallet": "Cented",
+      "mint": "3ZdHmw5gxNxVaTVGtNk2aPKNKZA9uFMgJ5Z9iG6UGm2r",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "2FjADNGmTA2PEdfMUCRHFNvetk2pXQaodMrbGzZmDTKkQ7pt6JYjE7B2TCPA1BjJfo9kTAVfk1nJ7yxJqDjtTbSQ",
+      "tx": "2FjADNGmTA2PEdfMUCRHFNvetk2pXQaodMrbGzZmDTKkQ7pt6JYjE7B2TCPA1BjJfo9kTAVfk1nJ7yxJqDjtTbSQ"
     }
   ],
   "trades": [
@@ -3325,13 +3373,13 @@
   "protections": {
     "daily_pnl": 18875.34726478559,
     "consecutive_losses": 6,
-    "paused_until": 1793311654.4246163,
+    "paused_until": 1793312167.312226,
     "kill_switch": false
   },
   "v1": {
     "cycles": 2027,
-    "open_positions": 1459,
-    "trades": 1461,
+    "open_positions": 1463,
+    "trades": 1465,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -3369,7 +3417,7 @@
         }
       }
     },
-    "S_blocked_still_in": 364,
+    "S_blocked_still_in": 366,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
