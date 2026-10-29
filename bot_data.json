@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:16:51+0100",
+ "updated": "2026-10-29T09:21:42+0100",
  "version": "v2",
  "live_mode": false,
  "rpc": "helius",
@@ -2684,7 +2684,7 @@
     "solearlytrending",
     "solgemsradar"
    ],
-   "seen_count": 3
+   "seen_count": 2
   },
   {
    "ts": "2026-10-28T22:28:05Z",
@@ -2714,7 +2714,7 @@
    "tg_channels": [
     "solearlytrending"
    ],
-   "seen_count": 4
+   "seen_count": 3
   },
   {
    "ts": "2026-10-29T06:03:36Z",
@@ -2866,12 +2866,12 @@
    "seen_count": 17
   },
   {
-   "ts": "2026-10-29T08:16:25Z",
+   "ts": "2026-10-29T08:21:23Z",
    "mint": "Bz5N9wrcxDw2YTf8tQkG8PJzdbUW89ZNWLWbdqA2pump",
    "sym": "\uc288\ubc14\uc624",
-   "px": 0.0001182,
-   "liq_usd": 28245.8,
-   "market_cap": 115659,
+   "px": 0.0001139,
+   "liq_usd": 27711.86,
+   "market_cap": 111466,
    "wallet_names": [],
    "source": "dex_boost",
    "rug_ok": true,
@@ -2894,7 +2894,7 @@
     "mad_apes_gambles",
     "solearlytrending"
    ],
-   "seen_count": 15
+   "seen_count": 17
   }
  ],
  "new_pools": [],
@@ -3143,7 +3143,7 @@
  "protections": {
   "daily_pnl": 18875.34726478559,
   "consecutive_losses": 6,
-  "paused_until": 1793268996.6056573,
+  "paused_until": 1793269296.84099,
   "kill_switch": false
  },
  "v1": {
@@ -3285,11 +3285,11 @@
    "sym": "PUMP",
    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "entry_px": 0.001954677836459661,
-   "last_px": 0.004214,
+   "last_px": 0.004241,
    "size_usd": 0.35,
    "cost": 0.0063,
-   "pnl": 0.39824889419084986,
-   "pnl_mtm": 0.39824889419084986,
+   "pnl": 0.40308345046592176,
+   "pnl_mtm": 0.40308345046592176,
    "strategy": "copy",
    "reentries": 1
   },
