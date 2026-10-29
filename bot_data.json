@@ -1,2392 +1,2111 @@
 {
- "updated": "2026-10-29T12:25:35+0100",
- "version": "v2",
- "live_mode": false,
- "rpc": "helius",
- "x_calls_today": 0,
- "events": [
-  {
-   "t": "2026-10-29T11:01:19Z",
-   "wallet": "Numer0",
-   "mint": "GnCo3guxeJ2w8Rm4649K9ej62WtAmDHgDAikCrGmpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "5U789WRQG3aAFkGtQHmUy2Kkb7q5vjwc43wVfJpR1AcwJ5eyKPQmgMPfd8sEGfhkCVmXyDmzfVNLCCANUDosCKdz",
-   "tx": "5U789WRQG3aAFkGtQHmUy2Kkb7q5vjwc43wVfJpR1AcwJ5eyKPQmgMPfd8sEGfhkCVmXyDmzfVNLCCANUDosCKdz"
-  },
-  {
-   "t": "2026-10-29T11:01:19Z",
-   "wallet": "Frost",
-   "mint": "GnCo3guxeJ2w8Rm4649K9ej62WtAmDHgDAikCrGmpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "3p5WHp7E7dSefKVm6TU57YdWubrEMKsLoSbr9isdbEJfTwKbyRsuTXf9b83Zsz59RcYrcuJ6gpMQV8bd5txPRH7e",
-   "tx": "3p5WHp7E7dSefKVm6TU57YdWubrEMKsLoSbr9isdbEJfTwKbyRsuTXf9b83Zsz59RcYrcuJ6gpMQV8bd5txPRH7e"
-  },
-  {
-   "t": "2026-10-29T11:01:20Z",
-   "wallet": "Mitch",
-   "mint": "GnCo3guxeJ2w8Rm4649K9ej62WtAmDHgDAikCrGmpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "435DJUxvEq1NsFNRVZYZ4BkPkeNo5QZeWx8AguWBX4qZ5NSEUf4TzixJekbJvyEGNVtdmcCm5DNz9CMunQb4gSyH",
-   "tx": "435DJUxvEq1NsFNRVZYZ4BkPkeNo5QZeWx8AguWBX4qZ5NSEUf4TzixJekbJvyEGNVtdmcCm5DNz9CMunQb4gSyH"
-  },
-  {
-   "t": "2026-10-29T11:01:20Z",
-   "wallet": "Mr. Frog",
-   "mint": "GnCo3guxeJ2w8Rm4649K9ej62WtAmDHgDAikCrGmpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "4EnZ4ZiiX5xkJvKVdgJEZN5Dyk8stWnxkKX9MPSPyytux2tv8rnFSfffo8UcxX1FvzfuMdCPGm1PTnTLwyqdNguz",
-   "tx": "4EnZ4ZiiX5xkJvKVdgJEZN5Dyk8stWnxkKX9MPSPyytux2tv8rnFSfffo8UcxX1FvzfuMdCPGm1PTnTLwyqdNguz"
-  },
-  {
-   "t": "2026-10-29T11:01:22Z",
-   "wallet": "Trunoest",
-   "mint": "GnCo3guxeJ2w8Rm4649K9ej62WtAmDHgDAikCrGmpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "5UChGHCoC7Ajwv4BeKtKPMwnjiG4cxctnLtttLucnfzxYrbYj6pgxa2n4TJhAXAAbshaoELkUR95bJQYRqF7MtCa",
-   "tx": "5UChGHCoC7Ajwv4BeKtKPMwnjiG4cxctnLtttLucnfzxYrbYj6pgxa2n4TJhAXAAbshaoELkUR95bJQYRqF7MtCa"
-  },
-  {
-   "t": "2026-10-29T11:03:25Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "oWwxHF7PX5q2VkYTdRhmQBwwkoYobto9B6qLfpxXGLNgaR5KZEQ8PRSxzsoNS1htPhbCSA8rWCpdtn6Yi2bvVKu",
-   "tx": "oWwxHF7PX5q2VkYTdRhmQBwwkoYobto9B6qLfpxXGLNgaR5KZEQ8PRSxzsoNS1htPhbCSA8rWCpdtn6Yi2bvVKu"
-  },
-  {
-   "t": "2026-10-29T11:03:25Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "3uPgUvXTpZCtdnfWrKekzCQ1oKLMyQxbiz1icB97SXv6QPpeQY9S6S4zweYjGQHJxUExaQR4fG6QkQ48dCgFEpZa",
-   "tx": "3uPgUvXTpZCtdnfWrKekzCQ1oKLMyQxbiz1icB97SXv6QPpeQY9S6S4zweYjGQHJxUExaQR4fG6QkQ48dCgFEpZa"
-  },
-  {
-   "t": "2026-10-29T11:03:50Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "2cAfArN6FdiJN3w4PFwocpRjBYJPUueG1CjSmghbVc1Bgwo1Uhyf91BwzzM4X9bJ134E62Z7kjyNGH9BTGCPD4SS",
-   "tx": "2cAfArN6FdiJN3w4PFwocpRjBYJPUueG1CjSmghbVc1Bgwo1Uhyf91BwzzM4X9bJ134E62Z7kjyNGH9BTGCPD4SS"
-  },
-  {
-   "t": "2026-10-29T11:03:50Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "buy",
-   "sig": "24FYELSPWiK6W2j5A5nG16i5Csep6cPVJ3wpLGhcoVbUVRj8c3YCFQjehUNQGwXopQB2CjZmQEqTioP2vVNZ9QuZ",
-   "tx": "24FYELSPWiK6W2j5A5nG16i5Csep6cPVJ3wpLGhcoVbUVRj8c3YCFQjehUNQGwXopQB2CjZmQEqTioP2vVNZ9QuZ"
-  },
-  {
-   "t": "2026-10-29T11:03:50Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "buy",
-   "sig": "3BDpZstueHEvTCSxDUdD39NMm7SG4baH6iqb2BYY5Kqem7XAGGAW9hE6N7zs2QDQdEe18bga4H4JDUzwKoSSgrs5",
-   "tx": "3BDpZstueHEvTCSxDUdD39NMm7SG4baH6iqb2BYY5Kqem7XAGGAW9hE6N7zs2QDQdEe18bga4H4JDUzwKoSSgrs5"
-  },
-  {
-   "t": "2026-10-29T11:04:15Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "2kpdibKvmAqyNbdyas1qoA4GcKod5A84hoLCvTaZ8gC8AuTiER2W3EePxViT1AZzYRd7pWKZtYp2Qw1CEdgSR3aM",
-   "tx": "2kpdibKvmAqyNbdyas1qoA4GcKod5A84hoLCvTaZ8gC8AuTiER2W3EePxViT1AZzYRd7pWKZtYp2Qw1CEdgSR3aM"
-  },
-  {
-   "t": "2026-10-29T11:04:15Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "buy",
-   "sig": "3JQUofg9ERVpoM3AhFqeeASXscZP2SkjUVPvmyL2388YBAaLqEokxPU1WUD6EJv3VLjtHd1xJqxPfXaWgvCH7Dtw",
-   "tx": "3JQUofg9ERVpoM3AhFqeeASXscZP2SkjUVPvmyL2388YBAaLqEokxPU1WUD6EJv3VLjtHd1xJqxPfXaWgvCH7Dtw"
-  },
-  {
-   "t": "2026-10-29T11:05:32Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "buy",
-   "sig": "ShrPZ9omW2jkjBcLG187SP8QrVtUCWUNER93ACkwviz8sp3c3wQsGfdkhinbVMBDpYoTa5K3XYGNcaQmarruRRd",
-   "tx": "ShrPZ9omW2jkjBcLG187SP8QrVtUCWUNER93ACkwviz8sp3c3wQsGfdkhinbVMBDpYoTa5K3XYGNcaQmarruRRd"
-  },
-  {
-   "t": "2026-10-29T11:05:32Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "2yHQGVsDmPgWYFTW9XQGCZNTGVv6jjfh7JNqch9jWfHmpwdL76ZXqiLuwU5s7KN3gUcfNagHiCCEoCj24yBHJNy4",
-   "tx": "2yHQGVsDmPgWYFTW9XQGCZNTGVv6jjfh7JNqch9jWfHmpwdL76ZXqiLuwU5s7KN3gUcfNagHiCCEoCj24yBHJNy4"
-  },
-  {
-   "t": "2026-10-29T11:05:55Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "5jWpBJtHqimYwL3EACABp9VT8qgHtSB88Xep51dPYx9vDKkLkXLr5UVd9GiAabjFrsM12jtPECTGARCPD5YrZFRr",
-   "tx": "5jWpBJtHqimYwL3EACABp9VT8qgHtSB88Xep51dPYx9vDKkLkXLr5UVd9GiAabjFrsM12jtPECTGARCPD5YrZFRr"
-  },
-  {
-   "t": "2026-10-29T11:05:55Z",
-   "wallet": "EustazZ",
-   "mint": "6y57XGJDn39sFg3KXi9XSTnpajksevddANabJswjpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "3StQWpSG9FCWrMGJSbZDEsCsPLTpbjAWW4vjzAaJj1gLjyvSpL6oRstjjnfwadbU8prqtPDdnsHLcW2xLWffAmxW",
-   "tx": "3StQWpSG9FCWrMGJSbZDEsCsPLTpbjAWW4vjzAaJj1gLjyvSpL6oRstjjnfwadbU8prqtPDdnsHLcW2xLWffAmxW"
-  },
-  {
-   "t": "2026-10-29T11:07:09Z",
-   "wallet": "Mitch",
-   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "3FU2bTubd3DkKGsZ66kMZg3mCazde2bn6eAxdYtJ5rNPZHppvWUfe2bypbLTyKzixDv9Ltw3sTRTuUJ2cGjTtJRW",
-   "tx": "3FU2bTubd3DkKGsZ66kMZg3mCazde2bn6eAxdYtJ5rNPZHppvWUfe2bypbLTyKzixDv9Ltw3sTRTuUJ2cGjTtJRW"
-  },
-  {
-   "t": "2026-10-29T11:07:59Z",
-   "wallet": "Numer0",
-   "mint": "GRFa7RQuURNuzaU81idktFQmxDnTHwX8UZTThz94pump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "Q8FnH4Fp6ZeoddiQPZ7MVfUqWZLq2pyZUWTDkS7Wgoye8zTGxgsVT1LFkzyhGUDF3Csyto3Cqym3ntyQbXsARZT",
-   "tx": "Q8FnH4Fp6ZeoddiQPZ7MVfUqWZLq2pyZUWTDkS7Wgoye8zTGxgsVT1LFkzyhGUDF3Csyto3Cqym3ntyQbXsARZT"
-  },
-  {
-   "t": "2026-10-29T11:07:59Z",
-   "wallet": "Mitch",
-   "mint": "GRFa7RQuURNuzaU81idktFQmxDnTHwX8UZTThz94pump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "2JBgcREgDNibmJYtWdiun8jnDepiNEaun5N87aP7yCcLvfpZFpzcGrS1CSioKNmQwQnpw6LbWLo5xuBthQDfpHyV",
-   "tx": "2JBgcREgDNibmJYtWdiun8jnDepiNEaun5N87aP7yCcLvfpZFpzcGrS1CSioKNmQwQnpw6LbWLo5xuBthQDfpHyV"
-  },
-  {
-   "t": "2026-10-29T11:08:00Z",
-   "wallet": "Mr. Frog",
-   "mint": "GRFa7RQuURNuzaU81idktFQmxDnTHwX8UZTThz94pump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "3ZZZDhYGgMSGs9Uxtjfs7aYexKa853TzYeGQcJof46ER2t4tWeftEmPsgMBPjqNVDQWgx3kV38fXUcmKDfEqL647",
-   "tx": "3ZZZDhYGgMSGs9Uxtjfs7aYexKa853TzYeGQcJof46ER2t4tWeftEmPsgMBPjqNVDQWgx3kV38fXUcmKDfEqL647"
-  },
-  {
-   "t": "2026-10-29T11:08:01Z",
-   "wallet": "EustazZ",
-   "mint": "7oCZXZ6JJrqmzScKd4dALaRLpqE15eXQ4ir1AsK4pump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "buy",
-   "sig": "5evRJZLAGw6k2e9F72YtSJoHWV2EpFzDvyBu7KfNPD7CDzoTtEac7Vd65tupVmQEGpLqbZaher2b4WzZSS5u5Swk",
-   "tx": "5evRJZLAGw6k2e9F72YtSJoHWV2EpFzDvyBu7KfNPD7CDzoTtEac7Vd65tupVmQEGpLqbZaher2b4WzZSS5u5Swk"
-  },
-  {
-   "t": "2026-10-29T11:08:01Z",
-   "wallet": "EustazZ",
-   "mint": "7oCZXZ6JJrqmzScKd4dALaRLpqE15eXQ4ir1AsK4pump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "sell",
-   "sig": "4JYBEAA2SYwbftTMVzEvJf4CWwXXjNW8eE1ADXqKaevk5Sxbg1wwzui5hQXmQ6aZS9EvHmXPZBahHkSBoN8dg6Uy",
-   "tx": "4JYBEAA2SYwbftTMVzEvJf4CWwXXjNW8eE1ADXqKaevk5Sxbg1wwzui5hQXmQ6aZS9EvHmXPZBahHkSBoN8dg6Uy"
-  },
-  {
-   "t": "2026-10-29T11:09:39Z",
-   "wallet": "Numer0",
-   "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "transfer_in",
-   "sig": "Xs4vDuhkFukurTyFdcDiFrBZUdTcGbBMs6jxoAHhcTXZRkxXEyTD5JFLa3gsga2vniiX4yNYGRvtJLpzia38seB",
-   "tx": "Xs4vDuhkFukurTyFdcDiFrBZUdTcGbBMs6jxoAHhcTXZRkxXEyTD5JFLa3gsga2vniiX4yNYGRvtJLpzia38seB"
-  },
-  {
-   "t": "2026-10-29T11:10:05Z",
-   "wallet": "EustazZ",
-   "mint": "8FDW22Dov1Q2hrmb64uPKqyuFKfpGJRQvm9JGsuLpump",
-   "sym": "?",
-   "px": null,
-   "liq": 0,
-   "rug_ok": null,
-   "action": "buy",
-   "sig": "2Rgj2ojLPkHcLCkpYsSjZjAf1TDrwdWgVxLNBzB4PRYQTNyaMVAPm4AJN1w8yPfMwYYzdWK3AkGkgY8QPHmcobFy",
-   "tx": "2Rgj2ojLPkHcLCkpYsSjZjAf1TDrwdWgVxLNBzB4PRYQTNyaMVAPm4AJN1w8yPfMwYYzdWK3AkGkgY8QPHmcobFy"
-  }
- ],
- "trades": [
-  {
-   "t": "2026-10-16T19:37:21Z",
-   "sym": "SILLY.EXE",
-   "mint": "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump",
-   "wallet": "Numer0",
-   "entry_px": 0.0002299,
-   "last_px": 0.0002299,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-16T20:33:25Z",
-   "sym": "MIC",
-   "mint": "CzL38rjt7v4N6CuYZWAZ6JNRaJCGdyzBUbtYu8F3pump",
-   "wallet": "Numer0",
-   "entry_px": 8.614e-05,
-   "last_px": 8.614e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-16T20:36:53Z",
-   "sym": "SILLY.EXE",
-   "mint": "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump",
-   "wallet": "",
-   "entry_px": 0.0002299,
-   "last_px": 0.0003333,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 0.41241148325358856
-  },
-  {
-   "t": "2026-10-16T20:41:27Z",
-   "sym": "MIC",
-   "mint": "CzL38rjt7v4N6CuYZWAZ6JNRaJCGdyzBUbtYu8F3pump",
-   "wallet": "",
-   "entry_px": 8.614e-05,
-   "last_px": 0.0001118,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 0.260993498955189
-  },
-  {
-   "t": "2026-10-16T20:52:22Z",
-   "sym": "TTM",
-   "mint": "2UrJcvursk12wiWc59TR1L8h95snmMgyimySrZ1ppump",
-   "wallet": "Numer0",
-   "entry_px": 4.445e-05,
-   "last_px": 4.445e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-16T20:55:16Z",
-   "sym": "TTM",
-   "mint": "2UrJcvursk12wiWc59TR1L8h95snmMgyimySrZ1ppump",
-   "wallet": "",
-   "entry_px": 4.445e-05,
-   "last_px": 4.587e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.004149831271091014
-  },
-  {
-   "t": "2026-10-16T21:20:37Z",
-   "sym": "KALMER",
-   "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
-   "wallet": "Numer0",
-   "entry_px": 0.0001866,
-   "last_px": 0.0001866,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-16T21:35:09Z",
-   "sym": "KALMER",
-   "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
-   "wallet": "Numer0",
-   "entry_px": 2.149e-06,
-   "last_px": 2.149e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-16T21:35:40Z",
-   "sym": "KALMER",
-   "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
-   "wallet": "Numer0",
-   "entry_px": 2.128e-06,
-   "last_px": 2.128e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-17T19:03:17Z",
-   "sym": "AUDIA",
-   "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 3.09e-05,
-   "last_px": 3.09e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T07:01:49Z",
-   "sym": "AUDIA",
-   "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.979e-06,
-   "last_px": 1.979e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T07:02:11Z",
-   "sym": "Shhh",
-   "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
-   "wallet": "Mr. Frog",
-   "entry_px": 9.35e-06,
-   "last_px": 9.35e-06,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T07:02:12Z",
-   "sym": "DOPE",
-   "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.324e-05,
-   "last_px": 1.324e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T07:02:37Z",
-   "sym": "AUDIA",
-   "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.979e-06,
-   "last_px": 1.979e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T07:03:44Z",
-   "sym": "DOPE",
-   "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.374e-06,
-   "last_px": 2.374e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T07:04:16Z",
-   "sym": "DOPE",
-   "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.307e-06,
-   "last_px": 2.307e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T07:05:21Z",
-   "sym": "Shhh",
-   "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.648e-06,
-   "last_px": 2.648e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T07:05:54Z",
-   "sym": "Shhh",
-   "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.645e-06,
-   "last_px": 2.645e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T15:11:09Z",
-   "sym": "PUMP",
-   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "wallet": "EustazZ",
-   "entry_px": 0.004219,
-   "last_px": 0.004219,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T16:24:31Z",
-   "sym": "WOJAKE",
-   "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 4.39e-05,
-   "last_px": 4.39e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T16:30:08Z",
-   "sym": "WOJAKE",
-   "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.45e-06,
-   "last_px": 2.45e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T16:30:41Z",
-   "sym": "WOJAKE",
-   "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.075e-06,
-   "last_px": 2.075e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T16:42:48Z",
-   "sym": "AA",
-   "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
-   "wallet": "Mr. Frog",
-   "entry_px": 5.558e-05,
-   "last_px": 5.558e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T16:47:10Z",
-   "sym": "AA",
-   "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.123e-06,
-   "last_px": 2.123e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T16:47:42Z",
-   "sym": "AA",
-   "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.138e-06,
-   "last_px": 2.138e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T22:29:58Z",
-   "sym": "GATOCLAUDI",
-   "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 6.598e-05,
-   "last_px": 6.598e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T22:35:17Z",
-   "sym": "GATOCLAUDI",
-   "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.427e-05,
-   "last_px": 2.427e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T22:35:51Z",
-   "sym": "GATOCLAUDI",
-   "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.475e-06,
-   "last_px": 2.475e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T22:48:35Z",
-   "sym": "AGHOST",
-   "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 5.499e-05,
-   "last_px": 5.499e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T22:57:44Z",
-   "sym": "AGHOST",
-   "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.227e-06,
-   "last_px": 2.227e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T22:58:18Z",
-   "sym": "AGHOST",
-   "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.134e-06,
-   "last_px": 2.134e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T23:06:31Z",
-   "sym": "FLAMBO",
-   "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
-   "wallet": "Mr. Frog",
-   "entry_px": 6.666e-05,
-   "last_px": 6.666e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T23:13:05Z",
-   "sym": "FLAMBO",
-   "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.609e-06,
-   "last_px": 2.609e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-18T23:13:39Z",
-   "sym": "FLAMBO",
-   "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.324e-06,
-   "last_px": 2.324e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-18T23:38:19Z",
-   "sym": "PUMP",
-   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "wallet": "EustazZ",
-   "entry_px": 0.001272,
-   "last_px": 0.001272,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T00:16:03Z",
-   "sym": "TRALALA",
-   "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 5.989e-05,
-   "last_px": 5.989e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T00:22:07Z",
-   "sym": "TRALALA",
-   "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.582e-06,
-   "last_px": 2.582e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T00:22:42Z",
-   "sym": "TRALALA",
-   "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.422e-06,
-   "last_px": 2.422e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-19T05:18:56Z",
-   "sym": "GODCHUD",
-   "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
-   "wallet": "Mr. Frog",
-   "entry_px": 4.361e-05,
-   "last_px": 4.361e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T05:20:21Z",
-   "sym": "GODCHUD",
-   "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.032e-05,
-   "last_px": 1.032e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T05:20:56Z",
-   "sym": "GODCHUD",
-   "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.068e-05,
-   "last_px": 1.068e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-19T05:28:14Z",
-   "sym": "GODCHUD",
-   "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
-   "wallet": "",
-   "entry_px": 1.500184e-05,
-   "last_px": 7.91e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 3.161901368098846
-  },
-  {
-   "t": "2026-10-19T19:09:26Z",
-   "sym": "BURNT",
-   "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 7.353e-05,
-   "last_px": 7.353e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T19:09:26Z",
-   "sym": "UFI",
-   "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 7.869e-05,
-   "last_px": 7.869e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T19:09:50Z",
-   "sym": "BURNT",
-   "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 3.332e-05,
-   "last_px": 3.332e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T19:10:26Z",
-   "sym": "BURNT",
-   "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.995e-05,
-   "last_px": 2.995e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-19T20:05:49Z",
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.569e-05,
-   "last_px": 1.569e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T20:05:51Z",
-   "sym": "usefomo",
-   "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 0.0001568,
-   "last_px": 0.0001568,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T20:05:56Z",
-   "sym": "UFI",
-   "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.972e-06,
-   "last_px": 1.972e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T20:06:33Z",
-   "sym": "UFI",
-   "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.972e-06,
-   "last_px": 1.972e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-19T20:09:01Z",
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "wallet": "",
-   "entry_px": 1.569e-05,
-   "last_px": 6.629e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 0.9432927342256213
-  },
-  {
-   "t": "2026-10-19T20:09:02Z",
-   "sym": "usefomo",
-   "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 0.0001079,
-   "last_px": 0.0001079,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T20:09:38Z",
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "wallet": "",
-   "entry_px": 1.569e-05,
-   "last_px": 7.273e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 1.093535595920969
-  },
-  {
-   "t": "2026-10-19T20:10:54Z",
-   "sym": "usefomo",
-   "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
-   "wallet": "Mr. Frog",
-   "entry_px": 8.154e-05,
-   "last_px": 8.154e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-19T20:11:31Z",
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "wallet": "",
-   "entry_px": 1.569e-05,
-   "last_px": 8.167e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 0.3841818514977692
-  },
-  {
-   "t": "2026-10-19T20:15:14Z",
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 9.611e-06,
-   "last_px": 9.611e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-19T20:15:51Z",
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.354e-06,
-   "last_px": 2.354e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-20T02:23:28Z",
-   "sym": "SMECK",
-   "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 0.0001216,
-   "last_px": 0.0001216,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-20T02:46:28Z",
-   "sym": "Nocity",
-   "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 8.298e-05,
-   "last_px": 8.298e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-23T23:00:05Z",
-   "sym": "BKIM",
-   "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
-   "wallet": "Numer0",
-   "entry_px": 5.788e-05,
-   "last_px": 5.788e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-23T23:00:39Z",
-   "sym": "Nocity",
-   "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.04e-06,
-   "last_px": 2.04e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-23T23:01:19Z",
-   "sym": "Nocity",
-   "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 2.04e-06,
-   "last_px": 2.04e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-23T23:02:38Z",
-   "sym": "BKIM",
-   "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
-   "wallet": "Numer0",
-   "entry_px": 2.103e-05,
-   "last_px": 2.103e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-23T23:03:57Z",
-   "sym": "BKIM",
-   "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
-   "wallet": "Numer0",
-   "entry_px": 2.048e-05,
-   "last_px": 2.048e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-24T07:07:57Z",
-   "sym": "SMECK",
-   "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.933e-06,
-   "last_px": 1.933e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-24T07:08:36Z",
-   "sym": "SMECK",
-   "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
-   "wallet": "Mr. Frog",
-   "entry_px": 1.933e-06,
-   "last_px": 1.933e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-25T05:10:03Z",
-   "sym": "MONKO",
-   "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
-   "wallet": "Numer0",
-   "entry_px": 5.039e-05,
-   "last_px": 5.039e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-25T05:10:03Z",
-   "sym": "Kawaiijak",
-   "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
-   "wallet": "Numer0",
-   "entry_px": 4.354e-05,
-   "last_px": 4.354e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-25T05:15:47Z",
-   "sym": "MONKO",
-   "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
-   "wallet": "Numer0",
-   "entry_px": 2.376e-05,
-   "last_px": 2.376e-05,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-25T05:16:27Z",
-   "sym": "MONKO",
-   "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
-   "wallet": "Numer0",
-   "entry_px": 2.068e-06,
-   "last_px": 2.068e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-25T05:18:26Z",
-   "sym": "Kawaiijak",
-   "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
-   "wallet": "Numer0",
-   "entry_px": 2.09e-06,
-   "last_px": 2.09e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.018
-  },
-  {
-   "t": "2026-10-25T05:19:06Z",
-   "sym": "Kawaiijak",
-   "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
-   "wallet": "Numer0",
-   "entry_px": 2.16e-06,
-   "last_px": 2.16e-06,
-   "x": 30,
-   "strategy": "reentry",
-   "pnl": -0.0165
-  },
-  {
-   "t": "2026-10-26T08:12:12Z",
-   "sym": "MONKO",
-   "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
-   "wallet": "",
-   "entry_px": 8.231475774340489e-06,
-   "last_px": 3.464e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 2.3659591333419234
-  },
-  {
-   "t": "2026-10-26T08:12:52Z",
-   "sym": "MONKO",
-   "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
-   "wallet": "",
-   "entry_px": 8.231475774340489e-06,
-   "last_px": 3.464e-05,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 2.762785655565578
-  },
-  {
-   "t": "2026-10-28T20:04:59Z",
-   "sym": "PUMP",
-   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "wallet": "",
-   "entry_px": 0.001954677836459661,
-   "last_px": 22.43,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 6863.741181467485
-  },
-  {
-   "t": "2026-10-28T20:05:39Z",
-   "sym": "PUMP",
-   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "wallet": "",
-   "entry_px": 0.001954677836459661,
-   "last_px": 22.43,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 8007.700545045402
-  },
-  {
-   "t": "2026-10-28T20:06:20Z",
-   "sym": "PUMP",
-   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "wallet": "",
-   "entry_px": 0.001954677836459661,
-   "last_px": 22.43,
-   "x": 30.0,
-   "strategy": "copy",
-   "pnl": 4003.8427725227007
-  }
- ],
- "variants": {
-  "copy_tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.149e-06,
-     "size": 1.0,
-     "ts": "2026-10-16T21:35:09Z"
+  "updated": "2026-10-29T11:30:50Z",
+  "version": "v2",
+  "live_mode": false,
+  "rpc": "helius",
+  "x_calls_today": 0,
+  "events": [
+    {
+      "t": "2026-10-29T11:27:06Z",
+      "wallet": "EustazZ",
+      "mint": "8FDW22Dov1Q2hrmb64uPKqyuFKfpGJRQvm9JGsuLpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "4XdEW1SHvzXZK1ToTQziTpL8d9TsEU9fdz14yKJr1yD4MUqy4L2mWBKNEHiLLUvyYgiLQo9fAM3ExjTN3CkbYPFn",
+      "tx": "4XdEW1SHvzXZK1ToTQziTpL8d9TsEU9fdz14yKJr1yD4MUqy4L2mWBKNEHiLLUvyYgiLQo9fAM3ExjTN3CkbYPFn"
     },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.1275100000000002e-06,
-     "size": 0.9,
-     "ts": "2026-10-16T21:35:09Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.128e-06,
-     "size": 0.5,
-     "ts": "2026-10-16T21:35:40Z"
+    {
+      "t": "2026-10-29T11:27:55Z",
+      "wallet": "Numer0",
+      "mint": "GZFiR672hbnK29jUZpbUXGHe3xFFrYCbUQw8dguKpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "21hzXPLCaMoNhh8VfFpVK5TGFak9JAWufuwtjSJgDAG5zxwira4YM9HtRH5sJJaNmtKtAouaYWx9LgoFdScVpygS",
+      "tx": "21hzXPLCaMoNhh8VfFpVK5TGFak9JAWufuwtjSJgDAG5zxwira4YM9HtRH5sJJaNmtKtAouaYWx9LgoFdScVpygS"
     },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.1067200000000002e-06,
-     "size": 0.45,
-     "ts": "2026-10-16T21:35:40Z"
+    {
+      "t": "2026-10-29T11:27:56Z",
+      "wallet": "Mitch",
+      "mint": "GZFiR672hbnK29jUZpbUXGHe3xFFrYCbUQw8dguKpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "PzTsiJRYsGvsFuw7GnGUmKSYBEP7Nt15jzef9xQZFZhBrvtskqjx5NimZmrSyWp9i6mY9u3wtn1vTkazXkgWiZd",
+      "tx": "PzTsiJRYsGvsFuw7GnGUmKSYBEP7Nt15jzef9xQZFZhBrvtskqjx5NimZmrSyWp9i6mY9u3wtn1vTkazXkgWiZd"
+    },
+    {
+      "t": "2026-10-29T11:27:56Z",
+      "wallet": "Mr. Frog",
+      "mint": "GZFiR672hbnK29jUZpbUXGHe3xFFrYCbUQw8dguKpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "495bdXQEYcsfyfjrov6JtoZjqygQahGpmW4CMmov8w7JK1XCbx1Lb1Lvf4eHEzRGGeQfrP2Z7H1qngQHSfRKENNq",
+      "tx": "495bdXQEYcsfyfjrov6JtoZjqygQahGpmW4CMmov8w7JK1XCbx1Lb1Lvf4eHEzRGGeQfrP2Z7H1qngQHSfRKENNq"
     }
-   }
   ],
-  "copy_8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.979e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T07:01:49Z"
+  "trades": [
+    {
+      "t": "2026-10-16T19:37:21Z",
+      "sym": "SILLY.EXE",
+      "mint": "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump",
+      "wallet": "Numer0",
+      "entry_px": 0.0002299,
+      "last_px": 0.0002299,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
     },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.95921e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T07:01:49Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.979e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T07:02:37Z"
+    {
+      "t": "2026-10-16T20:33:25Z",
+      "sym": "MIC",
+      "mint": "CzL38rjt7v4N6CuYZWAZ6JNRaJCGdyzBUbtYu8F3pump",
+      "wallet": "Numer0",
+      "entry_px": 8.614e-05,
+      "last_px": 8.614e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
     },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.95921e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T07:02:37Z"
+    {
+      "t": "2026-10-16T20:36:53Z",
+      "sym": "SILLY.EXE",
+      "mint": "DTsfJ3GM8SeXBv6zH9GMANDRnWrLqEn9eb9XXULppump",
+      "wallet": "",
+      "entry_px": 0.0002299,
+      "last_px": 0.0003333,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 0.41241148325358856
+    },
+    {
+      "t": "2026-10-16T20:41:27Z",
+      "sym": "MIC",
+      "mint": "CzL38rjt7v4N6CuYZWAZ6JNRaJCGdyzBUbtYu8F3pump",
+      "wallet": "",
+      "entry_px": 8.614e-05,
+      "last_px": 0.0001118,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 0.260993498955189
+    },
+    {
+      "t": "2026-10-16T20:52:22Z",
+      "sym": "TTM",
+      "mint": "2UrJcvursk12wiWc59TR1L8h95snmMgyimySrZ1ppump",
+      "wallet": "Numer0",
+      "entry_px": 4.445e-05,
+      "last_px": 4.445e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-16T20:55:16Z",
+      "sym": "TTM",
+      "mint": "2UrJcvursk12wiWc59TR1L8h95snmMgyimySrZ1ppump",
+      "wallet": "",
+      "entry_px": 4.445e-05,
+      "last_px": 4.587e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.004149831271091014
+    },
+    {
+      "t": "2026-10-16T21:20:37Z",
+      "sym": "KALMER",
+      "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
+      "wallet": "Numer0",
+      "entry_px": 0.0001866,
+      "last_px": 0.0001866,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-16T21:35:09Z",
+      "sym": "KALMER",
+      "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
+      "wallet": "Numer0",
+      "entry_px": 2.149e-06,
+      "last_px": 2.149e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-16T21:35:40Z",
+      "sym": "KALMER",
+      "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
+      "wallet": "Numer0",
+      "entry_px": 2.128e-06,
+      "last_px": 2.128e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-17T19:03:17Z",
+      "sym": "AUDIA",
+      "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 3.09e-05,
+      "last_px": 3.09e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T07:01:49Z",
+      "sym": "AUDIA",
+      "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.979e-06,
+      "last_px": 1.979e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T07:02:11Z",
+      "sym": "Shhh",
+      "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
+      "wallet": "Mr. Frog",
+      "entry_px": 9.35e-06,
+      "last_px": 9.35e-06,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T07:02:12Z",
+      "sym": "DOPE",
+      "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.324e-05,
+      "last_px": 1.324e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T07:02:37Z",
+      "sym": "AUDIA",
+      "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.979e-06,
+      "last_px": 1.979e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T07:03:44Z",
+      "sym": "DOPE",
+      "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.374e-06,
+      "last_px": 2.374e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T07:04:16Z",
+      "sym": "DOPE",
+      "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.307e-06,
+      "last_px": 2.307e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T07:05:21Z",
+      "sym": "Shhh",
+      "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.648e-06,
+      "last_px": 2.648e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T07:05:54Z",
+      "sym": "Shhh",
+      "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.645e-06,
+      "last_px": 2.645e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T15:11:09Z",
+      "sym": "PUMP",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "wallet": "EustazZ",
+      "entry_px": 0.004219,
+      "last_px": 0.004219,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T16:24:31Z",
+      "sym": "WOJAKE",
+      "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 4.39e-05,
+      "last_px": 4.39e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T16:30:08Z",
+      "sym": "WOJAKE",
+      "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.45e-06,
+      "last_px": 2.45e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T16:30:41Z",
+      "sym": "WOJAKE",
+      "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.075e-06,
+      "last_px": 2.075e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T16:42:48Z",
+      "sym": "AA",
+      "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
+      "wallet": "Mr. Frog",
+      "entry_px": 5.558e-05,
+      "last_px": 5.558e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T16:47:10Z",
+      "sym": "AA",
+      "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.123e-06,
+      "last_px": 2.123e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T16:47:42Z",
+      "sym": "AA",
+      "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.138e-06,
+      "last_px": 2.138e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T22:29:58Z",
+      "sym": "GATOCLAUDI",
+      "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 6.598e-05,
+      "last_px": 6.598e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T22:35:17Z",
+      "sym": "GATOCLAUDI",
+      "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.427e-05,
+      "last_px": 2.427e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T22:35:51Z",
+      "sym": "GATOCLAUDI",
+      "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.475e-06,
+      "last_px": 2.475e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T22:48:35Z",
+      "sym": "AGHOST",
+      "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 5.499e-05,
+      "last_px": 5.499e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T22:57:44Z",
+      "sym": "AGHOST",
+      "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.227e-06,
+      "last_px": 2.227e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T22:58:18Z",
+      "sym": "AGHOST",
+      "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.134e-06,
+      "last_px": 2.134e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T23:06:31Z",
+      "sym": "FLAMBO",
+      "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
+      "wallet": "Mr. Frog",
+      "entry_px": 6.666e-05,
+      "last_px": 6.666e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T23:13:05Z",
+      "sym": "FLAMBO",
+      "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.609e-06,
+      "last_px": 2.609e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-18T23:13:39Z",
+      "sym": "FLAMBO",
+      "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.324e-06,
+      "last_px": 2.324e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-18T23:38:19Z",
+      "sym": "PUMP",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "wallet": "EustazZ",
+      "entry_px": 0.001272,
+      "last_px": 0.001272,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T00:16:03Z",
+      "sym": "TRALALA",
+      "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 5.989e-05,
+      "last_px": 5.989e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T00:22:07Z",
+      "sym": "TRALALA",
+      "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.582e-06,
+      "last_px": 2.582e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T00:22:42Z",
+      "sym": "TRALALA",
+      "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.422e-06,
+      "last_px": 2.422e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-19T05:18:56Z",
+      "sym": "GODCHUD",
+      "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
+      "wallet": "Mr. Frog",
+      "entry_px": 4.361e-05,
+      "last_px": 4.361e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T05:20:21Z",
+      "sym": "GODCHUD",
+      "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.032e-05,
+      "last_px": 1.032e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T05:20:56Z",
+      "sym": "GODCHUD",
+      "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.068e-05,
+      "last_px": 1.068e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-19T05:28:14Z",
+      "sym": "GODCHUD",
+      "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
+      "wallet": "",
+      "entry_px": 1.500184e-05,
+      "last_px": 7.91e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 3.161901368098846
+    },
+    {
+      "t": "2026-10-19T19:09:26Z",
+      "sym": "BURNT",
+      "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 7.353e-05,
+      "last_px": 7.353e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T19:09:26Z",
+      "sym": "UFI",
+      "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 7.869e-05,
+      "last_px": 7.869e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T19:09:50Z",
+      "sym": "BURNT",
+      "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 3.332e-05,
+      "last_px": 3.332e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T19:10:26Z",
+      "sym": "BURNT",
+      "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.995e-05,
+      "last_px": 2.995e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-19T20:05:49Z",
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.569e-05,
+      "last_px": 1.569e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T20:05:51Z",
+      "sym": "usefomo",
+      "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 0.0001568,
+      "last_px": 0.0001568,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T20:05:56Z",
+      "sym": "UFI",
+      "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.972e-06,
+      "last_px": 1.972e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T20:06:33Z",
+      "sym": "UFI",
+      "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.972e-06,
+      "last_px": 1.972e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-19T20:09:01Z",
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "wallet": "",
+      "entry_px": 1.569e-05,
+      "last_px": 6.629e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 0.9432927342256213
+    },
+    {
+      "t": "2026-10-19T20:09:02Z",
+      "sym": "usefomo",
+      "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 0.0001079,
+      "last_px": 0.0001079,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T20:09:38Z",
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "wallet": "",
+      "entry_px": 1.569e-05,
+      "last_px": 7.273e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 1.093535595920969
+    },
+    {
+      "t": "2026-10-19T20:10:54Z",
+      "sym": "usefomo",
+      "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
+      "wallet": "Mr. Frog",
+      "entry_px": 8.154e-05,
+      "last_px": 8.154e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-19T20:11:31Z",
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "wallet": "",
+      "entry_px": 1.569e-05,
+      "last_px": 8.167e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 0.3841818514977692
+    },
+    {
+      "t": "2026-10-19T20:15:14Z",
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 9.611e-06,
+      "last_px": 9.611e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-19T20:15:51Z",
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.354e-06,
+      "last_px": 2.354e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-20T02:23:28Z",
+      "sym": "SMECK",
+      "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 0.0001216,
+      "last_px": 0.0001216,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-20T02:46:28Z",
+      "sym": "Nocity",
+      "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 8.298e-05,
+      "last_px": 8.298e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-23T23:00:05Z",
+      "sym": "BKIM",
+      "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
+      "wallet": "Numer0",
+      "entry_px": 5.788e-05,
+      "last_px": 5.788e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-23T23:00:39Z",
+      "sym": "Nocity",
+      "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.04e-06,
+      "last_px": 2.04e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-23T23:01:19Z",
+      "sym": "Nocity",
+      "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 2.04e-06,
+      "last_px": 2.04e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-23T23:02:38Z",
+      "sym": "BKIM",
+      "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
+      "wallet": "Numer0",
+      "entry_px": 2.103e-05,
+      "last_px": 2.103e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-23T23:03:57Z",
+      "sym": "BKIM",
+      "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
+      "wallet": "Numer0",
+      "entry_px": 2.048e-05,
+      "last_px": 2.048e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-24T07:07:57Z",
+      "sym": "SMECK",
+      "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.933e-06,
+      "last_px": 1.933e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-24T07:08:36Z",
+      "sym": "SMECK",
+      "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
+      "wallet": "Mr. Frog",
+      "entry_px": 1.933e-06,
+      "last_px": 1.933e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-25T05:10:03Z",
+      "sym": "MONKO",
+      "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
+      "wallet": "Numer0",
+      "entry_px": 5.039e-05,
+      "last_px": 5.039e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-25T05:10:03Z",
+      "sym": "Kawaiijak",
+      "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
+      "wallet": "Numer0",
+      "entry_px": 4.354e-05,
+      "last_px": 4.354e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-25T05:15:47Z",
+      "sym": "MONKO",
+      "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
+      "wallet": "Numer0",
+      "entry_px": 2.376e-05,
+      "last_px": 2.376e-05,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-25T05:16:27Z",
+      "sym": "MONKO",
+      "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
+      "wallet": "Numer0",
+      "entry_px": 2.068e-06,
+      "last_px": 2.068e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-25T05:18:26Z",
+      "sym": "Kawaiijak",
+      "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
+      "wallet": "Numer0",
+      "entry_px": 2.09e-06,
+      "last_px": 2.09e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.018
+    },
+    {
+      "t": "2026-10-25T05:19:06Z",
+      "sym": "Kawaiijak",
+      "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
+      "wallet": "Numer0",
+      "entry_px": 2.16e-06,
+      "last_px": 2.16e-06,
+      "x": 30,
+      "strategy": "reentry",
+      "pnl": -0.0165
+    },
+    {
+      "t": "2026-10-26T08:12:12Z",
+      "sym": "MONKO",
+      "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
+      "wallet": "",
+      "entry_px": 8.231475774340489e-06,
+      "last_px": 3.464e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 2.3659591333419234
+    },
+    {
+      "t": "2026-10-26T08:12:52Z",
+      "sym": "MONKO",
+      "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
+      "wallet": "",
+      "entry_px": 8.231475774340489e-06,
+      "last_px": 3.464e-05,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 2.762785655565578
+    },
+    {
+      "t": "2026-10-28T20:04:59Z",
+      "sym": "PUMP",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "wallet": "",
+      "entry_px": 0.001954677836459661,
+      "last_px": 22.43,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 6863.741181467485
+    },
+    {
+      "t": "2026-10-28T20:05:39Z",
+      "sym": "PUMP",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "wallet": "",
+      "entry_px": 0.001954677836459661,
+      "last_px": 22.43,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 8007.700545045402
+    },
+    {
+      "t": "2026-10-28T20:06:20Z",
+      "sym": "PUMP",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "wallet": "",
+      "entry_px": 0.001954677836459661,
+      "last_px": 22.43,
+      "x": 30.0,
+      "strategy": "copy",
+      "pnl": 4003.8427725227007
     }
-   }
   ],
-  "copy_6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.648e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T07:05:21Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.62152e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T07:05:21Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.645e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T07:05:54Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.61855e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T07:05:54Z"
-    }
-   }
-  ],
-  "copy_FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.374e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T07:03:44Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.35026e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T07:03:44Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.307e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T07:04:16Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.2839300000000003e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T07:04:16Z"
-    }
-   }
-  ],
-  "copy_pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 0.001272,
-     "size": 1.0,
-     "ts": "2026-10-18T23:38:19Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 0.00125928,
-     "size": 0.9,
-     "ts": "2026-10-18T23:38:19Z"
-    }
-   }
-  ],
-  "copy_2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.45e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T16:30:08Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.4255e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T16:30:08Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.075e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T16:30:41Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.05425e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T16:30:41Z"
-    }
-   }
-  ],
-  "copy_UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.123e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T16:47:10Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.10177e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T16:47:10Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.138e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T16:47:42Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.11662e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T16:47:42Z"
-    }
-   }
-  ],
-  "copy_CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.427e-05,
-     "size": 1.0,
-     "ts": "2026-10-18T22:35:17Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.40273e-05,
-     "size": 0.9,
-     "ts": "2026-10-18T22:35:17Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.475e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T22:35:51Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.45025e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T22:35:51Z"
-    }
-   }
-  ],
-  "copy_BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.227e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T22:57:44Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.20473e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T22:57:44Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.134e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T22:58:18Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.11266e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T22:58:18Z"
-    }
-   }
-  ],
-  "copy_BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.609e-06,
-     "size": 1.0,
-     "ts": "2026-10-18T23:13:05Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.5829099999999997e-06,
-     "size": 0.9,
-     "ts": "2026-10-18T23:13:05Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.324e-06,
-     "size": 0.5,
-     "ts": "2026-10-18T23:13:39Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.3007600000000002e-06,
-     "size": 0.45,
-     "ts": "2026-10-18T23:13:39Z"
-    }
-   }
-  ],
-  "copy_A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.582e-06,
-     "size": 1.0,
-     "ts": "2026-10-19T00:22:07Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.55618e-06,
-     "size": 0.9,
-     "ts": "2026-10-19T00:22:07Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.422e-06,
-     "size": 0.5,
-     "ts": "2026-10-19T00:22:42Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.39778e-06,
-     "size": 0.45,
-     "ts": "2026-10-19T00:22:42Z"
-    }
-   }
-  ],
-  "copy_dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.032e-05,
-     "size": 1.0,
-     "ts": "2026-10-19T05:20:21Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.02168e-05,
-     "size": 0.9,
-     "ts": "2026-10-19T05:20:21Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.068e-05,
-     "size": 0.5,
-     "ts": "2026-10-19T05:20:56Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.0573199999999999e-05,
-     "size": 0.45,
-     "ts": "2026-10-19T05:20:56Z"
-    }
-   }
-  ],
-  "copy_5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 3.332e-05,
-     "size": 1.0,
-     "ts": "2026-10-19T19:09:50Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 3.29868e-05,
-     "size": 0.9,
-     "ts": "2026-10-19T19:09:50Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.995e-05,
-     "size": 0.5,
-     "ts": "2026-10-19T19:10:26Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.96505e-05,
-     "size": 0.45,
-     "ts": "2026-10-19T19:10:26Z"
-    }
-   }
-  ],
-  "copy_75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.972e-06,
-     "size": 1.0,
-     "ts": "2026-10-19T20:05:56Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.95228e-06,
-     "size": 0.9,
-     "ts": "2026-10-19T20:05:56Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.972e-06,
-     "size": 0.5,
-     "ts": "2026-10-19T20:06:33Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.95228e-06,
-     "size": 0.45,
-     "ts": "2026-10-19T20:06:33Z"
-    }
-   }
-  ],
-  "copy_BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 9.611e-06,
-     "size": 1.0,
-     "ts": "2026-10-19T20:15:14Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 9.51489e-06,
-     "size": 0.9,
-     "ts": "2026-10-19T20:15:14Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.354e-06,
-     "size": 0.5,
-     "ts": "2026-10-19T20:15:51Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.3304599999999997e-06,
-     "size": 0.45,
-     "ts": "2026-10-19T20:15:51Z"
-    }
-   }
-  ],
-  "copy_7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 0.0001079,
-     "size": 1.0,
-     "ts": "2026-10-19T20:09:02Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 0.000106821,
-     "size": 0.9,
-     "ts": "2026-10-19T20:09:02Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 8.154e-05,
-     "size": 0.5,
-     "ts": "2026-10-19T20:10:54Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 8.07246e-05,
-     "size": 0.45,
-     "ts": "2026-10-19T20:10:54Z"
-    }
-   }
-  ],
-  "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.933e-06,
-     "size": 1.0,
-     "ts": "2026-10-24T07:07:57Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.91367e-06,
-     "size": 0.9,
-     "ts": "2026-10-24T07:07:57Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 1.933e-06,
-     "size": 0.5,
-     "ts": "2026-10-24T07:08:36Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 1.91367e-06,
-     "size": 0.45,
-     "ts": "2026-10-24T07:08:36Z"
-    }
-   }
-  ],
-  "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.04e-06,
-     "size": 1.0,
-     "ts": "2026-10-23T23:00:39Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.0196e-06,
-     "size": 0.9,
-     "ts": "2026-10-23T23:00:39Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.04e-06,
-     "size": 0.5,
-     "ts": "2026-10-23T23:01:19Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.0196e-06,
-     "size": 0.45,
-     "ts": "2026-10-23T23:01:19Z"
-    }
-   }
-  ],
-  "copy_B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.103e-05,
-     "size": 1.0,
-     "ts": "2026-10-23T23:02:38Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.08197e-05,
-     "size": 0.9,
-     "ts": "2026-10-23T23:02:38Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.048e-05,
-     "size": 0.5,
-     "ts": "2026-10-23T23:03:57Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.02752e-05,
-     "size": 0.45,
-     "ts": "2026-10-23T23:03:57Z"
-    }
-   }
-  ],
-  "copy_Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.376e-05,
-     "size": 1.0,
-     "ts": "2026-10-25T05:15:47Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.35224e-05,
-     "size": 0.9,
-     "ts": "2026-10-25T05:15:47Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.068e-06,
-     "size": 0.5,
-     "ts": "2026-10-25T05:16:27Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.04732e-06,
-     "size": 0.45,
-     "ts": "2026-10-25T05:16:27Z"
-    }
-   }
-  ],
-  "copy_752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump": [
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.09e-06,
-     "size": 1.0,
-     "ts": "2026-10-25T05:18:26Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.0691e-06,
-     "size": 0.9,
-     "ts": "2026-10-25T05:18:26Z"
-    }
-   },
-   {
-    "A": {
-     "variant": "A_dip",
-     "entry_px": 2.16e-06,
-     "size": 0.5,
-     "ts": "2026-10-25T05:19:06Z"
-    },
-    "B": {
-     "variant": "B_confirm",
-     "entry_px": 2.1384e-06,
-     "size": 0.45,
-     "ts": "2026-10-25T05:19:06Z"
-    }
-   }
-  ]
- },
- "signals": [
-  {
-   "ts": "2026-10-29T11:10:33Z",
-   "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "sym": "SI276",
-   "px": 0.0005259,
-   "liq_usd": 74614.06,
-   "market_cap": 506291,
-   "wallet_names": [],
-   "source": "dex_boost",
-   "rug_ok": true,
-   "pair_addr": "12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG",
-   "dex_id": "pumpswap",
-   "pair_created_ms": 1791314731000,
-   "tx": null,
-   "sig": null,
-   "rug": 99.0,
-   "x": 30.0,
-   "wallets": 0.0,
-   "liq": 70.0,
-   "holders": 50.0,
-   "total": 58.376000000000005,
-   "rug_na": false,
-   "x_default": true,
-   "holders_default": false,
-   "tg": 100.0,
-   "tg_channels": [
-    "Pumpfunpremium",
-    "SolanaSinais",
-    "lowtaxsolana",
-    "pumpfunearlytrending",
-    "shitcoingemsalert",
-    "solearlytrending",
-    "solgemsradar",
-    "spacemancallzsolana"
-   ],
-   "seen_count": 5
-  }
- ],
- "new_pools": [],
- "strategies": {
-  "copy": {
-   "budget": 99.86868022426624,
-   "alloc": 27.000500000000013,
-   "pnl": 9445.945914134038,
-   "n": 24,
-   "wins": 3
+  "variants": {
+    "copy_tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.149e-06,
+          "size": 1.0,
+          "ts": "2026-10-16T21:35:09Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.1275100000000002e-06,
+          "size": 0.9,
+          "ts": "2026-10-16T21:35:09Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.128e-06,
+          "size": 0.5,
+          "ts": "2026-10-16T21:35:40Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.1067200000000002e-06,
+          "size": 0.45,
+          "ts": "2026-10-16T21:35:40Z"
+        }
+      }
+    ],
+    "copy_8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.979e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T07:01:49Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.95921e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T07:01:49Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.979e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T07:02:37Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.95921e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T07:02:37Z"
+        }
+      }
+    ],
+    "copy_6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.648e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T07:05:21Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.62152e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T07:05:21Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.645e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T07:05:54Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.61855e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T07:05:54Z"
+        }
+      }
+    ],
+    "copy_FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.374e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T07:03:44Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.35026e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T07:03:44Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.307e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T07:04:16Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.2839300000000003e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T07:04:16Z"
+        }
+      }
+    ],
+    "copy_pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 0.001272,
+          "size": 1.0,
+          "ts": "2026-10-18T23:38:19Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 0.00125928,
+          "size": 0.9,
+          "ts": "2026-10-18T23:38:19Z"
+        }
+      }
+    ],
+    "copy_2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.45e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T16:30:08Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.4255e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T16:30:08Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.075e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T16:30:41Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.05425e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T16:30:41Z"
+        }
+      }
+    ],
+    "copy_UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.123e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T16:47:10Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.10177e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T16:47:10Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.138e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T16:47:42Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.11662e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T16:47:42Z"
+        }
+      }
+    ],
+    "copy_CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.427e-05,
+          "size": 1.0,
+          "ts": "2026-10-18T22:35:17Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.40273e-05,
+          "size": 0.9,
+          "ts": "2026-10-18T22:35:17Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.475e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T22:35:51Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.45025e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T22:35:51Z"
+        }
+      }
+    ],
+    "copy_BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.227e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T22:57:44Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.20473e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T22:57:44Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.134e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T22:58:18Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.11266e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T22:58:18Z"
+        }
+      }
+    ],
+    "copy_BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.609e-06,
+          "size": 1.0,
+          "ts": "2026-10-18T23:13:05Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.5829099999999997e-06,
+          "size": 0.9,
+          "ts": "2026-10-18T23:13:05Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.324e-06,
+          "size": 0.5,
+          "ts": "2026-10-18T23:13:39Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.3007600000000002e-06,
+          "size": 0.45,
+          "ts": "2026-10-18T23:13:39Z"
+        }
+      }
+    ],
+    "copy_A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.582e-06,
+          "size": 1.0,
+          "ts": "2026-10-19T00:22:07Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.55618e-06,
+          "size": 0.9,
+          "ts": "2026-10-19T00:22:07Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.422e-06,
+          "size": 0.5,
+          "ts": "2026-10-19T00:22:42Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.39778e-06,
+          "size": 0.45,
+          "ts": "2026-10-19T00:22:42Z"
+        }
+      }
+    ],
+    "copy_dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.032e-05,
+          "size": 1.0,
+          "ts": "2026-10-19T05:20:21Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.02168e-05,
+          "size": 0.9,
+          "ts": "2026-10-19T05:20:21Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.068e-05,
+          "size": 0.5,
+          "ts": "2026-10-19T05:20:56Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.0573199999999999e-05,
+          "size": 0.45,
+          "ts": "2026-10-19T05:20:56Z"
+        }
+      }
+    ],
+    "copy_5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 3.332e-05,
+          "size": 1.0,
+          "ts": "2026-10-19T19:09:50Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 3.29868e-05,
+          "size": 0.9,
+          "ts": "2026-10-19T19:09:50Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.995e-05,
+          "size": 0.5,
+          "ts": "2026-10-19T19:10:26Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.96505e-05,
+          "size": 0.45,
+          "ts": "2026-10-19T19:10:26Z"
+        }
+      }
+    ],
+    "copy_75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.972e-06,
+          "size": 1.0,
+          "ts": "2026-10-19T20:05:56Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.95228e-06,
+          "size": 0.9,
+          "ts": "2026-10-19T20:05:56Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.972e-06,
+          "size": 0.5,
+          "ts": "2026-10-19T20:06:33Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.95228e-06,
+          "size": 0.45,
+          "ts": "2026-10-19T20:06:33Z"
+        }
+      }
+    ],
+    "copy_BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 9.611e-06,
+          "size": 1.0,
+          "ts": "2026-10-19T20:15:14Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 9.51489e-06,
+          "size": 0.9,
+          "ts": "2026-10-19T20:15:14Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.354e-06,
+          "size": 0.5,
+          "ts": "2026-10-19T20:15:51Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.3304599999999997e-06,
+          "size": 0.45,
+          "ts": "2026-10-19T20:15:51Z"
+        }
+      }
+    ],
+    "copy_7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 0.0001079,
+          "size": 1.0,
+          "ts": "2026-10-19T20:09:02Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 0.000106821,
+          "size": 0.9,
+          "ts": "2026-10-19T20:09:02Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 8.154e-05,
+          "size": 0.5,
+          "ts": "2026-10-19T20:10:54Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 8.07246e-05,
+          "size": 0.45,
+          "ts": "2026-10-19T20:10:54Z"
+        }
+      }
+    ],
+    "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.933e-06,
+          "size": 1.0,
+          "ts": "2026-10-24T07:07:57Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.91367e-06,
+          "size": 0.9,
+          "ts": "2026-10-24T07:07:57Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 1.933e-06,
+          "size": 0.5,
+          "ts": "2026-10-24T07:08:36Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 1.91367e-06,
+          "size": 0.45,
+          "ts": "2026-10-24T07:08:36Z"
+        }
+      }
+    ],
+    "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.04e-06,
+          "size": 1.0,
+          "ts": "2026-10-23T23:00:39Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.0196e-06,
+          "size": 0.9,
+          "ts": "2026-10-23T23:00:39Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.04e-06,
+          "size": 0.5,
+          "ts": "2026-10-23T23:01:19Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.0196e-06,
+          "size": 0.45,
+          "ts": "2026-10-23T23:01:19Z"
+        }
+      }
+    ],
+    "copy_B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.103e-05,
+          "size": 1.0,
+          "ts": "2026-10-23T23:02:38Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.08197e-05,
+          "size": 0.9,
+          "ts": "2026-10-23T23:02:38Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.048e-05,
+          "size": 0.5,
+          "ts": "2026-10-23T23:03:57Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.02752e-05,
+          "size": 0.45,
+          "ts": "2026-10-23T23:03:57Z"
+        }
+      }
+    ],
+    "copy_Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.376e-05,
+          "size": 1.0,
+          "ts": "2026-10-25T05:15:47Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.35224e-05,
+          "size": 0.9,
+          "ts": "2026-10-25T05:15:47Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.068e-06,
+          "size": 0.5,
+          "ts": "2026-10-25T05:16:27Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.04732e-06,
+          "size": 0.45,
+          "ts": "2026-10-25T05:16:27Z"
+        }
+      }
+    ],
+    "copy_752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump": [
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.09e-06,
+          "size": 1.0,
+          "ts": "2026-10-25T05:18:26Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.0691e-06,
+          "size": 0.9,
+          "ts": "2026-10-25T05:18:26Z"
+        }
+      },
+      {
+        "A": {
+          "variant": "A_dip",
+          "entry_px": 2.16e-06,
+          "size": 0.5,
+          "ts": "2026-10-25T05:19:06Z"
+        },
+        "B": {
+          "variant": "B_confirm",
+          "entry_px": 2.1384e-06,
+          "size": 0.45,
+          "ts": "2026-10-25T05:19:06Z"
+        }
+      }
+    ]
   },
-  "snipe": {
-   "budget": 10.0,
-   "alloc": 0.0,
-   "pnl": 0.0,
-   "n": 0,
-   "wins": 0
-  },
-  "arb": {
-   "budget": 10.0,
-   "alloc": 0.0,
-   "pnl": 0.09412789999999999,
-   "n": 5,
-   "wins": 5
-  },
-  "reentry": {
-   "budget": 99.81348157496942,
-   "alloc": 29.872675000000022,
-   "pnl": 9440.719496391139,
-   "n": 41,
-   "wins": 0
+  "signals": [
+    {
+      "ts": "2026-10-29T11:28:25Z",
+      "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "sym": "SI276",
+      "px": 0.0005257,
+      "liq_usd": 74615.09,
+      "market_cap": 506087,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1791314731000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 58.376000000000005,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 100.0,
+      "tg_channels": [
+        "Pumpfunpremium",
+        "SolanaSinais",
+        "lowtaxsolana",
+        "pumpfunearlytrending",
+        "shitcoingemsalert",
+        "solearlytrending",
+        "solgemsradar",
+        "spacemancallzsolana"
+      ],
+      "seen_count": 2
+    }
+  ],
+  "new_pools": [],
+  "strategies": {
+    "copy": {
+      "budget": 99.86868022426624,
+      "alloc": 27.000500000000013,
+      "pnl": 9445.945914134038,
+      "n": 24,
+      "wins": 3
+    },
+    "snipe": {
+      "budget": 10.0,
+      "alloc": 0.0,
+      "pnl": 0.0,
+      "n": 0,
+      "wins": 0
+    },
+    "arb": {
+      "budget": 10.0,
+      "alloc": 0.0,
+      "pnl": 0.09412789999999999,
+      "n": 5,
+      "wins": 5
+    },
+    "reentry": {
+      "budget": 99.81348157496942,
+      "alloc": 29.872675000000022,
+      "pnl": 9440.719496391139,
+      "n": 41,
+      "wins": 0
+    },
+    "confluence": {
+      "budget": 10.0,
+      "alloc": 0.0,
+      "pnl": 0.0,
+      "n": 0,
+      "wins": 0
+    }
   },
   "confluence": {
-   "budget": 10.0,
-   "alloc": 0.0,
-   "pnl": 0.0,
-   "n": 0,
-   "wins": 0
-  }
- },
- "confluence": {
-  "watching": [],
-  "log": [
-   {
-    "t": "2026-10-25T16:30:56Z",
-    "mint": "G5omx5DpAhAsvshxPga13qmhNfdduR4Htcq3bhZhpump",
-    "sym": "GOONIFY",
-    "status": "expired",
-    "wallets": [
-     {
-      "wallet": "Trunoest",
-      "ts": 1792942121.3819327,
-      "tx": "2TH2vq6mPitVDZLAZzxc7pmE7Nirw5duw9SLzBSK24QRFVW5u8rHhsjnY9dKp1fgUpZyJ9iHucYgYtPf1nZ5KuVF"
-     },
-     {
-      "wallet": "EustazZ",
-      "ts": 1792942249.6074688,
-      "tx": "457SmNrpF17p6kj9roKfJ1Jijf7dvFwe1YhH2LdKhxzi7k6caCCK9QwkngM4mrLSp8YLRyYiT49fssMdjV7q9Mhi"
-     }
-    ],
-    "last_filters": {
-     "pass": false,
-     "fail": "bonding_curve_not_graduated",
-     "t": "2026-10-25T16:29:56Z",
-     "sym": "GOONIFY",
-     "dex": "pumpfun",
-     "liq": 0.0,
-     "h1": -80.55,
-     "age_min": 63.9,
-     "px": 2.902e-06,
-     "mcap": 2902.82,
-     "pair_addr": "2kHzw9C8uspgfg9MnZh5osiigcGUmjc2DUykKjfCXobJ"
-    }
-   },
-   {
-    "t": "2026-10-25T16:49:46Z",
-    "mint": "44G828Ed2YxFAEjPuhSYS8fFhihTVts1M2AYQARvpump",
-    "sym": "GME",
-    "status": "expired",
-    "wallets": [
-     {
-      "wallet": "Mitch",
-      "ts": 1792942880.4402106,
-      "tx": "4jUK4PRW83MP7yFQrUSsYwNgccXbMMPR2nuX6aiy7cjhxTaDjmkBKRRTw1XksJU6NyT7s8V9dUZYiHN9ZaAHssdh"
-     },
-     {
-      "wallet": "Mr. Frog",
-      "ts": 1792942900.7104895,
-      "tx": "2aogTvfaQvkUaoW4NUy8dxX1vTV66Z41JuKQ9FURBZKCKV8CWQvFwMF8NvKfA4p77bh3rgL9SBfKo1Z62oVnVv9J"
-     }
-    ],
-    "last_filters": {
-     "pass": false,
-     "fail": "bonding_curve_not_graduated",
-     "t": "2026-10-25T16:40:02Z",
-     "sym": "GME",
-     "dex": "pumpfun",
-     "liq": 0.0,
-     "h1": 0.0,
-     "age_min": 244.4,
-     "px": 0.0,
-     "mcap": null,
-     "pair_addr": "FZfcQFsVZNQCtLhNommDSjCm7EZ5R6wpnkNzcQvtrLpN"
-    }
-   },
-   {
-    "t": "2026-10-25T17:43:11Z",
-    "mint": "7jdWkNzuyAykBWZT1cwwwNVqANtuiT6ECVQRJZ2Hpump",
-    "sym": "@a1lon9",
-    "status": "rejected",
-    "wallets": [
-     {
-      "wallet": "Cented",
-      "ts": 1792950030.0,
-      "tx": "4ED6vuf4BowZeaDbq6Qu2w7YP4M5pbsuWstQ4cjPsCMt27K6h1caaS6QKEccXkB2P7i92UxqFzxDUbkgCqnDJaZc"
-     },
-     {
-      "wallet": "EustazZ",
-      "ts": 1792950119.0,
-      "tx": "48t47AXXCG1eT3e24AG4WQHKoTevBAVnsgSw3CZ1e7FbiUSHwpYKvtsLCr1BuHVeuuEy2thUbtjLXT6vAX6QgEst"
-     }
-    ],
-    "last_filters": {
-     "pass": false,
-     "fail": "kol_sold>30%",
-     "t": "2026-10-25T17:43:11Z",
-     "sym": "@a1lon9",
-     "dex": "pumpfun",
-     "liq": 0.0,
-     "h1": 44.31,
-     "age_min": 2.8,
-     "px": 5.25e-06,
-     "mcap": 5250.68,
-     "pair_addr": "6CgRM3rF62xhHGNWNNT9ac8rWd7nLMErENzPGYKanyP",
-     "token_created_ms": 1792950023000,
-     "m5_buys": 203,
-     "m5_sells": 141
-    }
-   },
-   {
-    "t": "2026-10-25T19:45:00Z",
-    "mint": "Cw2sD5g4DrEJbovgPWkELauBmE27SQE3c1nLKYEKpump",
-    "sym": "SMS",
-    "status": "rejected",
-    "wallets": [
-     {
-      "wallet": "Cented",
-      "ts": 1792957323.0,
-      "tx": "2eejoeQ5Vx3hTSmv713UFcrmaE8erwgHi6xT1nMrtR4FrHPQDpVUZRa7BKa9N2MSVrZBUkkKeKpAfFsNgWBn6uvb"
-     },
-     {
-      "wallet": "EustazZ",
-      "ts": 1792957494.0,
-      "tx": "4wnNfb7KdVPReADJ9pMKLQGnhtHfWmC1aFGoWxewjoTpAqNJMydYL1B188asBMfCgUGvNr7TWbcTw6gubDVWhPiV"
-     }
-    ],
-    "last_filters": {
-     "pass": false,
-     "fail": "kol_sold>30%",
-     "t": "2026-10-25T19:45:00Z",
-     "sym": "SMS",
-     "dex": "pumpfun",
-     "liq": 0.0,
-     "h1": 688.0,
-     "age_min": 3.3,
-     "px": 2.281e-05,
-     "mcap": 22811.73,
-     "pair_addr": "2jyRPU1UkTvwkuVPgTZeas9Hz5xN5Sr3wPGKR8wau4gZ",
-     "token_created_ms": 1792957302000,
-     "m5_buys": 919,
-     "m5_sells": 654
-    }
-   },
-   {
-    "t": "2026-10-27T14:18:20Z",
-    "mint": "GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT",
-    "sym": "DESSA",
-    "status": "rejected",
-    "wallets": [
-     {
-      "wallet": "Mitch",
-      "ts": 1793109595.0,
-      "tx": "2LuTbbMAMFAugQ2KgSiKURmeop6qLRjAsFPJNzYhrrrE2DaNRpJ8CusLxMwojEtYEdA4oXU8TM5gqWCL9nruZwZF"
-     },
-     {
-      "wallet": "Mr. Frog",
-      "ts": 1793109708.0,
-      "tx": "23VMMJpEukZJuQbP6yasdtmbxP25xy1wQR8B9jqTBKuW8pGkZo7b3zk7jzfENhyBoK3ggcbym4Jjai58q5Kkp4Uq"
-     }
-    ],
-    "last_filters": {
-     "pass": false,
-     "fail": "kol_sold>30%",
-     "t": "2026-10-27T14:18:20Z",
-     "sym": "DESSA",
-     "dex": "pumpswap",
-     "liq": 9064.86,
-     "h1": 14.73,
-     "age_min": 5310.2,
-     "px": 1.393e-05,
-     "mcap": 13390,
-     "pair_addr": "VAzfgUPHpLNnDq5hFzAMeTcHhM3aB7MDqPquJ3Xb8xW",
-     "token_created_ms": 1792792090000,
-     "m5_buys": 0,
-     "m5_sells": 3
-    }
-   },
-   {
-    "t": "2026-10-28T05:13:18Z",
-    "mint": "JBbB23awni9EQ5Sxu1wuknpUwZVNR6pfijhNc5gdpump",
-    "sym": "EA",
-    "status": "rejected",
-    "wallets": [
-     {
-      "wallet": "Numer0",
-      "ts": 1793164239.0,
-      "tx": "53VKRGju4XuM2gAmuejgkYnLRm5TtwNdhXYa17JCUzk4TN9amWHgeXS7AoQjygwQuAnKxy3qWE2gg4RXorzaivrX"
-     },
-     {
-      "wallet": "Cented",
-      "ts": 1793164396.0,
-      "tx": "qKjH36DLywKgozTCDFFdv8gjeV4uMLiFe2oFYt8h2pM4wdvTJXqu2wyLHEaeB6oHLSp4ErJsBd2d2XDegUdZ1Mg"
-     }
-    ],
-    "last_filters": {
-     "pass": false,
-     "fail": "kol_sold>30%",
-     "t": "2026-10-28T05:13:18Z",
-     "sym": "EA",
-     "dex": "pumpfun",
-     "liq": 0.0,
-     "h1": 397.0,
-     "age_min": 2.9,
-     "px": 1.924e-05,
-     "mcap": 19240.16,
-     "pair_addr": "9jEdG3AumWc7xxkedP1kwDwi5YWJb9FG5Sf5YcVMMhu",
-     "token_created_ms": 1793164226000,
-     "m5_buys": 749,
-     "m5_sells": 537
-    }
-   }
-  ],
-  "rules": "2+ KOL/10min; no >=3 KOL entro 3' dal lancio; nessun KOL ha venduto >30%; liq>=15k graduated, age>=10m, rug!=danger, insider=0, top10 senza pool<25%, holder<=5%, h1<=+50% (wait 60m), m5 sells<=buys"
- },
- "arb": [],
- "protections": {
-  "daily_pnl": 18875.34726478559,
-  "consecutive_losses": 6,
-  "paused_until": 1793279465.3340342,
-  "kill_switch": false
- },
- "v1": {
-  "cycles": 2010,
-  "open_positions": 1458,
-  "trades": 1458,
-  "rejected": 30,
-  "pnl_totale": {
-   "1usdc": {
-    "N1": {
-     "B": {
-      "30s": {
-       "pnl_usdc": 3.142136,
-       "trades": 27
-      },
-      "0s": {
-       "pnl_usdc": 11.735902,
-       "trades": 33
-      },
-      "5s": {
-       "pnl_usdc": 10.169707,
-       "trades": 26
-      }
-     }
-    },
-    "S": {
-     "B": {
-      "30s": {
-       "pnl_usdc": 2.997151,
-       "trades": 24
-      },
-      "0s": {
-       "pnl_usdc": 11.735902,
-       "trades": 33
-      },
-      "5s": {
-       "pnl_usdc": 10.045822,
-       "trades": 27
-      }
-     }
-    }
-   }
-  },
-  "S_blocked_still_in": 360,
-  "rules": {
-   "entry": {
-    "N1": "ogni acquisto (riferimento)",
-    "S": "single-wallet: copia ogni acquisto dopo 0/5/30 s solo se ancora dentro; uscita solo B",
-    "N3": "3 wallet, controlli completi al 3\u00b0 segnale",
-    "C": "pre-armata al 2\u00b0 segnale, ricontrollo al 3\u00b0, scarto se prezzo > +15%"
-   },
-   "exit": {
-    "A": {
-     "risk_free_multiple": 3.33,
-     "risk_free_sell_pct": 30,
-     "take_profits": [
+    "watching": [],
+    "log": [
       {
-       "multiple": 3,
-       "sell_pct_of_remaining": 50
+        "t": "2026-10-25T16:30:56Z",
+        "mint": "G5omx5DpAhAsvshxPga13qmhNfdduR4Htcq3bhZhpump",
+        "sym": "GOONIFY",
+        "status": "expired",
+        "wallets": [
+          {
+            "wallet": "Trunoest",
+            "ts": 1792942121.3819327,
+            "tx": "2TH2vq6mPitVDZLAZzxc7pmE7Nirw5duw9SLzBSK24QRFVW5u8rHhsjnY9dKp1fgUpZyJ9iHucYgYtPf1nZ5KuVF"
+          },
+          {
+            "wallet": "EustazZ",
+            "ts": 1792942249.6074688,
+            "tx": "457SmNrpF17p6kj9roKfJ1Jijf7dvFwe1YhH2LdKhxzi7k6caCCK9QwkngM4mrLSp8YLRyYiT49fssMdjV7q9Mhi"
+          }
+        ],
+        "last_filters": {
+          "pass": false,
+          "fail": "bonding_curve_not_graduated",
+          "t": "2026-10-25T16:29:56Z",
+          "sym": "GOONIFY",
+          "dex": "pumpfun",
+          "liq": 0.0,
+          "h1": -80.55,
+          "age_min": 63.9,
+          "px": 2.902e-06,
+          "mcap": 2902.82,
+          "pair_addr": "2kHzw9C8uspgfg9MnZh5osiigcGUmjc2DUykKjfCXobJ"
+        }
       },
       {
-       "multiple": 5,
-       "sell_pct_of_remaining": 50
+        "t": "2026-10-25T16:49:46Z",
+        "mint": "44G828Ed2YxFAEjPuhSYS8fFhihTVts1M2AYQARvpump",
+        "sym": "GME",
+        "status": "expired",
+        "wallets": [
+          {
+            "wallet": "Mitch",
+            "ts": 1792942880.4402106,
+            "tx": "4jUK4PRW83MP7yFQrUSsYwNgccXbMMPR2nuX6aiy7cjhxTaDjmkBKRRTw1XksJU6NyT7s8V9dUZYiHN9ZaAHssdh"
+          },
+          {
+            "wallet": "Mr. Frog",
+            "ts": 1792942900.7104895,
+            "tx": "2aogTvfaQvkUaoW4NUy8dxX1vTV66Z41JuKQ9FURBZKCKV8CWQvFwMF8NvKfA4p77bh3rgL9SBfKo1Z62oVnVv9J"
+          }
+        ],
+        "last_filters": {
+          "pass": false,
+          "fail": "bonding_curve_not_graduated",
+          "t": "2026-10-25T16:40:02Z",
+          "sym": "GME",
+          "dex": "pumpfun",
+          "liq": 0.0,
+          "h1": 0.0,
+          "age_min": 244.4,
+          "px": 0.0,
+          "mcap": null,
+          "pair_addr": "FZfcQFsVZNQCtLhNommDSjCm7EZ5R6wpnkNzcQvtrLpN"
+        }
+      },
+      {
+        "t": "2026-10-25T17:43:11Z",
+        "mint": "7jdWkNzuyAykBWZT1cwwwNVqANtuiT6ECVQRJZ2Hpump",
+        "sym": "@a1lon9",
+        "status": "rejected",
+        "wallets": [
+          {
+            "wallet": "Cented",
+            "ts": 1792950030.0,
+            "tx": "4ED6vuf4BowZeaDbq6Qu2w7YP4M5pbsuWstQ4cjPsCMt27K6h1caaS6QKEccXkB2P7i92UxqFzxDUbkgCqnDJaZc"
+          },
+          {
+            "wallet": "EustazZ",
+            "ts": 1792950119.0,
+            "tx": "48t47AXXCG1eT3e24AG4WQHKoTevBAVnsgSw3CZ1e7FbiUSHwpYKvtsLCr1BuHVeuuEy2thUbtjLXT6vAX6QgEst"
+          }
+        ],
+        "last_filters": {
+          "pass": false,
+          "fail": "kol_sold>30%",
+          "t": "2026-10-25T17:43:11Z",
+          "sym": "@a1lon9",
+          "dex": "pumpfun",
+          "liq": 0.0,
+          "h1": 44.31,
+          "age_min": 2.8,
+          "px": 5.25e-06,
+          "mcap": 5250.68,
+          "pair_addr": "6CgRM3rF62xhHGNWNNT9ac8rWd7nLMErENzPGYKanyP",
+          "token_created_ms": 1792950023000,
+          "m5_buys": 203,
+          "m5_sells": 141
+        }
+      },
+      {
+        "t": "2026-10-25T19:45:00Z",
+        "mint": "Cw2sD5g4DrEJbovgPWkELauBmE27SQE3c1nLKYEKpump",
+        "sym": "SMS",
+        "status": "rejected",
+        "wallets": [
+          {
+            "wallet": "Cented",
+            "ts": 1792957323.0,
+            "tx": "2eejoeQ5Vx3hTSmv713UFcrmaE8erwgHi6xT1nMrtR4FrHPQDpVUZRa7BKa9N2MSVrZBUkkKeKpAfFsNgWBn6uvb"
+          },
+          {
+            "wallet": "EustazZ",
+            "ts": 1792957494.0,
+            "tx": "4wnNfb7KdVPReADJ9pMKLQGnhtHfWmC1aFGoWxewjoTpAqNJMydYL1B188asBMfCgUGvNr7TWbcTw6gubDVWhPiV"
+          }
+        ],
+        "last_filters": {
+          "pass": false,
+          "fail": "kol_sold>30%",
+          "t": "2026-10-25T19:45:00Z",
+          "sym": "SMS",
+          "dex": "pumpfun",
+          "liq": 0.0,
+          "h1": 688.0,
+          "age_min": 3.3,
+          "px": 2.281e-05,
+          "mcap": 22811.73,
+          "pair_addr": "2jyRPU1UkTvwkuVPgTZeas9Hz5xN5Sr3wPGKR8wau4gZ",
+          "token_created_ms": 1792957302000,
+          "m5_buys": 919,
+          "m5_sells": 654
+        }
+      },
+      {
+        "t": "2026-10-27T14:18:20Z",
+        "mint": "GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT",
+        "sym": "DESSA",
+        "status": "rejected",
+        "wallets": [
+          {
+            "wallet": "Mitch",
+            "ts": 1793109595.0,
+            "tx": "2LuTbbMAMFAugQ2KgSiKURmeop6qLRjAsFPJNzYhrrrE2DaNRpJ8CusLxMwojEtYEdA4oXU8TM5gqWCL9nruZwZF"
+          },
+          {
+            "wallet": "Mr. Frog",
+            "ts": 1793109708.0,
+            "tx": "23VMMJpEukZJuQbP6yasdtmbxP25xy1wQR8B9jqTBKuW8pGkZo7b3zk7jzfENhyBoK3ggcbym4Jjai58q5Kkp4Uq"
+          }
+        ],
+        "last_filters": {
+          "pass": false,
+          "fail": "kol_sold>30%",
+          "t": "2026-10-27T14:18:20Z",
+          "sym": "DESSA",
+          "dex": "pumpswap",
+          "liq": 9064.86,
+          "h1": 14.73,
+          "age_min": 5310.2,
+          "px": 1.393e-05,
+          "mcap": 13390,
+          "pair_addr": "VAzfgUPHpLNnDq5hFzAMeTcHhM3aB7MDqPquJ3Xb8xW",
+          "token_created_ms": 1792792090000,
+          "m5_buys": 0,
+          "m5_sells": 3
+        }
+      },
+      {
+        "t": "2026-10-28T05:13:18Z",
+        "mint": "JBbB23awni9EQ5Sxu1wuknpUwZVNR6pfijhNc5gdpump",
+        "sym": "EA",
+        "status": "rejected",
+        "wallets": [
+          {
+            "wallet": "Numer0",
+            "ts": 1793164239.0,
+            "tx": "53VKRGju4XuM2gAmuejgkYnLRm5TtwNdhXYa17JCUzk4TN9amWHgeXS7AoQjygwQuAnKxy3qWE2gg4RXorzaivrX"
+          },
+          {
+            "wallet": "Cented",
+            "ts": 1793164396.0,
+            "tx": "qKjH36DLywKgozTCDFFdv8gjeV4uMLiFe2oFYt8h2pM4wdvTJXqu2wyLHEaeB6oHLSp4ErJsBd2d2XDegUdZ1Mg"
+          }
+        ],
+        "last_filters": {
+          "pass": false,
+          "fail": "kol_sold>30%",
+          "t": "2026-10-28T05:13:18Z",
+          "sym": "EA",
+          "dex": "pumpfun",
+          "liq": 0.0,
+          "h1": 397.0,
+          "age_min": 2.9,
+          "px": 1.924e-05,
+          "mcap": 19240.16,
+          "pair_addr": "9jEdG3AumWc7xxkedP1kwDwi5YWJb9FG5Sf5YcVMMhu",
+          "token_created_ms": 1793164226000,
+          "m5_buys": 749,
+          "m5_sells": 537
+        }
       }
-     ],
-     "stop_loss": null
+    ],
+    "rules": "2+ KOL/10min; no >=3 KOL entro 3' dal lancio; nessun KOL ha venduto >30%; liq>=15k graduated, age>=10m, rug!=danger, insider=0, top10 senza pool<25%, holder<=5%, h1<=+50% (wait 60m), m5 sells<=buys"
+  },
+  "arb": [],
+  "protections": {
+    "daily_pnl": 18875.34726478559,
+    "consecutive_losses": 6,
+    "paused_until": 1793280650.0626974,
+    "kill_switch": false
+  },
+  "v1": {
+    "cycles": 2010,
+    "open_positions": 1458,
+    "trades": 1458,
+    "rejected": 30,
+    "pnl_totale": {
+      "1usdc": {
+        "N1": {
+          "B": {
+            "30s": {
+              "pnl_usdc": 3.142136,
+              "trades": 27
+            },
+            "0s": {
+              "pnl_usdc": 11.735902,
+              "trades": 33
+            },
+            "5s": {
+              "pnl_usdc": 10.169707,
+              "trades": 26
+            }
+          }
+        },
+        "S": {
+          "B": {
+            "30s": {
+              "pnl_usdc": 2.997151,
+              "trades": 24
+            },
+            "0s": {
+              "pnl_usdc": 11.735902,
+              "trades": 33
+            },
+            "5s": {
+              "pnl_usdc": 10.045822,
+              "trades": 27
+            }
+          }
+        }
+      }
     },
-    "B": {
-     "copy_wallet_sells": true,
-     "stop_loss_pct": null
+    "S_blocked_still_in": 360,
+    "data_path": "/workspace/x-bot-v2/out/data.json",
+    "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
+  },
+  "open_positions": {
+    "copy_tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump": {
+      "sym": "KALMER",
+      "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
+      "entry_px": 3.542811884421892e-06,
+      "last_px": 1.995e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.144719919457042,
+      "pnl_mtm": -1.144719919457042,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump": {
+      "sym": "AUDIA",
+      "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
+      "entry_px": 3.163271534689317e-06,
+      "last_px": 2.031e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -0.9473579992837413,
+      "pnl_mtm": -0.9473579992837413,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump": {
+      "sym": "Shhh",
+      "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
+      "entry_px": 3.7112290149342246e-06,
+      "last_px": 2.506e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -0.8643799797077367,
+      "pnl_mtm": -0.8643799797077367,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump": {
+      "sym": "DOPE",
+      "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
+      "entry_px": 3.5039014887843757e-06,
+      "last_px": 2.298e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -0.9128991098525037,
+      "pnl_mtm": -0.9128991098525037,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": {
+      "sym": "PUMP",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "entry_px": 0.001954677836459661,
+      "last_px": 0.004352,
+      "size_usd": 0.35,
+      "cost": 0.0063,
+      "pnl": 0.4229588484856618,
+      "pnl_mtm": 0.4229588484856618,
+      "strategy": "copy",
+      "reentries": 1
+    },
+    "copy_2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump": {
+      "sym": "WOJAKE",
+      "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
+      "entry_px": 3.7207576502755016e-06,
+      "last_px": 2.074e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.1589666158474259,
+      "pnl_mtm": -1.1589666158474259,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump": {
+      "sym": "AA",
+      "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
+      "entry_px": 3.4583548611465094e-06,
+      "last_px": 2.025e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0886536906245396,
+      "pnl_mtm": -1.0886536906245396,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump": {
+      "sym": "GATOCLAUDI",
+      "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
+      "entry_px": 9.675692410926351e-06,
+      "last_px": 1.979e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -2.0411670855294037,
+      "pnl_mtm": -2.0411670855294037,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump": {
+      "sym": "AGHOST",
+      "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
+      "entry_px": 3.5636827495393163e-06,
+      "last_px": 2.072e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0989474915255497,
+      "pnl_mtm": -1.0989474915255497,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump": {
+      "sym": "FLAMBO",
+      "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
+      "entry_px": 4.075402005732649e-06,
+      "last_px": 2.064e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.2863672374549295,
+      "pnl_mtm": -1.2863672374549295,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump": {
+      "sym": "TRALALA",
+      "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
+      "entry_px": 4.0954407711024855e-06,
+      "last_px": 1.972e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.3487223663967545,
+      "pnl_mtm": -1.3487223663967545,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump": {
+      "sym": "GODCHUD",
+      "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
+      "entry_px": 1.500184e-05,
+      "last_px": 2.488e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.5122689350106389,
+      "pnl_mtm": -1.5122689350106389,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump": {
+      "sym": "BURNT",
+      "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
+      "entry_px": 4.145497901288388e-05,
+      "last_px": 2.037e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -2.4296558900459875,
+      "pnl_mtm": -2.4296558900459875,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump": {
+      "sym": "UFI",
+      "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
+      "entry_px": 3.2326589282291864e-06,
+      "last_px": 1.807e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.155043571624293,
+      "pnl_mtm": -1.155043571624293,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump": {
+      "sym": "RIPGUY",
+      "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
+      "entry_px": 5.112857325818073e-06,
+      "last_px": 2.198e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0074231886622371,
+      "pnl_mtm": -1.0074231886622371,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump": {
+      "sym": "usefomo",
+      "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
+      "entry_px": 0.00011479816601525586,
+      "last_px": 2.132e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -2.5060706868410105,
+      "pnl_mtm": -2.5060706868410105,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": {
+      "sym": "SMECK",
+      "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
+      "entry_px": 3.187882799064736e-06,
+      "last_px": 1.933e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0366036184210528,
+      "pnl_mtm": -1.0366036184210528,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": {
+      "sym": "Nocity",
+      "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
+      "entry_px": 3.345174294522172e-06,
+      "last_px": 1.944e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0996609034069158,
+      "pnl_mtm": -1.0996609034069158,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump": {
+      "sym": "BKIM",
+      "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
+      "entry_px": 2.8013619761898873e-05,
+      "last_px": 2.012e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -2.372944482264257,
+      "pnl_mtm": -2.372944482264257,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump": {
+      "sym": "MONKO",
+      "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
+      "entry_px": 8.231475774340489e-06,
+      "last_px": 1.97e-06,
+      "size_usd": 0.875,
+      "cost": 0.018375000000000002,
+      "pnl": -0.6839654059909467,
+      "pnl_mtm": -0.6839654059909467,
+      "strategy": "copy",
+      "reentries": 2
+    },
+    "copy_752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump": {
+      "sym": "Kawaiijak",
+      "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
+      "entry_px": 3.411023871287053e-06,
+      "last_px": 1.998e-06,
+      "size_usd": 2.5,
+      "cost": 0.0525,
+      "pnl": -1.0881303009057282,
+      "pnl_mtm": -1.0881303009057282,
+      "strategy": "copy",
+      "reentries": 2
     }
-   },
-   "delays_s": [
-    0,
-    5,
-    30
-   ],
-   "sizes_usdc": [
-    1.0
-   ],
-   "reentries_usdc": [
-    1.0,
-    0.5
-   ],
-   "pnl_axes": "wallet > size > ingresso > uscita > ritardo",
-   "fixed_cost_usdc_per_swap": 0.01
   }
- },
- "open_positions": {
-  "copy_tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump": {
-   "sym": "KALMER",
-   "mint": "tYGWk5byuQT291UXFanfyAGa5XNQp1TXSepfRVDpump",
-   "entry_px": 3.542811884421892e-06,
-   "last_px": 1.995e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.144719919457042,
-   "pnl_mtm": -1.144719919457042,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump": {
-   "sym": "AUDIA",
-   "mint": "8id4YvjzFhtNHNmXUt3cuWco8N3Qt5wUqEVscapkpump",
-   "entry_px": 3.163271534689317e-06,
-   "last_px": 2.031e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -0.9473579992837413,
-   "pnl_mtm": -0.9473579992837413,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump": {
-   "sym": "Shhh",
-   "mint": "6H2cGBBiDp4XNDipjA29EvrFrnUWZkD4M1rpQkuspump",
-   "entry_px": 3.7112290149342246e-06,
-   "last_px": 2.506e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -0.8643799797077367,
-   "pnl_mtm": -0.8643799797077367,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump": {
-   "sym": "DOPE",
-   "mint": "FnzRHyz1gvNx2mtMWY8hHD2uBSsU7suvDgVQH5zxpump",
-   "entry_px": 3.5039014887843757e-06,
-   "last_px": 2.298e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -0.9128991098525037,
-   "pnl_mtm": -0.9128991098525037,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": {
-   "sym": "PUMP",
-   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "entry_px": 0.001954677836459661,
-   "last_px": 0.004383,
-   "size_usd": 0.35,
-   "cost": 0.0063,
-   "pnl": 0.4285096353200035,
-   "pnl_mtm": 0.4285096353200035,
-   "strategy": "copy",
-   "reentries": 1
-  },
-  "copy_2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump": {
-   "sym": "WOJAKE",
-   "mint": "2N6KRRGpFtEE6FvoD7ZEE4YpdZRLEHEsrQxiKGgSpump",
-   "entry_px": 3.7207576502755016e-06,
-   "last_px": 2.074e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.1589666158474259,
-   "pnl_mtm": -1.1589666158474259,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump": {
-   "sym": "AA",
-   "mint": "UpksX59Qvn8rus8vPzT8PNuKarRwtiqUfYCQCqopump",
-   "entry_px": 3.4583548611465094e-06,
-   "last_px": 2.025e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.0886536906245396,
-   "pnl_mtm": -1.0886536906245396,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump": {
-   "sym": "GATOCLAUDI",
-   "mint": "CswMdNvSBLtEqD1gUa11CmsjFdiWd9t4y3Dm7kbBpump",
-   "entry_px": 9.675692410926351e-06,
-   "last_px": 1.979e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -2.0411670855294037,
-   "pnl_mtm": -2.0411670855294037,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump": {
-   "sym": "AGHOST",
-   "mint": "BMY8VZKuJF9Njtq9puUUKjpZUXFxgZpWxTENFuCgpump",
-   "entry_px": 3.5636827495393163e-06,
-   "last_px": 2.072e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.0989474915255497,
-   "pnl_mtm": -1.0989474915255497,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump": {
-   "sym": "FLAMBO",
-   "mint": "BNTCA4F1cpvfeHiGXNQ9Ryax94qKGc6fM329tgwopump",
-   "entry_px": 4.075402005732649e-06,
-   "last_px": 2.064e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.2863672374549295,
-   "pnl_mtm": -1.2863672374549295,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump": {
-   "sym": "TRALALA",
-   "mint": "A5SvyMeAUkHZ1gh3bBvHkhNDm1SKhRve9FaPBkd7pump",
-   "entry_px": 4.0954407711024855e-06,
-   "last_px": 1.972e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.3487223663967545,
-   "pnl_mtm": -1.3487223663967545,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump": {
-   "sym": "GODCHUD",
-   "mint": "dzUVjPjFodTVWEc4S3e1RFNxEiVrcMw1vRJGNgppump",
-   "entry_px": 1.500184e-05,
-   "last_px": 2.488e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.5122689350106389,
-   "pnl_mtm": -1.5122689350106389,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump": {
-   "sym": "BURNT",
-   "mint": "5Z1KGmXHoU5FTwVn5LryjH882LZN1B1Nxm37PQJ9pump",
-   "entry_px": 4.145497901288388e-05,
-   "last_px": 2.037e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -2.4296558900459875,
-   "pnl_mtm": -2.4296558900459875,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump": {
-   "sym": "UFI",
-   "mint": "75zGdpJnCvP53AtKRTYBeRZi6XDM9VwkgktgeWrBpump",
-   "entry_px": 3.2326589282291864e-06,
-   "last_px": 1.807e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.155043571624293,
-   "pnl_mtm": -1.155043571624293,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump": {
-   "sym": "RIPGUY",
-   "mint": "BmByjv2upZDubBRZp6vbvozavkYt9ti6AhwX86iJpump",
-   "entry_px": 5.112857325818073e-06,
-   "last_px": 2.198e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.0074231886622371,
-   "pnl_mtm": -1.0074231886622371,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump": {
-   "sym": "usefomo",
-   "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
-   "entry_px": 0.00011479816601525586,
-   "last_px": 2.132e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -2.5060706868410105,
-   "pnl_mtm": -2.5060706868410105,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump": {
-   "sym": "SMECK",
-   "mint": "ChVJkHUbeaY4nH3DU51pxDw3vsRuKkCveLXvKKFcpump",
-   "entry_px": 3.187882799064736e-06,
-   "last_px": 1.933e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.0366036184210528,
-   "pnl_mtm": -1.0366036184210528,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump": {
-   "sym": "Nocity",
-   "mint": "6kd7z3v43kaCrq5zR9QfyL3o4837oxfPKJUapNYNpump",
-   "entry_px": 3.345174294522172e-06,
-   "last_px": 1.944e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.0996609034069158,
-   "pnl_mtm": -1.0996609034069158,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump": {
-   "sym": "BKIM",
-   "mint": "B99n6CaknE1G882au1E6RPpkMohhMv8QVkdT6dZNpump",
-   "entry_px": 2.8013619761898873e-05,
-   "last_px": 2.012e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -2.372944482264257,
-   "pnl_mtm": -2.372944482264257,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump": {
-   "sym": "MONKO",
-   "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
-   "entry_px": 8.231475774340489e-06,
-   "last_px": 1.97e-06,
-   "size_usd": 0.875,
-   "cost": 0.018375000000000002,
-   "pnl": -0.6839654059909467,
-   "pnl_mtm": -0.6839654059909467,
-   "strategy": "copy",
-   "reentries": 2
-  },
-  "copy_752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump": {
-   "sym": "Kawaiijak",
-   "mint": "752sZPoYrc3tzNjSDFMvY1KiPTfEu6hN4iMShHPXpump",
-   "entry_px": 3.411023871287053e-06,
-   "last_px": 1.998e-06,
-   "size_usd": 2.5,
-   "cost": 0.0525,
-   "pnl": -1.0881303009057282,
-   "pnl_mtm": -1.0881303009057282,
-   "strategy": "copy",
-   "reentries": 2
-  }
- }
 }
