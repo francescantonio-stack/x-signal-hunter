@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T11:27:29+0100",
- "source_updated_at": "2026-10-29T11:27:29+0100",
+ "generated_at": "2026-10-29T11:32:13+0100",
+ "source_updated_at": "2026-10-29T11:32:13+0100",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -12197,7 +12197,7 @@
    "lag_fill_from_block_s": 30.5,
    "wallet_px_usd": 0.0001667,
    "our_px_usd": 0.0001638,
-   "mult": 0.765,
+   "mult": 0.7436,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12605,7 +12605,7 @@
    "lag_fill_from_block_s": 5.9,
    "wallet_px_usd": 1.237e-05,
    "our_px_usd": 1.231e-05,
-   "mult": 0.8928,
+   "mult": 0.8863,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12629,7 +12629,7 @@
    "lag_fill_from_block_s": 0.0,
    "wallet_px_usd": 0.0001376,
    "our_px_usd": 0.0001376,
-   "mult": 0.1834,
+   "mult": 0.3182,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12749,7 +12749,7 @@
    "lag_fill_from_block_s": 5.8,
    "wallet_px_usd": 0.0001376,
    "our_px_usd": 0.0001376,
-   "mult": 0.1834,
+   "mult": 0.3182,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12773,7 +12773,7 @@
    "lag_fill_from_block_s": 30.7,
    "wallet_px_usd": 0.0001376,
    "our_px_usd": 0.0001244,
-   "mult": 0.2028,
+   "mult": 0.352,
    "pnl_usdc": -0.01,
    "closed": false,
    "sells": [],
@@ -12830,386 +12830,412 @@
  ],
  "rejected_last": [
   {
-   "t": "2026-10-29T07:04:26+0100",
+   "t": "2026-10-29T11:28:19+0100",
    "mode": "S",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 30.9,
+   "armed_check_age_s": 0.0,
    "wallet": "EustazZ",
-   "mint": "CnNjfFCTDdfBAwKBAMNMLeGpiespWi14womBB8iBpump",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
    "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T07:04:26+0100",
+   "t": "2026-10-29T11:28:19+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 30.9,
+   "armed_check_age_s": 0.0,
    "wallet": "EustazZ",
-   "mint": "CnNjfFCTDdfBAwKBAMNMLeGpiespWi14womBB8iBpump",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
    "reasons": [
     "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
    ]
   },
   {
-   "t": "2026-10-29T07:04:27+0100",
+   "t": "2026-10-29T11:28:19+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 31.2,
+   "armed_check_age_s": 0.0,
    "wallet": "EustazZ",
-   "mint": "HpdTQQ8bJzZ992ErUo8TfkWX5uAZ6mSpPhoqsVsipump",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
    "reasons": [
     "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
    ]
   },
   {
-   "t": "2026-10-29T07:04:27+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 31.2,
-   "wallet": "EustazZ",
-   "mint": "HpdTQQ8bJzZ992ErUo8TfkWX5uAZ6mSpPhoqsVsipump",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T07:04:27+0100",
+   "t": "2026-10-29T11:28:19+0100",
    "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:25+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:25+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.8,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:25+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 5.9,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:26+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 31.1,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:26+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 6.7,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:26+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 6.7,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:26+0100",
+   "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 31.3,
    "wallet": "EustazZ",
-   "mint": "HpdTQQ8bJzZ992ErUo8TfkWX5uAZ6mSpPhoqsVsipump",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:26+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 6.8,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
    "reasons": [
     "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T08:44:00+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T08:44:00+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T08:44:00+0100",
+   "t": "2026-10-29T11:28:26+0100",
    "mode": "S",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
+   "armed_check_age_s": 31.4,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
    "reasons": [
-    "liquidita 0 < 1000"
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
    ]
   },
   {
-   "t": "2026-10-29T08:44:05+0100",
+   "t": "2026-10-29T11:28:27+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 5.6,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
+   "armed_check_age_s": 31.7,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
    "reasons": [
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T08:44:06+0100",
+   "t": "2026-10-29T11:28:27+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 5.8,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
+   "armed_check_age_s": 31.8,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
    "reasons": [
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T08:44:06+0100",
-   "mode": "S",
+   "t": "2026-10-29T11:28:50+0100",
+   "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 5.9,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
+   "armed_check_age_s": 30.7,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
    "reasons": [
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T08:44:31+0100",
+   "t": "2026-10-29T11:28:50+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.8,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:50+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 30.9,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
    "reasons": [
     "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
    ]
   },
   {
-   "t": "2026-10-29T08:44:31+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 31.0,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
-   "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T08:44:31+0100",
+   "t": "2026-10-29T11:28:50+0100",
    "mode": "S",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 31.0,
-   "wallet": "Trunoest",
-   "mint": "GwC93ekZXWPvoR51LjCuCM9EGeFvbk7Vab7idS9Xpump",
+   "armed_check_age_s": 30.9,
+   "wallet": "EustazZ",
+   "mint": "5BKTcSDzXs9LjTk1QroZZzB5GT4yyJoqd7886u8ppump",
    "reasons": [
-    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T10:47:17+0100",
+   "t": "2026-10-29T11:28:50+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.9,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:28:50+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 31.1,
+   "wallet": "EustazZ",
+   "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Mint Authority still enabled",
+    "RugCheck danger: Permanent Control Enabled",
+    "RugCheck danger: Freeze Authority still enabled"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:29:09+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 0.0,
    "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
-    "RugCheck danger: Creator history of rugged tokens",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T10:47:17+0100",
+   "t": "2026-10-29T11:29:09+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 0.1,
    "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
-    "RugCheck danger: Creator history of rugged tokens",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T10:47:17+0100",
+   "t": "2026-10-29T11:29:09+0100",
    "mode": "S",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 0.1,
    "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
-    "RugCheck danger: Creator history of rugged tokens",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T10:47:23+0100",
+   "t": "2026-10-29T11:29:15+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 5.7,
    "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
-    "RugCheck danger: Creator history of rugged tokens",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T10:47:23+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.8,
-   "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
-   "reasons": [
-    "RugCheck danger: Creator history of rugged tokens",
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T10:47:23+0100",
+   "t": "2026-10-29T11:29:15+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 5.8,
    "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
-    "RugCheck danger: Creator history of rugged tokens",
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T10:47:48+0100",
+   "t": "2026-10-29T11:29:15+0100",
    "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.8,
-   "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T10:47:48+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.8,
-   "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T10:47:48+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 30.8,
-   "wallet": "EustazZ",
-   "mint": "FC284F3vbfT3wgbG2cPVUeUhAShVj1xGSzxq4XKtpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-10-29T11:00:11+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.0,
-   "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-29T11:00:11+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-29T11:00:11+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 0.1,
-   "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-29T11:00:17+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 5.7,
-   "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
-   "reasons": [
-    "nessun pool su DexScreener"
-   ]
-  },
-  {
-   "t": "2026-10-29T11:00:17+0100",
-   "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 5.8,
    "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
-    "nessun pool su DexScreener"
+    "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T11:00:42+0100",
+   "t": "2026-10-29T11:29:40+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
    "armed_check_age_s": 30.7,
    "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
     "liquidita 0 < 1000"
    ]
   },
   {
-   "t": "2026-10-29T11:00:42+0100",
+   "t": "2026-10-29T11:29:40+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 30.8,
+   "wallet": "EustazZ",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
+   "reasons": [
+    "liquidita 0 < 1000"
+   ]
+  },
+  {
+   "t": "2026-10-29T11:29:41+0100",
    "mode": "N1",
    "size_usdc": 1.0,
    "check_used": "filters",
-   "armed_check_age_s": 30.7,
+   "armed_check_age_s": 31.5,
    "wallet": "EustazZ",
-   "mint": "GsrSKP6j9qEJ7azmuLJ3KRVLhFp9TTjS3XFVgTh5pump",
+   "mint": "3V5aVnavpjgd5yaj9PFbS4YDTYqma18Yh91FqGrqpump",
    "reasons": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ]
   }
  ],
- "cycles": 1998,
+ "cycles": 2003,
  "notes": "PnL in USDC; no per-trade stop (Max: size is the stop); paper-v2",
- "S_blocked_still_in": 356,
+ "S_blocked_still_in": 357,
  "S_blocked_by_delay": {
   "0": 0,
   "5": 86,
-  "30": 270
+  "30": 271
  }
 }
