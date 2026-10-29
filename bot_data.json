@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T06:30:46Z",
+  "updated": "2026-10-29T06:36:04Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -808,6 +808,54 @@
       "action": "transfer_in",
       "sig": "3gim1u491imwJFq6mr4VDAomTTHdprmshD98CTEs4LgFSwDK5tJi7kXBaYyjUp2NuTu4yy7qjayEB6Uk69TZK2dn",
       "tx": "3gim1u491imwJFq6mr4VDAomTTHdprmshD98CTEs4LgFSwDK5tJi7kXBaYyjUp2NuTu4yy7qjayEB6Uk69TZK2dn"
+    },
+    {
+      "t": "2026-10-29T06:30:47Z",
+      "wallet": "Numer0",
+      "mint": "6VAmjzF6oW8baBfVQoB3cPZ1jef8nofKQ9GGYLS3pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2LTEan7reviNa6UkKidmKBFBJ6FD84DuVNjY2oGHJciaYriQw6usLe3Dh4Dnb2vCpgkRBm4K3TXU3DkE5UvxUVGm",
+      "tx": "2LTEan7reviNa6UkKidmKBFBJ6FD84DuVNjY2oGHJciaYriQw6usLe3Dh4Dnb2vCpgkRBm4K3TXU3DkE5UvxUVGm"
+    },
+    {
+      "t": "2026-10-29T06:30:47Z",
+      "wallet": "Frost",
+      "mint": "6VAmjzF6oW8baBfVQoB3cPZ1jef8nofKQ9GGYLS3pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "4a6BDgPJ4dFHeEcowzm9WaDFgKAZ7Y68FwjbjrDLtfDrdkW3K5TEs7xHYhEJZ2AKeTZ4wFbKuNrgAGSCtzw4w6rX",
+      "tx": "4a6BDgPJ4dFHeEcowzm9WaDFgKAZ7Y68FwjbjrDLtfDrdkW3K5TEs7xHYhEJZ2AKeTZ4wFbKuNrgAGSCtzw4w6rX"
+    },
+    {
+      "t": "2026-10-29T06:30:48Z",
+      "wallet": "Mitch",
+      "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2ocW1Wm1DpRLXbQkzA15ZVA5JR993Mc8H1RRTU2jUHExAPUm3LHAH2xsxmrETqd9zuxtMZmPscDE2sEDcN3uZTmk",
+      "tx": "2ocW1Wm1DpRLXbQkzA15ZVA5JR993Mc8H1RRTU2jUHExAPUm3LHAH2xsxmrETqd9zuxtMZmPscDE2sEDcN3uZTmk"
+    },
+    {
+      "t": "2026-10-29T06:30:48Z",
+      "wallet": "Mitch",
+      "mint": "6VAmjzF6oW8baBfVQoB3cPZ1jef8nofKQ9GGYLS3pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3YyaS8qU3dNw9kUGNgadnwhpDTVKrU93d3Cx7HaAE94FqAYw2x2Mwbg7DjshNWeH71vYzxt2fXkAwVLgAkTu7oXP",
+      "tx": "3YyaS8qU3dNw9kUGNgadnwhpDTVKrU93d3Cx7HaAE94FqAYw2x2Mwbg7DjshNWeH71vYzxt2fXkAwVLgAkTu7oXP"
     }
   ],
   "trades": [
@@ -2432,12 +2480,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-29T06:19:10Z",
+      "ts": "2026-10-29T06:33:19Z",
       "mint": "GMXf4jmhR4hEeAjqq543oi4w2VVLd21fmKrn2gpQ2xsu",
       "sym": "KING",
-      "px": 4.273e-05,
-      "liq_usd": 17427.99,
-      "market_cap": 41939,
+      "px": 4.399e-05,
+      "liq_usd": 17680.38,
+      "market_cap": 43176,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2460,15 +2508,15 @@
         "shitcoingemsalert",
         "solgemsradar"
       ],
-      "seen_count": 4
+      "seen_count": 6
     },
     {
-      "ts": "2026-10-29T06:19:11Z",
+      "ts": "2026-10-29T06:33:21Z",
       "mint": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
       "sym": "NETWORK",
-      "px": 0.0001225,
-      "liq_usd": 28885.58,
-      "market_cap": 116438,
+      "px": 0.0001268,
+      "liq_usd": 29419.08,
+      "market_cap": 120516,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2491,7 +2539,7 @@
         "shitcoingemsalert",
         "solearlytrending"
       ],
-      "seen_count": 4
+      "seen_count": 6
     }
   ],
   "new_pools": [],
@@ -2740,7 +2788,7 @@
   "protections": {
     "daily_pnl": 18875.34726478559,
     "consecutive_losses": 6,
-    "paused_until": 1793262646.199785,
+    "paused_until": 1793262964.0163658,
     "kill_switch": false
   },
   "v1": {
@@ -2841,11 +2889,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004226,
+      "last_px": 0.004258,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.4003975858686596,
-      "pnl_mtm": 0.4003975858686596,
+      "pnl": 0.40612743034281884,
+      "pnl_mtm": 0.40612743034281884,
       "strategy": "copy",
       "reentries": 1
     },
