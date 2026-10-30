@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T02:15:18Z",
+  "updated": "2026-10-30T02:20:18Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2104,6 +2104,66 @@
       "action": "transfer_in",
       "sig": "38ctgDQQHQf2GzAyi2h1QqXHHvKt6ogaoyoe8EMDChnGeuSVEKwbaCCqTbeVhwHFVkFpu5DfuHTjfqyn7EZ7ZNBp",
       "tx": "38ctgDQQHQf2GzAyi2h1QqXHHvKt6ogaoyoe8EMDChnGeuSVEKwbaCCqTbeVhwHFVkFpu5DfuHTjfqyn7EZ7ZNBp"
+    },
+    {
+      "t": "2026-10-30T02:15:25Z",
+      "wallet": "Numer0",
+      "mint": "DUUxG3Qa23MNfHjnKVdzjrtFvzMUcB9AuNNvRvpdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3Qcyg47PEkxmndwzYor8eDpDkVv1xKvwyEhtmCbidNu8iM9aENJAYao2SfNi3E1RB4q8Vij6P5Eav8TuEp7BPPDk",
+      "tx": "3Qcyg47PEkxmndwzYor8eDpDkVv1xKvwyEhtmCbidNu8iM9aENJAYao2SfNi3E1RB4q8Vij6P5Eav8TuEp7BPPDk"
+    },
+    {
+      "t": "2026-10-30T02:15:25Z",
+      "wallet": "Numer0",
+      "mint": "DUUxG3Qa23MNfHjnKVdzjrtFvzMUcB9AuNNvRvpdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "grApZTziKxiF7VvJrCHEAoEhWpYmMNe4p7V4dg4qPb4TfUp8AjuPkAQBgnNfVQD68aGN6c2GohsSpxpaC5sDkvs",
+      "tx": "grApZTziKxiF7VvJrCHEAoEhWpYmMNe4p7V4dg4qPb4TfUp8AjuPkAQBgnNfVQD68aGN6c2GohsSpxpaC5sDkvs"
+    },
+    {
+      "t": "2026-10-30T02:15:26Z",
+      "wallet": "Numer0",
+      "mint": "251NNnUnkYrj7771Ed4g4BZAWrnmazb1mrFYLEtypump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "48pfKmgE8Ejj3wncupHJT1L9AYjQcmt5Je1fmyu72rVpPfBjjEryEc1iCwAXVmCeCRJ6XgEBwTx4k2Qgn4QEiob8",
+      "tx": "48pfKmgE8Ejj3wncupHJT1L9AYjQcmt5Je1fmyu72rVpPfBjjEryEc1iCwAXVmCeCRJ6XgEBwTx4k2Qgn4QEiob8"
+    },
+    {
+      "t": "2026-10-30T02:15:26Z",
+      "wallet": "Numer0",
+      "mint": "251NNnUnkYrj7771Ed4g4BZAWrnmazb1mrFYLEtypump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "28BjD8TwiYyMQDkf4K5dHdSqzckXxCHBwWfvP6NYrYC74hZdzWHLpdWcVAFqNUaNHzEZB39QuFriEcHKJC9sbfqY",
+      "tx": "28BjD8TwiYyMQDkf4K5dHdSqzckXxCHBwWfvP6NYrYC74hZdzWHLpdWcVAFqNUaNHzEZB39QuFriEcHKJC9sbfqY"
+    },
+    {
+      "t": "2026-10-30T02:15:27Z",
+      "wallet": "Mr. Frog",
+      "mint": "PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3nC34x2sXyeNCpQ1zP3q2V1YfdhzwuqpMeTNM497xP6HRStLgHjKg9WpN5BnpPc1kgTy2H5pAAC1qfDVLDmuU3w6",
+      "tx": "3nC34x2sXyeNCpQ1zP3q2V1YfdhzwuqpMeTNM497xP6HRStLgHjKg9WpN5BnpPc1kgTy2H5pAAC1qfDVLDmuU3w6"
     }
   ],
   "trades": [
@@ -3799,12 +3859,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-10-30T02:14:13Z",
+      "ts": "2026-10-30T02:19:14Z",
       "mint": "FGGwUpqPHTxwLDdtoY37KBJ6tQxfY5N1JLTXEs2ppump",
       "sym": "DEADGUY",
-      "px": 4.221e-05,
-      "liq_usd": 15059.3,
-      "market_cap": 42218,
+      "px": 4.084e-05,
+      "liq_usd": 14817.96,
+      "market_cap": 40846,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3827,7 +3887,7 @@
         "pumpfunearlytrending",
         "solearlytrending"
       ],
-      "seen_count": 4
+      "seen_count": 6
     }
   ],
   "new_pools": [],
@@ -4076,11 +4136,11 @@
   "protections": {
     "daily_pnl": 18875.34726478559,
     "consecutive_losses": 6,
-    "paused_until": 1793333718.407154,
+    "paused_until": 1793334018.649681,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 2054,
+    "cycles": 2056,
     "open_positions": 1469,
     "trades": 1471,
     "rejected": 30,
@@ -4177,11 +4237,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.003881,
+      "last_px": 0.003903,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.3386227001316299,
-      "pnl_mtm": 0.3386227001316299,
+      "pnl": 0.3425619682076144,
+      "pnl_mtm": 0.3425619682076144,
       "strategy": "copy",
       "reentries": 1
     },
