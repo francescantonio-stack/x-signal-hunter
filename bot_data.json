@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T16:10:39Z",
+  "updated": "2026-10-31T16:24:39Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -724,6 +724,18 @@
       "action": "buy",
       "sig": "3scgdZPXQHvfMTNsy3Cv9WcngzyXiFghpKNwjS1sSNJN3GNe5zQEa4zQU9PvEW4SojF6hhR5KBqPwtyUtW9j841g",
       "tx": "3scgdZPXQHvfMTNsy3Cv9WcngzyXiFghpKNwjS1sSNJN3GNe5zQEa4zQU9PvEW4SojF6hhR5KBqPwtyUtW9j841g"
+    },
+    {
+      "t": "2026-10-31T16:12:47Z",
+      "wallet": "Mitch",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "t5N7XoQmHK78uXiWZoMsCqj545FvtEa7kFEuhCM7D7Fo2TSnAeF6x4ZaLaXA1u2bUNhaCnut8CC4xjeRsMy2m6L",
+      "tx": "t5N7XoQmHK78uXiWZoMsCqj545FvtEa7kFEuhCM7D7Fo2TSnAeF6x4ZaLaXA1u2bUNhaCnut8CC4xjeRsMy2m6L"
     }
   ],
   "trades": [
@@ -2364,7 +2376,7 @@
   "new_pools": [],
   "strategies": {
     "copy": {
-      "budget": 99.86868022426624,
+      "budget": 99.86856562683582,
       "alloc": 27.000500000000013,
       "pnl": 9445.945914134038,
       "n": 24,
@@ -2385,7 +2397,7 @@
       "wins": 6
     },
     "reentry": {
-      "budget": 99.81348157496942,
+      "budget": 99.8133670408784,
       "alloc": 29.872675000000022,
       "pnl": 9440.719496391139,
       "n": 41,
@@ -2616,7 +2628,7 @@
   "protections": {
     "daily_pnl": 18875.36899438559,
     "consecutive_losses": 6,
-    "paused_until": 1793470239.1668324,
+    "paused_until": 1793471079.9164357,
     "kill_switch": false
   },
   "v1": {
@@ -2717,11 +2729,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004248,
+      "last_px": 0.004278,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.40433685394464414,
-      "pnl_mtm": 0.40433685394464414,
+      "pnl": 0.40970858313916836,
+      "pnl_mtm": 0.40970858313916836,
       "strategy": "copy",
       "reentries": 1
     },
