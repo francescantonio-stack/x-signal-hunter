@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:02:33+0100",
+ "updated": "2026-10-31T21:07:37+0100",
  "version": "v2",
  "live_mode": false,
  "rpc": "helius",
@@ -1072,6 +1072,66 @@
    "action": "buy",
    "sig": "RTp2STtHZwdSQQ4hwfEuy4a9JKxSCTkovq2J6bmhzpx5hAMrkwR5AKkq46c1BduLoZiucV8hpXx7QxSJp5mcutt",
    "tx": "RTp2STtHZwdSQQ4hwfEuy4a9JKxSCTkovq2J6bmhzpx5hAMrkwR5AKkq46c1BduLoZiucV8hpXx7QxSJp5mcutt"
+  },
+  {
+   "t": "2026-10-31T20:03:14Z",
+   "wallet": "EustazZ",
+   "mint": "3cUFUpng3smzPboscu2a2QVuuFkgdSJyH3GPiEKNsau7",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "buy",
+   "sig": "5V4WF2VrfrzUmvsx6nBva2FenyrFmHK2Yx7uc6xf9zYE17dozZg82JPaBJCAr1JYkHeZ4rthueA51jiGJCXbLmWt",
+   "tx": "5V4WF2VrfrzUmvsx6nBva2FenyrFmHK2Yx7uc6xf9zYE17dozZg82JPaBJCAr1JYkHeZ4rthueA51jiGJCXbLmWt"
+  },
+  {
+   "t": "2026-10-31T20:03:39Z",
+   "wallet": "EustazZ",
+   "mint": "3cUFUpng3smzPboscu2a2QVuuFkgdSJyH3GPiEKNsau7",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "sell",
+   "sig": "2hTWCoVV3h3C5r8P1sUgq57t9dchEZKmXWPptwQrdVB3ATSngvxfzD8PpgWXBTSANhGJfZjBRVyM1Aa9Yfyvxpa6",
+   "tx": "2hTWCoVV3h3C5r8P1sUgq57t9dchEZKmXWPptwQrdVB3ATSngvxfzD8PpgWXBTSANhGJfZjBRVyM1Aa9Yfyvxpa6"
+  },
+  {
+   "t": "2026-10-31T20:05:19Z",
+   "wallet": "EustazZ",
+   "mint": "DzC9A5CqqHZ9RDMjYMbPtFj3voqtgjYGTBHohLjepump",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "buy",
+   "sig": "2NCQtDbEYxoKyqeT3XGaSFCPLZPKayZsm59xa7uiDYxpJMjqj74KKx7P5K2h8oRjiPMtFFHm5aXNziwx4jTUWxu5",
+   "tx": "2NCQtDbEYxoKyqeT3XGaSFCPLZPKayZsm59xa7uiDYxpJMjqj74KKx7P5K2h8oRjiPMtFFHm5aXNziwx4jTUWxu5"
+  },
+  {
+   "t": "2026-10-31T20:05:44Z",
+   "wallet": "EustazZ",
+   "mint": "DzC9A5CqqHZ9RDMjYMbPtFj3voqtgjYGTBHohLjepump",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "sell",
+   "sig": "5pUPBAUKGeXtsXfHehGD4N2g1fLKTtrkB7yL8NPmZzmSuTXgLFuZukUg4gftbkZy8cJp3R1cphnqyoQCm3BRkCsp",
+   "tx": "5pUPBAUKGeXtsXfHehGD4N2g1fLKTtrkB7yL8NPmZzmSuTXgLFuZukUg4gftbkZy8cJp3R1cphnqyoQCm3BRkCsp"
+  },
+  {
+   "t": "2026-10-31T20:05:44Z",
+   "wallet": "EustazZ",
+   "mint": "DzC9A5CqqHZ9RDMjYMbPtFj3voqtgjYGTBHohLjepump",
+   "sym": "?",
+   "px": null,
+   "liq": 0,
+   "rug_ok": null,
+   "action": "sell",
+   "sig": "3qWvTZ4pTrf12HAeUu9dhXZMtxvsd4pkYvFnZF46iekf4y8PPvZdRpgRYc1NaPedjGmjWWcVoPQzNx2p8aVMTPFw",
+   "tx": "3qWvTZ4pTrf12HAeUu9dhXZMtxvsd4pkYvFnZF46iekf4y8PPvZdRpgRYc1NaPedjGmjWWcVoPQzNx2p8aVMTPFw"
   }
  ],
  "trades": [
@@ -3026,11 +3086,11 @@
  "protections": {
   "daily_pnl": 18875.36899438559,
   "consecutive_losses": 6,
-  "paused_until": 1793484151.4911954,
+  "paused_until": 1793484455.6665268,
   "kill_switch": false
  },
  "v1": {
-  "cycles": 2146,
+  "cycles": 2148,
   "open_positions": 1491,
   "trades": 1491,
   "rejected": 30,
@@ -3070,7 +3130,7 @@
     }
    }
   },
-  "S_blocked_still_in": 424,
+  "S_blocked_still_in": 428,
   "rules": {
    "entry": {
     "N1": "ogni acquisto (riferimento)",
@@ -3168,11 +3228,11 @@
    "sym": "PUMP",
    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "entry_px": 0.001954677836459661,
-   "last_px": 0.004238,
+   "last_px": 0.004215,
    "size_usd": 0.35,
    "cost": 0.0063,
-   "pnl": 0.4025462775464693,
-   "pnl_mtm": 0.4025462775464693,
+   "pnl": 0.39842795183066737,
+   "pnl_mtm": 0.39842795183066737,
    "strategy": "copy",
    "reentries": 1
   },
@@ -3300,11 +3360,11 @@
    "sym": "usefomo",
    "mint": "7KifcdFeS9K1Mf2havacMHGzAgtHymDf68Buoh34pump",
    "entry_px": 0.00011479816601525586,
-   "last_px": 2.132e-06,
+   "last_px": 2.036e-06,
    "size_usd": 2.5,
    "cost": 0.0525,
-   "pnl": -2.5060706868410105,
-   "pnl_mtm": -2.5060706868410105,
+   "pnl": -2.5081613125742486,
+   "pnl_mtm": -2.5081613125742486,
    "strategy": "copy",
    "reentries": 2
   },
