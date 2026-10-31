@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T16:39:16+0100",
- "source_updated_at": "2026-10-31T16:39:16+0100",
+ "generated_at": "2026-10-31T16:45:12+0100",
+ "source_updated_at": "2026-10-31T16:45:12+0100",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -335,30 +335,6 @@
   "pnl": {}
  },
  "trades": [
-  {
-   "id": "N1:1:EustazZ:7EUi3ik83wNqATuAB3UyXUMnf1ffigse:B:30",
-   "shadow_liq": false,
-   "liquidity_usd_at_entry": 7437.87,
-   "size_usdc": 1.0,
-   "mode": "N1",
-   "wallet": "EustazZ",
-   "wallets_involved": [
-    "EustazZ"
-   ],
-   "mint": "7EUi3ik83wNqATuAB3UyXUMnf1ffigse7vzuy6dBu5Cc",
-   "exit": "B",
-   "delay_s": 30,
-   "block_time": 1793304450,
-   "lag_detect_s": 30.8,
-   "lag_fill_from_block_s": 30.8,
-   "wallet_px_usd": 2.551e-05,
-   "our_px_usd": 1.033e-05,
-   "mult": 1.0,
-   "pnl_usdc": -0.01,
-   "closed": false,
-   "sells": [],
-   "tx": null
-  },
   {
    "id": "N1:1:EustazZ:7EUi3ik83wNqATuAB3UyXUMnf1ffigse:A:30",
    "shadow_liq": false,
@@ -12610,6 +12586,30 @@
    "closed": false,
    "sells": [],
    "tx": null
+  },
+  {
+   "id": "S:1:Decu:BtrUpKSdeV7mJfth8LfW6pQL9PSdRXMY:B:30",
+   "shadow_liq": false,
+   "liquidity_usd_at_entry": 26327.24,
+   "size_usdc": 1.0,
+   "mode": "S",
+   "wallet": "Decu",
+   "wallets_involved": [
+    "Decu"
+   ],
+   "mint": "BtrUpKSdeV7mJfth8LfW6pQL9PSdRXMYeKyo2zodpump",
+   "exit": "B",
+   "delay_s": 30,
+   "block_time": 1793461169,
+   "lag_detect_s": 30.7,
+   "lag_fill_from_block_s": 30.7,
+   "wallet_px_usd": 0.0001268,
+   "our_px_usd": 9.965e-05,
+   "mult": 1.0,
+   "pnl_usdc": -0.01,
+   "closed": false,
+   "sells": [],
+   "tx": null
   }
  ],
  "rejected_last": [
@@ -13003,7 +13003,7 @@
    ]
   }
  ],
- "cycles": 2135,
+ "cycles": 2136,
  "notes": "PnL in USDC; no per-trade stop (Max: size is the stop); paper-v2",
  "S_blocked_still_in": 422,
  "S_blocked_by_delay": {
