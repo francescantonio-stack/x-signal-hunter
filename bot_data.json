@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T15:34:37Z",
+  "updated": "2026-10-31T15:40:07Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -556,6 +556,30 @@
       "action": "transfer_in",
       "sig": "66bQr7LpffgbBj7tjwNC1t8sf46bs2jzht4ATihY41cLxtzMnkrm5hmvPqPsmV4MfVJ4P2iMiCPimgY5tiLMUhnU",
       "tx": "66bQr7LpffgbBj7tjwNC1t8sf46bs2jzht4ATihY41cLxtzMnkrm5hmvPqPsmV4MfVJ4P2iMiCPimgY5tiLMUhnU"
+    },
+    {
+      "t": "2026-10-31T15:37:48Z",
+      "wallet": "Decu",
+      "mint": "BtrUpKSdeV7mJfth8LfW6pQL9PSdRXMYeKyo2zodpump",
+      "sym": "billy",
+      "px": 8.47e-05,
+      "liq": 24643.48,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "5A8GAmKjPVMatKJPhYNqre72gB3DML7ch4AShr9Jn7XHfLiZbcFTRnHHKyc7GXGRMUypxaeEJ5HLri2uCmAPwFvU",
+      "tx": "5A8GAmKjPVMatKJPhYNqre72gB3DML7ch4AShr9Jn7XHfLiZbcFTRnHHKyc7GXGRMUypxaeEJ5HLri2uCmAPwFvU"
+    },
+    {
+      "t": "2026-10-31T15:39:28Z",
+      "wallet": "Decu",
+      "mint": "BtrUpKSdeV7mJfth8LfW6pQL9PSdRXMYeKyo2zodpump",
+      "sym": "billy",
+      "px": 0.0001268,
+      "liq": 29830.74,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "4HwMwHnpqtxygCgp8q53DTcRvcvwFb4DdYyTjuHErVrTeyFgTVYbQWgJYyZDjqYZQJWKcxWYmoA9eBMtLRLEDHHT",
+      "tx": "4HwMwHnpqtxygCgp8q53DTcRvcvwFb4DdYyTjuHErVrTeyFgTVYbQWgJYyZDjqYZQJWKcxWYmoA9eBMtLRLEDHHT"
     }
   ],
   "trades": [
@@ -2101,12 +2125,42 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-10-31T15:32:26Z",
+      "ts": "2026-10-31T15:39:29Z",
+      "mint": "BtrUpKSdeV7mJfth8LfW6pQL9PSdRXMYeKyo2zodpump",
+      "sym": "billy",
+      "px": 0.0001268,
+      "liq_usd": 29830.74,
+      "market_cap": 126808,
+      "wallet_names": [
+        "Decu"
+      ],
+      "source": "wallet:Decu",
+      "rug_ok": true,
+      "pair_addr": "G9tqgU34DGCE595XB8kVeiiNd1uMhqFPtYCDYGF1eBvx",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1793460707000,
+      "tx": "4HwMwHnpqtxygCgp8q53DTcRvcvwFb4DdYyTjuHErVrTeyFgTVYbQWgJYyZDjqYZQJWKcxWYmoA9eBMtLRLEDHHT",
+      "sig": "4HwMwHnpqtxygCgp8q53DTcRvcvwFb4DdYyTjuHErVrTeyFgTVYbQWgJYyZDjqYZQJWKcxWYmoA9eBMtLRLEDHHT",
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 35.0,
+      "liq": 70.0,
+      "holders": 20.0,
+      "total": 53.496,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 2
+    },
+    {
+      "ts": "2026-10-31T15:39:57Z",
       "mint": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
       "sym": "DESSA",
-      "px": 0.02887,
-      "liq_usd": 489389.11,
-      "market_cap": 28267641,
+      "px": 0.0276,
+      "liq_usd": 478634.91,
+      "market_cap": 27024805,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2132,7 +2186,7 @@
         "shitcoingemsalert",
         "solgemsradar"
       ],
-      "seen_count": 8
+      "seen_count": 11
     }
   ],
   "new_pools": [],
@@ -2381,13 +2435,13 @@
   "protections": {
     "daily_pnl": 18875.34726478559,
     "consecutive_losses": 6,
-    "paused_until": 1793468077.1879592,
+    "paused_until": 1793468407.509286,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 2134,
-    "open_positions": 1473,
-    "trades": 1473,
+    "cycles": 2136,
+    "open_positions": 1482,
+    "trades": 1482,
     "rejected": 30,
     "pnl_totale": {
       "1usdc": {
@@ -2482,11 +2536,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.00417,
+      "last_px": 0.004179,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.39037035803888087,
-      "pnl_mtm": 0.39037035803888087,
+      "pnl": 0.3919818767972383,
+      "pnl_mtm": 0.3919818767972383,
       "strategy": "copy",
       "reentries": 1
     },
