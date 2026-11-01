@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T08:47:14+0100",
+ "updated": "2026-11-01T08:52:08+0100",
  "version": "v2",
  "live_mode": false,
  "rpc": "helius",
@@ -3613,6 +3613,41 @@
     "CMC_CG_NewList"
    ],
    "seen_count": 19
+  },
+  {
+   "ts": "2026-11-01T07:50:22Z",
+   "mint": "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump",
+   "sym": "tipr",
+   "px": 0.0002075,
+   "liq_usd": 38208.98,
+   "market_cap": 200718,
+   "wallet_names": [],
+   "source": "dex_boost",
+   "rug_ok": true,
+   "pair_addr": "6qfkD7d8RaFVAn1FC76M5MtqAr3kHrHpxPwMQvL6Ndxt",
+   "dex_id": "pumpswap",
+   "pair_created_ms": 1793504294000,
+   "tx": null,
+   "sig": null,
+   "rug": 99.0,
+   "x": 30.0,
+   "wallets": 0.0,
+   "liq": 70.0,
+   "holders": 50.0,
+   "total": 47.288000000000004,
+   "rug_na": false,
+   "x_default": true,
+   "holders_default": false,
+   "tg": 7.6,
+   "tg_channels": [
+    "SolanaSinais",
+    "mad_apes_gambles",
+    "pumpfunearlytrending",
+    "shitcoingemsalert",
+    "solgemsradar",
+    "spacemancallzsolana"
+   ],
+   "seen_count": 1
   }
  ],
  "new_pools": [],
@@ -3878,7 +3913,7 @@
  "protections": {
   "daily_pnl": 18875.38521508559,
   "consecutive_losses": 6,
-  "paused_until": 1793526426.3381891,
+  "paused_until": 1793526726.6037421,
   "kill_switch": false
  },
  "v1": {
@@ -4020,11 +4055,11 @@
    "sym": "PUMP",
    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "entry_px": 0.001954677836459661,
-   "last_px": 0.004208,
+   "last_px": 0.004229,
    "size_usd": 0.35,
    "cost": 0.0063,
-   "pnl": 0.397174548351945,
-   "pnl_mtm": 0.397174548351945,
+   "pnl": 0.40093475878811213,
+   "pnl_mtm": 0.40093475878811213,
    "strategy": "copy",
    "reentries": 1
   },
@@ -4200,11 +4235,11 @@
    "sym": "MONKO",
    "mint": "Hes7r4gwoqZby5crUL1DBxFiih9f83bRfMTwpQ51pump",
    "entry_px": 8.231475774340489e-06,
-   "last_px": 1.89e-06,
+   "last_px": 1.88e-06,
    "size_usd": 0.875,
    "cost": 0.018375000000000002,
-   "pnl": -0.6924693488948677,
-   "pnl_mtm": -0.6924693488948677,
+   "pnl": -0.6935323417578577,
+   "pnl_mtm": -0.6935323417578577,
    "strategy": "copy",
    "reentries": 2
   },
