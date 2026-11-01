@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T20:14:34Z",
+  "updated": "2026-11-01T22:10:53Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1372,6 +1372,42 @@
       "action": "transfer_in",
       "sig": "CK4x1KjtGm1usz5cmLYfeZ2JgjQYWLTEGrhJmmEnVdwhT3J4hUNF8RKazfH1Bsz6tX7zJ3RChC2ac5k2AxLHNhx",
       "tx": "CK4x1KjtGm1usz5cmLYfeZ2JgjQYWLTEGrhJmmEnVdwhT3J4hUNF8RKazfH1Bsz6tX7zJ3RChC2ac5k2AxLHNhx"
+    },
+    {
+      "t": "2026-11-01T22:10:48Z",
+      "wallet": "Numer0",
+      "mint": "8gZMwbCgQu1RHXdSkW2M8AnZmXfXMvKbXPngG8D9pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5haMRPER7skWbGRD242ZAMxBPFuYztmsDYQsCQu6TKjz8ACdL9g8QcnGAQQzZPmk26VtwPHw3nK1aoCZ7Vb3Sesx",
+      "tx": "5haMRPER7skWbGRD242ZAMxBPFuYztmsDYQsCQu6TKjz8ACdL9g8QcnGAQQzZPmk26VtwPHw3nK1aoCZ7Vb3Sesx"
+    },
+    {
+      "t": "2026-11-01T22:10:49Z",
+      "wallet": "Numer0",
+      "mint": "G6hpeP7mFbY7Aez3VfxYhgNzoSkAreMR9YnH5PwYpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5ePq3VrTkJGAxWdW3wg9dAUoox9iaaU7jHxwasGgqXFmnvXPq5bTaLGag2FHFsuNBq5sVnL8u6m9iQR8zFxiCVBg",
+      "tx": "5ePq3VrTkJGAxWdW3wg9dAUoox9iaaU7jHxwasGgqXFmnvXPq5bTaLGag2FHFsuNBq5sVnL8u6m9iQR8zFxiCVBg"
+    },
+    {
+      "t": "2026-11-01T22:10:49Z",
+      "wallet": "Frost",
+      "mint": "8gZMwbCgQu1RHXdSkW2M8AnZmXfXMvKbXPngG8D9pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5uzkBhUzwXF2uaFwR1LrfFevVana91LNkzCouBuEmTWoAqXiguZTCgG3qqPMsoy48Hx3mwRyYDHBNpiw4xDwrCD1",
+      "tx": "5uzkBhUzwXF2uaFwR1LrfFevVana91LNkzCouBuEmTWoAqXiguZTCgG3qqPMsoy48Hx3mwRyYDHBNpiw4xDwrCD1"
     }
   ],
   "trades": [
@@ -3311,7 +3347,7 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793571274.2486336,
+    "paused_until": 1793578253.482553,
     "kill_switch": false
   },
   "v1": {
