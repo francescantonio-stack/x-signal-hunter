@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T15:56:37Z",
+  "updated": "2026-11-01T16:04:35Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2598,6 +2598,39 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 2
+    },
+    {
+      "ts": "2026-11-01T15:59:37Z",
+      "mint": "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump",
+      "sym": "Peekhole",
+      "px": 0.000296,
+      "liq_usd": 49731.57,
+      "market_cap": 283238,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "G5t63jxfLoSYapfVYsTQn1WWqm7YX9wbZ7xNFFoUtczF",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1792781957000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 70.0,
+      "holders": 50.0,
+      "total": 56.612,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 85.3,
+      "tg_channels": [
+        "SolanaSinais",
+        "pumpfunearlytrending",
+        "solearlytrending",
+        "solgemsradar"
+      ],
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -2880,7 +2913,7 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793555797.0694687,
+    "paused_until": 1793556275.7009056,
     "kill_switch": false
   },
   "v1": {
@@ -2924,7 +2957,7 @@
         }
       }
     },
-    "S_blocked_still_in": 442,
+    "S_blocked_still_in": 446,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
