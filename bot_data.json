@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T22:10:53Z",
+  "updated": "2026-11-01T22:11:23Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1408,6 +1408,30 @@
       "action": "transfer_in",
       "sig": "5uzkBhUzwXF2uaFwR1LrfFevVana91LNkzCouBuEmTWoAqXiguZTCgG3qqPMsoy48Hx3mwRyYDHBNpiw4xDwrCD1",
       "tx": "5uzkBhUzwXF2uaFwR1LrfFevVana91LNkzCouBuEmTWoAqXiguZTCgG3qqPMsoy48Hx3mwRyYDHBNpiw4xDwrCD1"
+    },
+    {
+      "t": "2026-11-01T22:10:58Z",
+      "wallet": "Mr. Frog",
+      "mint": "8gZMwbCgQu1RHXdSkW2M8AnZmXfXMvKbXPngG8D9pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3ZEkAtY6qZAXW8g65ZUYF7DEU7erLJPP8JiWn1s1N1cPVPTdm3RiyZDcEeRBiHBPD3V6kDcxgiyeP69EKasrXpcw",
+      "tx": "3ZEkAtY6qZAXW8g65ZUYF7DEU7erLJPP8JiWn1s1N1cPVPTdm3RiyZDcEeRBiHBPD3V6kDcxgiyeP69EKasrXpcw"
+    },
+    {
+      "t": "2026-11-01T22:11:02Z",
+      "wallet": "EustazZ",
+      "mint": "8gZMwbCgQu1RHXdSkW2M8AnZmXfXMvKbXPngG8D9pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "4ZLhnxn2nTXA48ZnqDNr7A1xEnTsfFQFqHtJ12o3z7HmkNxfZVJqUTQLPAPNMVhnqbGi2s9gHYidE1GQLVbw5wtV",
+      "tx": "4ZLhnxn2nTXA48ZnqDNr7A1xEnTsfFQFqHtJ12o3z7HmkNxfZVJqUTQLPAPNMVhnqbGi2s9gHYidE1GQLVbw5wtV"
     }
   ],
   "trades": [
@@ -3347,7 +3371,7 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793578253.482553,
+    "paused_until": 1793578283.5155714,
     "kill_switch": false
   },
   "v1": {
@@ -3448,11 +3472,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004113,
+      "last_px": 0.004155,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.38016407256928475,
-      "pnl_mtm": 0.38016407256928475,
+      "pnl": 0.3876844934416187,
+      "pnl_mtm": 0.3876844934416187,
       "strategy": "copy",
       "reentries": 1
     },
