@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31 21:07",
+ "ts": "2026-11-01 07:55",
  "tokens": {
   "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": {
    "mint": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
@@ -216,12 +216,10 @@
    "liq": 2079.7,
    "vol": 23955.65,
    "dex": "pumpswap",
-   "score": 33,
-   "risks": [
-    "Low Liquidity"
-   ],
+   "score": null,
+   "risks": [],
    "fails": [
-    "RugCheck danger: Low Liquidity"
+    "LP bloccata/bruciata None% < 95%"
    ],
    "ok": false
   },
@@ -230,33 +228,39 @@
    "sym": "SUPER",
    "name": "Superpad",
    "img": "https://cdn.dexscreener.com/cms/images/Np-J78C6AxCRyqlK?width=800&height=800&quality=95&format=auto",
-   "price": "0.0001332",
-   "h1": 51.63,
-   "h24": 186,
-   "mc": 130800,
-   "liq": 29148.47,
-   "vol": 383220.92,
+   "price": "0.000001845",
+   "h1": 0.23,
+   "h24": -96.04,
+   "mc": 1811,
+   "liq": 1953.73,
+   "vol": 425747.99,
    "dex": "pumpswap",
-   "score": 1,
-   "risks": [],
-   "fails": [],
-   "ok": true
+   "score": 33,
+   "risks": [
+    "Low Liquidity"
+   ],
+   "fails": [
+    "LP bloccata/bruciata 0% < 95%",
+    "RugCheck danger: Low Liquidity"
+   ],
+   "ok": false
   },
   "6zAg9L5bdeR17YwBNkjCQRHUc75MAvKQcjHZi5grpump": {
    "mint": "6zAg9L5bdeR17YwBNkjCQRHUc75MAvKQcjHZi5grpump",
    "sym": "Anakin",
    "name": "Anakin Skywalker",
    "img": "https://cdn.dexscreener.com/cms/images/sogKbS3qukV4tAsG?width=800&height=800&quality=95&format=auto",
-   "price": "0.000009558",
-   "h1": 2.13,
-   "h24": 230,
-   "mc": 9558.88,
+   "price": "0.000003924",
+   "h1": null,
+   "h24": 20.05,
+   "mc": 3924.13,
    "liq": null,
-   "vol": 49692.75,
+   "vol": 94015.52,
    "dex": "pumpfun",
    "score": 1,
    "risks": [],
    "fails": [
+    "LP bloccata/bruciata 0% < 95%",
     "liquidita 0 < 1000"
    ],
    "ok": false
@@ -286,15 +290,15 @@
    "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump",
    "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
    "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
-   "6zAg9L5bdeR17YwBNkjCQRHUc75MAvKQcjHZi5grpump",
-   "8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump",
    "5hSCCZh1xX86q5s5jDTiAX2dRB6ggqKj7M9XqFcpump",
    "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
    "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+   "6zAg9L5bdeR17YwBNkjCQRHUc75MAvKQcjHZi5grpump",
    "3aGqqLtvWTAYAbpeP9amT7BVEUnP4ybnHvG9N2jzpump",
    "2i8uH6B7emwAypye6XNXQ4v6PTf3N7KPseatCkLWpump",
    "4R9jUfYAifDyiLz9Tx6bHpPqkvh3GRom71YEapkUpump",
+   "8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump",
    "4xFp4RHxPSqBrgmCq772fTW9jgJypm7rxrFvJv5Mpump"
   ]
  }
