@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T07:26:35Z",
+  "updated": "2026-11-01T07:31:35Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -3573,12 +3573,12 @@
       "seen_count": 2
     },
     {
-      "ts": "2026-11-01T07:24:07Z",
+      "ts": "2026-11-01T07:29:07Z",
       "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "sym": "CBUCKS",
-      "px": 0.001392,
-      "liq_usd": 124041.63,
-      "market_cap": 1312358,
+      "px": 0.001393,
+      "liq_usd": 124082.05,
+      "market_cap": 1313322,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3600,7 +3600,7 @@
       "tg_channels": [
         "CMC_CG_NewList"
       ],
-      "seen_count": 13
+      "seen_count": 15
     }
   ],
   "new_pools": [],
@@ -3866,7 +3866,7 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793525195.2225554,
+    "paused_until": 1793525495.499922,
     "kill_switch": false
   },
   "v1": {
@@ -3967,11 +3967,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004208,
+      "last_px": 0.004232,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.397174548351945,
-      "pnl_mtm": 0.397174548351945,
+      "pnl": 0.40147193170756446,
+      "pnl_mtm": 0.40147193170756446,
       "strategy": "copy",
       "reentries": 1
     },
