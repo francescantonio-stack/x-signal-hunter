@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T04:05:39Z",
+  "updated": "2026-11-02T05:10:36Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2224,6 +2224,18 @@
       "action": "sell",
       "sig": "HFHjCiTkuMLEDxHrkyy4f7qW4xqaHrdd9969BfFCohhJWkzNjQ2K1PeRDzpGdzNdGeEPPbCYUkrirCRj6BoEPiy",
       "tx": "HFHjCiTkuMLEDxHrkyy4f7qW4xqaHrdd9969BfFCohhJWkzNjQ2K1PeRDzpGdzNdGeEPPbCYUkrirCRj6BoEPiy"
+    },
+    {
+      "t": "2026-11-02T05:10:32Z",
+      "wallet": "Numer0",
+      "mint": "PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "3FXB5rctPunD72c4p8beuvxy9RTza14QZAePFTJvw8CHyKcW9Ddg4PiiQcuxgGN4EW7oXqVaJmym8FAaavTkE9mw",
+      "tx": "3FXB5rctPunD72c4p8beuvxy9RTza14QZAePFTJvw8CHyKcW9Ddg4PiiQcuxgGN4EW7oXqVaJmym8FAaavTkE9mw"
     }
   ],
   "trades": [
@@ -4251,7 +4263,7 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793599539.3014622,
+    "paused_until": 1793603436.584258,
     "kill_switch": false
   },
   "v1": {
