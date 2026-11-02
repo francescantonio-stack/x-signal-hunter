@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T04:00:04Z",
+  "updated": "2026-11-02T04:05:39Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -2164,6 +2164,66 @@
       "action": "transfer_in",
       "sig": "4aWwRC8sJjbWQG4PLboH3DJJmwodQ8Nr3bfHSWUuncCrDZvr57h7kV5EzuTNCeHb6gdyB6mjiHBojCPjdGym2eKT",
       "tx": "4aWwRC8sJjbWQG4PLboH3DJJmwodQ8Nr3bfHSWUuncCrDZvr57h7kV5EzuTNCeHb6gdyB6mjiHBojCPjdGym2eKT"
+    },
+    {
+      "t": "2026-11-02T04:02:13Z",
+      "wallet": "Cented",
+      "mint": "jGgnRQjvXf44Ag9Bmy2ZUo4mkWE5uQcyuyW9NQdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "Y6Q5SSv2hNisG47SvW3CssWohsHQ7wQi4pkUzfum9ikjgSJEsEh5YvhgPEujfAhehcaW5WkX1cM9vyGYPLyaza7",
+      "tx": "Y6Q5SSv2hNisG47SvW3CssWohsHQ7wQi4pkUzfum9ikjgSJEsEh5YvhgPEujfAhehcaW5WkX1cM9vyGYPLyaza7"
+    },
+    {
+      "t": "2026-11-02T04:03:50Z",
+      "wallet": "Numer0",
+      "mint": "DUUxG3Qa23MNfHjnKVdzjrtFvzMUcB9AuNNvRvpdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5Txb19rUwAhH8FqNaphYLVPm82krs1fKE7NWnPsE3XyRwmAYduBMW768mQa8uMMmTwP3WgWcqFZiTUpwp4oS7SJq",
+      "tx": "5Txb19rUwAhH8FqNaphYLVPm82krs1fKE7NWnPsE3XyRwmAYduBMW768mQa8uMMmTwP3WgWcqFZiTUpwp4oS7SJq"
+    },
+    {
+      "t": "2026-11-02T04:03:50Z",
+      "wallet": "Numer0",
+      "mint": "DUUxG3Qa23MNfHjnKVdzjrtFvzMUcB9AuNNvRvpdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "3otXBxVKkJzSuaD4mTQQMq828Dg6KJcTF3Ln8r8UC6dozCz6R2HdLMgebMP7pcc9sKqvhpQJVbwKpxub8irhPxm9",
+      "tx": "3otXBxVKkJzSuaD4mTQQMq828Dg6KJcTF3Ln8r8UC6dozCz6R2HdLMgebMP7pcc9sKqvhpQJVbwKpxub8irhPxm9"
+    },
+    {
+      "t": "2026-11-02T04:03:51Z",
+      "wallet": "Numer0",
+      "mint": "DUUxG3Qa23MNfHjnKVdzjrtFvzMUcB9AuNNvRvpdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2itrAgEoKYjBSys32JRRqQKuHb3ncESmgz9kNamUVF5QmBmWmoRtVBNw5KcRNPY1nVqYZJVL6RUzQGYL3vxUk9Dn",
+      "tx": "2itrAgEoKYjBSys32JRRqQKuHb3ncESmgz9kNamUVF5QmBmWmoRtVBNw5KcRNPY1nVqYZJVL6RUzQGYL3vxUk9Dn"
+    },
+    {
+      "t": "2026-11-02T04:03:53Z",
+      "wallet": "Trunoest",
+      "mint": "jGgnRQjvXf44Ag9Bmy2ZUo4mkWE5uQcyuyW9NQdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "HFHjCiTkuMLEDxHrkyy4f7qW4xqaHrdd9969BfFCohhJWkzNjQ2K1PeRDzpGdzNdGeEPPbCYUkrirCRj6BoEPiy",
+      "tx": "HFHjCiTkuMLEDxHrkyy4f7qW4xqaHrdd9969BfFCohhJWkzNjQ2K1PeRDzpGdzNdGeEPPbCYUkrirCRj6BoEPiy"
     }
   ],
   "trades": [
@@ -3881,6 +3941,34 @@
       "tg": 0.0,
       "tg_channels": [],
       "seen_count": 1
+    },
+    {
+      "ts": "2026-11-02T04:05:09Z",
+      "mint": "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump",
+      "sym": "TrumpWars",
+      "px": 3.998e-05,
+      "liq_usd": 15190.72,
+      "market_cap": 38988,
+      "wallet_names": [],
+      "source": "dex_boost",
+      "rug_ok": true,
+      "pair_addr": "7PpUyh3b5f61zc6JCFJaftwthkwNE1JGWhPdDANLH8Eo",
+      "dex_id": "pumpswap",
+      "pair_created_ms": 1793586014000,
+      "tx": null,
+      "sig": null,
+      "rug": 99.0,
+      "x": 30.0,
+      "wallets": 0.0,
+      "liq": 40.0,
+      "holders": 50.0,
+      "total": 46.016000000000005,
+      "rug_na": false,
+      "x_default": true,
+      "holders_default": false,
+      "tg": 0.0,
+      "tg_channels": [],
+      "seen_count": 3
     }
   ],
   "new_pools": [],
@@ -4163,11 +4251,11 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793599204.1808338,
+    "paused_until": 1793599539.3014622,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 2189,
+    "cycles": 2193,
     "open_positions": 1514,
     "trades": 1516,
     "rejected": 30,
@@ -4207,7 +4295,7 @@
         }
       }
     },
-    "S_blocked_still_in": 450,
+    "S_blocked_still_in": 456,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -4264,11 +4352,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 0.004239,
+      "last_px": 0.004205,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 0.40272533518628684,
-      "pnl_mtm": 0.40272533518628684,
+      "pnl": 0.39663737543249267,
+      "pnl_mtm": 0.39663737543249267,
       "strategy": "copy",
       "reentries": 1
     },
