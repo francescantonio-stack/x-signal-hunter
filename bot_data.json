@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T09:54:34Z",
+  "updated": "2026-11-02T09:59:34Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -460,6 +460,18 @@
       "action": "sell",
       "sig": "4RUiEV5in1hLNUHdLyv6THwqH9Wv8XaCEGR9V2L4q595SGYnxozPym5w7GNMBvR5J9E9mFXyvpDmQKg29W1XGQUp",
       "tx": "4RUiEV5in1hLNUHdLyv6THwqH9Wv8XaCEGR9V2L4q595SGYnxozPym5w7GNMBvR5J9E9mFXyvpDmQKg29W1XGQUp"
+    },
+    {
+      "t": "2026-11-02T09:57:41Z",
+      "wallet": "EustazZ",
+      "mint": "FNgUTKrvchjP4SvYLX3Pw1b5Qt5heEocEP1LaxH6pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5pW3RTMN7q2VZhMNoY55QECUErnxyJkHHUX1H8dqP5ykZwRhaAqmeAc9jJuHJb6MATm8H6xi1JRHbigHo2oDiFyv",
+      "tx": "5pW3RTMN7q2VZhMNoY55QECUErnxyJkHHUX1H8dqP5ykZwRhaAqmeAc9jJuHJb6MATm8H6xi1JRHbigHo2oDiFyv"
     }
   ],
   "trades": [
@@ -1999,12 +2011,12 @@
       "seen_count": 5
     },
     {
-      "ts": "2026-11-02T09:53:59Z",
+      "ts": "2026-11-02T09:58:58Z",
       "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "sym": "GATO",
-      "px": 0.009443,
-      "liq_usd": 309972.69,
-      "market_cap": 9320343,
+      "px": 0.009477,
+      "liq_usd": 310299.94,
+      "market_cap": 9353321,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2028,15 +2040,15 @@
         "SolanaSinais",
         "solgemsradar"
       ],
-      "seen_count": 3
+      "seen_count": 5
     },
     {
-      "ts": "2026-11-02T09:54:00Z",
+      "ts": "2026-11-02T09:59:00Z",
       "mint": "FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump",
       "sym": "MANDO",
-      "px": 0.0002168,
-      "liq_usd": 36949.26,
-      "market_cap": 210089,
+      "px": 0.0002238,
+      "liq_usd": 37569.8,
+      "market_cap": 216813,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2056,7 +2068,7 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 5
+      "seen_count": 7
     }
   ],
   "new_pools": [],
@@ -2339,11 +2351,11 @@
   "protections": {
     "daily_pnl": 18875.38521508559,
     "consecutive_losses": 6,
-    "paused_until": 1793620474.355834,
+    "paused_until": 1793620774.690195,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 2203,
+    "cycles": 2204,
     "open_positions": 1514,
     "trades": 1516,
     "rejected": 30,
