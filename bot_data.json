@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:14:36Z",
+  "updated": "2026-11-06T06:20:00Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1348,6 +1348,42 @@
       "action": "sell",
       "sig": "2XWgC4Xac3vVh72HbibTdYDnR5QvJot1Nif2d8acx43bYT3z8UFPJPzGvzCHSMbGpLv89KHgp4KZoCRsSQjUfkuT",
       "tx": "2XWgC4Xac3vVh72HbibTdYDnR5QvJot1Nif2d8acx43bYT3z8UFPJPzGvzCHSMbGpLv89KHgp4KZoCRsSQjUfkuT"
+    },
+    {
+      "t": "2026-11-06T06:15:05Z",
+      "wallet": "Numer0",
+      "mint": "31Lddm2WbW1WJ31Tb4aHUW3nA9Q7dTfpazerNDLdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2zR974r815yPEtyvwi3NPQG947VqynLCaEogtTg5NKi4BYbRUxsDX11WyChujg1YxCPJ12CdQQExuks8Frrh4khF",
+      "tx": "2zR974r815yPEtyvwi3NPQG947VqynLCaEogtTg5NKi4BYbRUxsDX11WyChujg1YxCPJ12CdQQExuks8Frrh4khF"
+    },
+    {
+      "t": "2026-11-06T06:16:20Z",
+      "wallet": "Numer0",
+      "mint": "31Lddm2WbW1WJ31Tb4aHUW3nA9Q7dTfpazerNDLdpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "5zvA1bTLJc4tRtjMWCEQynHydvhpuARP6AeQihGm2381iCJXm8JGyZsiwJgjCNXcNmGRUBxzQUCjaanEmxDVbhqt",
+      "tx": "5zvA1bTLJc4tRtjMWCEQynHydvhpuARP6AeQihGm2381iCJXm8JGyZsiwJgjCNXcNmGRUBxzQUCjaanEmxDVbhqt"
+    },
+    {
+      "t": "2026-11-06T06:16:46Z",
+      "wallet": "Frost",
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2ykEHgd1eSJ3ETTNXt2nkM8KqnBDdm14osUA8TLYMxKcD64tzsHJsh1ZfSYdWQWHvaXqVtT8f7piNqbBTq2LUEUA",
+      "tx": "2ykEHgd1eSJ3ETTNXt2nkM8KqnBDdm14osUA8TLYMxKcD64tzsHJsh1ZfSYdWQWHvaXqVtT8f7piNqbBTq2LUEUA"
     }
   ],
   "trades": [
@@ -2944,12 +2980,12 @@
       "seen_count": 3
     },
     {
-      "ts": "2026-11-06T06:14:20Z",
+      "ts": "2026-11-06T06:16:51Z",
       "mint": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
       "sym": "AMD",
-      "px": 0.002023,
-      "liq_usd": 116982.45,
-      "market_cap": 1996694,
+      "px": 0.001944,
+      "liq_usd": 114674.52,
+      "market_cap": 1918737,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2971,7 +3007,7 @@
       "tg_channels": [
         "trenchwhalers100xcalls"
       ],
-      "seen_count": 9
+      "seen_count": 10
     }
   ],
   "new_pools": [],
@@ -3322,11 +3358,11 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1793952876.6647232,
+    "paused_until": 1793953200.5770848,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 2293,
+    "cycles": 2295,
     "open_positions": 1571,
     "trades": 1574,
     "rejected": 30,
