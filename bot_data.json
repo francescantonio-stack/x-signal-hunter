@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:32:05Z",
+  "updated": "2026-11-06T06:37:06Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1588,6 +1588,150 @@
       "action": "transfer_in",
       "sig": "4Tj1a4Sdhkp5S7wqnsrA42RFe38DDxWfDgt4KHPRHjKwxkUH1WF1tDVs6NrLzUy7biqHRPQWrHU7jTioaEPTiuAd",
       "tx": "4Tj1a4Sdhkp5S7wqnsrA42RFe38DDxWfDgt4KHPRHjKwxkUH1WF1tDVs6NrLzUy7biqHRPQWrHU7jTioaEPTiuAd"
+    },
+    {
+      "t": "2026-11-06T06:32:29Z",
+      "wallet": "Frost",
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "4sAk1fmyuMr5Xysmr69h3QCbihWw4SwAr8vD4ckSPEVuzK1qNn8maPYNTn8p53c4Y5iGF8SwuQbRTV73yaHDKFvz",
+      "tx": "4sAk1fmyuMr5Xysmr69h3QCbihWw4SwAr8vD4ckSPEVuzK1qNn8maPYNTn8p53c4Y5iGF8SwuQbRTV73yaHDKFvz"
+    },
+    {
+      "t": "2026-11-06T06:32:29Z",
+      "wallet": "Mitch",
+      "mint": "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "4kpK8dtrsaFUdFZ9whHsH2K3ZvjJ94ZAo11AuDDwx4DatWZzfHuTHUaA2r7YTRWZqUWUzp94vQ4NJRupzDzYkdhR",
+      "tx": "4kpK8dtrsaFUdFZ9whHsH2K3ZvjJ94ZAo11AuDDwx4DatWZzfHuTHUaA2r7YTRWZqUWUzp94vQ4NJRupzDzYkdhR"
+    },
+    {
+      "t": "2026-11-06T06:33:20Z",
+      "wallet": "Decu",
+      "mint": "ERs7y4nMGLFVmHcXyDxiS7iDKpp4jWHz2VUuE2gxpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "3MfR6Vv7AMzcjiozvehsiAJNnhJLmbAiszeuy3muE48Mt49XjxMWxhjuzz2jX8WLB2Yy5QYKzqj1gw4qf2E5uWKR",
+      "tx": "3MfR6Vv7AMzcjiozvehsiAJNnhJLmbAiszeuy3muE48Mt49XjxMWxhjuzz2jX8WLB2Yy5QYKzqj1gw4qf2E5uWKR"
+    },
+    {
+      "t": "2026-11-06T06:33:20Z",
+      "wallet": "Decu",
+      "mint": "ERs7y4nMGLFVmHcXyDxiS7iDKpp4jWHz2VUuE2gxpump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5Wj9gGdyzRkofD54gnZhRXjK8khoAAVVemciUHetgiayh6JjTUo8DYxm2AkYCwYp2vWWQH3C8VD8J8c5RCa9vACV",
+      "tx": "5Wj9gGdyzRkofD54gnZhRXjK8khoAAVVemciUHetgiayh6JjTUo8DYxm2AkYCwYp2vWWQH3C8VD8J8c5RCa9vACV"
+    },
+    {
+      "t": "2026-11-06T06:33:21Z",
+      "wallet": "Cented",
+      "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
+      "sym": "fun",
+      "px": 0.0001857,
+      "liq": 37314.41,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "3tpdJQuHQNiZwQbnh5J7hJwsnhhEzQ1os8ruSC5d6miMF7tPzkx81ubRvPNrHUJTV6jFG8rMvsJcnBjh8g9d37h",
+      "tx": "3tpdJQuHQNiZwQbnh5J7hJwsnhhEzQ1os8ruSC5d6miMF7tPzkx81ubRvPNrHUJTV6jFG8rMvsJcnBjh8g9d37h"
+    },
+    {
+      "t": "2026-11-06T06:33:21Z",
+      "wallet": "Cented",
+      "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
+      "sym": "fun",
+      "px": 0.0001857,
+      "liq": 37314.41,
+      "rug_ok": true,
+      "action": "buy",
+      "sig": "3ZmC8wDnNf8ekYKeMqA6b9K2NVLtWjm3P3rBWveLpFNwU1mosyef6LTXg9dcP299jfPtrxQgAQZjhLLULZpS1pzR",
+      "tx": "3ZmC8wDnNf8ekYKeMqA6b9K2NVLtWjm3P3rBWveLpFNwU1mosyef6LTXg9dcP299jfPtrxQgAQZjhLLULZpS1pzR"
+    },
+    {
+      "t": "2026-11-06T06:36:38Z",
+      "wallet": "Numer0",
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5LGmLXtAaNZdMa825bAXW4Hp2bbTiQfikEWaNZGi18g3hEJhG5Ks28dwfk8X9zrw9reeY1rikHFSsMedS2dp36yj",
+      "tx": "5LGmLXtAaNZdMa825bAXW4Hp2bbTiQfikEWaNZGi18g3hEJhG5Ks28dwfk8X9zrw9reeY1rikHFSsMedS2dp36yj"
+    },
+    {
+      "t": "2026-11-06T06:36:40Z",
+      "wallet": "EustazZ",
+      "mint": "7aDx2kv3am7jwVAL4Eur4nCgctgcnuc3rduTbky4pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "buy",
+      "sig": "2mTa88oFBH9dzSQZSq6KycZvkS4PD9tprQGZ39dUiYyd9sdo8a9FcekZZqaGujQApR9KgFAgb4uBwWoA9Ca2CvQs",
+      "tx": "2mTa88oFBH9dzSQZSq6KycZvkS4PD9tprQGZ39dUiYyd9sdo8a9FcekZZqaGujQApR9KgFAgb4uBwWoA9Ca2CvQs"
+    },
+    {
+      "t": "2026-11-06T06:37:03Z",
+      "wallet": "Numer0",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5MAA64GGJw1Z46NBuo6jdd32PsCEWPRcYR8wGcPognPwNndFrBSUBPTbP9nQ9VsumcDjxmkUJV15RLzWYBeQDdRJ",
+      "tx": "5MAA64GGJw1Z46NBuo6jdd32PsCEWPRcYR8wGcPognPwNndFrBSUBPTbP9nQ9VsumcDjxmkUJV15RLzWYBeQDdRJ"
+    },
+    {
+      "t": "2026-11-06T06:37:04Z",
+      "wallet": "Mitch",
+      "mint": "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "2YE3YTypeaRu493UTeWJeyMmwfxgEPy2fpcnfbohowNCo7heG5c1TtDSGYH8CRVwbNcktP2WaUkmC4ufG1zsTktU",
+      "tx": "2YE3YTypeaRu493UTeWJeyMmwfxgEPy2fpcnfbohowNCo7heG5c1TtDSGYH8CRVwbNcktP2WaUkmC4ufG1zsTktU"
+    },
+    {
+      "t": "2026-11-06T06:37:05Z",
+      "wallet": "EustazZ",
+      "mint": "7aDx2kv3am7jwVAL4Eur4nCgctgcnuc3rduTbky4pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "5k3tex81ov19REXuxkhaTigWpUEFMBeP2JoBYVaQ8t7FMk4E7cNENBqvD46cmBPYc19uhgXt4nD2t4ceTgtneNNQ",
+      "tx": "5k3tex81ov19REXuxkhaTigWpUEFMBeP2JoBYVaQ8t7FMk4E7cNENBqvD46cmBPYc19uhgXt4nD2t4ceTgtneNNQ"
+    },
+    {
+      "t": "2026-11-06T06:37:05Z",
+      "wallet": "EustazZ",
+      "mint": "7aDx2kv3am7jwVAL4Eur4nCgctgcnuc3rduTbky4pump",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "sell",
+      "sig": "2SvG1Ee97qXZKfW3NHVUH7Lsy35F9mnATpwiYSaTuQ4L3tSTYgDMH78sSxuuMtaLgCBzkL6S75wo3tpS1GRRH2YQ",
+      "tx": "2SvG1Ee97qXZKfW3NHVUH7Lsy35F9mnATpwiYSaTuQ4L3tSTYgDMH78sSxuuMtaLgCBzkL6S75wo3tpS1GRRH2YQ"
     }
   ],
   "trades": [
@@ -3156,20 +3300,20 @@
       "seen_count": 1
     },
     {
-      "ts": "2026-11-06T06:07:14Z",
+      "ts": "2026-11-06T06:33:22Z",
       "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
       "sym": "fun",
-      "px": 7.922e-05,
-      "liq_usd": 23646.6,
-      "market_cap": 79229,
+      "px": 0.0001857,
+      "liq_usd": 37314.41,
+      "market_cap": 177625,
       "wallet_names": [],
       "source": "wallet:Cented",
       "rug_ok": true,
       "pair_addr": "EygtRprRwHgtCDDk6GUFnKzCk6U5su7NAekCProatiFc",
       "dex_id": "pumpswap",
       "pair_created_ms": 1793943569000,
-      "tx": "5QqTz5Ht7b5yngZZ7meinCqrR3RN5sS14NJx2YrPKhu73hBeGyTdWr3Gq3FeHKrxuws5n42aPSFYnwkbfVo5LErT",
-      "sig": "5QqTz5Ht7b5yngZZ7meinCqrR3RN5sS14NJx2YrPKhu73hBeGyTdWr3Gq3FeHKrxuws5n42aPSFYnwkbfVo5LErT",
+      "tx": "3ZmC8wDnNf8ekYKeMqA6b9K2NVLtWjm3P3rBWveLpFNwU1mosyef6LTXg9dcP299jfPtrxQgAQZjhLLULZpS1pzR",
+      "sig": "3ZmC8wDnNf8ekYKeMqA6b9K2NVLtWjm3P3rBWveLpFNwU1mosyef6LTXg9dcP299jfPtrxQgAQZjhLLULZpS1pzR",
       "rug": 99.0,
       "x": 30.0,
       "wallets": 0.0,
@@ -3181,15 +3325,15 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 3
+      "seen_count": 5
     },
     {
-      "ts": "2026-11-06T06:22:47Z",
+      "ts": "2026-11-06T06:34:37Z",
       "mint": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
       "sym": "AMD",
-      "px": 0.002122,
-      "liq_usd": 120032.6,
-      "market_cap": 2094536,
+      "px": 0.001988,
+      "liq_usd": 116385.66,
+      "market_cap": 1962152,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -3211,7 +3355,7 @@
       "tg_channels": [
         "trenchwhalers100xcalls"
       ],
-      "seen_count": 12
+      "seen_count": 14
     }
   ],
   "new_pools": [],
@@ -3562,11 +3706,11 @@
   "protections": {
     "daily_pnl": 0.0,
     "consecutive_losses": 6,
-    "paused_until": 1793953925.8651402,
+    "paused_until": 1793954226.133277,
     "kill_switch": false
   },
   "v1": {
-    "cycles": 2305,
+    "cycles": 2308,
     "open_positions": 1571,
     "trades": 1574,
     "rejected": 30,
