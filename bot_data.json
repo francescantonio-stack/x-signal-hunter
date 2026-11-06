@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T15:29:12Z",
+  "updated": "2026-11-06T16:49:15Z",
   "version": "v2",
   "live_mode": false,
   "rpc": "helius",
@@ -1096,6 +1096,18 @@
       "action": "transfer_in",
       "sig": "4U8n294fntHh7v8dD14m81SumfjZx2sheSz3hX8NNmoUFR6P76FDMrgEP7BCCGcT5rZEiJXdBpks5kUnKB8JmMVH",
       "tx": "4U8n294fntHh7v8dD14m81SumfjZx2sheSz3hX8NNmoUFR6P76FDMrgEP7BCCGcT5rZEiJXdBpks5kUnKB8JmMVH"
+    },
+    {
+      "t": "2026-11-06T15:30:46Z",
+      "wallet": "Mitch",
+      "mint": "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP",
+      "sym": "?",
+      "px": null,
+      "liq": 0,
+      "rug_ok": null,
+      "action": "transfer_in",
+      "sig": "5nPLurCpcDX7fqPtU4j8wg555jHYXnSXAaHvYojCbihyayqMvacnVx17dJdwdox2DoHsesz7sajyStwyY7cwe7AY",
+      "tx": "5nPLurCpcDX7fqPtU4j8wg555jHYXnSXAaHvYojCbihyayqMvacnVx17dJdwdox2DoHsesz7sajyStwyY7cwe7AY"
     }
   ],
   "trades": [
@@ -2718,12 +2730,12 @@
       "seen_count": 2
     },
     {
-      "ts": "2026-11-06T15:28:56Z",
+      "ts": "2026-11-06T15:31:13Z",
       "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
       "sym": "three",
-      "px": 0.0007044,
-      "liq_usd": 171556.21,
-      "market_cap": 704206,
+      "px": 0.0006948,
+      "liq_usd": 170229.23,
+      "market_cap": 694553,
       "wallet_names": [],
       "source": "dex_boost",
       "rug_ok": true,
@@ -2743,10 +2755,10 @@
       "holders_default": false,
       "tg": 0.0,
       "tg_channels": [],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
-      "ts": "2026-11-06T15:28:57Z",
+      "ts": "2026-11-06T15:31:15Z",
       "mint": "9kXG537MZvtTBUieRvrye9KG93FbA25QAk7zf5oYpump",
       "sym": "blocus",
       "px": 2.728e-05,
@@ -2775,7 +2787,7 @@
         "solearlytrending",
         "solgemsradar"
       ],
-      "seen_count": 1
+      "seen_count": 2
     }
   ],
   "new_pools": [],
@@ -3169,7 +3181,7 @@
   "protections": {
     "daily_pnl": 0.06502115,
     "consecutive_losses": 6,
-    "paused_until": 1793986152.8527086,
+    "paused_until": 1793990955.5378675,
     "kill_switch": false
   },
   "v1": {
@@ -3213,7 +3225,7 @@
         }
       }
     },
-    "S_blocked_still_in": 499,
+    "S_blocked_still_in": 500,
     "data_path": "/workspace/x-bot-v2/out/data.json",
     "scanner_path": "/workspace/x-bot-v2/out/scanner.json"
   },
@@ -3270,11 +3282,11 @@
       "sym": "PUMP",
       "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "entry_px": 0.001954677836459661,
-      "last_px": 19.59,
+      "last_px": 20.069,
       "size_usd": 0.35,
       "cost": 0.0063,
-      "pnl": 3507.382864024383,
-      "pnl_mtm": 3507.382864024383,
+      "pnl": 3593.151473496954,
+      "pnl_mtm": 3593.151473496954,
       "strategy": "copy",
       "reentries": 1
     },
