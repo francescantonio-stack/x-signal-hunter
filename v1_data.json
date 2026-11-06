@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T21:17:42+0100",
- "source_updated_at": "2026-11-05T21:17:42+0100",
+ "generated_at": "2026-11-06T06:54:05+0100",
+ "source_updated_at": "2026-11-06T06:54:05+0100",
  "live_bot": "paper-v2",
  "rules": {
   "entry": {
@@ -90,24 +90,24 @@
        "trades": 40
       },
       "5s": {
-       "pnl_usdc": 8.945496,
-       "trades": 28
+       "pnl_usdc": 8.450629,
+       "trades": 29
       }
      }
     },
     "S": {
      "B": {
       "30s": {
-       "pnl_usdc": 1.779292,
-       "trades": 26
+       "pnl_usdc": 1.284425,
+       "trades": 27
       },
       "0s": {
        "pnl_usdc": 9.606199,
        "trades": 40
       },
       "5s": {
-       "pnl_usdc": 8.667168,
-       "trades": 30
+       "pnl_usdc": 8.172301,
+       "trades": 31
       }
      }
     }
@@ -266,8 +266,8 @@
        "trades": 5
       },
       "5s": {
-       "pnl_usdc": -0.477267,
-       "trades": 2
+       "pnl_usdc": -0.972134,
+       "trades": 3
       },
       "30s": {
        "pnl_usdc": -0.787333,
@@ -282,12 +282,12 @@
        "trades": 5
       },
       "5s": {
-       "pnl_usdc": -0.63171,
-       "trades": 3
+       "pnl_usdc": -1.126577,
+       "trades": 4
       },
       "30s": {
-       "pnl_usdc": -0.787333,
-       "trades": 2
+       "pnl_usdc": -1.2822,
+       "trades": 3
       }
      }
     }
@@ -13007,42 +13007,6 @@
  ],
  "rejected_last": [
   {
-   "t": "2026-11-05T15:08:27+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 3495.4,
-   "wallet": "EustazZ",
-   "mint": "Fo6wD8HTUaWqVcKte3u3u1PufsCkWkbR5iJbn6Lcpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-11-05T15:08:27+0100",
-   "mode": "S",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 3495.4,
-   "wallet": "EustazZ",
-   "mint": "Fo6wD8HTUaWqVcKte3u3u1PufsCkWkbR5iJbn6Lcpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
-   "t": "2026-11-05T15:08:27+0100",
-   "mode": "N1",
-   "size_usdc": 1.0,
-   "check_used": "filters",
-   "armed_check_age_s": 3495.4,
-   "wallet": "EustazZ",
-   "mint": "Fo6wD8HTUaWqVcKte3u3u1PufsCkWkbR5iJbn6Lcpump",
-   "reasons": [
-    "liquidita 0 < 1000"
-   ]
-  },
-  {
    "t": "2026-11-05T15:08:31+0100",
    "mode": "N1",
    "size_usdc": 1.0,
@@ -13369,9 +13333,45 @@
    "reasons": [
     "liquidita 0 < 1000"
    ]
+  },
+  {
+   "t": "2026-11-06T06:54:00+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.0,
+   "wallet": "Mr. Frog",
+   "mint": "Hf1Kcpqd652T6NqDp2xsZN4avatFcFgv9vHSjAYgpump",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-11-06T06:54:00+0100",
+   "mode": "N1",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.1,
+   "wallet": "Mr. Frog",
+   "mint": "Hf1Kcpqd652T6NqDp2xsZN4avatFcFgv9vHSjAYgpump",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
+  },
+  {
+   "t": "2026-11-06T06:54:00+0100",
+   "mode": "S",
+   "size_usdc": 1.0,
+   "check_used": "filters",
+   "armed_check_age_s": 0.1,
+   "wallet": "Mr. Frog",
+   "mint": "Hf1Kcpqd652T6NqDp2xsZN4avatFcFgv9vHSjAYgpump",
+   "reasons": [
+    "LP bloccata/bruciata 0% < 95%"
+   ]
   }
  ],
- "cycles": 2280,
+ "cycles": 2281,
  "notes": "PnL in USDC; no per-trade stop (Max: size is the stop); paper-v2",
  "S_blocked_still_in": 484,
  "S_blocked_by_delay": {
